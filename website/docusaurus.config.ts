@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '知能システム研究室',
+  tagline: '法政大学理工学部経営システム工学科',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -70,7 +70,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Home',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -79,10 +79,10 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          position: 'right',
+          label: 'About',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -93,47 +93,47 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        // {
+        //   title: 'Docs',
+        //   items: [
+        //     {
+        //       label: 'Tutorial',
+        //       to: '/docs/intro',
+        //     },
+        //   ],
+        // },
         {
-          title: 'Docs',
+          title: 'Links',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: '法政大学',
+              href: 'https://www.hosei.ac.jp',
+            },
+            {
+              label: '経営システム工学科',
+              href: 'https://ise-hp.ws.hosei.ac.jp',
+            },
+            {
+              label: 'IIST',
+              href: 'https://iist.hosei.ac.jp',
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'Blog',
+        //       to: '/blog',
+        //     },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/facebook/docusaurus',
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Intelligent Systems Laboratory, Hosei University.`,
     },
     prism: {
       theme: prismThemes.github,
