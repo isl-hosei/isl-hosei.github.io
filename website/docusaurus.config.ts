@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'github.com/isl-hosei/isl-hosei.github.io/blob/main/website/',
+            'https://isl-hosei/isl-hosei.github.io/',
         },
         blog: {
           showReadingTime: true,
@@ -53,7 +53,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'github.com/isl-hosei/isl-hosei.github.io/blob/main/website/',
+            'https://isl-hosei/isl-hosei.github.io/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
