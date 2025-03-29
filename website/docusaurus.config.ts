@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '知能システム研究室',
-  tagline: '法政大学理工学部経営システム工学科',
+  title: 'Intelligent Systems Laboratory',
+  tagline: '法政大学 理工学部 経営システム工学科',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -84,7 +84,7 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'right' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/isl-hosei',
           label: 'GitHub',
           position: 'right',
         },

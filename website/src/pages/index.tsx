@@ -16,7 +16,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{siteConfig.tagline}<br></br>知能システム研究室</p>
         {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -25,13 +25,13 @@ function HomepageHeader() {
           </Link>
         </div> */}
       </div>
-    </header>
+    </header >
   );
 }
 
 function TeamMembers() {
   const members = [
-    { name: '劉 子昂', role: '准教授', img: 'https://github.com/zi-ang-liu.png' },
+    { name: '劉 子昂', role: '准教授', img: 'https://github.com/zi-ang-liu.png', website: 'https://zi-ang-liu.github.io/' },
     { name: '法政太郎', role: '四年生', img: 'https://github.com/zi-ang-liu.png' },
     { name: '法政花子', role: '三年生', img: 'https://github.com/zi-ang-liu.png' },
   ];
@@ -40,12 +40,21 @@ function TeamMembers() {
     <section className={styles.teamMembers}>
       <h2>People</h2>
       <div className={clsx('row', styles.teamMembersRow)}>
-        {members.map(({ name, role, img }, index) => (
+        {members.map(({ name, role, img, website }, index) => (
           <div key={index} className={clsx('col col--2', styles.teamMember)}>
             <div className={styles.card}>
               <img src={img} alt={name} className={styles.teamMemberImage} />
               <div className={styles.teamMemberContent}>
-                <h3>{name}</h3>
+                {/* make name link to homepage if website exist */}
+                <h3>
+                  {website ? (
+                    <Link to={website} className={styles.teamMemberLink}>
+                      {name}
+                    </Link>
+                  ) : (
+                    name
+                  )}
+                </h3>
                 <p>{role}</p>
               </div>
             </div>
@@ -56,16 +65,16 @@ function TeamMembers() {
   );
 }
 
-function Access() {
+function Contact() {
   return (
-    <section className={styles.access}>
-      <h2>Access</h2>
-      <h3>住所</h3>
-      <address>
-        〒184-8584 東京都小金井市梶野町3-7-2
-        <br />
-        法政大学 小金井キャンパス
-      </address>
+    <section className={styles.contact}>
+      <h2>Contact</h2>
+      <div className={styles.addressSection}>
+        <address>
+          〒184-8584 東京都小金井市梶野町3-7-2<br />
+          法政大学 理工学部 経営システム工学科
+        </address>
+      </div>
     </section>
   );
 }
@@ -80,7 +89,7 @@ export default function Home(): ReactNode {
       <main>
         {/* <HomepageFeatures /> */}
         <TeamMembers />
-        <Access />
+        <Contact />
       </main>
     </Layout>
   );
