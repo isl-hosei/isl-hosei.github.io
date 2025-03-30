@@ -1,10 +1,16 @@
 events:
   label: Events
   permalink: /events
-  description: Events tag description
+  description: events
+
+news:
+  label: News
+  permalink: /news
+  description: news
 
 research:
   label: Research
   permalink: /research
-  description: Research tag description
+  description: research
+
 
