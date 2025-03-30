@@ -70,10 +70,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Home',
+      title: '知能システム研究室',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/favicon.ico',
       },
       items: [
         {
@@ -82,6 +82,8 @@ const config: Config = {
           position: 'right',
           label: 'About',
         },
+        { to: 'people', label: 'People', position: 'right' },
+        { to: 'publications', label: 'Publications', position: 'right' },
         { to: '/blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/isl-hosei',
@@ -134,6 +136,7 @@ const config: Config = {
         // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Intelligent Systems Laboratory, Hosei University.`,
+      // Built with Docusaurus.
     },
     prism: {
       theme: prismThemes.github,
