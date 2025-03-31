@@ -15,4 +15,11 @@
 1. [GitHub](http://github.com/)にアクセス
 2. 「Sign up」をクリックしてアカウントを作成
 
-GitHubアカウントを作成したら，アカウントのUsernameやEmailを劉に知らせてください．研究室のGitHub Organizationに招待します．
+GitHubアカウントを作成したら，アカウントのUsernameやEmailを劉に知らせてください．
+[研究室のGitHub Organization](https://github.com/isl-hosei)に招待します．
+
+## GitHub Desktopのインストール
+
+GitHub DesktopはGitHubを利用するためのアプリケーションです．Gitコマンドを使わずにGUIでGitHubを利用することができます．GitHub Desktopのウェブサイトは[こちら](https://desktop.github.com/)です．
+
+## 
