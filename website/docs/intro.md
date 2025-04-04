@@ -12,9 +12,16 @@ sidebar_position: 1
 
 ### 学部
 
-- 法政大学理工学部経営システム工学科
-- Department of Industrial and Systems Engineering, Faculty of Science and Engineering, Hosei University
-  
+```
+法政大学理工学部経営システム工学科
+```
+
+```
+Department of Industrial and Systems Engineering, 
+Faculty of Science and Engineering, Hosei University, 
+3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan 
+```
+
 ### 修士課程・博士後期課程
 
 - 法政大学理工学研究科システム理工学専攻（経営システム系）
