@@ -80,7 +80,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'right',
-          label: 'About',
+          label: 'Docs',
         },
         { to: 'people', label: 'People', position: 'right' },
         { to: 'publications', label: 'Publications', position: 'right' },
