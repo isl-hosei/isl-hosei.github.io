@@ -2,12 +2,12 @@
 
 ## メリット
 
+- 研究データの保存及び開示
 - プログラムのバージョン管理ができる
 - 他人との共同作業ができる
 - ドキュメント（README.md）をGitHub上で管理できる
 - LaTeXで作った文章をGitHub上で管理できる
 - GitHub PagesでWebサイトを公開できる（このサイトもGitHub Pagesで公開している）
-- 得られた成果物（ソースコード）を社会に公開できる
 - [GitHub Copilot](https://docs.github.com/en/copilot)を利用できる
 
 ## GitHubアカウントの作成
