@@ -1,6 +1,7 @@
 // img: ホームページのメンバー画像，ここではGitHubのアバターを使用
 // link: メンバーのホームページのURL．個人サイトを持っている場合はそのURLを指定
 // github: メンバーのGitHubのURL
+import React from 'react';
 
 export const members = [
     {
