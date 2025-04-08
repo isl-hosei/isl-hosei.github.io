@@ -19,7 +19,7 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'introduction',
     {
-      label: '研究室向け', type: 'category', items: [
+      label: '資料', type: 'category', items: [
         'tutorial/research-ethics',
         'tutorial/github-lab',
         'tutorial/docusaurus-site',
