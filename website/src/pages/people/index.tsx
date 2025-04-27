@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 // import HomepageFeatures from '@site/src/components/HomepageFeaturçes';
-import { FaResearchgate, FaGithub, FaUserCircle, FaGoogle, FaOrcid } from 'react-icons/fa';
+// import { FaResearchgate, FaGithub, FaUserCircle, FaGoogle, FaOrcid } from 'react-icons/fa';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -26,11 +26,11 @@ const members = [
         name: '劉 子昂',
         role: '准教授',
         img: 'https://github.com/zi-ang-liu.png',
-        link: 'https://zi-ang-liu.github.io/',
-        github: 'https://github.com/zi-ang-liu/',
-        researchgate: 'https://www.researchgate.net/profile/Ziang-Liu-4',
-        google: 'https://scholar.google.com/citations?user=dRuC1OoAAAAJ&hl',
-        orcid: 'https://orcid.org/0000-0002-1364-3502'
+        // link: 'https://zi-ang-liu.github.io/',
+        // github: 'https://github.com/zi-ang-liu/',
+        // researchgate: 'https://www.researchgate.net/profile/Ziang-Liu-4',
+        // google: 'https://scholar.google.com/citations?user=dRuC1OoAAAAJ&hl',
+        // orcid: 'https://orcid.org/0000-0002-1364-3502'
     },
 
     {
