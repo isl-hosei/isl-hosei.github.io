@@ -20,8 +20,7 @@ function HomepageHeader() {
     );
 }
 
-// members data in here
-const members = [
+const faculty = [
     {
         name: '劉 子昂',
         role: '准教授',
@@ -31,31 +30,58 @@ const members = [
         // researchgate: 'https://www.researchgate.net/profile/Ziang-Liu-4',
         // google: 'https://scholar.google.com/citations?user=dRuC1OoAAAAJ&hl',
         // orcid: 'https://orcid.org/0000-0002-1364-3502'
-    },
-
-    {
-        name: '学生',
-        role: '四年生',
-        img: 'https://github.com/isl-hosei.png'
-    },
-
-    { name: '学生', role: '四年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '四年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '四年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '三年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '三年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '三年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '三年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '三年生', img: 'https://github.com/isl-hosei.png' },
-    { name: '学生', role: '三年生', img: 'https://github.com/isl-hosei.png' },
+    }
 ];
 
-function TeamMembers() {
+const b4 = [
+    {
+        name: '竹上瑛貴',
+    },
+    {
+        name: '久賀菜千帆',
+    },
+    {
+        name: '小槌陽介',
+    },
+    {
+        name: '佐藤克海',
+    },
+];
+
+const b3 = [
+    {
+        name: '小川知波',
+    },
+    {
+        name: '川上利一朗',
+    },
+    {
+        name: '鈴木雅人',
+    },
+    {
+        name: '高石和輝',
+    },
+    {
+        name: '竹内栄貴',
+    },
+    {
+        name: '藤井千晴',
+    },
+    {
+        name: '藤牧瑞輝',
+    },
+    {
+        name: '本田渉',
+    },
+];
+
+function FacultyMembers() {
 
     return (
         <section className={styles.teamMembers}>
+            <h2>教員</h2>
             <div className={clsx('row', styles.teamMembersRow)}>
-                {members.map(({ name, role, img, link, github, researchgate, google, orcid }, index) => (
+                {faculty.map(({ name, role, img, link, github, researchgate, google, orcid }, index) => (
                     <div key={index} className={clsx('col col--3', styles.teamMember)}>
                         <div className={styles.card}>
                             <img src={img} alt={name} className={styles.teamMemberImage} />
@@ -99,6 +125,9 @@ function TeamMembers() {
     );
 }
 
+// In the first row, show ""
+
+
 export default function Home(): ReactNode {
     const { siteConfig } = useDocusaurusContext();
     return (
@@ -107,8 +136,7 @@ export default function Home(): ReactNode {
             description="Description will go into a meta tag in <head />">
             <HomepageHeader />
             <main>
-                {/* <HomepageFeatures /> */}
-                <TeamMembers />
+                <FacultyMembers />
             </main>
         </Layout>
     );
