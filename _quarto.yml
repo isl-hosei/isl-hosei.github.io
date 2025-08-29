@@ -26,9 +26,7 @@ website:
       [知能システム研究室](https://isl-hosei.github.io/)
 format:
   html:
-    theme:
-      light: Quartz
-      dark: Darkly
+    theme: Quartz
     css: styles.css
 
 
