@@ -11,7 +11,7 @@ title: "Contact"
 ## English
 
 <i class="bi bi-geo-alt"></i> 
-Hosei University,   
+Hosei University   
 Tokyo 184-8584, Japan
 :::
 

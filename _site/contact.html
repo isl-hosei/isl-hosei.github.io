@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 法政大学 理工学部 経営システム工学科</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><i class="bi bi-geo-alt"></i> Hosei University,<br>
+<p><i class="bi bi-geo-alt"></i> Hosei University<br>
 Tokyo 184-8584, Japan</p>
 </div>
 </div>
@@ -230,7 +230,7 @@ Tokyo 184-8584, Japan</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/isl-hosei\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
