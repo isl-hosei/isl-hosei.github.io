@@ -1,5 +1,6 @@
 ---
-title: "Home"
+title: 知能システム研究室
+subtitle: 法政大学 理工学部 経営システム工学科
 # image: profile.jpg
 about:
   template: jolla

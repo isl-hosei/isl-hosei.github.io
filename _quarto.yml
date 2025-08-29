@@ -5,8 +5,11 @@ website:
   title: "Intelligent Systems Lab"
   navbar:
     right:
-      - index.qmd
+      - href: index.qmd
+        text: Home
       - people.qmd
+      - contact.qmd
+      - join.qmd
       # - icon: github
       #   href: https://github.com/
       # - icon: twitter
@@ -14,7 +17,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - Quartz
     css: styles.css
 
 
