@@ -3,6 +3,10 @@ project:
 
 website:
   title: "Intelligent Systems Lab"
+  favicon: favicon.ico
+  site-url: https://isl-hosei.github.io/
+  description: "Intelligent Systems Lab at Hosei University"
+  open-graph: true
   navbar:
     right:
       - href: index.qmd
@@ -14,10 +18,17 @@ website:
       #   href: https://github.com/
       # - icon: twitter
       #   href: https://twitter.com
+  page-footer: 
+    center: "Copyright 2025, Intelligent Systems Lab, Hosei University"
+    right: |
+      [法政大学](https://www.hosei.ac.jp/)
+      [経営システム工学科](https://ise-hp.ws.hosei.ac.jp/)
+      [知能システム研究室](https://isl-hosei.github.io/)
 format:
   html:
     theme:
-      - Quartz
+      light: Quartz
+      dark: Darkly
     css: styles.css
 
 
