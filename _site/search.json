@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 / Students",
+    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+  }
+]
