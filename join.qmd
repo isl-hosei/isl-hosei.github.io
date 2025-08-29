@@ -10,15 +10,13 @@ date-modified: today
 
 [大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
 
-理工学研究科 システム理工学専攻
-
 ## English
 
 [Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) provides graduate programs for Master's and Doctoral degrees.
 
 ## 汉语
 
-法政大学理工学研究科提供以下研究生（硕士和博士）项目：
+法政大学理工学研究科开设硕士学位和博士学位项目。具体信息请访问以下链接：
 
 - 日语项目：[大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
 - 英语项目：[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp)
