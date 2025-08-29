@@ -18,7 +18,15 @@ date-modified: today
 
 ## 汉语
 
+法政大学理工学研究科提供以下研究生（硕士和博士）项目：
+
 - 日语项目：[大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
 - 英语项目：[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp)
 
+欢迎有以下专业背景，或对以下专业感兴趣的同学申请：
+
+- 管理科学与工程
+- 计算机科学技术
+- 系统科学
+- 控制科学与工程
 :::
