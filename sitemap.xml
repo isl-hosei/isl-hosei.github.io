@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>https://isl-hosei.github.io/blog</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/blog/archive</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/blog/authors</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/blog/authors/ziang</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/blog/tags</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/blog/tags/events</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/blog/welcome</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/join</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/markdown-page</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/people</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/publications</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/docs/introduction</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://isl-hosei.github.io/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://isl-hosei.github.io/blog.html</loc>
+    <lastmod>2025-08-28T23:47:31.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/index.html</loc>
+    <lastmod>2025-08-29T00:30:58.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/posts/welcome/index.html</loc>
+    <lastmod>2025-08-28T23:47:31.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/contact.html</loc>
+    <lastmod>2025-08-29T00:11:54.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2025-08-28T23:47:31.449Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/join.html</loc>
+    <lastmod>2025-08-29T00:40:32.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/people.html</loc>
+    <lastmod>2025-08-29T00:02:11.707Z</lastmod>
+  </url>
+</urlset>

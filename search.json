@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "ISL",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 29, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 26, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "知能システム研究室",
+    "section": "",
+    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Hosei University, Tokyo 184-8584, Japan\n 〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join us",
+    "section": "",
+    "text": "理工学研究科 システム理工学専攻"
+  },
+  {
+    "objectID": "join.html#修士課程入試",
+    "href": "join.html#修士課程入試",
+    "title": "Join us",
+    "section": "",
+    "text": "理工学研究科 システム理工学専攻"
+  },
+  {
+    "objectID": "join.html#英語学位プログラム9月入学",
+    "href": "join.html#英語学位プログラム9月入学",
+    "title": "Join us",
+    "section": "英語学位プログラム（9月入学）",
+    "text": "英語学位プログラム（9月入学）\nInstitute of Integrated Science and Technology (IIST)"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 / Students",
+    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+  }
+]
