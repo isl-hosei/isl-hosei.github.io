@@ -139,9 +139,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><i class="bi bi-geo-alt"></i> Hosei University, Tokyo 184-8584, Japan</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">日本語</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">English</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p><i class="bi bi-geo-alt"></i> 〒184-8584 東京都小金井市梶野町3-7-2<br>
 法政大学 理工学部 経営システム工学科</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><i class="bi bi-geo-alt"></i> Hosei University,<br>
+Tokyo 184-8584, Japan</p>
+</div>
+</div>
+</div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d844.3094314537518!2d139.52192276947667!3d35.70991056214731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e58edb669a13%3A0x83f0db33261d084d!2z5rOV5pS_5aSn5a2m5bCP6YeR5LqV44Kt44Oj44Oz44OR44K56KW_6aSo!5e0!3m2!1sja!2sjp!4v1756395581130!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 
@@ -220,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/isl-hosei\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
