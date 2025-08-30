@@ -16,7 +16,8 @@ website:
       - people.qmd
       - contact.qmd
       - join.qmd
-      # - icon: github
+      - seminar/seminar.qmd
+    # - icon: github
       #   href: https://github.com/
       # - icon: twitter
       #   href: https://twitter.com
