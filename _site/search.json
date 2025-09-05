@@ -95,7 +95,42 @@
     "href": "join.html",
     "title": "Join us",
     "section": "",
-    "text": "日本語English中文\n\n\n\n修士課程入試\n大学院入試要項\n\n\n\nInstitute of Integrated Science and Technology (IIST) provides graduate programs for Master’s and Doctoral degrees.\n\n\n法政大学理工学研究科提供硕士学位和博士学位项目。欢迎具有以下专业背景或研究兴趣的学生申请加入本研究室：\n\n管理科学与工程\n计算机科学技术\n系统科学\n控制科学与工程\n\n项目详情请参考以下链接：\n\n日语项目：大学院入試要項\n英语项目：Institute of Integrated Science and Technology (IIST)\n\n在提交正式申请之前，请通过电子邮件联系 liu@hosei.ac.jp，并附上以下材料：\n\n个人简历\n成绩单\n英语能力证明（TOEFL, IELTS, TOEIC等）\n日语能力证明（如有）\n研究计划书\n毕业论文（如有）\n其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）"
+    "text": "English中文日本語\n\n\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees.\nAdmissions guidelines can be found at the here.\n\n\n法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：\n\n管理科学与工程\n计算机科学技术\n系统科学\n控制科学与工程\n\n项目详情请参考以下链接：\n\n日语项目：大学院入試要項\n英语项目：Institute of Integrated Science and Technology (IIST)\n\n在提交正式申请之前，请通过电子邮件联系 liu@hosei.ac.jp，并附上以下材料：\n\n个人简历\n成绩单\n英语能力证明（TOEFL, IELTS, TOEIC等）\n日语能力证明（如有）\n研究计划书\n毕业论文（如有）\n其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）\n\n\n\n\n修士課程入試\n大学院入試要項"
+  },
+  {
+    "objectID": "pipx/index.html",
+    "href": "pipx/index.html",
+    "title": "pipx とは？",
+    "section": "",
+    "text": "Mac の場合，Homebrew を使う．\nbrew install pipx\npipx ensurepath\nインストール後、ターミナルを再起動する．\n下記のコマンドでバーションを確認し，数字が表示されれば成功．\npipx --version"
+  },
+  {
+    "objectID": "pipx/index.html#インストール",
+    "href": "pipx/index.html#インストール",
+    "title": "pipx とは？",
+    "section": "",
+    "text": "Mac の場合，Homebrew を使う．\nbrew install pipx\npipx ensurepath\nインストール後、ターミナルを再起動する．\n下記のコマンドでバーションを確認し，数字が表示されれば成功．\npipx --version"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "知能システム研究室が発足しました!",
+    "section": "",
+    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "日本語English\n\n\n 〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
+  },
+  {
+    "objectID": "posts/apms-2025/index.html",
+    "href": "posts/apms-2025/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。"
   },
   {
     "objectID": "kinoden/indes.html",
@@ -116,7 +151,7 @@
     "href": "kinoden/indes.html#経営工学-python",
     "title": "Kinoden 書籍リスト",
     "section": "経営工学 + Python",
-    "text": "経営工学 + Python\n\nシミュレーション\n\nPython コンピュータシミュレーション入門 (2021)\n\nKeywords: 感染症モデル，線型計画法，在庫管理，待ち行列，グラフ理論，遺伝的アルゴリズム，ゲーム理論，強化学習\n経営工学に関するテーマが多く取り上げられている．\n\n\n\n\n最適化\n\nPythonではじめる数理最適化　第2版 (2024)\n\nKeywords: 数理最適化，モデリング，ケーススタディ（学校のクラス編成，配送計画，商品推薦）\n\nPythonによる実務で役立つ最適化問題100+ 1 (2022)\n\n内容が公開されている．Link\n\nPythonによる数理最適化入門 (2018)\nあたらしい数理最適化 (2012)\n\n\n\n機械学習\n\nPython機械学習プログラミング (2022)\n\nKeywords: データ前処理，教師あり学習，教師なし学習，強化学習，Sklearn，PyTorch\n機械学習アルゴリズムの理論と実装を学べる．数式，プログラミングの両方に自信がある人向け．\n\nスッキリわかるPythonによる機械学習入門\n\nKeywords: 教師あり学習，教師なし学習\n機械学習ライブラリの使い方を学べる．数式が苦手な人向け．\n\nいちばんやさしいPython機械学習の教本\n\n\n\nデータサイエンス\n\nデータサイエンス教本\n\nKeywords: 回帰分析，パターン認識，深層学習，時系列分析，画像処理\n\nPythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023) -　Keywords: 練習問題\nPython時系列分析クックブック\n\n\n\nXAI\n\n実践XAI［説明可能なAI］ (2023)\n\n\n\n強化学習\n\nTensorFlowによる深層強化学習入門 (2021)\n強化学習アルゴリズム入門 (2019)\n現場で使える！Python深層強化学習入門 (2019)"
+    "text": "経営工学 + Python\n\nPython コンピュータシミュレーション入門 (2021)\n\nKeywords: 感染症モデル，線型計画法，在庫管理，待ち行列，グラフ理論，遺伝的アルゴリズム，ゲーム理論，強化学習\n経営工学に関するテーマが多く取り上げられている．\n\n\n\n最適化\n\nPythonではじめる数理最適化　第2版 (2024)\n\nKeywords: 数理最適化，モデリング，ケーススタディ（学校のクラス編成，配送計画，商品推薦）\n\nPythonによる実務で役立つ最適化問題100+ 1 (2022)\n\n内容が公開されている．Link\n\nPythonによる数理最適化入門 (2018)\nあたらしい数理最適化 (2012)\n\n\n\n機械学習\n\nPython機械学習プログラミング (2022)\n\nKeywords: データ前処理，教師あり学習，教師なし学習，強化学習，Sklearn，PyTorch\n機械学習アルゴリズムの理論と実装を学べる．数式，プログラミングの両方に自信がある人向け．\n\nスッキリわかるPythonによる機械学習入門\n\nKeywords: 教師あり学習，教師なし学習\n機械学習ライブラリの使い方を学べる．数式が苦手な人向け．\n\nいちばんやさしいPython機械学習の教本\n\n\n\nデータサイエンス\n\nデータサイエンス教本\n\nKeywords: 回帰分析，パターン認識，深層学習，時系列分析，画像処理\n\nPythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023) -　Keywords: 練習問題\nPython時系列分析クックブック\n\n\n\nXAI\n\n実践XAI［説明可能なAI］ (2023)\n\n\n\n強化学習\n\nTensorFlowによる深層強化学習入門 (2021)\n強化学習アルゴリズム入門 (2019)\n現場で使える！Python深層強化学習入門 (2019)"
   },
   {
     "objectID": "kinoden/indes.html#経営工学-excel",
@@ -154,39 +189,11 @@
     "text": "データサイエンス\n\nデータサイエンス入門　第2版"
   },
   {
-    "objectID": "posts/apms-2025/index.html",
-    "href": "posts/apms-2025/index.html",
-    "title": "APMS 2025",
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "Intelligent Systems Lab",
     "section": "",
-    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "日本語English\n\n\n 〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "知能システム研究室が発足しました!",
-    "section": "",
-    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
-  },
-  {
-    "objectID": "pipx/index.html",
-    "href": "pipx/index.html",
-    "title": "pipx とは？",
-    "section": "",
-    "text": "Mac の場合，Homebrew を使う．\nbrew install pipx\npipx ensurepath\nインストール後、ターミナルを再起動する．\n下記のコマンドでバーションを確認し，数字が表示されれば成功．\npipx --version"
-  },
-  {
-    "objectID": "pipx/index.html#インストール",
-    "href": "pipx/index.html#インストール",
-    "title": "pipx とは？",
-    "section": "",
-    "text": "Mac の場合，Homebrew を使う．\nbrew install pipx\npipx ensurepath\nインストール後、ターミナルを再起動する．\n下記のコマンドでバーションを確認し，数字が表示されれば成功．\npipx --version"
+    "text": "https://icons.getbootstrap.com"
   },
   {
     "objectID": "news.html",
@@ -200,7 +207,7 @@
     "href": "index.html",
     "title": "知能システム研究室",
     "section": "",
-    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．"
+    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\n Join Us"
   },
   {
     "objectID": "seminar/seminar.html",

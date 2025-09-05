@@ -15,11 +15,11 @@ website:
         text: Home
       - people.qmd
       - contact.qmd
-      - join.qmd
-      - seminar/seminar.qmd
-    right:
       - href: news.qmd
         text: News
+      - join.qmd
+    right:
+      - seminar/seminar.qmd
       - icon: github
         href: https://github.com/isl-hosei
     # - icon: github
@@ -34,7 +34,7 @@ website:
       [知能システム研究室](https://isl-hosei.github.io/)
 format:
   html:
-    theme: lux
+    theme: Superhero
     css: styles.css
 
 

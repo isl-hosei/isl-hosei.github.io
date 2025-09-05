@@ -5,18 +5,18 @@ date-modified: today
 
 
 ::: {.panel-tabset}
-## 日本語
-### 修士課程入試
 
-[大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
 
 ## English
 
-[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) provides graduate programs for Master's and Doctoral degrees.
+[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) provides English
+graduate programs for Master's and Doctoral degrees.
+
+Admissions guidelines can be found at the [here](https://iist.hosei.ac.jp/admission/).
 
 ## 中文     
 
-法政大学理工学研究科提供硕士学位和博士学位项目。欢迎具有以下专业背景或研究兴趣的学生申请加入本研究室：
+法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：
 
 - 管理科学与工程
 - 计算机科学技术
@@ -37,4 +37,11 @@ date-modified: today
 5. 研究计划书
 6. 毕业论文（如有）
 7. 其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）
+
+
+## 日本語
+### 修士課程入試
+
+[大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
+
 :::
