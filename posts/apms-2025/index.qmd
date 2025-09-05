@@ -1,0 +1,8 @@
+---
+title: "APMS 2025"
+author: "劉子昂"
+date: today
+categories: [news]
+---
+
+M1の遠田さんがAPMS 2025にて発表を行いました。

@@ -1,0 +1,24 @@
+---
+title: "pipx とは？"
+author: "劉子昂"
+date: today
+categories: [news]
+---
+
+## インストール
+
+Mac の場合，Homebrew を使う．
+
+```
+brew install pipx
+pipx ensurepath
+```
+
+インストール後、ターミナルを再起動する．
+
+下記のコマンドでバーションを確認し，数字が表示されれば成功．
+
+```
+pipx --version
+```
+

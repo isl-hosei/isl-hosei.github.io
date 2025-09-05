@@ -1,8 +1,8 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/news.html",
     "items": [
-      "/posts/post-with-code/index.html",
+      "/posts/apms-2025/index.html",
       "/posts/welcome/index.html"
     ]
   }

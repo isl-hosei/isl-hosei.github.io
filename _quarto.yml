@@ -10,13 +10,18 @@ website:
   open-graph: true
   navbar:
     logo: images/logo.ico
-    right:
+    left:
       - href: index.qmd
         text: Home
       - people.qmd
       - contact.qmd
       - join.qmd
       - seminar/seminar.qmd
+    right:
+      - href: news.qmd
+        text: News
+      - icon: github
+        href: https://github.com/isl-hosei
     # - icon: github
       #   href: https://github.com/
       # - icon: twitter

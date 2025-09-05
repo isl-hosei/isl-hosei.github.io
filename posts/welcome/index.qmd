@@ -1,12 +1,13 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2025-08-26"
+title: "知能システム研究室が発足しました!"
+author: "劉子昂"
+date: "2025-04-01"
 categories: [news]
+image: "campus.jpg"
 ---
 
-This is the first post in a Quarto blog. Welcome!
+2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。
 
-![](thumbnail.jpg)
+私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+![](campus.jpg){width=100%}
