@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="劉子昂">
+<meta name="dcterms.date" content="2025-09-05">
 
-<title>News – Intelligent Systems Lab</title>
+<title>Kinoden 書籍リスト – Intelligent Systems Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3b7f4aff7acac744aa1d596ce5db2ede.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3b7f4aff7acac744aa1d596ce5db2ede.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,83 +70,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="News – Intelligent Systems Lab">
-<meta property="og:image" content="https://isl-hosei.github.io/posts/welcome/campus.jpg">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Kinoden 書籍リスト – Intelligent Systems Lab">
+<meta property="og:description" content="Intelligent Systems Lab at Hosei University">
 <meta property="og:site_name" content="Intelligent Systems Lab">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.ico" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.ico" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Intelligent Systems Lab</span>
     </a>
   </div>
@@ -157,29 +99,29 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./join.html"> 
+    <a class="nav-link" href="../join.html"> 
 <span class="menu-text">Join us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./seminar/seminar.html"> 
+    <a class="nav-link" href="../seminar/seminar.html"> 
 <span class="menu-text">ゼミ</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -195,104 +137,194 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">News</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Kinoden 書籍リスト</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">news</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>劉子昂 </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 5, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<p>法政大学図書館のKinodenで豊富な書籍を閲覧できます．</p>
+<p><a href="https://kinoden.kinokuniya.co.jp/hosei_u/">KinoDen</a></p>
+<p>大変便利なサービスと感じたので、ゼミ生向けにPythonを使った経営工学の学習に役立つ書籍をまとめました．</p>
+<section id="python入門" class="level2">
+<h2 class="anchored" data-anchor-id="python入門">Python入門</h2>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00012323">Python言語によるプログラミングイントロダクション　第2版 (2017)</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00101216">ChatGPTと学ぶPython入門</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00070311">よくわかる Python入門</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00020952">スッキリわかるPython入門</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00074160">ゼロからやさしくはじめるPython入門</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00036441">マンガでざっくり学ぶPython（パイソン）</a></li>
+</ul>
+</section>
+<section id="経営工学-python" class="level2">
+<h2 class="anchored" data-anchor-id="経営工学-python">経営工学 + Python</h2>
+<section id="シミュレーション" class="level3">
+<h3 class="anchored" data-anchor-id="シミュレーション">シミュレーション</h3>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00045049">Python コンピュータシミュレーション入門 (2021)</a>
+<ul>
+<li>Keywords: 感染症モデル，線型計画法，在庫管理，待ち行列，グラフ理論，遺伝的アルゴリズム，ゲーム理論，強化学習</li>
+<li>経営工学に関するテーマが多く取り上げられている．</li>
+</ul></li>
+</ul>
+</section>
+<section id="最適化" class="level3">
+<h3 class="anchored" data-anchor-id="最適化">最適化</h3>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00096408">Pythonではじめる数理最適化　第2版 (2024)</a>
+<ul>
+<li>Keywords: 数理最適化，モデリング，ケーススタディ（学校のクラス編成，配送計画，商品推薦）</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00075057">Pythonによる実務で役立つ最適化問題100+ 1 (2022)</a>
+<ul>
+<li>内容が公開されている．<a href="https://scmopt.github.io/opt100/">Link</a></li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00019214">Pythonによる数理最適化入門 (2018)</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00012255">あたらしい数理最適化 (2012)</a></li>
+</ul>
+</section>
+<section id="機械学習" class="level3">
+<h3 class="anchored" data-anchor-id="機械学習">機械学習</h3>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00074705">Python機械学習プログラミング (2022)</a>
+<ul>
+<li>Keywords: データ前処理，教師あり学習，教師なし学習，強化学習，Sklearn，PyTorch</li>
+<li>機械学習アルゴリズムの理論と実装を学べる．数式，プログラミングの両方に自信がある人向け．</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00033550">スッキリわかるPythonによる機械学習入門</a>
+<ul>
+<li>Keywords: 教師あり学習，教師なし学習</li>
+<li>機械学習ライブラリの使い方を学べる．数式が苦手な人向け．</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00020950">いちばんやさしいPython機械学習の教本</a></li>
+</ul>
+</section>
+<section id="データサイエンス" class="level3">
+<h3 class="anchored" data-anchor-id="データサイエンス">データサイエンス</h3>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00024399">データサイエンス教本</a>
+<ul>
+<li>Keywords: 回帰分析，パターン認識，深層学習，時系列分析，画像処理</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00080843">Pythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023)</a> -　Keywords: 練習問題</li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00086661">Python時系列分析クックブック</a></li>
+</ul>
+</section>
+<section id="xai" class="level3">
+<h3 class="anchored" data-anchor-id="xai">XAI</h3>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00081538">実践XAI［説明可能なAI］ (2023)</a></li>
+</ul>
+</section>
+<section id="強化学習" class="level3">
+<h3 class="anchored" data-anchor-id="強化学習">強化学習</h3>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00041820">TensorFlowによる深層強化学習入門 (2021)</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00024416">強化学習アルゴリズム入門 (2019)</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00034524">現場で使える！Python深層強化学習入門 (2019)</a></li>
+</ul>
+</section>
+</section>
+<section id="経営工学-excel" class="level2">
+<h2 class="anchored" data-anchor-id="経営工学-excel">経営工学 + Excel</h2>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00009061">入門　経営科学　改訂版</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00026069">例題で学ぶ　OR入門</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00012267">Excelで学ぶオペレーションズリサーチ</a></li>
+<li></li>
+</ul>
+</section>
+<section id="人工知能" class="level2">
+<h2 class="anchored" data-anchor-id="人工知能">人工知能</h2>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00041467">人工知能入門</a>
+<ul>
+<li>Keywords: 探索，推論，学習，進化的計算，ニューラルネットワーク，強化学習</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00026096">人工知能原理</a>
+<ul>
+<li>Keywords: 探索，機械学習，進化的計算，強化学習</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00031488">基礎から学ぶ人工知能の教科書</a>
+<ul>
+<li>Keywords: 学習，推論，深層学習，進化的計算，強化学習</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00011749">人工知能の創発</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00008641">タイトルメタヒューリスティクスとナチュラルコンピューティング</a>
+<ul>
+<li>Keywords: 遺伝的アルゴリズム，粒子群最適化法，タブーサーチ，山登り法</li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00032062">AI時代の離散数学 (2020)</a>
+<ul>
+<li>Keywords: 論理関数，深層学習，グラフ理論，ネットワーク最適化</li>
+</ul></li>
+</ul>
+</section>
+<section id="アルゴリズム" class="level2">
+<h2 class="anchored" data-anchor-id="アルゴリズム">アルゴリズム</h2>
+<ul>
+<li>アルゴリズムイントロダクション
+<ul>
+<li><strong>世界的名著</strong></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00087879">アルゴリズムイントロダクション　第4版　1 (2024)</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00080844">アルゴリズムイントロダクション　第4版　2 (2024)</a></li>
+</ul></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00026089">データ構造とアルゴリズム (2017)</a></li>
+</ul>
+</section>
+<section id="モデリング" class="level2">
+<h2 class="anchored" data-anchor-id="モデリング">モデリング</h2>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00016566">グラフ理論入門(原書第4版) (2001)</a></li>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00034289">マルコフ決定過程 (2019)</a></li>
+</ul>
+</section>
+<section id="データサイエンス-1" class="level2">
+<h2 class="anchored" data-anchor-id="データサイエンス-1">データサイエンス</h2>
+<ul>
+<li><a href="https://kinoden.kinokuniya.co.jp/hosei_u/bookdetail/p/KP00047543">データサイエンス入門　第2版</a></li>
+</ul>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1756998000000" data-listing-file-modified-sort="1757037387171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./posts/apms-2025/index.html" class="no-external">
+</section>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/apms-2025/index.html" class="no-external">APMS 2025</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/apms-2025/index.html" class="no-external">
-M1の遠田さんがAPMS 2025にて発表を行いました。
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/apms-2025/index.html" class="no-external">
-<div class="listing-date">
-Sep 5, 2025
-</div>
-<div class="listing-author">
-劉子昂
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1743433200000" data-listing-file-modified-sort="1757036079208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/welcome/campus.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">知能システム研究室が発足しました!</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
-2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2025
-</div>
-<div class="listing-author">
-劉子昂
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
