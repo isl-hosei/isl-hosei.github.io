@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://isl-hosei.github.io/research-tool/index.html</loc>
-    <lastmod>2025-09-05T01:45:46.751Z</lastmod>
+    <loc>https://isl-hosei.github.io/seminar/seminar.html</loc>
+    <lastmod>2025-08-30T02:15:56.330Z</lastmod>
   </url>
   <url>
-    <loc>https://isl-hosei.github.io/people.html</loc>
-    <lastmod>2025-08-29T00:02:11.707Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/overleaf/index.html</loc>
-    <lastmod>2025-09-05T01:40:06.008Z</lastmod>
+    <loc>https://isl-hosei.github.io/index.html</loc>
+    <lastmod>2025-09-08T08:27:09.448Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/join.html</loc>
-    <lastmod>2025-09-05T09:51:50.826Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/pipx/index.html</loc>
-    <lastmod>2025-09-05T01:44:54.215Z</lastmod>
+    <lastmod>2025-09-08T08:25:38.663Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/posts/welcome/index.html</loc>
@@ -26,15 +18,11 @@
   </url>
   <url>
     <loc>https://isl-hosei.github.io/contact.html</loc>
-    <lastmod>2025-08-29T07:22:05.577Z</lastmod>
+    <lastmod>2025-09-08T08:23:40.292Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/posts/apms-2025/index.html</loc>
     <lastmod>2025-09-05T01:56:27.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/kinoden/indes.html</loc>
-    <lastmod>2025-09-05T09:43:03.934Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/note.html</loc>
@@ -45,11 +33,7 @@
     <lastmod>2025-09-05T09:55:42.703Z</lastmod>
   </url>
   <url>
-    <loc>https://isl-hosei.github.io/index.html</loc>
-    <lastmod>2025-09-05T09:57:50.108Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/seminar.html</loc>
-    <lastmod>2025-08-30T02:15:56.330Z</lastmod>
+    <loc>https://isl-hosei.github.io/people.html</loc>
+    <lastmod>2025-09-08T08:24:24.071Z</lastmod>
   </url>
 </urlset>
