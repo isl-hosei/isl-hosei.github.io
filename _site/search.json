@@ -1,215 +1,5 @@
 [
   {
-    "objectID": "research-tool/index.html",
-    "href": "research-tool/index.html",
-    "title": "研究ツールまとめ",
-    "section": "",
-    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風"
-  },
-  {
-    "objectID": "research-tool/index.html#作図",
-    "href": "research-tool/index.html#作図",
-    "title": "研究ツールまとめ",
-    "section": "",
-    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風"
-  },
-  {
-    "objectID": "research-tool/index.html#pdf-reader",
-    "href": "research-tool/index.html#pdf-reader",
-    "title": "研究ツールまとめ",
-    "section": "PDF Reader",
-    "text": "PDF Reader\n\nGoogle Scholar PDF Reader"
-  },
-  {
-    "objectID": "research-tool/index.html#文献管理",
-    "href": "research-tool/index.html#文献管理",
-    "title": "研究ツールまとめ",
-    "section": "文献管理",
-    "text": "文献管理\n文献を管理するだけでなく、WordやLaTexと連携し、参考文献の自動番号付き、自動生成などができます。\n\nZotero：文献管理ソフト\nMendeley：文献管理ソフト\nPaperpile：文献管理ソフト（有料）"
-  },
-  {
-    "objectID": "research-tool/index.html#プログラミング",
-    "href": "research-tool/index.html#プログラミング",
-    "title": "研究ツールまとめ",
-    "section": "プログラミング",
-    "text": "プログラミング\n\nGithub：プロジェクトの管理、他人のコードの参考\nGithub Copilot：コーディングアシスタント\nVSCode：エディタ"
-  },
-  {
-    "objectID": "research-tool/index.html#文章作成",
-    "href": "research-tool/index.html#文章作成",
-    "title": "研究ツールまとめ",
-    "section": "文章作成",
-    "text": "文章作成\n\nOverleaf：LaTeXエディタ\nMarkdown：軽量マークアップ言語"
-  },
-  {
-    "objectID": "research-tool/index.html#英語文章作成",
-    "href": "research-tool/index.html#英語文章作成",
-    "title": "研究ツールまとめ",
-    "section": "英語文章作成",
-    "text": "英語文章作成\n\nGrammarly：文法チェック\nAcademic Phrasebank：アカデミックライティング"
-  },
-  {
-    "objectID": "research-tool/index.html#スライド作成と発表",
-    "href": "research-tool/index.html#スライド作成と発表",
-    "title": "研究ツールまとめ",
-    "section": "スライド作成と発表",
-    "text": "スライド作成と発表\n\nBeamer：LaTeXスライド作成\n\nPympress：PDFスライド発表\n\nMarp：Markdownスライド作成"
-  },
-  {
-    "objectID": "research-tool/index.html#mac",
-    "href": "research-tool/index.html#mac",
-    "title": "研究ツールまとめ",
-    "section": "Mac",
-    "text": "Mac\n\nWine: Mac上で.exeフィアルを実行する"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "劉 子昂"
-  },
-  {
-    "objectID": "people.html#教員-faculty",
-    "href": "people.html#教員-faculty",
-    "title": "People",
-    "section": "",
-    "text": "劉 子昂"
-  },
-  {
-    "objectID": "people.html#学生-students",
-    "href": "people.html#学生-students",
-    "title": "People",
-    "section": "学生 / Students",
-    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
-  },
-  {
-    "objectID": "overleaf/index.html",
-    "href": "overleaf/index.html",
-    "title": "Overleafで日本語を使う",
-    "section": "",
-    "text": "Overleafで日本語を使う方法を紹介します。\nhttps://ja.overleaf.com/learn/latex/Japanese\n\npLaTeXを使う\n論文のテンプレートがpLaTeXを使っている場合、以下のように設定する。\n\nMenu &gt; Compile &gt; LaTeX を選択する。\n「latexmkrc」ファイルを作成し、以下の内容を記述する。\n\n$latex = 'platex';\n$bibtex = 'pbibtex';\n$dvipdf = 'dvipdfmx %O -o %D %S';\n$makeindex = 'mendex %O -o %D %S';"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join us",
-    "section": "",
-    "text": "English中文日本語\n\n\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees.\nAdmissions guidelines can be found at the here.\n\n\n法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：\n\n管理科学与工程\n计算机科学技术\n系统科学\n控制科学与工程\n\n项目详情请参考以下链接：\n\n日语项目：大学院入試要項\n英语项目：Institute of Integrated Science and Technology (IIST)\n\n在提交正式申请之前，请通过电子邮件联系 liu@hosei.ac.jp，并附上以下材料：\n\n个人简历\n成绩单\n英语能力证明（TOEFL, IELTS, TOEIC等）\n日语能力证明（如有）\n研究计划书\n毕业论文（如有）\n其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）\n\n\n\n\n修士課程入試\n大学院入試要項"
-  },
-  {
-    "objectID": "pipx/index.html",
-    "href": "pipx/index.html",
-    "title": "pipx とは？",
-    "section": "",
-    "text": "Mac の場合，Homebrew を使う．\nbrew install pipx\npipx ensurepath\nインストール後、ターミナルを再起動する．\n下記のコマンドでバーションを確認し，数字が表示されれば成功．\npipx --version"
-  },
-  {
-    "objectID": "pipx/index.html#インストール",
-    "href": "pipx/index.html#インストール",
-    "title": "pipx とは？",
-    "section": "",
-    "text": "Mac の場合，Homebrew を使う．\nbrew install pipx\npipx ensurepath\nインストール後、ターミナルを再起動する．\n下記のコマンドでバーションを確認し，数字が表示されれば成功．\npipx --version"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "知能システム研究室が発足しました!",
-    "section": "",
-    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "日本語English\n\n\n 〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
-  },
-  {
-    "objectID": "posts/apms-2025/index.html",
-    "href": "posts/apms-2025/index.html",
-    "title": "APMS 2025",
-    "section": "",
-    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。"
-  },
-  {
-    "objectID": "kinoden/indes.html",
-    "href": "kinoden/indes.html",
-    "title": "Kinoden 書籍リスト",
-    "section": "",
-    "text": "法政大学図書館のKinodenで豊富な書籍を閲覧できます．\nKinoDen\n大変便利なサービスと感じたので、ゼミ生向けにPythonを使った経営工学の学習に役立つ書籍をまとめました．"
-  },
-  {
-    "objectID": "kinoden/indes.html#python入門",
-    "href": "kinoden/indes.html#python入門",
-    "title": "Kinoden 書籍リスト",
-    "section": "Python入門",
-    "text": "Python入門\n\nPython言語によるプログラミングイントロダクション　第2版 (2017)\nChatGPTと学ぶPython入門\nよくわかる Python入門\nスッキリわかるPython入門\nゼロからやさしくはじめるPython入門\nマンガでざっくり学ぶPython（パイソン）"
-  },
-  {
-    "objectID": "kinoden/indes.html#経営工学-python",
-    "href": "kinoden/indes.html#経営工学-python",
-    "title": "Kinoden 書籍リスト",
-    "section": "経営工学 + Python",
-    "text": "経営工学 + Python\n\nPython コンピュータシミュレーション入門 (2021)\n\nKeywords: 感染症モデル，線型計画法，在庫管理，待ち行列，グラフ理論，遺伝的アルゴリズム，ゲーム理論，強化学習\n経営工学に関するテーマが多く取り上げられている．\n\n\n\n最適化\n\nPythonではじめる数理最適化　第2版 (2024)\n\nKeywords: 数理最適化，モデリング，ケーススタディ（学校のクラス編成，配送計画，商品推薦）\n\nPythonによる実務で役立つ最適化問題100+ 1 (2022)\n\n内容が公開されている．Link\n\nPythonによる数理最適化入門 (2018)\nあたらしい数理最適化 (2012)\n\n\n\n機械学習\n\nPython機械学習プログラミング (2022)\n\nKeywords: データ前処理，教師あり学習，教師なし学習，強化学習，Sklearn，PyTorch\n機械学習アルゴリズムの理論と実装を学べる．数式，プログラミングの両方に自信がある人向け．\n\nスッキリわかるPythonによる機械学習入門\n\nKeywords: 教師あり学習，教師なし学習\n機械学習ライブラリの使い方を学べる．数式が苦手な人向け．\n\nいちばんやさしいPython機械学習の教本\n\n\n\nデータサイエンス\n\nデータサイエンス教本\n\nKeywords: 回帰分析，パターン認識，深層学習，時系列分析，画像処理\n\nPythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023) -　Keywords: 練習問題\nPython時系列分析クックブック\n\n\n\nXAI\n\n実践XAI［説明可能なAI］ (2023)\n\n\n\n強化学習\n\nTensorFlowによる深層強化学習入門 (2021)\n強化学習アルゴリズム入門 (2019)\n現場で使える！Python深層強化学習入門 (2019)"
-  },
-  {
-    "objectID": "kinoden/indes.html#経営工学-excel",
-    "href": "kinoden/indes.html#経営工学-excel",
-    "title": "Kinoden 書籍リスト",
-    "section": "経営工学 + Excel",
-    "text": "経営工学 + Excel\n\n入門　経営科学　改訂版\n例題で学ぶ　OR入門\nExcelで学ぶオペレーションズリサーチ"
-  },
-  {
-    "objectID": "kinoden/indes.html#人工知能",
-    "href": "kinoden/indes.html#人工知能",
-    "title": "Kinoden 書籍リスト",
-    "section": "人工知能",
-    "text": "人工知能\n\n人工知能入門\n\nKeywords: 探索，推論，学習，進化的計算，ニューラルネットワーク，強化学習\n\n人工知能原理\n\nKeywords: 探索，機械学習，進化的計算，強化学習\n\n基礎から学ぶ人工知能の教科書\n\nKeywords: 学習，推論，深層学習，進化的計算，強化学習\n\n人工知能の創発\nタイトルメタヒューリスティクスとナチュラルコンピューティング\n\nKeywords: 遺伝的アルゴリズム，粒子群最適化法，タブーサーチ，山登り法\n\nAI時代の離散数学 (2020)\n\nKeywords: 論理関数，深層学習，グラフ理論，ネットワーク最適化"
-  },
-  {
-    "objectID": "kinoden/indes.html#アルゴリズム",
-    "href": "kinoden/indes.html#アルゴリズム",
-    "title": "Kinoden 書籍リスト",
-    "section": "アルゴリズム",
-    "text": "アルゴリズム\n\nアルゴリズムイントロダクション\n\n世界的名著\nアルゴリズムイントロダクション　第4版　1 (2024)\nアルゴリズムイントロダクション　第4版　2 (2024)\n\nデータ構造とアルゴリズム (2017)"
-  },
-  {
-    "objectID": "kinoden/indes.html#モデリング",
-    "href": "kinoden/indes.html#モデリング",
-    "title": "Kinoden 書籍リスト",
-    "section": "モデリング",
-    "text": "モデリング\n\nグラフ理論入門(原書第4版) (2001)\nマルコフ決定過程 (2019)"
-  },
-  {
-    "objectID": "kinoden/indes.html#データサイエンス-1",
-    "href": "kinoden/indes.html#データサイエンス-1",
-    "title": "Kinoden 書籍リスト",
-    "section": "データサイエンス",
-    "text": "データサイエンス\n\nデータサイエンス入門　第2版"
-  },
-  {
-    "objectID": "note.html",
-    "href": "note.html",
-    "title": "Intelligent Systems Lab",
-    "section": "",
-    "text": "https://icons.getbootstrap.com"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
-    "section": "",
-    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 5, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "知能システム研究室",
-    "section": "",
-    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\n Join Us"
-  },
-  {
     "objectID": "seminar/seminar.html",
     "href": "seminar/seminar.html",
     "title": "ゼミ",
@@ -236,5 +26,96 @@
     "title": "ゼミ",
     "section": "学会情報",
     "text": "学会情報\n\n2026\n\n\n\n学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n立命館大学\n\n\n\n\n\n2025\n\n\n\n学会\n開催日\n場所\n\n\n\n\nSCI’25\n5/25 - 5/27\n神戸\n\n\nAPMS 2025\n8/31 - 9/3\n鎌倉\n\n\n第68回 自動制御連合講演会\n11/1 - 11/2\n名古屋大学\n\n\nIEEM 2025\n12/7 - 12/10\nAustralia"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "知能システム研究室",
+    "section": "",
+    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\n Join Us"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join us",
+    "section": "",
+    "text": "English中文日本語\n\n\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here.\nForeign students can also apply for the Japanese graduate programs. Please refer to the here for more details.\n\n\n法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：\n\n管理科学与工程\n计算机科学技术\n系统科学\n控制科学与工程\n\n项目详情请参考以下链接：\n\n日语项目：大学院入試要項\n英语项目：Institute of Integrated Science and Technology (IIST)\n\n在提交正式申请之前，请通过电子邮件联系 liu@hosei.ac.jp，并附上以下材料：\n\n个人简历\n成绩单\n英语能力证明（TOEFL, IELTS, TOEIC等）\n日语能力证明（如有）\n研究计划书\n毕业论文（如有）\n其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）\n\n\n\n\n修士課程入試\n大学院入試要項"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "知能システム研究室が発足しました!",
+    "section": "",
+    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#アクセス",
+    "href": "contact.html#アクセス",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#住所",
+    "href": "contact.html#住所",
+    "title": "Contact",
+    "section": "住所",
+    "text": "住所\n\n日本語English\n\n\n〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
+  },
+  {
+    "objectID": "contact.html#google-map",
+    "href": "contact.html#google-map",
+    "title": "Contact",
+    "section": "Google Map",
+    "text": "Google Map"
+  },
+  {
+    "objectID": "posts/apms-2025/index.html",
+    "href": "posts/apms-2025/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。"
+  },
+  {
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "Intelligent Systems Lab",
+    "section": "",
+    "text": "https://icons.getbootstrap.com"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 8, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 / Students",
+    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
   }
 ]

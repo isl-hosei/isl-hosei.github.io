@@ -1,18 +1,18 @@
 ---
 title: "Join us"
 date-modified: today
+title-block-banner: true
 ---
 
 
 ::: {.panel-tabset}
 
-
 ## English
 
 [Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) provides English
-graduate programs for Master's and Doctoral degrees.
+graduate programs for Master's and Doctoral degrees. Admissions guidelines can be found at the [here](https://iist.hosei.ac.jp/admission/).
 
-Admissions guidelines can be found at the [here](https://iist.hosei.ac.jp/admission/).
+Foreign students can also apply for the Japanese graduate programs. Please refer to the [here](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/) for more details.
 
 ## 中文     
 

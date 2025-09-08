@@ -1,5 +1,6 @@
 ---
 title: "People"
+title-block-banner: true
 ---
 
 ## 教員 / Faculty

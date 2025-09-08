@@ -1,10 +1,19 @@
 ---
 title: "Contact"
+title-block-banner: true
 ---
+
+## アクセス
+
+知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。
+
+- 教員室：西館W5016
+- 実験室：西館W5017
+
+## 住所
 
 ::: {.panel-tabset}
 ## 日本語
-<i class="bi bi-geo-alt"></i> 
 〒184-8584 東京都小金井市梶野町3-7-2  
 法政大学 理工学部 経営システム工学科
 
@@ -13,7 +22,10 @@ title: "Contact"
 <i class="bi bi-geo-alt"></i> 
 Hosei University   
 Tokyo 184-8584, Japan
+
 :::
+
+## Google Map
 
 ::: {.cell}
 ```{=html}
@@ -23,3 +35,5 @@ Tokyo 184-8584, Japan
 </div>
 ```
 :::
+
+
