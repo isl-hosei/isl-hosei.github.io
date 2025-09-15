@@ -13,22 +13,7 @@ title: "ゼミ"
 - [卒業論文](https://www.overleaf.com/read/rjbfjjdzdjmk#45052e)
 - [レポート](https://www.overleaf.com/read/vxgywpbmcyxt#d3686a)
 
-## 学会情報
-### 2026
 
-|学会|開催日|原稿提出|場所|
-|---|---|---|---|
-|[WCCI 2026](https://attend.ieee.org/wcci-2026/)|6/21 - 6/26|1/31|Netherlands|
-|[ISFA 2026](https://isopt.is.ritsumei.ac.jp/isfa2026/) | 7/19 - 7/22 | 1/10|立命館大学|
-
-### 2025
-
-|学会|開催日|場所|
-|---|---|---|
-|[SCI'25](https://sci25.iscie.or.jp)|5/25 - 5/27|神戸|
-|[APMS 2025](https://www.apms-conference.org/) | 8/31 - 9/3|鎌倉|
-|[第68回 自動制御連合講演会](https://www.jsme.or.jp/conference/rengo68/)| 11/1 - 11/2|名古屋大学|
-|[IEEM 2025](https://www.ieee-iem.org/) | 12/7 - 12/10|Australia|
 
 
 <!-- ## オンライン教材

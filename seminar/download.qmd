@@ -1,0 +1,21 @@
+---
+title: "ダウンロード"
+date-modified: 2025-09-15
+title-block-banner: true
+---
+
+## テンプレート
+
+### Overleaf
+
+- [卒業論文](https://www.overleaf.com/read/rjbfjjdzdjmk#45052e)
+- [レポート](https://www.overleaf.com/read/vxgywpbmcyxt#d3686a)
+- Beamer (作成中...)
+
+### Typst
+
+作成中...
+
+### Markdown
+
+作成中...

@@ -19,7 +19,13 @@ website:
         text: News
       - join.qmd
     right:
-      - seminar/seminar.qmd
+      - text: ゼミ
+        menu:
+          - text: ダウンロード
+            href: seminar/download.qmd
+          - text: 学会日程
+            href: seminar/conference.qmd
+
       - icon: github
         href: https://github.com/isl-hosei
     # - icon: github
