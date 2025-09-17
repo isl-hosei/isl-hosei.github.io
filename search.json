@@ -1,52 +1,80 @@
 [
   {
-    "objectID": "seminar/seminar.html",
-    "href": "seminar/seminar.html",
-    "title": "ゼミ",
+    "objectID": "seminar/download.html",
+    "href": "seminar/download.html",
+    "title": "ダウンロード",
     "section": "",
-    "text": "Scrapbox\nSlack\nGoogle Meet"
+    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
   },
   {
-    "objectID": "seminar/seminar.html#ツール",
-    "href": "seminar/seminar.html#ツール",
-    "title": "ゼミ",
+    "objectID": "seminar/download.html#テンプレート",
+    "href": "seminar/download.html#テンプレート",
+    "title": "ダウンロード",
     "section": "",
-    "text": "Scrapbox\nSlack\nGoogle Meet"
+    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
   },
   {
-    "objectID": "seminar/seminar.html#テンプレート",
-    "href": "seminar/seminar.html#テンプレート",
-    "title": "ゼミ",
-    "section": "テンプレート",
-    "text": "テンプレート\n\n卒業論文\nレポート"
-  },
-  {
-    "objectID": "seminar/seminar.html#学会情報",
-    "href": "seminar/seminar.html#学会情報",
-    "title": "ゼミ",
-    "section": "学会情報",
-    "text": "学会情報\n\n2026\n\n\n\n学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n立命館大学\n\n\n\n\n\n2025\n\n\n\n学会\n開催日\n場所\n\n\n\n\nSCI’25\n5/25 - 5/27\n神戸\n\n\nAPMS 2025\n8/31 - 9/3\n鎌倉\n\n\n第68回 自動制御連合講演会\n11/1 - 11/2\n名古屋大学\n\n\nIEEM 2025\n12/7 - 12/10\nAustralia"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "知能システム研究室",
+    "objectID": "seminar/conference.html",
+    "href": "seminar/conference.html",
+    "title": "学会情報",
     "section": "",
-    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\n Join Us"
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n立命館大学"
   },
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join us",
+    "objectID": "seminar/conference.html#section",
+    "href": "seminar/conference.html#section",
+    "title": "学会情報",
     "section": "",
-    "text": "English中文日本語\n\n\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here.\nForeign students can also apply for the Japanese graduate programs. Please refer to the here for more details.\n\n\n法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：\n\n管理科学与工程\n计算机科学技术\n系统科学\n控制科学与工程\n\n项目详情请参考以下链接：\n\n日语项目：大学院入試要項\n英语项目：Institute of Integrated Science and Technology (IIST)\n\n在提交正式申请之前，请通过电子邮件联系 liu@hosei.ac.jp，并附上以下材料：\n\n个人简历\n成绩单\n英语能力证明（TOEFL, IELTS, TOEIC等）\n日语能力证明（如有）\n研究计划书\n毕业论文（如有）\n其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）\n\n\n\n\n修士課程入試\n大学院入試要項"
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n立命館大学"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "知能システム研究室が発足しました!",
+    "objectID": "seminar/conference.html#section-1",
+    "href": "seminar/conference.html#section-1",
+    "title": "学会情報",
+    "section": "2025",
+    "text": "2025\n\n\n\n学会\n開催日\n場所\n\n\n\n\nSCI’25\n5/25 - 5/27\n神戸\n\n\nAPMS 2025\n8/31 - 9/3\n鎌倉\n\n\n第68回 自動制御連合講演会\n11/1 - 11/2\n名古屋大学\n\n\nIEEM 2025\n12/7 - 12/10\nAustralia"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂"
+  },
+  {
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 / Students",
+    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "Intelligent Systems Lab",
+    "section": "",
+    "text": "https://icons.getbootstrap.com"
+  },
+  {
+    "objectID": "posts/apms-2025/index.html",
+    "href": "posts/apms-2025/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。"
   },
   {
     "objectID": "contact.html",
@@ -77,45 +105,73 @@
     "text": "Google Map"
   },
   {
-    "objectID": "posts/apms-2025/index.html",
-    "href": "posts/apms-2025/index.html",
-    "title": "APMS 2025",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "知能システム研究室が発足しました!",
     "section": "",
-    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。"
+    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
   },
   {
-    "objectID": "note.html",
-    "href": "note.html",
-    "title": "Intelligent Systems Lab",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join us",
     "section": "",
-    "text": "https://icons.getbootstrap.com"
+    "text": "English中文日本語\n\n\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here.\nForeign students can also apply for the Japanese graduate programs. Please refer to the here for more details.\n\n\n法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：\n\n管理科学与工程\n计算机科学技术\n系统科学\n控制科学与工程\n\n项目详情请参考以下链接：\n\n日语项目：大学院入試要項\n英语项目：Institute of Integrated Science and Technology (IIST)\n\n在提交正式申请之前，请通过电子邮件联系 liu@hosei.ac.jp，并附上以下材料：\n\n个人简历\n成绩单\n英语能力证明（TOEFL, IELTS, TOEIC等）\n日语能力证明（如有）\n研究计划书\n毕业论文（如有）\n其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）\n在线面谈或研究室访问可能的时间\n\n跨专业申请的同学请注意，研究室的主要研究方向包括运筹学、机器学习和优化。完成毕业论文需要具备基本的数学和编程能力。 申请者应有意愿学习相关知识和技能。\n\n\n\n修士課程入試\n大学院入試要項"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "知能システム研究室",
     "section": "",
-    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 8, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\n Join Us"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "seminar/PBL.html",
+    "href": "seminar/PBL.html",
+    "title": "PBL",
     "section": "",
-    "text": "劉 子昂"
+    "text": "論文\nGitHubリポジトリ\n発表スライド\n\n\n\n\n参考文献は5件以上\n図表を適切に使用\n\n\n\n\n構成例\n.\n├── README.md\n├── requirements.txt\n├── .gitignore\n├── src/\n├── tests/\n├── data/\n\n\n\n\n15分程度\n\n\n\n\n\n優れた成果物は、国内外の学会で発表する機会を提供します。学会発表の経験は、開発職・エンジニア職・研究職・データサイエンティスト職などを目指す学生にとって非常に有益です。また、修士課程進学を考えている学生にとっても、研究の基礎を築く良い機会となります。\n\n履歴書に記載できる（受賞するとさらに良い）\n大手企業の研究所や大学院への進学に有利\n研究ネットワークの構築（大手企業の研究者や大学教授との交流）\nプレゼンテーション能力の向上\n\n\n\n\n\nテーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を利用可）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画の作成\nソースコードのバージョン管理（GitHubの利用）"
   },
   {
-    "objectID": "people.html#教員-faculty",
-    "href": "people.html#教員-faculty",
-    "title": "People",
+    "objectID": "seminar/PBL.html#成果物",
+    "href": "seminar/PBL.html#成果物",
+    "title": "PBL",
     "section": "",
-    "text": "劉 子昂"
+    "text": "論文\nGitHubリポジトリ\n発表スライド\n\n\n\n\n参考文献は5件以上\n図表を適切に使用\n\n\n\n\n構成例\n.\n├── README.md\n├── requirements.txt\n├── .gitignore\n├── src/\n├── tests/\n├── data/\n\n\n\n\n15分程度"
   },
   {
-    "objectID": "people.html#学生-students",
-    "href": "people.html#学生-students",
-    "title": "People",
-    "section": "学生 / Students",
-    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+    "objectID": "seminar/PBL.html#学会発表を目指す",
+    "href": "seminar/PBL.html#学会発表を目指す",
+    "title": "PBL",
+    "section": "",
+    "text": "優れた成果物は、国内外の学会で発表する機会を提供します。学会発表の経験は、開発職・エンジニア職・研究職・データサイエンティスト職などを目指す学生にとって非常に有益です。また、修士課程進学を考えている学生にとっても、研究の基礎を築く良い機会となります。\n\n履歴書に記載できる（受賞するとさらに良い）\n大手企業の研究所や大学院への進学に有利\n研究ネットワークの構築（大手企業の研究者や大学教授との交流）\nプレゼンテーション能力の向上"
+  },
+  {
+    "objectID": "seminar/PBL.html#pblの流れ",
+    "href": "seminar/PBL.html#pblの流れ",
+    "title": "PBL",
+    "section": "",
+    "text": "テーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を利用可）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画の作成\nソースコードのバージョン管理（GitHubの利用）"
+  },
+  {
+    "objectID": "seminar/seminar.html",
+    "href": "seminar/seminar.html",
+    "title": "ゼミ",
+    "section": "",
+    "text": "Scrapbox\nSlack\nGoogle Meet"
+  },
+  {
+    "objectID": "seminar/seminar.html#ツール",
+    "href": "seminar/seminar.html#ツール",
+    "title": "ゼミ",
+    "section": "",
+    "text": "Scrapbox\nSlack\nGoogle Meet"
+  },
+  {
+    "objectID": "seminar/seminar.html#テンプレート",
+    "href": "seminar/seminar.html#テンプレート",
+    "title": "ゼミ",
+    "section": "テンプレート",
+    "text": "テンプレート\n\n卒業論文\nレポート"
   }
 ]
