@@ -14,7 +14,7 @@ title-block-banner: true
 
 ### Typst
 
-作成中...
+- [レポート](https://typst.app/project/reJEYu0Bn5juantzDS928Y)
 
 ### Markdown
 
