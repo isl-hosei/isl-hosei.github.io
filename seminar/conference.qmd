@@ -7,7 +7,9 @@ title: "学会情報"
 |学会|開催日|原稿提出|場所|
 |---|---|---|---|
 |[WCCI 2026](https://attend.ieee.org/wcci-2026/)|6/21 - 6/26|1/31|Netherlands|
-|[ISFA 2026](https://isopt.is.ritsumei.ac.jp/isfa2026/) | 7/19 - 7/22 | 1/10|立命館大学|
+|[ISFA 2026](https://isopt.is.ritsumei.ac.jp/isfa2026/) | 7/19 - 7/22 | 1/10|岡山|
+|[SCI’26](https://sci26.iscie.or.jp) | 5/24 - 5/26 | ? |愛知|
+|[日本経営工学会2026年春季大会](https://www.jimanet.jp/activities/meeting-next) | 6/6 - 6/7 | ? |函館市民会館|
 
 ## 2025
 
