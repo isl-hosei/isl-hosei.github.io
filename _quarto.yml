@@ -40,7 +40,7 @@ website:
       [知能システム研究室](https://isl-hosei.github.io/)
 format:
   html:
-    theme: Superhero
+    theme: Flatly
     css: styles.css
 
 
