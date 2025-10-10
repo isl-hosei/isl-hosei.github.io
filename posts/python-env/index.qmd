@@ -1,0 +1,100 @@
+---
+title: "Python 環境構築"
+author: "劉子昂"
+date: "2025-10-10"
+categories: ["Python"]
+---
+
+## uv + python + VSCode
+
+### uv のインストール
+
+Mac 
+
+```bash
+brew install uv
+```
+
+Windows 
+
+```PowerShell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+インストール後、`uv` コマンドを実行して、以下のような表示がされれば成功です。
+
+```
+An extremely fast Python package manager.
+
+Usage: uv [OPTIONS] COMMAND [ARGS]...
+```
+
+### Python のインストール
+
+最新の Python をインストールするには、以下のコマンドを実行します。
+
+```bash
+uv install python
+```
+
+特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。
+
+```bash
+uv install python 3.12
+```
+
+:::{.callout-tip}
+最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。
+:::
+
+### VSCode のインストールと設定
+
+[VSCode の公式サイト](https://code.visualstudio.com/)にアクセスし、VSCode をダウンロードしてインストールします。
+
+#### VSCode の設定
+
+VSCode を起動し、「view」 > 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。
+
+#### Python ファイルの作成
+
+VSCode を起動し、以下の手順で python のファイルを作成します。
+
+1. 「File」 > 「New File」を選択します。
+2. ファイル名を `test.py` として保存します。
+3. `print("Hello, World!")` と入力します。
+4. ファイルを保存します。
+
+#### Python ファイルの実行
+
+1. 「Terminal」 > 「New Terminal」を選択します。
+2. ターミナルで以下のコマンドを実行します。
+3. `python test.py` と入力して実行します。
+4. `Hello, World!` と表示されれば成功です。
+
+### uv でスクリプトの実行
+
+ターミナルで以下のコマンドを実行すると、`test.py` を uv 経由で実行できます。
+
+```bash
+uv run test.py
+```
+
+以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3])
+print(a)
+```
+
+uv でこのスクリプトを実行するには，以下のコマンドを実行します。
+
+```bash
+uv run --with numpy test.py
+```
+
+### プロジェクト
+
+プロジェクトを作成するには，[こちら](https://docs.astral.sh/uv/guides/projects/)を参照してください。
+

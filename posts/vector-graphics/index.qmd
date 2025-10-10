@@ -1,13 +1,18 @@
 ---
 title: "図の作り方"
 author: "劉子昂"
-date: today
+date: "2025-10-10"
 categories: [論文の書き方]
 ---
 
+論文やプレゼンテーション資料に使う図の作り方を紹介します．
+
+
+ベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．
+
 ## draw.io
 
-draw.ioは無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．
+[draw.io](https://app.diagrams.net/) は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．
 
 LaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．
 
@@ -17,6 +22,15 @@ LaTeX文書に貼り付ける場合は，PDF形式でエクスポートするの
 
 draw.ioは，数式の挿入もサポートしています．詳細は[こちら](https://www.drawio.com/doc/faq/math-typesetting)を参照してください．
 
+## Excalidraw
+
+[Excalidraw](https://excalidraw.com/) は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．
+
 ## Python
 
-Matplotlib を利用して，.svg や
+Matplotlib を利用して，.svg や .pdf 形式で図を保存できます．
+
+```python
+plt.savefig("figure.svg")  # SVG形式で保存
+plt.savefig("figure.pdf")  # PDF形式で保存
+```
