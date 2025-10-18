@@ -14,10 +14,11 @@ website:
       - href: index.qmd
         text: Home
       - people.qmd
-      - contact.qmd
+      - research.qmd
       - href: news.qmd
         text: News
       - join.qmd
+      - contact.qmd
     right:
       - text: ゼミ
         menu:

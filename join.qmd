@@ -11,15 +11,33 @@ title-block-banner: true
   - [中文](#中文)
   - [日本語](#日本語) -->
 
+本研究室に興味のある方へ
 
-::: {.panel-tabset}
+## 学部3年生
 
-## English
+[法政大学 理工学部 経営システム工学科](https://ise-hp.ws.hosei.ac.jp/)の学部3年生は、研究室配属の対象となります。配属に関する詳細は、学科の案内をご覧ください。
+
+## 大学院生
+
+### 奨学金
+
+
+
+
+
+## IIST English Program
 
 [Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) provides English
 graduate programs for Master's and Doctoral degrees. Admissions guidelines can be found at the [here](https://iist.hosei.ac.jp/admission/).
 
 Foreign students can also apply for the Japanese graduate programs. Please refer to the [here](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/) for more details.
+
+
+::: {.panel-tabset}
+
+## English
+
+
 
 ## 中文     
 
