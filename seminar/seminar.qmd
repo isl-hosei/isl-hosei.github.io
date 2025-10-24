@@ -2,19 +2,19 @@
 title: "ゼミ"
 ---
 
-## ツール
+## 計算資源
+- [Colab](https://colab.research.google.com)
+  - GPU利用可能
+
+## 論文・レポート作成
+- [Overleaf](https://www.overleaf.com/)
+  - 年間ライセンス
+
+## コミュニケーション
 
 - [Scrapbox](https://scrapbox.io/)
 - [Slack](https://slack.com/intl/ja-jp/)
 - [Google Meet](https://meet.google.com/)
-
-## テンプレート
-
-- [卒業論文](https://www.overleaf.com/read/rjbfjjdzdjmk#45052e)
-- [レポート](https://www.overleaf.com/read/vxgywpbmcyxt#d3686a)
-
-
-
 
 <!-- ## オンライン教材
 
