@@ -2,8 +2,6 @@
   {
     "listing": "/news.html",
     "items": [
-      "/posts/python-env/index.html",
-      "/posts/vector-graphics/index.html",
       "/posts/apms-2025/index.html",
       "/posts/welcome/index.html"
     ]

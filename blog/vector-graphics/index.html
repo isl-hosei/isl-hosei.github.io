@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="劉子昂">
+<meta name="dcterms.date" content="2025-10-10">
 
-<title>pbl – Intelligent Systems Lab</title>
+<title>図の作り方 – Intelligent Systems Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +22,63 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +108,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Intelligent Systems Lab">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="図の作り方 – Intelligent Systems Lab">
+<meta property="og:description" content="Intelligent Systems Lab at Hosei University">
 <meta property="og:site_name" content="Intelligent Systems Lab">
 </head>
 
@@ -83,11 +121,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo.ico" alt="" class="navbar-logo light-content">
-    <img src="../images/logo.ico" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo.ico" alt="" class="navbar-logo light-content">
+    <img src="../../images/logo.ico" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Intelligent Systems Lab</span>
     </a>
   </div>
@@ -98,27 +136,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../join.html"> 
+    <a class="nav-link" href="../../join.html"> 
 <span class="menu-text">Join us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -129,11 +167,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-">    
         <li>
-    <a class="dropdown-item" href="../seminar/download.html">
+    <a class="dropdown-item" href="../../seminar/download.html">
  <span class="dropdown-text">ダウンロード</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../seminar/conference.html">
+    <a class="dropdown-item" href="../../seminar/conference.html">
  <span class="dropdown-text">学会日程</span></a>
   </li>  
     </ul>
@@ -156,106 +194,66 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">図の作り方</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">論文の書き方</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="pbl" class="level1">
-<h1>PBL</h1>
-<section id="成果物" class="level2">
-<h2 class="anchored" data-anchor-id="成果物">成果物</h2>
-<ul>
-<li>論文</li>
-<li>GitHubリポジトリ</li>
-<li>発表スライド</li>
-</ul>
-<section id="論文" class="level3">
-<h3 class="anchored" data-anchor-id="論文">論文</h3>
-<ul>
-<li>参考文献は5件以上</li>
-<li>図表を適切に使用</li>
-</ul>
-</section>
-<section id="githubリポジトリ" class="level3">
-<h3 class="anchored" data-anchor-id="githubリポジトリ">GitHubリポジトリ</h3>
-<p>構成例</p>
-<pre><code>.
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── src/
-├── tests/
-├── data/</code></pre>
-</section>
-<section id="発表スライド" class="level3">
-<h3 class="anchored" data-anchor-id="発表スライド">発表スライド</h3>
-<ul>
-<li>15分程度</li>
-</ul>
-</section>
-</section>
-<section id="学会発表を目指す" class="level2">
-<h2 class="anchored" data-anchor-id="学会発表を目指す">学会発表を目指す</h2>
-<p>優れた成果物は、国内外の学会で発表する機会を提供します。</p>
-<p>学会発表の経験は、修士課程進学を考えている学生にはもちろん、エンジニア・データサイエンティスト・開発職・研究職などを目指す学生にとっても非常に有益です。</p>
-<p>具体には、以下のようなメリットがあります。</p>
-<ul>
-<li>履歴書に記載できる</li>
-<li>受賞する可能性もある</li>
-<li>就職や大学院への進学に有利</li>
-<li>研究ネットワークの構築（大手企業の研究者や大学教授との交流）</li>
-<li>プレゼンテーション能力の向上</li>
-</ul>
-</section>
-<section id="pblの流れ" class="level2">
-<h2 class="anchored" data-anchor-id="pblの流れ">PBLの流れ</h2>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>劉子昂 </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 10, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>論文やプレゼンテーション資料に使う図の作り方を紹介します．</p>
+<p>ベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．</p>
+<section id="draw.io" class="level2">
+<h2 class="anchored" data-anchor-id="draw.io">draw.io</h2>
+<p><a href="https://app.diagrams.net/">draw.io</a> は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．</p>
+<p>LaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．</p>
 <ol type="1">
-<li>テーマ選定</li>
-<li>書籍や論文に載せている手法を理解し、実装する</li>
-<li>適用・改良</li>
-<li>成果物の作成</li>
-<li>発表</li>
+<li>作成した図を選択</li>
+<li>メニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択</li>
+<li>「切り落とす」をチェックしてエクスポート</li>
 </ol>
-<p>適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。</p>
-<ul>
-<li>数理モデルを変更し、より現実的な問題に対応
-<ul>
-<li>制約条件の追加</li>
-<li>目的関数の変更など</li>
-</ul></li>
-<li>既存の他の手法との比較
-<ul>
-<li>進化的アルゴリズム vs.&nbsp;数理最適化</li>
-</ul></li>
-<li>新しいアルゴリズムの導入による性能向上
-<ul>
-<li>問題の特性に応じたアルゴリズムの改良</li>
-<li>機械学習手法の導入</li>
-</ul></li>
-</ul>
-<p>ポイント</p>
-<ul>
-<li>グループワーク
-<ul>
-<li>役割分担</li>
-<li>PBL時間外でのミーティング（研究室を活用）</li>
-</ul></li>
-<li>自主的な学習
-<ul>
-<li>書籍や論文を読む力</li>
-<li>ググる力</li>
-<li>ChatGPTなどの生成AIの活用</li>
-</ul></li>
-<li>進捗管理
-<ul>
-<li>研究計画、進歩情報の自己管理</li>
-<li>ソースコードのバージョン管理（GitHubの利用）</li>
-</ul></li>
-</ul>
-
-
+<p>draw.ioは，数式の挿入もサポートしています．詳細は<a href="https://www.drawio.com/doc/faq/math-typesetting">こちら</a>を参照してください．</p>
 </section>
+<section id="excalidraw" class="level2">
+<h2 class="anchored" data-anchor-id="excalidraw">Excalidraw</h2>
+<p><a href="https://excalidraw.com/">Excalidraw</a> は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．</p>
+</section>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<p>Matplotlib を利用して，.svg や .pdf 形式で図を保存できます．</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">"figure.svg"</span>)  <span class="co"># SVG形式で保存</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">"figure.pdf"</span>)  <span class="co"># PDF形式で保存</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+
+
 </section>
 
 </main> <!-- /main -->
