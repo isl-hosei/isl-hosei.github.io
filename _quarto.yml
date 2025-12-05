@@ -12,13 +12,20 @@ website:
     logo: images/logo.ico
     left:
       - href: index.qmd
-        text: "<span style='font-size:16px;'>Home</span><br><span style='font-size:12px;'>ホーム</span>"
-      - people.qmd
-      - research.qmd
+        text: "<span style='font-size:16px;'>Home</span><br><span style='font-size:12px; opacity:0.8;'>ホーム</span>"
+      
+      - href: people.qmd
+        text: "<span style='font-size:16px;'>People</span><br><span style='font-size:12px; opacity:0.8;'>メンバー</span>"
+
+      - href: research.qmd
+        text: "<span style='font-size:16px;'>Research</span><br><span style='font-size:12px; opacity:0.8;'>研究内容</span>"
+
       - href: news.qmd
-        text: News
-      - join.qmd
-      - contact.qmd
+        text: "<span style='font-size:16px;'>News</span><br><span style='font-size:12px; opacity:0.8;'>ニュース</span>"
+      - href: join.qmd
+        text: "<span style='font-size:16px;'>Join Us</span><br><span style='font-size:12px; opacity:0.8;'>募集</span>"
+      - href: contact.qmd
+        text: "<span style='font-size:16px;'>Contact</span><br><span style='font-size:12px; opacity:0.8;'>アクセス</span>"
     right:
       - text: ゼミ
         menu:
