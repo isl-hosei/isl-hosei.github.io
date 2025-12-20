@@ -1,0 +1,18 @@
+# B4
+
+```{mermaid}
+timeline
+    title History of Social Media Platform
+    4月: Platform A Launched
+    5月: Platform B Launched
+    6月: Platform C Launched
+    7月: Platform D Launched
+    8月: Platform E Launched
+    9月: Platform F Launched
+    10月: Platform G Launched
+    11月: Platform H Launched
+    12月: Platform I Launched
+    1月: Platform J Launched
+    2月: Platform K Launched
+    3月: Platform L Launched
+```
