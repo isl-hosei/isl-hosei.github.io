@@ -16,3 +16,69 @@ timeline
     2月: Platform K Launched
     3月: Platform L Launched
 ```
+
+```{mermaid}
+gantt
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    section Section
+        A task          :a1, 2014-01-01, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :2014-01-12, 12d
+        another task    :24d
+```
+
+```{mermaid}
+gantt
+    dateFormat HH:mm
+    axisFormat %H:%M
+    section Mondy
+        class-1: 09:00, 2h
+    section Tuesday
+        class-2: 10:00, 1h30m
+    section Wednesday
+        class-3: 11:00, 1h45m 
+    section Thursday
+        class-4: 12:00, 2h15m
+    section Friday
+        class-5: 13:00, 1h30m
+```
+
+法政大学
+計算機実習A（1年生/春学期/水曜1限/W203）
+リレーショナル・データベース（3年生/春学期/水曜2限/遠隔視聴覚室）
+社会システム（1年生/秋学期/金曜3限/W305）
+オペレーションズ・リサーチB（2年生/秋学期/水曜2限/W202）
+経営工学ゼミナール（4年生/年間/木曜3限）
+PBL（3年生/秋学期/木曜4限）
+時間割（小金井キャンパス）
+時限	時間帯
+1時限目	9:00～10:40
+2時限目	10:50～12:30
+3時限目	13:20～15:00
+4時限目	15:10～16:50
+5時限目	17:00～18:40
+
+```{mermaid}
+gantt
+    dateFormat HH:mm
+    axisFormat %H:%M
+
+    section Section
+        CS-A          : a1, 09:00, 100m
+        RDB          : after a1, 100m
+```
+
+```{mermaid}
+gantt
+    title A Gantt Diagram
+    dateFormat HH:mm
+    axisFormat %H:%M
+    section Section
+        A task          :a1, 09:00, 100m
+        Another task    :after a1, 100m
+    section Another
+        Task in Another :10:50, 100m
+        another task    :24m
+```
