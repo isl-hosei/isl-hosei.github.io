@@ -1,0 +1,23 @@
+---
+title: "学生実験室"
+---
+
+## 共用
+
+- 冷蔵庫（2025年）
+- 用テレビ（2025年）
+- 電子黒板（2025年）
+- 電子レンジ
+
+## コンピューティング
+
+- NVIDIA DGX Spark（2025年）
+- GeForce RTX 3050
+
+## ソフトウェア
+
+- [Overleaf](https://www.overleaf.com/): Online LaTeX editor
+- [Turnitin](https://www.turnitin.com/): Plagiarism checking tool
+  - iThenticate
+  - Feedback Studio
+- 
