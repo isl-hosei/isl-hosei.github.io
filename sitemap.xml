@@ -1,67 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://isl-hosei.github.io/seminar/download.html</loc>
-    <lastmod>2025-10-23T02:55:43.586Z</lastmod>
+    <loc>https://isl-hosei.github.io/seminar/b4.html</loc>
+    <lastmod>2025-12-20T02:56:51.610Z</lastmod>
   </url>
   <url>
-    <loc>https://isl-hosei.github.io/seminar/conference.html</loc>
-    <lastmod>2025-09-30T08:12:46.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/PBL.html</loc>
-    <lastmod>2025-09-17T11:45:44.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/blog/vector-graphics/index.html</loc>
-    <lastmod>2025-10-10T10:54:57.386Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/index.html</loc>
-    <lastmod>2025-10-18T02:55:08.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/join.html</loc>
-    <lastmod>2025-11-15T09:01:26.947Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/posts/welcome/index.html</loc>
-    <lastmod>2025-09-05T01:34:39.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/contact.html</loc>
-    <lastmod>2025-09-30T08:20:56.273Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/research.html</loc>
-    <lastmod>2025-10-18T03:01:31.542Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/posts/apms-2025/index.html</loc>
-    <lastmod>2025-10-10T10:23:33.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/note.html</loc>
-    <lastmod>2025-09-05T09:54:25.604Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/news.html</loc>
-    <lastmod>2025-09-05T09:55:42.703Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/blog/python-env/index.html</loc>
-    <lastmod>2025-10-10T11:35:21.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/people.html</loc>
-    <lastmod>2025-09-08T08:24:24.071Z</lastmod>
+    <loc>https://isl-hosei.github.io/seminar/seminar.html</loc>
+    <lastmod>2025-10-23T02:56:20.059Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/seminar/lab-info.html</loc>
     <lastmod>2025-10-17T11:37:28.140Z</lastmod>
   </url>
   <url>
-    <loc>https://isl-hosei.github.io/seminar/seminar.html</loc>
-    <lastmod>2025-10-23T02:56:20.059Z</lastmod>
+    <loc>https://isl-hosei.github.io/people.html</loc>
+    <lastmod>2025-09-08T08:24:24.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/blog/python-env/index.html</loc>
+    <lastmod>2025-10-10T11:35:21.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/news.html</loc>
+    <lastmod>2025-09-05T09:55:42.703Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/note.html</loc>
+    <lastmod>2025-09-05T09:54:25.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/posts/apms-2025/index.html</loc>
+    <lastmod>2025-10-10T10:23:33.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/research.html</loc>
+    <lastmod>2025-10-18T03:01:31.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/contact.html</loc>
+    <lastmod>2025-09-30T08:20:56.273Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/posts/welcome/index.html</loc>
+    <lastmod>2025-09-05T01:34:39.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/join.html</loc>
+    <lastmod>2025-12-06T09:34:06.703Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/index.html</loc>
+    <lastmod>2025-12-23T00:55:02.956Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/blog/vector-graphics/index.html</loc>
+    <lastmod>2025-10-10T10:54:57.386Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/seminar/PBL.html</loc>
+    <lastmod>2025-09-17T11:45:44.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/seminar/conference.html</loc>
+    <lastmod>2025-09-30T08:12:46.741Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isl-hosei.github.io/seminar/download.html</loc>
+    <lastmod>2025-10-23T02:55:43.586Z</lastmod>
   </url>
 </urlset>
