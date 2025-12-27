@@ -17,7 +17,10 @@ title: "学生実験室"
 ## ソフトウェア
 
 - [Overleaf](https://www.overleaf.com/): Online LaTeX editor
+
+## 法政大学
 - [Turnitin](https://www.turnitin.com/): Plagiarism checking tool
   - iThenticate
   - Feedback Studio
-- 
+- [Kinoden 電子ブック](https://kinoden.kinokuniya.co.jp/hosei_u/)
+- [ProQuest Ebook Central](https://opac.lib.hosei.ac.jp/opac/myopac/gateway/list/search/kywd=ProQuest%20Ebook%20Central/)
