@@ -29,8 +29,8 @@ website:
     right:
       - text: ゼミ
         menu:
-          - text: ダウンロード
-            href: seminar/download.qmd
+          - text: リンク
+            href: seminar/links.qmd
           - text: 学会日程
             href: seminar/conference.qmd
           - text: 卒論の書き方と留意事項

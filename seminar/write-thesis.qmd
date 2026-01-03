@@ -2,6 +2,15 @@
 title: "卒論の書き方と留意事項"
 ---
 
+## 文献調査
+
+- [CiNii](https://cir.nii.ac.jp/)
+- [Google Scholar](https://scholar.google.com/)
+
+### 学位論文
+
+- [京都大学 学位論文](http://hdl.handle.net/2433/48884)
+- [大阪大学 博士論文検索](https://ir.library.osaka-u.ac.jp/repo/ouka/thesis/)
 
 ## 本文
 1. 句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．
