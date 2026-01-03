@@ -1,101 +1,171 @@
 [
   {
-    "objectID": "seminar/b4.html",
-    "href": "seminar/b4.html",
-    "title": "B4",
+    "objectID": "seminar/write-thesis.html",
+    "href": "seminar/write-thesis.html",
+    "title": "卒論の書き方と留意事項",
     "section": "",
-    "text": "B4\n\n\n\n\n\ntimeline\n    title History of Social Media Platform\n    4月: Platform A Launched\n    5月: Platform B Launched\n    6月: Platform C Launched\n    7月: Platform D Launched\n    8月: Platform E Launched\n    9月: Platform F Launched\n    10月: Platform G Launched\n    11月: Platform H Launched\n    12月: Platform I Launched\n    1月: Platform J Launched\n    2月: Platform K Launched\n    3月: Platform L Launched\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Mondy\n        class-1: 09:00, 2h\n    section Tuesday\n        class-2: 10:00, 1h30m\n    section Wednesday\n        class-3: 11:00, 1h45m \n    section Thursday\n        class-4: 12:00, 2h15m\n    section Friday\n        class-5: 13:00, 1h30m\n\n\n\n\n\n\n法政大学 計算機実習A（1年生/春学期/水曜1限/W203） リレーショナル・データベース（3年生/春学期/水曜2限/遠隔視聴覚室） 社会システム（1年生/秋学期/金曜3限/W305） オペレーションズ・リサーチB（2年生/秋学期/水曜2限/W202） 経営工学ゼミナール（4年生/年間/木曜3限） PBL（3年生/秋学期/木曜4限） 時間割（小金井キャンパス） 時限 時間帯 1時限目 9:00～10:40 2時限目 10:50～12:30 3時限目 13:20～15:00 4時限目 15:10～16:50 5時限目 17:00～18:40\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n\n    section Section\n        CS-A          : a1, 09:00, 100m\n        RDB          : after a1, 100m\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Section\n        A task          :a1, 09:00, 100m\n        Another task    :after a1, 100m\n    section Another\n        Task in Another :10:50, 100m\n        another task    :24m"
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使 う．例えば，\\(y = ax + b\\) のように記述する．"
   },
   {
-    "objectID": "seminar/seminar.html",
-    "href": "seminar/seminar.html",
-    "title": "ゼミ",
+    "objectID": "seminar/write-thesis.html#本文",
+    "href": "seminar/write-thesis.html#本文",
+    "title": "卒論の書き方と留意事項",
     "section": "",
-    "text": "Colab\n\nGPU利用可能"
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使 う．例えば，\\(y = ax + b\\) のように記述する．"
   },
   {
-    "objectID": "seminar/seminar.html#計算資源",
-    "href": "seminar/seminar.html#計算資源",
-    "title": "ゼミ",
+    "objectID": "seminar/write-thesis.html#引用転載",
+    "href": "seminar/write-thesis.html#引用転載",
+    "title": "卒論の書き方と留意事項",
+    "section": "引用・転載",
+    "text": "引用・転載\n\n図表等を転載する際は，当該論文の著作権者の掲載許可を得るとともに，出典を明記する．"
+  },
+  {
+    "objectID": "seminar/write-thesis.html#図表",
+    "href": "seminar/write-thesis.html#図表",
+    "title": "卒論の書き方と留意事項",
+    "section": "図表",
+    "text": "図表\n\n図表中の文字は，本文と同じ程度の大きさにする．\n卒論概要は印刷時はモノクロになるため，図に おいて色での判別は行わないこと．"
+  },
+  {
+    "objectID": "seminar/write-thesis.html#用語",
+    "href": "seminar/write-thesis.html#用語",
+    "title": "卒論の書き方と留意事項",
+    "section": "用語",
+    "text": "用語\n\n用語を統一する．例えば，「深層学習」と「ディープラーニング」は同じ意味であるため，どちらか一方に統一する．\n標準的に用いられている用語を使用する．例えば，「ニューラルネットワーク」は「神経回路網」とせず，「ニューラルネットワーク」を使用する．"
+  },
+  {
+    "objectID": "seminar/write-thesis.html#略語",
+    "href": "seminar/write-thesis.html#略語",
+    "title": "卒論の書き方と留意事項",
+    "section": "略語",
+    "text": "略語\n\n略語を用いる場合は，初出時に正式名称を明記する．\n本文中に一度しか記載のない名称は，略語・略称表記は不要．"
+  },
+  {
+    "objectID": "seminar/write-thesis.html#overleaf-の注意点",
+    "href": "seminar/write-thesis.html#overleaf-の注意点",
+    "title": "卒論の書き方と留意事項",
+    "section": "Overleaf の注意点",
+    "text": "Overleaf の注意点\n\n段落の改行は，\\\\ ではなく空行を入れることで行う．\nエラーが発生した場合は，エラーメッセージをよく読み，デバッグする．\nウェブサイトを引用する場合は，@misc を回避策として使用する．詳細はこちらを参照のこと．"
+  },
+  {
+    "objectID": "seminar/write-thesis.html#類似性レポート",
+    "href": "seminar/write-thesis.html#類似性レポート",
+    "title": "卒論の書き方と留意事項",
+    "section": "類似性レポート",
+    "text": "類似性レポート\n学位論文に対してTurnitinによる類似性チェックを実施します．Turnitinの類似性レポートの読み方や，類似箇所の修正方法については，以下のサイトを参考にしてください．\nTurnitin類似性レポートの読み方と修正方法"
+  },
+  {
+    "objectID": "seminar/write-thesis.html#スケジュール",
+    "href": "seminar/write-thesis.html#スケジュール",
+    "title": "卒論の書き方と留意事項",
+    "section": "スケジュール",
+    "text": "スケジュール\n\n論文執筆開始: 11月1日（1日1ページ程度を目安に執筆を進めること）\n第一案提出: 12月1日\n第二案提出: 12月末まで\n最終チェック: 1月上旬\n論文・概要提出: 1月中旬"
+  },
+  {
+    "objectID": "seminar/write-thesis.html#論文の構成",
+    "href": "seminar/write-thesis.html#論文の構成",
+    "title": "卒論の書き方と留意事項",
+    "section": "論文の構成",
+    "text": "論文の構成"
+  },
+  {
+    "objectID": "seminar/download.html",
+    "href": "seminar/download.html",
+    "title": "ダウンロード",
     "section": "",
-    "text": "Colab\n\nGPU利用可能"
+    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
   },
   {
-    "objectID": "seminar/seminar.html#論文レポート作成",
-    "href": "seminar/seminar.html#論文レポート作成",
-    "title": "ゼミ",
-    "section": "論文・レポート作成",
-    "text": "論文・レポート作成\n\nOverleaf\n\n年間ライセンス"
-  },
-  {
-    "objectID": "seminar/seminar.html#コミュニケーション",
-    "href": "seminar/seminar.html#コミュニケーション",
-    "title": "ゼミ",
-    "section": "コミュニケーション",
-    "text": "コミュニケーション\n\nScrapbox\nSlack\nGoogle Meet"
-  },
-  {
-    "objectID": "seminar/lab-info.html",
-    "href": "seminar/lab-info.html",
-    "title": "研究室",
+    "objectID": "seminar/download.html#テンプレート",
+    "href": "seminar/download.html#テンプレート",
+    "title": "ダウンロード",
     "section": "",
-    "text": "法政大学 理工学部 経営システム工学科\n〒184-8584 東京都小金井市梶野町3-7-2\nDepartment of Industrial and Systems Engineering, \nFaculty of Science and Engineering, Hosei University, \n3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan \nshort version 1:\nHosei University, Tokyo 184-8584, Japan"
+    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
   },
   {
-    "objectID": "seminar/lab-info.html#住所",
-    "href": "seminar/lab-info.html#住所",
-    "title": "研究室",
+    "objectID": "seminar/conference.html",
+    "href": "seminar/conference.html",
+    "title": "学会情報",
     "section": "",
-    "text": "法政大学 理工学部 経営システム工学科\n〒184-8584 東京都小金井市梶野町3-7-2\nDepartment of Industrial and Systems Engineering, \nFaculty of Science and Engineering, Hosei University, \n3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan \nshort version 1:\nHosei University, Tokyo 184-8584, Japan"
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n岡山\n\n\nSCI’26\n5/24 - 5/26\n?\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n?\n函館市民会館"
   },
   {
-    "objectID": "seminar/lab-info.html#所属",
-    "href": "seminar/lab-info.html#所属",
-    "title": "研究室",
-    "section": "所属",
-    "text": "所属\n\n学部\n\n法政大学 理工学部 経営システム工学科\nDepartment of Industrial and Systems Engineering, Faculty of Science and Engineering, Hosei University\n\n\n\n修士課程・博士後期課程\n\n法政大学理工学研究科システム理工学専攻（経営システム系）\nGraduate School of Science and Engineering, Hosei University"
-  },
-  {
-    "objectID": "seminar/lab-info.html#リンク",
-    "href": "seminar/lab-info.html#リンク",
-    "title": "研究室",
-    "section": "リンク",
-    "text": "リンク\n\n研究室GitHub\n研究室Webサイト"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "seminar/conference.html#section",
+    "href": "seminar/conference.html#section",
+    "title": "学会情報",
     "section": "",
-    "text": "劉 子昂"
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n岡山\n\n\nSCI’26\n5/24 - 5/26\n?\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n?\n函館市民会館"
   },
   {
-    "objectID": "people.html#教員-faculty",
-    "href": "people.html#教員-faculty",
-    "title": "People",
+    "objectID": "seminar/conference.html#section-1",
+    "href": "seminar/conference.html#section-1",
+    "title": "学会情報",
+    "section": "2025",
+    "text": "2025\n\n\n\n学会\n開催日\n場所\n\n\n\n\nSCI’25\n5/25 - 5/27\n神戸\n\n\nAPMS 2025\n8/31 - 9/3\n鎌倉\n\n\n第68回 自動制御連合講演会\n11/1 - 11/2\n名古屋大学\n\n\nIEEM 2025\n12/7 - 12/10\nAustralia"
+  },
+  {
+    "objectID": "seminar/PBL.html",
+    "href": "seminar/PBL.html",
+    "title": "PBL",
     "section": "",
-    "text": "劉 子昂"
+    "text": "論文\nGitHubリポジトリ\n発表スライド\n\n\n\n\n参考文献は5件以上\n図表を適切に使用\n\n\n\n\n構成例\n.\n├── README.md\n├── requirements.txt\n├── .gitignore\n├── src/\n├── tests/\n├── data/\n\n\n\n\n15分程度\n\n\n\n\n\n優れた成果物は、国内外の学会で発表する機会を提供します。\n学会発表の経験は、修士課程進学を考えている学生にはもちろん、エンジニア・データサイエンティスト・開発職・研究職などを目指す学生にとっても非常に有益です。\n具体には、以下のようなメリットがあります。\n\n履歴書に記載できる\n受賞する可能性もある\n就職や大学院への進学に有利\n研究ネットワークの構築（大手企業の研究者や大学教授との交流）\nプレゼンテーション能力の向上\n\n\n\n\n\nテーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を活用）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画、進歩情報の自己管理\nソースコードのバージョン管理（GitHubの利用）"
   },
   {
-    "objectID": "people.html#学生-students",
-    "href": "people.html#学生-students",
-    "title": "People",
-    "section": "学生 / Students",
-    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
-  },
-  {
-    "objectID": "blog/python-env/index.html",
-    "href": "blog/python-env/index.html",
-    "title": "Python 環境構築",
+    "objectID": "seminar/PBL.html#成果物",
+    "href": "seminar/PBL.html#成果物",
+    "title": "PBL",
     "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "text": "論文\nGitHubリポジトリ\n発表スライド\n\n\n\n\n参考文献は5件以上\n図表を適切に使用\n\n\n\n\n構成例\n.\n├── README.md\n├── requirements.txt\n├── .gitignore\n├── src/\n├── tests/\n├── data/\n\n\n\n\n15分程度"
   },
   {
-    "objectID": "blog/python-env/index.html#uv-python-vscode",
-    "href": "blog/python-env/index.html#uv-python-vscode",
-    "title": "Python 環境構築",
+    "objectID": "seminar/PBL.html#学会発表を目指す",
+    "href": "seminar/PBL.html#学会発表を目指す",
+    "title": "PBL",
     "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "text": "優れた成果物は、国内外の学会で発表する機会を提供します。\n学会発表の経験は、修士課程進学を考えている学生にはもちろん、エンジニア・データサイエンティスト・開発職・研究職などを目指す学生にとっても非常に有益です。\n具体には、以下のようなメリットがあります。\n\n履歴書に記載できる\n受賞する可能性もある\n就職や大学院への進学に有利\n研究ネットワークの構築（大手企業の研究者や大学教授との交流）\nプレゼンテーション能力の向上"
+  },
+  {
+    "objectID": "seminar/PBL.html#pblの流れ",
+    "href": "seminar/PBL.html#pblの流れ",
+    "title": "PBL",
+    "section": "",
+    "text": "テーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を活用）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画、進歩情報の自己管理\nソースコードのバージョン管理（GitHubの利用）"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html",
+    "href": "blog/vector-graphics/index.html",
+    "title": "図の作り方",
+    "section": "",
+    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#draw.io",
+    "href": "blog/vector-graphics/index.html#draw.io",
+    "title": "図の作り方",
+    "section": "draw.io",
+    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#excalidraw",
+    "href": "blog/vector-graphics/index.html#excalidraw",
+    "title": "図の作り方",
+    "section": "Excalidraw",
+    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#python",
+    "href": "blog/vector-graphics/index.html#python",
+    "title": "図の作り方",
+    "section": "Python",
+    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "知能システム研究室",
+    "section": "",
+    "text": "Join Us"
   },
   {
     "objectID": "news.html",
@@ -175,101 +245,136 @@
     "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "知能システム研究室",
+    "objectID": "lab.html",
+    "href": "lab.html",
+    "title": "学生実験室",
     "section": "",
-    "text": "Join Us"
+    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
   },
   {
-    "objectID": "blog/vector-graphics/index.html",
-    "href": "blog/vector-graphics/index.html",
-    "title": "図の作り方",
+    "objectID": "lab.html#共用",
+    "href": "lab.html#共用",
+    "title": "学生実験室",
     "section": "",
-    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
   },
   {
-    "objectID": "blog/vector-graphics/index.html#draw.io",
-    "href": "blog/vector-graphics/index.html#draw.io",
-    "title": "図の作り方",
-    "section": "draw.io",
-    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
+    "objectID": "lab.html#コンピューティング",
+    "href": "lab.html#コンピューティング",
+    "title": "学生実験室",
+    "section": "コンピューティング",
+    "text": "コンピューティング\n\nNVIDIA DGX Spark（2025年）\nGeForce RTX 3050"
   },
   {
-    "objectID": "blog/vector-graphics/index.html#excalidraw",
-    "href": "blog/vector-graphics/index.html#excalidraw",
-    "title": "図の作り方",
-    "section": "Excalidraw",
-    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
+    "objectID": "lab.html#ソフトウェア",
+    "href": "lab.html#ソフトウェア",
+    "title": "学生実験室",
+    "section": "ソフトウェア",
+    "text": "ソフトウェア\n\nOverleaf: Online LaTeX editor"
   },
   {
-    "objectID": "blog/vector-graphics/index.html#python",
-    "href": "blog/vector-graphics/index.html#python",
-    "title": "図の作り方",
-    "section": "Python",
-    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
+    "objectID": "lab.html#法政大学",
+    "href": "lab.html#法政大学",
+    "title": "学生実験室",
+    "section": "法政大学",
+    "text": "法政大学\n\nTurnitin: Plagiarism checking tool\n\niThenticate\nFeedback Studio\n\nKinoden 電子ブック\nProQuest Ebook Central"
   },
   {
-    "objectID": "seminar/PBL.html",
-    "href": "seminar/PBL.html",
-    "title": "PBL",
+    "objectID": "blog/python-env/index.html",
+    "href": "blog/python-env/index.html",
+    "title": "Python 環境構築",
     "section": "",
-    "text": "論文\nGitHubリポジトリ\n発表スライド\n\n\n\n\n参考文献は5件以上\n図表を適切に使用\n\n\n\n\n構成例\n.\n├── README.md\n├── requirements.txt\n├── .gitignore\n├── src/\n├── tests/\n├── data/\n\n\n\n\n15分程度\n\n\n\n\n\n優れた成果物は、国内外の学会で発表する機会を提供します。\n学会発表の経験は、修士課程進学を考えている学生にはもちろん、エンジニア・データサイエンティスト・開発職・研究職などを目指す学生にとっても非常に有益です。\n具体には、以下のようなメリットがあります。\n\n履歴書に記載できる\n受賞する可能性もある\n就職や大学院への進学に有利\n研究ネットワークの構築（大手企業の研究者や大学教授との交流）\nプレゼンテーション能力の向上\n\n\n\n\n\nテーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を活用）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画、進歩情報の自己管理\nソースコードのバージョン管理（GitHubの利用）"
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
   },
   {
-    "objectID": "seminar/PBL.html#成果物",
-    "href": "seminar/PBL.html#成果物",
-    "title": "PBL",
+    "objectID": "blog/python-env/index.html#uv-python-vscode",
+    "href": "blog/python-env/index.html#uv-python-vscode",
+    "title": "Python 環境構築",
     "section": "",
-    "text": "論文\nGitHubリポジトリ\n発表スライド\n\n\n\n\n参考文献は5件以上\n図表を適切に使用\n\n\n\n\n構成例\n.\n├── README.md\n├── requirements.txt\n├── .gitignore\n├── src/\n├── tests/\n├── data/\n\n\n\n\n15分程度"
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
   },
   {
-    "objectID": "seminar/PBL.html#学会発表を目指す",
-    "href": "seminar/PBL.html#学会発表を目指す",
-    "title": "PBL",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "優れた成果物は、国内外の学会で発表する機会を提供します。\n学会発表の経験は、修士課程進学を考えている学生にはもちろん、エンジニア・データサイエンティスト・開発職・研究職などを目指す学生にとっても非常に有益です。\n具体には、以下のようなメリットがあります。\n\n履歴書に記載できる\n受賞する可能性もある\n就職や大学院への進学に有利\n研究ネットワークの構築（大手企業の研究者や大学教授との交流）\nプレゼンテーション能力の向上"
+    "text": "劉 子昂"
   },
   {
-    "objectID": "seminar/PBL.html#pblの流れ",
-    "href": "seminar/PBL.html#pblの流れ",
-    "title": "PBL",
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
     "section": "",
-    "text": "テーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を活用）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画、進歩情報の自己管理\nソースコードのバージョン管理（GitHubの利用）"
+    "text": "劉 子昂"
   },
   {
-    "objectID": "seminar/conference.html",
-    "href": "seminar/conference.html",
-    "title": "学会情報",
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 / Students",
+    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+  },
+  {
+    "objectID": "seminar/lab-info.html",
+    "href": "seminar/lab-info.html",
+    "title": "研究室",
     "section": "",
-    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n岡山\n\n\nSCI’26\n5/24 - 5/26\n?\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n?\n函館市民会館"
+    "text": "法政大学 理工学部 経営システム工学科\n〒184-8584 東京都小金井市梶野町3-7-2\nDepartment of Industrial and Systems Engineering, \nFaculty of Science and Engineering, Hosei University, \n3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan \nshort version 1:\nHosei University, Tokyo 184-8584, Japan"
   },
   {
-    "objectID": "seminar/conference.html#section",
-    "href": "seminar/conference.html#section",
-    "title": "学会情報",
+    "objectID": "seminar/lab-info.html#住所",
+    "href": "seminar/lab-info.html#住所",
+    "title": "研究室",
     "section": "",
-    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n岡山\n\n\nSCI’26\n5/24 - 5/26\n?\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n?\n函館市民会館"
+    "text": "法政大学 理工学部 経営システム工学科\n〒184-8584 東京都小金井市梶野町3-7-2\nDepartment of Industrial and Systems Engineering, \nFaculty of Science and Engineering, Hosei University, \n3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan \nshort version 1:\nHosei University, Tokyo 184-8584, Japan"
   },
   {
-    "objectID": "seminar/conference.html#section-1",
-    "href": "seminar/conference.html#section-1",
-    "title": "学会情報",
-    "section": "2025",
-    "text": "2025\n\n\n\n学会\n開催日\n場所\n\n\n\n\nSCI’25\n5/25 - 5/27\n神戸\n\n\nAPMS 2025\n8/31 - 9/3\n鎌倉\n\n\n第68回 自動制御連合講演会\n11/1 - 11/2\n名古屋大学\n\n\nIEEM 2025\n12/7 - 12/10\nAustralia"
+    "objectID": "seminar/lab-info.html#所属",
+    "href": "seminar/lab-info.html#所属",
+    "title": "研究室",
+    "section": "所属",
+    "text": "所属\n\n学部\n\n法政大学 理工学部 経営システム工学科\nDepartment of Industrial and Systems Engineering, Faculty of Science and Engineering, Hosei University\n\n\n\n修士課程・博士後期課程\n\n法政大学理工学研究科システム理工学専攻（経営システム系）\nGraduate School of Science and Engineering, Hosei University"
   },
   {
-    "objectID": "seminar/download.html",
-    "href": "seminar/download.html",
-    "title": "ダウンロード",
+    "objectID": "seminar/lab-info.html#リンク",
+    "href": "seminar/lab-info.html#リンク",
+    "title": "研究室",
+    "section": "リンク",
+    "text": "リンク\n\n研究室GitHub\n研究室Webサイト"
+  },
+  {
+    "objectID": "seminar/seminar.html",
+    "href": "seminar/seminar.html",
+    "title": "ゼミ",
     "section": "",
-    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
+    "text": "Colab\n\nGPU利用可能"
   },
   {
-    "objectID": "seminar/download.html#テンプレート",
-    "href": "seminar/download.html#テンプレート",
-    "title": "ダウンロード",
+    "objectID": "seminar/seminar.html#計算資源",
+    "href": "seminar/seminar.html#計算資源",
+    "title": "ゼミ",
     "section": "",
-    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
+    "text": "Colab\n\nGPU利用可能"
+  },
+  {
+    "objectID": "seminar/seminar.html#論文レポート作成",
+    "href": "seminar/seminar.html#論文レポート作成",
+    "title": "ゼミ",
+    "section": "論文・レポート作成",
+    "text": "論文・レポート作成\n\nOverleaf\n\n年間ライセンス"
+  },
+  {
+    "objectID": "seminar/seminar.html#コミュニケーション",
+    "href": "seminar/seminar.html#コミュニケーション",
+    "title": "ゼミ",
+    "section": "コミュニケーション",
+    "text": "コミュニケーション\n\nScrapbox\nSlack\nGoogle Meet"
+  },
+  {
+    "objectID": "seminar/b4.html",
+    "href": "seminar/b4.html",
+    "title": "B4",
+    "section": "",
+    "text": "B4\n\n\n\n\n\ntimeline\n    title History of Social Media Platform\n    4月: Platform A Launched\n    5月: Platform B Launched\n    6月: Platform C Launched\n    7月: Platform D Launched\n    8月: Platform E Launched\n    9月: Platform F Launched\n    10月: Platform G Launched\n    11月: Platform H Launched\n    12月: Platform I Launched\n    1月: Platform J Launched\n    2月: Platform K Launched\n    3月: Platform L Launched\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Mondy\n        class-1: 09:00, 2h\n    section Tuesday\n        class-2: 10:00, 1h30m\n    section Wednesday\n        class-3: 11:00, 1h45m \n    section Thursday\n        class-4: 12:00, 2h15m\n    section Friday\n        class-5: 13:00, 1h30m\n\n\n\n\n\n\n法政大学 計算機実習A（1年生/春学期/水曜1限/W203） リレーショナル・データベース（3年生/春学期/水曜2限/遠隔視聴覚室） 社会システム（1年生/秋学期/金曜3限/W305） オペレーションズ・リサーチB（2年生/秋学期/水曜2限/W202） 経営工学ゼミナール（4年生/年間/木曜3限） PBL（3年生/秋学期/木曜4限） 時間割（小金井キャンパス） 時限 時間帯 1時限目 9:00～10:40 2時限目 10:50～12:30 3時限目 13:20～15:00 4時限目 15:10～16:50 5時限目 17:00～18:40\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n\n    section Section\n        CS-A          : a1, 09:00, 100m\n        RDB          : after a1, 100m\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Section\n        A task          :a1, 09:00, 100m\n        Another task    :after a1, 100m\n    section Another\n        Task in Another :10:50, 100m\n        another task    :24m"
   }
 ]
