@@ -4,14 +4,14 @@
     "href": "seminar/write-thesis.html",
     "title": "卒論の書き方と留意事項",
     "section": "",
-    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使 う．例えば，\\(y = ax + b\\) のように記述する．"
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使う．例えば，\\(y = ax + b\\) のように記述する．"
   },
   {
     "objectID": "seminar/write-thesis.html#本文",
     "href": "seminar/write-thesis.html#本文",
     "title": "卒論の書き方と留意事項",
     "section": "",
-    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使 う．例えば，\\(y = ax + b\\) のように記述する．"
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使う．例えば，\\(y = ax + b\\) のように記述する．"
   },
   {
     "objectID": "seminar/write-thesis.html#引用転載",
@@ -25,7 +25,7 @@
     "href": "seminar/write-thesis.html#図表",
     "title": "卒論の書き方と留意事項",
     "section": "図表",
-    "text": "図表\n\n図表中の文字は，本文と同じ程度の大きさにする．\n卒論概要は印刷時はモノクロになるため，図に おいて色での判別は行わないこと．"
+    "text": "図表\n\n図表中の文字は，本文と同じ程度の大きさにする．\n卒論概要は印刷時はモノクロになるため，図において色での判別は行わないこと．"
   },
   {
     "objectID": "seminar/write-thesis.html#用語",
@@ -63,6 +63,13 @@
     "text": "スケジュール\n\n論文執筆開始: 11月1日（1日1ページ程度を目安に執筆を進めること）\n第一案提出: 12月1日\n第二案提出: 12月末まで\n最終チェック: 1月上旬\n論文・概要提出: 1月中旬"
   },
   {
+    "objectID": "seminar/write-thesis.html#文献検索",
+    "href": "seminar/write-thesis.html#文献検索",
+    "title": "卒論の書き方と留意事項",
+    "section": "文献検索",
+    "text": "文献検索\n\nCiNii\nGoogle Scholar\n\n\n学位論文\n\n京都大学 学位論文\n大阪大学 博士論文検索"
+  },
+  {
     "objectID": "seminar/write-thesis.html#論文の構成",
     "href": "seminar/write-thesis.html#論文の構成",
     "title": "卒論の書き方と留意事項",
@@ -70,18 +77,11 @@
     "text": "論文の構成"
   },
   {
-    "objectID": "seminar/download.html",
-    "href": "seminar/download.html",
-    "title": "ダウンロード",
+    "objectID": "seminar/b4.html",
+    "href": "seminar/b4.html",
+    "title": "B4",
     "section": "",
-    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
-  },
-  {
-    "objectID": "seminar/download.html#テンプレート",
-    "href": "seminar/download.html#テンプレート",
-    "title": "ダウンロード",
-    "section": "",
-    "text": "卒業論文\nレポート\nBeamer (作成中…)\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
+    "text": "B4\n\n\n\n\n\ntimeline\n    title History of Social Media Platform\n    4月: Platform A Launched\n    5月: Platform B Launched\n    6月: Platform C Launched\n    7月: Platform D Launched\n    8月: Platform E Launched\n    9月: Platform F Launched\n    10月: Platform G Launched\n    11月: Platform H Launched\n    12月: Platform I Launched\n    1月: Platform J Launched\n    2月: Platform K Launched\n    3月: Platform L Launched\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Mondy\n        class-1: 09:00, 2h\n    section Tuesday\n        class-2: 10:00, 1h30m\n    section Wednesday\n        class-3: 11:00, 1h45m \n    section Thursday\n        class-4: 12:00, 2h15m\n    section Friday\n        class-5: 13:00, 1h30m\n\n\n\n\n\n\n法政大学 計算機実習A（1年生/春学期/水曜1限/W203） リレーショナル・データベース（3年生/春学期/水曜2限/遠隔視聴覚室） 社会システム（1年生/秋学期/金曜3限/W305） オペレーションズ・リサーチB（2年生/秋学期/水曜2限/W202） 経営工学ゼミナール（4年生/年間/木曜3限） PBL（3年生/秋学期/木曜4限） 時間割（小金井キャンパス） 時限 時間帯 1時限目 9:00～10:40 2時限目 10:50～12:30 3時限目 13:20～15:00 4時限目 15:10～16:50 5時限目 17:00～18:40\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n\n    section Section\n        CS-A          : a1, 09:00, 100m\n        RDB          : after a1, 100m\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Section\n        A task          :a1, 09:00, 100m\n        Another task    :after a1, 100m\n    section Another\n        Task in Another :10:50, 100m\n        another task    :24m"
   },
   {
     "objectID": "seminar/conference.html",
@@ -371,10 +371,17 @@
     "text": "コミュニケーション\n\nScrapbox\nSlack\nGoogle Meet"
   },
   {
-    "objectID": "seminar/b4.html",
-    "href": "seminar/b4.html",
-    "title": "B4",
+    "objectID": "seminar/links.html",
+    "href": "seminar/links.html",
+    "title": "リンク",
     "section": "",
-    "text": "B4\n\n\n\n\n\ntimeline\n    title History of Social Media Platform\n    4月: Platform A Launched\n    5月: Platform B Launched\n    6月: Platform C Launched\n    7月: Platform D Launched\n    8月: Platform E Launched\n    9月: Platform F Launched\n    10月: Platform G Launched\n    11月: Platform H Launched\n    12月: Platform I Launched\n    1月: Platform J Launched\n    2月: Platform K Launched\n    3月: Platform L Launched\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat YYYY-MM-DD\n    section Section\n        A task          :a1, 2014-01-01, 30d\n        Another task    :after a1, 20d\n    section Another\n        Task in Another :2014-01-12, 12d\n        another task    :24d\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Mondy\n        class-1: 09:00, 2h\n    section Tuesday\n        class-2: 10:00, 1h30m\n    section Wednesday\n        class-3: 11:00, 1h45m \n    section Thursday\n        class-4: 12:00, 2h15m\n    section Friday\n        class-5: 13:00, 1h30m\n\n\n\n\n\n\n法政大学 計算機実習A（1年生/春学期/水曜1限/W203） リレーショナル・データベース（3年生/春学期/水曜2限/遠隔視聴覚室） 社会システム（1年生/秋学期/金曜3限/W305） オペレーションズ・リサーチB（2年生/秋学期/水曜2限/W202） 経営工学ゼミナール（4年生/年間/木曜3限） PBL（3年生/秋学期/木曜4限） 時間割（小金井キャンパス） 時限 時間帯 1時限目 9:00～10:40 2時限目 10:50～12:30 3時限目 13:20～15:00 4時限目 15:10～16:50 5時限目 17:00～18:40\n\n\n\n\n\ngantt\n    dateFormat HH:mm\n    axisFormat %H:%M\n\n    section Section\n        CS-A          : a1, 09:00, 100m\n        RDB          : after a1, 100m\n\n\n\n\n\n\n\n\n\n\n\ngantt\n    title A Gantt Diagram\n    dateFormat HH:mm\n    axisFormat %H:%M\n    section Section\n        A task          :a1, 09:00, 100m\n        Another task    :after a1, 100m\n    section Another\n        Task in Another :10:50, 100m\n        another task    :24m"
+    "text": "卒業論文\nレポート\nBeamer\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
+  },
+  {
+    "objectID": "seminar/links.html#テンプレート",
+    "href": "seminar/links.html#テンプレート",
+    "title": "リンク",
+    "section": "",
+    "text": "卒業論文\nレポート\nBeamer\n\n\n\n\n\nレポート\n\n\n\n\n作成中…"
   }
 ]
