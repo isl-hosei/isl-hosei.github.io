@@ -28,6 +28,7 @@ website:
         text: "<span style='font-size:16px;'>Contact</span><br><span style='font-size:12px; opacity:0.8;'>アクセス</span>"
     right:
       - text: ゼミ
+      # "<span style='font-size:16px;'>Seminar</span><br><span style='font-size:12px; opacity:0.8;'>ゼミ</span>"
         menu:
           - text: リンク
             href: seminar/links.qmd
