@@ -4,28 +4,28 @@
     "href": "seminar/write-thesis.html",
     "title": "卒論の書き方と留意事項",
     "section": "",
-    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使う．例えば，\\(y = ax + b\\) のように記述する．"
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．1\nできるだけ箇条書きにはしない．\n「私」等の一人称は使用しない．"
   },
   {
     "objectID": "seminar/write-thesis.html#本文",
     "href": "seminar/write-thesis.html#本文",
     "title": "卒論の書き方と留意事項",
     "section": "",
-    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．\nできるだけ箇条書きにはしない．\n文章中に数式を入れるとき，数式環境を使う．例えば，\\(y = ax + b\\) のように記述する．"
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．1\nできるだけ箇条書きにはしない．\n「私」等の一人称は使用しない．"
   },
   {
-    "objectID": "seminar/write-thesis.html#引用転載",
-    "href": "seminar/write-thesis.html#引用転載",
+    "objectID": "seminar/write-thesis.html#数式",
+    "href": "seminar/write-thesis.html#数式",
     "title": "卒論の書き方と留意事項",
-    "section": "引用・転載",
-    "text": "引用・転載\n\n図表等を転載する際は，当該論文の著作権者の掲載許可を得るとともに，出典を明記する．"
+    "section": "数式",
+    "text": "数式\n\n文章中に数式を入れるとき，数式環境を使う．例えば，\\(y = ax + b\\) のように記述する．\n\\(\\max\\)，\\(\\min\\)，\\(\\sin\\)，\\(\\cos\\)，\\(\\log\\) などの関数は，イタリック体ではなくローマン体で記述する．例えば，\\(y = \\sin x\\) のように記述する．\n記号の表記は統一する．以下にガイドラインを示す．\n\n\n\n\n\n表記例\n\n\n\n\nスカラー\n\\(a, b, c\\)\n\n\nベクトル\n\\(\\mathbf{x}, \\mathbf{y}\\)\n\n\n確率変数\n\\(X, Y\\)\n\n\n集合\n\\(A, B\\) または \\(\\mathcal{A}, \\mathcal{B}\\)\n\n\n行列\n\\(\\mathbf{A}, \\mathbf{B}\\)"
   },
   {
     "objectID": "seminar/write-thesis.html#図表",
     "href": "seminar/write-thesis.html#図表",
     "title": "卒論の書き方と留意事項",
     "section": "図表",
-    "text": "図表\n\n図表中の文字は，本文と同じ程度の大きさにする．\n卒論概要は印刷時はモノクロになるため，図において色での判別は行わないこと．"
+    "text": "図表\n\n図表を使うときは，必ず本文でその図表に言及しておく．\n図表中の文字は，本文と同じ程度の大きさにする．\n卒論概要は印刷時はモノクロになるため，図において色での判別は行わないこと．\n原則，図表の転載は禁止する．やむを得ず転載する場合は，当該論文の著作権者の掲載許可を得るとともに，出典を明記する．2"
   },
   {
     "objectID": "seminar/write-thesis.html#用語",
@@ -60,7 +60,7 @@
     "href": "seminar/write-thesis.html#スケジュール",
     "title": "卒論の書き方と留意事項",
     "section": "スケジュール",
-    "text": "スケジュール\n\n論文執筆開始: 11月1日（1日1ページ程度を目安に執筆を進めること）\n第一案提出: 12月1日\n第二案提出: 12月末まで\n最終チェック: 1月上旬\n論文・概要提出: 1月中旬"
+    "text": "スケジュール\n\n論文執筆開始: 11月1日（1日1ページ程度を目安に執筆を進めること）\n第一案提出: 12月1日\n第二案提出: 12月末まで\n最終チェック: 1月上旬\n卒論概要の作成: 卒業論文最終版完成後すぐ\n論文・概要提出: 1月中旬"
   },
   {
     "objectID": "seminar/write-thesis.html#文献検索",
@@ -77,6 +77,13 @@
     "text": "論文の構成"
   },
   {
+    "objectID": "seminar/write-thesis.html#footnotes",
+    "href": "seminar/write-thesis.html#footnotes",
+    "title": "卒論の書き方と留意事項",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n「、。」を使った場合は，Replace All 機能を使えば，一括変換できる．「word Replace All」，「overleaf relace all」などで検索すると，方法が見つかる．↩︎\nCC BY 4.0などのライセンスで公開されている図表については，著作権者の許可を得る必要はないが，出典を明記すること．↩︎"
+  },
+  {
     "objectID": "seminar/b4.html",
     "href": "seminar/b4.html",
     "title": "B4",
@@ -88,14 +95,14 @@
     "href": "seminar/conference.html",
     "title": "学会情報",
     "section": "",
-    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n岡山\n\n\nSCI’26\n5/24 - 5/26\n?\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n?\n函館市民会館"
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nIEEE SMC 2026\n10/4 - 10/7\n3/22\nBellevue, WA, USA\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n2/12\n岡山\n\n\nSCI’26\n5/24 - 5/26\n4/6 (1/28)\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n5/11 (4/13)\n函館市民会館"
   },
   {
     "objectID": "seminar/conference.html#section",
     "href": "seminar/conference.html#section",
     "title": "学会情報",
     "section": "",
-    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n1/10\n岡山\n\n\nSCI’26\n5/24 - 5/26\n?\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n?\n函館市民会館"
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nIEEE SMC 2026\n10/4 - 10/7\n3/22\nBellevue, WA, USA\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n2/12\n岡山\n\n\nSCI’26\n5/24 - 5/26\n4/6 (1/28)\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n5/11 (4/13)\n函館市民会館"
   },
   {
     "objectID": "seminar/conference.html#section-1",
@@ -133,116 +140,39 @@
     "text": "テーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を活用）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画、進歩情報の自己管理\nソースコードのバージョン管理（GitHubの利用）"
   },
   {
-    "objectID": "blog/vector-graphics/index.html",
-    "href": "blog/vector-graphics/index.html",
-    "title": "図の作り方",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+    "text": "劉 子昂"
   },
   {
-    "objectID": "blog/vector-graphics/index.html#draw.io",
-    "href": "blog/vector-graphics/index.html#draw.io",
-    "title": "図の作り方",
-    "section": "draw.io",
-    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#excalidraw",
-    "href": "blog/vector-graphics/index.html#excalidraw",
-    "title": "図の作り方",
-    "section": "Excalidraw",
-    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#python",
-    "href": "blog/vector-graphics/index.html#python",
-    "title": "図の作り方",
-    "section": "Python",
-    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "知能システム研究室",
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
     "section": "",
-    "text": "Join Us"
+    "text": "劉 子昂"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 / Students",
+    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+  },
+  {
+    "objectID": "blog/python-env/index.html",
+    "href": "blog/python-env/index.html",
+    "title": "Python 環境構築",
     "section": "",
-    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
   },
   {
-    "objectID": "note.html",
-    "href": "note.html",
-    "title": "Intelligent Systems Lab",
+    "objectID": "blog/python-env/index.html#uv-python-vscode",
+    "href": "blog/python-env/index.html#uv-python-vscode",
+    "title": "Python 環境構築",
     "section": "",
-    "text": "https://icons.getbootstrap.com"
-  },
-  {
-    "objectID": "posts/apms-2025/index.html",
-    "href": "posts/apms-2025/index.html",
-    "title": "APMS 2025",
-    "section": "",
-    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
-  },
-  {
-    "objectID": "contact.html#アクセス",
-    "href": "contact.html#アクセス",
-    "title": "Contact",
-    "section": "",
-    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
-  },
-  {
-    "objectID": "contact.html#住所",
-    "href": "contact.html#住所",
-    "title": "Contact",
-    "section": "住所",
-    "text": "住所\n\n日本語English\n\n\n〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
-  },
-  {
-    "objectID": "contact.html#google-map",
-    "href": "contact.html#google-map",
-    "title": "Contact",
-    "section": "Google Map",
-    "text": "Google Map"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "知能システム研究室が発足しました!",
-    "section": "",
-    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join us",
-    "section": "",
-    "text": "大学院入試要項\n法政大学理工学研究科は、出願に当たり、事前に指導希望教員の許可を得る必要があります。"
-  },
-  {
-    "objectID": "join.html#大学院入試",
-    "href": "join.html#大学院入試",
-    "title": "Join us",
-    "section": "",
-    "text": "大学院入試要項\n法政大学理工学研究科は、出願に当たり、事前に指導希望教員の許可を得る必要があります。"
-  },
-  {
-    "objectID": "join.html#iist-english-program",
-    "href": "join.html#iist-english-program",
-    "title": "Join us",
-    "section": "IIST English Program",
-    "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here."
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
   },
   {
     "objectID": "lab.html",
@@ -280,39 +210,116 @@
     "text": "法政大学\n\nTurnitin: Plagiarism checking tool\n\niThenticate\nFeedback Studio\n\nKinoden 電子ブック\nProQuest Ebook Central"
   },
   {
-    "objectID": "blog/python-env/index.html",
-    "href": "blog/python-env/index.html",
-    "title": "Python 環境構築",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join us",
     "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "text": "大学院入試要項\n法政大学理工学研究科は、出願に当たり、事前に指導希望教員の許可を得る必要があります。"
   },
   {
-    "objectID": "blog/python-env/index.html#uv-python-vscode",
-    "href": "blog/python-env/index.html#uv-python-vscode",
-    "title": "Python 環境構築",
+    "objectID": "join.html#大学院入試",
+    "href": "join.html#大学院入試",
+    "title": "Join us",
     "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "text": "大学院入試要項\n法政大学理工学研究科は、出願に当たり、事前に指導希望教員の許可を得る必要があります。"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "劉 子昂"
+    "objectID": "join.html#iist-english-program",
+    "href": "join.html#iist-english-program",
+    "title": "Join us",
+    "section": "IIST English Program",
+    "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here."
   },
   {
-    "objectID": "people.html#教員-faculty",
-    "href": "people.html#教員-faculty",
-    "title": "People",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "知能システム研究室が発足しました!",
     "section": "",
-    "text": "劉 子昂"
+    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
   },
   {
-    "objectID": "people.html#学生-students",
-    "href": "people.html#学生-students",
-    "title": "People",
-    "section": "学生 / Students",
-    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#アクセス",
+    "href": "contact.html#アクセス",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#住所",
+    "href": "contact.html#住所",
+    "title": "Contact",
+    "section": "住所",
+    "text": "住所\n\n日本語English\n\n\n〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
+  },
+  {
+    "objectID": "contact.html#google-map",
+    "href": "contact.html#google-map",
+    "title": "Contact",
+    "section": "Google Map",
+    "text": "Google Map"
+  },
+  {
+    "objectID": "posts/apms-2025/index.html",
+    "href": "posts/apms-2025/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
+  },
+  {
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "Intelligent Systems Lab",
+    "section": "",
+    "text": "https://icons.getbootstrap.com"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "知能システム研究室",
+    "section": "",
+    "text": "Join Us"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html",
+    "href": "blog/vector-graphics/index.html",
+    "title": "図の作り方",
+    "section": "",
+    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#draw.io",
+    "href": "blog/vector-graphics/index.html#draw.io",
+    "title": "図の作り方",
+    "section": "draw.io",
+    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#excalidraw",
+    "href": "blog/vector-graphics/index.html#excalidraw",
+    "title": "図の作り方",
+    "section": "Excalidraw",
+    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#python",
+    "href": "blog/vector-graphics/index.html#python",
+    "title": "図の作り方",
+    "section": "Python",
+    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
   },
   {
     "objectID": "seminar/lab-info.html",
