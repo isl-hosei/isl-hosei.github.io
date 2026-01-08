@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="劉子昂">
-<meta name="dcterms.date" content="2025-04-01">
 
-<title>知能システム研究室が発足しました! – Intelligent Systems Lab</title>
+<title>卒論の書き方と留意事項 – Intelligent Systems Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,18 +70,45 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="知能システム研究室が発足しました! – Intelligent Systems Lab">
-<meta property="og:description" content="Intelligent Systems Lab at Hosei University">
-<meta property="og:image" content="https://isl-hosei.github.io/posts/welcome/campus.jpg">
+<meta property="og:title" content="卒論の書き方と留意事項 – Intelligent Systems Lab">
 <meta property="og:site_name" content="Intelligent Systems Lab">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -159,55 +184,115 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">知能システム研究室が発足しました!</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>劉子昂 </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">April 1, 2025</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">卒論の書き方と留意事項</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
-<p>2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。</p>
-<p>私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。</p>
-<p><img src="campus.jpg" class="img-fluid" style="width:100.0%"></p>
+</header>
 
 
+<section id="本文" class="level2">
+<h2 class="anchored" data-anchor-id="本文">本文</h2>
+<ol type="1">
+<li>句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>できるだけ箇条書きにはしない．</li>
+<li>「私」等の一人称は使用しない．</li>
+</ol>
+</section>
+<section id="数式" class="level2">
+<h2 class="anchored" data-anchor-id="数式">数式</h2>
+<ol type="1">
+<li>文章中に数式を入れるとき，数式環境を使う．例えば，<span class="math inline">\(y = ax + b\)</span> のように記述する．</li>
+<li><span class="math inline">\(\max\)</span>，<span class="math inline">\(\min\)</span>，<span class="math inline">\(\sin\)</span>，<span class="math inline">\(\cos\)</span>，<span class="math inline">\(\log\)</span> などの関数は，イタリック体ではなくローマン体で記述する．例えば，<span class="math inline">\(y = \sin x\)</span> のように記述する．</li>
+<li>記号の表記は統一する．以下にガイドラインを示す．</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>表記例</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>スカラー</td>
+<td><span class="math inline">\(a, b, c\)</span></td>
+</tr>
+<tr class="even">
+<td>ベクトル</td>
+<td><span class="math inline">\(\mathbf{x}, \mathbf{y}\)</span></td>
+</tr>
+<tr class="odd">
+<td>確率変数</td>
+<td><span class="math inline">\(X, Y\)</span></td>
+</tr>
+<tr class="even">
+<td>集合</td>
+<td><span class="math inline">\(A, B\)</span> または <span class="math inline">\(\mathcal{A}, \mathcal{B}\)</span></td>
+</tr>
+<tr class="odd">
+<td>行列</td>
+<td><span class="math inline">\(\mathbf{A}, \mathbf{B}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="図表" class="level2">
+<h2 class="anchored" data-anchor-id="図表">図表</h2>
+<ol type="1">
+<li>図表を使うときは，必ず本文でその図表に言及しておく．</li>
+<li>図表中の文字は，本文と同じ程度の大きさにする．</li>
+<li>卒論概要は印刷時はモノクロになるため，図において色での判別は行わないこと．</li>
+<li>原則，図表の転載は禁止する．やむを得ず転載する場合は，当該論文の著作権者の掲載許可を得るとともに，出典を明記する．<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+</ol>
+</section>
+<section id="用語" class="level2">
+<h2 class="anchored" data-anchor-id="用語">用語</h2>
+<ol type="1">
+<li>用語を統一する．例えば，「深層学習」と「ディープラーニング」は同じ意味であるため，どちらか一方に統一する．</li>
+<li>標準的に用いられている用語を使用する．例えば，「ニューラルネットワーク」は「神経回路網」とせず，「ニューラルネットワーク」を使用する．</li>
+</ol>
+</section>
+<section id="略語" class="level2">
+<h2 class="anchored" data-anchor-id="略語">略語</h2>
+<ol type="1">
+<li>略語を用いる場合は，初出時に正式名称を明記する．</li>
+<li>本文中に一度しか記載のない名称は，略語・略称表記は不要．</li>
+</ol>
+</section>
+<section id="論文の構成" class="level2">
+<h2 class="anchored" data-anchor-id="論文の構成">論文の構成</h2>
 
-</main> <!-- /main -->
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>「、。」を使った場合は，Replace All 機能を使えば，一括変換できる．「word Replace All」，「overleaf relace all」などで検索すると，方法が見つかる．<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a>などのライセンスで公開されている図表については，著作権者の許可を得る必要はないが，出典を明記すること．<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
