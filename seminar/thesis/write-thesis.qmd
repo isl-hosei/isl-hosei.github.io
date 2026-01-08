@@ -36,34 +36,5 @@ title: "卒論の書き方と留意事項"
 1. 略語を用いる場合は，初出時に正式名称を明記する．
 2. 本文中に一度しか記載のない名称は，略語・略称表記は不要．
 
-## Overleaf の注意点
-1. 段落の改行は，`\\` ではなく空行を入れることで行う．
-2. エラーが発生した場合は，エラーメッセージをよく読み，デバッグする．
-3. ウェブサイトを引用する場合は，`@misc` を回避策として使用する．詳細は[こちら](https://bibtex.eu/ja/faq/how-can-i-use-bibtex-to-cite-a-website/)を参照のこと．
-
-## 類似性レポート
-
-学位論文に対してTurnitinによる類似性チェックを実施します．Turnitinの類似性レポートの読み方や，類似箇所の修正方法については，以下のサイトを参考にしてください．
-
-[Turnitin類似性レポートの読み方と修正方法](https://turnitin-checker.com/ja-JP/how-to-read-turnitin-similarity-report.html)
-
-## スケジュール
-
-- 論文執筆開始: 11月1日（1日1ページ程度を目安に執筆を進めること）
-- 第一案提出: 12月1日
-- 第二案提出: 12月末まで
-- 最終チェック: 1月上旬
-- 卒論概要の作成: 卒業論文最終版完成後すぐ
-- 論文・概要提出: 1月中旬
-
-## 文献検索
-
-- [CiNii](https://cir.nii.ac.jp/)
-- [Google Scholar](https://scholar.google.com/)
-
-### 学位論文
-
-- [京都大学 学位論文](http://hdl.handle.net/2433/48884)
-- [大阪大学 博士論文検索](https://ir.library.osaka-u.ac.jp/repo/ouka/thesis/)
 
 ## 論文の構成

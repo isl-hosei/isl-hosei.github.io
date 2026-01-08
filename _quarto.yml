@@ -34,8 +34,8 @@ website:
             href: seminar/links.qmd
           - text: 学会日程
             href: seminar/conference.qmd
-          - text: 卒論の書き方と留意事項
-            href: seminar/write-thesis.qmd
+          - text: 卒業研究
+            href: seminar/graduation-research.qmd
 
       - icon: github
         href: https://github.com/isl-hosei
