@@ -4,22 +4,19 @@ date-modified: today
 title-block-banner: true
 ---
 
-<!-- table of contents -->
+## 研究室配属
 
-<!-- - [Join us](#join-us)
-  - [English](#english)
-  - [中文](#中文)
-  - [日本語](#日本語) -->
-
-<!-- ## 学部3年生
-
-[法政大学 理工学部 経営システム工学科](https://ise-hp.ws.hosei.ac.jp/)の学部3年生は -->
+法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．
 
 ## 大学院入試
 
+入試は年2回行なっています．7月頃と2月頃に行なっています．筆記試験と口述試験があります．
+
+法政大学理工学研究科は，出願に当たり，事前に指導希望教員の許可を得る必要があります．
+
 [大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
 
-法政大学理工学研究科は、出願に当たり、事前に指導希望教員の許可を得る必要があります。
+また，法政大学では，[IIST](https://iist.hosei.ac.jp)という英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．詳細は，以下をご覧ください．
 
 ## IIST English Program
 
