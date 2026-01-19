@@ -1,17 +1,56 @@
 ---
-title: "卒論発表チェックシート"
+title: "卒論発表"
 ---
 
-## 発表スライド作成
+## 発表時間について
+
+複数人での発表では，発表時間を概ね均等に分担すること 
+
+- 1 人または 2 人で研究を行った場合：発表時間 12 分，質疑時間 3 分.   
+- 3 人で研究を行った場合：発表時間 15 分，質疑時間 5 分．
+
+## チェックシート
+
+### 全体
 
 - [ ] ページ番号がある．
+- [ ] スライドサイズは4:3である．
+- [ ] メインとして使用するフォントサイズは最小16pt以上である．
+- [ ] 見やすいフォントを使用している（英語はArial，和文はメイリオを推奨）．
+- [ ] デザインが統一されている（フォント，色，レイアウトなど）．
+
+### 内容
+
 - [ ] 利用権利のある写真、動画、イラストを使用している．
+- [ ] 1枚のスライドで伝えたい内容は1つに絞っている．
 
 ### タイトルスライド
 - [ ] 論文タイトル，所属，氏名が正しく記載されている．
 - [ ] 「20XX年度卒業論文審査会」と記載されている．
 
-## 発表練習
+### 補足スライド
 
-- [ ] 発表時間を把握している
+- [ ] 補足スライドを用意している．
 
+## スライド作成の参考資料
+
+### YouTube動画
+
+- [早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター①](https://www.youtube.com/watch?v=aWIWkk4ArKU)
+- [早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター②](https://www.youtube.com/watch?v=5Q4Q3r_lIwI)
+- [早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター③](https://www.youtube.com/watch?v=aqwLKnT3sW0)
+- [早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター④](https://www.youtube.com/watch?v=-q9xJ0f41vw)
+- [PowerPointスライド作成実演ライブ ①必修編](https://www.youtube.com/watch?v=zMp3BrIakOY)
+- [PowerPointスライド作成実演ライブ ②スキルアップ編](https://www.youtube.com/watch?v=4YuAdFeUmLw)
+- [人に伝わるスライドの作成方法](https://www.youtube.com/watch?v=3CQaOeK-GPE&list=PLyyV8w5cd2ts91Mq1GuD2nms1Vi1K8zUR&index=1)
+- [発表の例1](https://www.youtube.com/watch?v=5f7b_xoWp5M)
+- [発表の例2](https://www.youtube.com/watch?v=o-WJlwM1fu0)
+
+### ウェブサイト
+
+- [良い発表をするために](https://www.graco.c.u-tokyo.ac.jp/labs/morihata/presentation_memo.htm)
+- [理系のためのプレゼンテーション](https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/9da147c7-5bab-41a2-8fe4-9dcb0958f1ad/content)
+
+### テンプレート
+
+- [卒論発表スライドテンプレート](templates/thesis-defense.pptx)
