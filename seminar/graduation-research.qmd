@@ -2,6 +2,8 @@
 title: "卒業研究"
 ---
 
+[卒論チェックシート](thesis/thesis-check-sheet.qmd)
+
 | 回 | 内容             | 資料                     |
 |----|----------------|------------------------|
 | 1  | 導入 | [文献調査](thesis/literature-review.qmd) |
