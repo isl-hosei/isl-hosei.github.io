@@ -44,12 +44,17 @@ website:
         - seminar/lab-info.qmd
         - seminar/conference.qmd
         - seminar/thesis.qmd
+        - seminar/research-tools.qmd
         - text: "---"
         - section: "卒業研究"
           contents:
             - seminar/b4/thesis-check-sheet.qmd
             - seminar/b4/slide-check-sheet.qmd
         - text: "---"
+        - section: "資源"
+          contents:
+            - seminar/resources/e-book.qmd
+            - seminar/resources/Kinoden.qmd
 
   
   page-footer: 

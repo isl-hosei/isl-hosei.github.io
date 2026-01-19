@@ -1,0 +1,15 @@
+---
+title: "Online 書籍"
+---
+
+## 英語
+
+- [Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville)](https://www.deeplearningbook.org/)
+- [Reinforcement Learning: An Introduction (Richard S. Sutton and Andrew G. Barto)](http://incompleteideas.net/book/the-book-2nd.html)
+- [An Introduction to Statistical Learning (ISL)](https://www.statlearning.com/)
+- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+
+## 日本語
+
+- [私たちのR-宋財泫-矢内勇生](https://www.jaysong.net/RBook/)
+- [データサイエンス-酒井優行](https://bookdown.org/masayukeeeee/jiyu-dslec-2023-01/)

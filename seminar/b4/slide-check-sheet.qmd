@@ -2,6 +2,11 @@
 title: "卒論発表"
 ---
 
+<!-- https://lab.ueda.tech/?page=document_checklist
+生成AI開示
+https://www.igaku-shoin.co.jp/support/toauthors/announcement
+ -->
+
 ## 発表時間について
 
 複数人での発表では，発表時間を概ね均等に分担すること 
