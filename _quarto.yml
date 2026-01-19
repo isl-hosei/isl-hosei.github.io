@@ -43,6 +43,14 @@ website:
         - seminar/intro.qmd
         - seminar/lab-info.qmd
         - seminar/conference.qmd
+        - seminar/thesis.qmd
+        - text: "---"
+        - section: "卒業研究"
+          contents:
+            - seminar/b4/thesis-check-sheet.qmd
+            - seminar/b4/slide-check-sheet.qmd
+        - text: "---"
+
   
   page-footer: 
     center: "Copyright 2025, Intelligent Systems Lab, Hosei University"
