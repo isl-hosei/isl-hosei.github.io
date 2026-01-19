@@ -42,6 +42,42 @@
     "text": "テーマ選定\n書籍や論文に載せている手法を理解し、実装する\n適用・改良\n成果物の作成\n発表\n\n適用・改良の部分は、学生の興味や進歩度に応じて柔軟に対応します。例えば、以下のようなアプローチが考えられます。\n\n数理モデルを変更し、より現実的な問題に対応\n\n制約条件の追加\n目的関数の変更など\n\n既存の他の手法との比較\n\n進化的アルゴリズム vs. 数理最適化\n\n新しいアルゴリズムの導入による性能向上\n\n問題の特性に応じたアルゴリズムの改良\n機械学習手法の導入\n\n\nポイント\n\nグループワーク\n\n役割分担\nPBL時間外でのミーティング（研究室を活用）\n\n自主的な学習\n\n書籍や論文を読む力\nググる力\nChatGPTなどの生成AIの活用\n\n進捗管理\n\n研究計画、進歩情報の自己管理\nソースコードのバージョン管理（GitHubの利用）"
   },
   {
+    "objectID": "seminar/resources/e-book.html",
+    "href": "seminar/resources/e-book.html",
+    "title": "Online 書籍",
+    "section": "",
+    "text": "Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville)\nReinforcement Learning: An Introduction (Richard S. Sutton and Andrew G. Barto)\nAn Introduction to Statistical Learning (ISL)\nInterpretable Machine Learning",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "Online 書籍"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/e-book.html#英語",
+    "href": "seminar/resources/e-book.html#英語",
+    "title": "Online 書籍",
+    "section": "",
+    "text": "Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville)\nReinforcement Learning: An Introduction (Richard S. Sutton and Andrew G. Barto)\nAn Introduction to Statistical Learning (ISL)\nInterpretable Machine Learning",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "Online 書籍"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/e-book.html#日本語",
+    "href": "seminar/resources/e-book.html#日本語",
+    "title": "Online 書籍",
+    "section": "日本語",
+    "text": "日本語\n\n私たちのR-宋財泫-矢内勇生\nデータサイエンス-酒井優行",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "Online 書籍"
+    ]
+  },
+  {
     "objectID": "seminar/intro.html",
     "href": "seminar/intro.html",
     "title": "Intro",
@@ -254,123 +290,39 @@
     ]
   },
   {
-    "objectID": "blog/vector-graphics/index.html",
-    "href": "blog/vector-graphics/index.html",
-    "title": "図の作り方",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+    "text": "劉 子昂"
   },
   {
-    "objectID": "blog/vector-graphics/index.html#draw.io",
-    "href": "blog/vector-graphics/index.html#draw.io",
-    "title": "図の作り方",
-    "section": "draw.io",
-    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#excalidraw",
-    "href": "blog/vector-graphics/index.html#excalidraw",
-    "title": "図の作り方",
-    "section": "Excalidraw",
-    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#python",
-    "href": "blog/vector-graphics/index.html#python",
-    "title": "図の作り方",
-    "section": "Python",
-    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "知能システム研究室",
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
     "section": "",
-    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．\n\n Join Us"
+    "text": "劉 子昂"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 / Students",
+    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+  },
+  {
+    "objectID": "blog/python-env/index.html",
+    "href": "blog/python-env/index.html",
+    "title": "Python 環境構築",
     "section": "",
-    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
   },
   {
-    "objectID": "note.html",
-    "href": "note.html",
-    "title": "Intelligent Systems Lab",
+    "objectID": "blog/python-env/index.html#uv-python-vscode",
+    "href": "blog/python-env/index.html#uv-python-vscode",
+    "title": "Python 環境構築",
     "section": "",
-    "text": "https://icons.getbootstrap.com"
-  },
-  {
-    "objectID": "posts/apms-2025/index.html",
-    "href": "posts/apms-2025/index.html",
-    "title": "APMS 2025",
-    "section": "",
-    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
-  },
-  {
-    "objectID": "contact.html#アクセス",
-    "href": "contact.html#アクセス",
-    "title": "Contact",
-    "section": "",
-    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
-  },
-  {
-    "objectID": "contact.html#住所",
-    "href": "contact.html#住所",
-    "title": "Contact",
-    "section": "住所",
-    "text": "住所\n\n日本語English\n\n\n〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
-  },
-  {
-    "objectID": "contact.html#google-map",
-    "href": "contact.html#google-map",
-    "title": "Contact",
-    "section": "Google Map",
-    "text": "Google Map"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "知能システム研究室が発足しました!",
-    "section": "",
-    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join us",
-    "section": "",
-    "text": "研究室配属\n大学院入試\nIIST English Program"
-  },
-  {
-    "objectID": "join.html#研究室配属",
-    "href": "join.html#研究室配属",
-    "title": "Join us",
-    "section": "研究室配属",
-    "text": "研究室配属\n法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．"
-  },
-  {
-    "objectID": "join.html#大学院入試",
-    "href": "join.html#大学院入試",
-    "title": "Join us",
-    "section": "大学院入試",
-    "text": "大学院入試\n入試は年2回行なっています．7月頃と2月頃に行なっています．筆記試験と口述試験があります．\n法政大学理工学研究科は，出願に当たり，事前に指導希望教員の許可を得る必要があります．\n大学院入試要項\nまた，法政大学では，IISTという英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．詳細は，以下をご覧ください．"
-  },
-  {
-    "objectID": "join.html#iist-english-program",
-    "href": "join.html#iist-english-program",
-    "title": "Join us",
-    "section": "IIST English Program",
-    "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here."
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
   },
   {
     "objectID": "lab.html",
@@ -408,39 +360,222 @@
     "text": "法政大学\n\nTurnitin: Plagiarism checking tool\n\niThenticate\nFeedback Studio\n\nKinoden 電子ブック\nProQuest Ebook Central"
   },
   {
-    "objectID": "blog/python-env/index.html",
-    "href": "blog/python-env/index.html",
-    "title": "Python 環境構築",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join us",
     "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "text": "研究室配属\n大学院入試\nIIST English Program"
   },
   {
-    "objectID": "blog/python-env/index.html#uv-python-vscode",
-    "href": "blog/python-env/index.html#uv-python-vscode",
-    "title": "Python 環境構築",
-    "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "objectID": "join.html#研究室配属",
+    "href": "join.html#研究室配属",
+    "title": "Join us",
+    "section": "研究室配属",
+    "text": "研究室配属\n法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "劉 子昂"
+    "objectID": "join.html#大学院入試",
+    "href": "join.html#大学院入試",
+    "title": "Join us",
+    "section": "大学院入試",
+    "text": "大学院入試\n入試は年2回行なっています．7月頃と2月頃に行なっています．筆記試験と口述試験があります．\n法政大学理工学研究科は，出願に当たり，事前に指導希望教員の許可を得る必要があります．\n大学院入試要項\nまた，法政大学では，IISTという英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．詳細は，以下をご覧ください．"
   },
   {
-    "objectID": "people.html#教員-faculty",
-    "href": "people.html#教員-faculty",
-    "title": "People",
-    "section": "",
-    "text": "劉 子昂"
+    "objectID": "join.html#iist-english-program",
+    "href": "join.html#iist-english-program",
+    "title": "Join us",
+    "section": "IIST English Program",
+    "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here."
   },
   {
-    "objectID": "people.html#学生-students",
-    "href": "people.html#学生-students",
-    "title": "People",
-    "section": "学生 / Students",
-    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "知能システム研究室が発足しました!",
+    "section": "",
+    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#アクセス",
+    "href": "contact.html#アクセス",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#住所",
+    "href": "contact.html#住所",
+    "title": "Contact",
+    "section": "住所",
+    "text": "住所\n\n日本語English\n\n\n〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
+  },
+  {
+    "objectID": "contact.html#google-map",
+    "href": "contact.html#google-map",
+    "title": "Contact",
+    "section": "Google Map",
+    "text": "Google Map"
+  },
+  {
+    "objectID": "posts/apms-2025/index.html",
+    "href": "posts/apms-2025/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
+  },
+  {
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "Intelligent Systems Lab",
+    "section": "",
+    "text": "https://icons.getbootstrap.com"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "知能システム研究室",
+    "section": "",
+    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．\n\n Join Us"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html",
+    "href": "blog/vector-graphics/index.html",
+    "title": "図の作り方",
+    "section": "",
+    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#draw.io",
+    "href": "blog/vector-graphics/index.html#draw.io",
+    "title": "図の作り方",
+    "section": "draw.io",
+    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#excalidraw",
+    "href": "blog/vector-graphics/index.html#excalidraw",
+    "title": "図の作り方",
+    "section": "Excalidraw",
+    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#python",
+    "href": "blog/vector-graphics/index.html#python",
+    "title": "図の作り方",
+    "section": "Python",
+    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
+  },
+  {
+    "objectID": "seminar/research-tools.html",
+    "href": "seminar/research-tools.html",
+    "title": "研究に便利なツール",
+    "section": "",
+    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#作図",
+    "href": "seminar/research-tools.html#作図",
+    "title": "研究に便利なツール",
+    "section": "",
+    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#pdf-reader",
+    "href": "seminar/research-tools.html#pdf-reader",
+    "title": "研究に便利なツール",
+    "section": "PDF Reader",
+    "text": "PDF Reader\n\nGoogle Scholar PDF Reader",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#文献管理",
+    "href": "seminar/research-tools.html#文献管理",
+    "title": "研究に便利なツール",
+    "section": "文献管理",
+    "text": "文献管理\n文献を管理するだけでなく、WordやLaTexと連携し、参考文献の自動番号付き、自動生成などができます。\n\nZotero：文献管理ソフト\nMendeley：文献管理ソフト\nPaperpile：文献管理ソフト（有料）",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#コーディング",
+    "href": "seminar/research-tools.html#コーディング",
+    "title": "研究に便利なツール",
+    "section": "コーディング",
+    "text": "コーディング\n\nGithub：プロジェクトの管理、他人のコードの参考\nGithub Copilot：コーディングアシスタント\nVSCode：IDE",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#文章作成",
+    "href": "seminar/research-tools.html#文章作成",
+    "title": "研究に便利なツール",
+    "section": "文章作成",
+    "text": "文章作成\n\nOverleaf：LaTeXエディタ\nMarkdown：軽量マークアップ言語",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#英語文章作成",
+    "href": "seminar/research-tools.html#英語文章作成",
+    "title": "研究に便利なツール",
+    "section": "英語文章作成",
+    "text": "英語文章作成\n\nGrammarly：文法チェック\nAcademic Phrasebank：アカデミックライティング",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#スライド作成と発表",
+    "href": "seminar/research-tools.html#スライド作成と発表",
+    "title": "研究に便利なツール",
+    "section": "スライド作成と発表",
+    "text": "スライド作成と発表\n\nBeamer：LaTeXスライド作成\n\nPympress：PDFスライド発表\n\nMarp：Markdownスライド作成",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#mac",
+    "href": "seminar/research-tools.html#mac",
+    "title": "研究に便利なツール",
+    "section": "Mac",
+    "text": "Mac\n\nWine: Mac上で.exeフィアルを実行する",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
   },
   {
     "objectID": "seminar/lab-info.html#住所",
@@ -586,6 +721,162 @@
     "title": "卒論の書き方と留意事項",
     "section": "Footnotes",
     "text": "Footnotes\n\n\n「、。」を使った場合は，Replace All 機能を使えば，一括変換できる．「word Replace All」，「overleaf relace all」などで検索すると，方法が見つかる．↩︎\nCC BY 4.0などのライセンスで公開されている図表については，著作権者の許可を得る必要はないが，出典を明記すること．↩︎"
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html",
+    "href": "seminar/resources/Kinoden.html",
+    "title": "KinoDen",
+    "section": "",
+    "text": "法政大学図書館のKinodenで豊富な書籍を閲覧できます．\nKinodenは、下記のリンクからアクセスできます．\nKinoDen",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#python入門",
+    "href": "seminar/resources/Kinoden.html#python入門",
+    "title": "KinoDen",
+    "section": "Python入門",
+    "text": "Python入門\n\nPython言語によるプログラミングイントロダクション　第2版 (2017)\nChatGPTと学ぶPython入門\nよくわかる Python入門\nスッキリわかるPython入門\nゼロからやさしくはじめるPython入門\nマンガでざっくり学ぶPython（パイソン）",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#経営工学",
+    "href": "seminar/resources/Kinoden.html#経営工学",
+    "title": "KinoDen",
+    "section": "経営工学",
+    "text": "経営工学\n\nPythonで経営工学を学ぶ\n\nPython コンピュータシミュレーション入門 (2021)\n\nKeywords: 感染症モデル，線型計画法，在庫管理，待ち行列，グラフ理論，遺伝的アルゴリズム，ゲーム理論，強化学習\n経営工学に関するテーマが多く取り上げられている．\n\n\n\n\nExcelで経営工学を学ぶ\n\n入門　経営科学　改訂版\n例題で学ぶ　OR入門\nExcelで学ぶオペレーションズリサーチ",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#最適化",
+    "href": "seminar/resources/Kinoden.html#最適化",
+    "title": "KinoDen",
+    "section": "最適化",
+    "text": "最適化\n\nPythonで数理最適化を学ぶ\n\nPythonではじめる数理最適化　第2版 (2024)\n\nKeywords: 数理最適化，モデリング，ケーススタディ（学校のクラス編成，配送計画，商品推薦）\n\nPythonによる実務で役立つ最適化問題100+ 1 (2022)\n\n栄養問題、最短路問題など\n内容が公開されている．Link\n\nPythonによる数理最適化入門 (2018)\nあたらしい数理最適化 (2012)\n\nKeywords: 施設配置問題、箱詰め問題と切断問題、スケジューリング問題など\n\n\n\n\nソースコードなし\n\n最適化の基礎",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#機械学習",
+    "href": "seminar/resources/Kinoden.html#機械学習",
+    "title": "KinoDen",
+    "section": "機械学習",
+    "text": "機械学習\n\nPythonで機械学習を学ぶ\n\nPython機械学習プログラミング (2022)\n\nKeywords: データ前処理，教師あり学習，教師なし学習，強化学習，Sklearn，PyTorch\n機械学習アルゴリズムの理論と実装を学べる．数学，プログラミングの両方に自信がある人向け．\n\nスッキリわかるPythonによる機械学習入門\n\nKeywords: 教師あり学習，教師なし学習\n機械学習ライブラリの使い方を学べる．数式が苦手な人向け．\n\nいちばんやさしいPython機械学習の教本",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#データサイエンス",
+    "href": "seminar/resources/Kinoden.html#データサイエンス",
+    "title": "KinoDen",
+    "section": "データサイエンス",
+    "text": "データサイエンス\n\nPythonでデータサイエンスを学ぶ\n\nデータサイエンス教本(2018)\n\nKeywords: 回帰分析，パターン認識，深層学習，時系列分析，画像処理\n\nPython時系列分析クックブック\nPythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023)\n\nKeywords: 練習問題\n\n\n\n\nソースコードなし\n\nデータサイエンス入門　第3版\nデータ分析とデータサイエンス",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#統計学",
+    "href": "seminar/resources/Kinoden.html#統計学",
+    "title": "KinoDen",
+    "section": "統計学",
+    "text": "統計学\n\nPythonで統計学を学ぶ\n\nPythonで学ぶあたらしい統計学の教科書　第2版\nPythonで学ぶ統計的機械学習\n\n\n\nRで統計学を学ぶ\n\n理工系のための統計入門 (2016)\nＲによる統計解析\n\n\n\nソースコードなし\n\n数理統計学の基礎 (2014)\n教養のための統計入門 (2016)\n新統計入門 (1996)\n確率統計 (1996)\n確率・統計 (2019)\n経営科学のための確率統計入門 (2022)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#システム工学",
+    "href": "seminar/resources/Kinoden.html#システム工学",
+    "title": "KinoDen",
+    "section": "システム工学",
+    "text": "システム工学\n\nシステム工学 (1996)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#xai",
+    "href": "seminar/resources/Kinoden.html#xai",
+    "title": "KinoDen",
+    "section": "XAI",
+    "text": "XAI\n\n実践XAI［説明可能なAI］ (2023)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#強化学習",
+    "href": "seminar/resources/Kinoden.html#強化学習",
+    "title": "KinoDen",
+    "section": "強化学習",
+    "text": "強化学習\n\nTensorFlowによる深層強化学習入門 (2021)\n強化学習アルゴリズム入門 (2019)\n現場で使える！Python深層強化学習入門 (2019)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#人工知能",
+    "href": "seminar/resources/Kinoden.html#人工知能",
+    "title": "KinoDen",
+    "section": "人工知能",
+    "text": "人工知能\n\n人工知能入門\n\nKeywords: 探索，推論，学習，進化的計算，ニューラルネットワーク，強化学習\n\n人工知能原理\n\nKeywords: 探索，機械学習，進化的計算，強化学習\n\n基礎から学ぶ人工知能の教科書\n\nKeywords: 学習，推論，深層学習，進化的計算，強化学習\n\n人工知能の創発\nタイトルメタヒューリスティクスとナチュラルコンピューティング\n\nKeywords: 遺伝的アルゴリズム，粒子群最適化法，タブーサーチ，山登り法\n\nAI時代の離散数学 (2020)\n\nKeywords: 論理関数，深層学習，グラフ理論，ネットワーク最適化",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#アルゴリズム",
+    "href": "seminar/resources/Kinoden.html#アルゴリズム",
+    "title": "KinoDen",
+    "section": "アルゴリズム",
+    "text": "アルゴリズム\n\nアルゴリズムイントロダクション\n\n世界的名著\nアルゴリズムイントロダクション　第4版　1 (2024)\nアルゴリズムイントロダクション　第4版　2 (2024)\n\nデータ構造とアルゴリズム (2017)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#モデリング",
+    "href": "seminar/resources/Kinoden.html#モデリング",
+    "title": "KinoDen",
+    "section": "モデリング",
+    "text": "モデリング\n\nグラフ理論入門(原書第4版) (2001)\nマルコフ決定過程 (2019)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
   },
   {
     "objectID": "seminar/pbl/literature-review.html",
