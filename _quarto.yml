@@ -27,15 +27,8 @@ website:
       - href: contact.qmd
         text: "<span style='font-size:16px;'>Contact</span><br><span style='font-size:12px; opacity:0.8;'>アクセス</span>"
     right:
-      - text: ゼミ
-      # "<span style='font-size:16px;'>Seminar</span><br><span style='font-size:12px; opacity:0.8;'>ゼミ</span>"
-        menu:
-          - text: リンク
-            href: seminar/links.qmd
-          - text: 学会日程
-            href: seminar/conference.qmd
-          - text: 卒業研究
-            href: seminar/graduation-research.qmd
+      - text: "Seminar"
+        href: seminar/intro.qmd
 
       - icon: github
         href: https://github.com/isl-hosei
@@ -43,6 +36,14 @@ website:
       #   href: https://github.com/
       # - icon: twitter
       #   href: https://twitter.com
+  
+  sidebar:
+    - title: Seminar
+      contents:
+        - seminar/intro.qmd
+        - seminar/lab-info.qmd
+        - seminar/conference.qmd
+  
   page-footer: 
     center: "Copyright 2025, Intelligent Systems Lab, Hosei University"
     right: |
