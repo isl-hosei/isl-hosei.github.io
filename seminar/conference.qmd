@@ -6,6 +6,7 @@ title: "学会情報"
 
 |学会|開催日|原稿提出|場所|
 |---|---|---|---|
+|[IEEE IEEM 2026](https://ieee-ieem.org/) |12/2 - 12/5|-|Singapore|
 |[IEEE SMC 2026](https://www.ieeesmc2026.org) |10/4 - 10/7|3/22|Bellevue, WA, USA|
 |[WCCI 2026](https://attend.ieee.org/wcci-2026/)|6/21 - 6/26|1/31|Netherlands|
 |[ISFA 2026](https://isopt.is.ritsumei.ac.jp/isfa2026/) | 7/19 - 7/22 | 2/12|岡山|

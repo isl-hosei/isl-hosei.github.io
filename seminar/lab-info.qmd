@@ -2,16 +2,16 @@
 title: "研究室情報"
 ---
 
-## サブスクリプション
-
-
-
 ## 住所
+
+### 日本語
 
 ```
 法政大学 理工学部 経営システム工学科
 〒184-8584 東京都小金井市梶野町3-7-2
 ```
+
+### English 
 
 ```
 Department of Industrial and Systems Engineering, 
@@ -19,7 +19,7 @@ Faculty of Science and Engineering, Hosei University,
 3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan 
 ```
 
-short version 1:
+### English (short)
 
 ```
 Hosei University, Tokyo 184-8584, Japan
@@ -34,12 +34,13 @@ Hosei University, Tokyo 184-8584, Japan
 
 ### 修士課程・博士後期課程
 
-- 法政大学理工学研究科システム理工学専攻（経営システム系）
+- 法政大学 理工学研究科 システム理工学専攻（経営システム系）
 - Graduate School of Science and Engineering, Hosei University
 
-<!-- ### Master’s and Doctoral Programs
+### IIST Program
 
-- Management Science Track, Major in Systems Engineering and Science, Institute of Integrated Science and Technology, Hosei University -->
+- Systems Engineering and Science
+(Management Science Track), Institute of Integrated Science and Technology, Hosei University
 
 ## リンク
 

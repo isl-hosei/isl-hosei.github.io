@@ -45,6 +45,11 @@ website:
         - seminar/conference.qmd
         - seminar/thesis.qmd
         - seminar/research-tools.qmd
+        - seminar/guide.qmd
+        - text: "---"
+        - section: "基礎演習"
+        - text: "---"
+        - section: "PBL"
         - text: "---"
         - section: "卒業研究"
           contents:

@@ -1,5 +1,5 @@
 ---
-title: "卒論発表"
+title: "発表資料チェックシート"
 ---
 
 <!-- https://lab.ueda.tech/?page=document_checklist
