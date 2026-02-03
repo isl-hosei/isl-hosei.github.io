@@ -21,3 +21,38 @@ title: "ゼミ"
 - [Interpretable Machine Learning](https://hacarus.github.io/interpretable-ml-book-ja/)
 - [私たちのR](https://www.jaysong.net/RBook/)
 -  -->
+  
+
+## ゼミ科目
+
+### 春
+
+- 卒業研究
+  - 授業時間外の学習：専任教員の個人指導のもとに、自ら発想し遂行する。
+  - 成績評価：中間発表会で用いる【ポスター】と【聴講レポート】で評価する．
+    - Grading will be decided based on the poster used in the midterm presentation and the listening report.
+- 経営工学応用演習
+  - 授業時間外の学習：本授業の準備等の授業時間外学習は、1時間を標準とする
+    - Before each class meeting, students will be expected to spend one hour to prepare for the class.
+  - 成績評価：毎週の提出物で評価する．
+    - Grading will be decided based on weekly reports.
+-  経営工学ゼミナール
+   - 授業時間外の学習：本授業の準備等の授業時間外学習は、1時間を標準とする
+     - Before each class meeting, students will be expected to spend one hour to prepare for the class.
+   - 成績評価：期末レポートで評価する．
+     - Grading will be decided based on the final report.
+
+### 秋
+
+- 卒業研究
+  - 授業時間外の学習：専任教員の個人指導のもとに、自ら発想し遂行する。
+  - 成績評価：卒論発表会で審査される発表資料で評価する．
+    - Grading will be decided based on the presentation materials used in the graduation thesis presentation.
+- 経営工学応用演習
+  - 授業時間外の学習：本授業の準備等の授業時間外学習は、1時間を標準とする
+  - 成績評価：卒業論文（本体）で評価する．
+    - Grading will be decided based on the graduation thesis.
+- 経営工学ゼミナール
+  - 授業時間外の学習：本授業の準備等の授業時間外学習は、1時間を標準とする
+  - 成績評価：卒業論文概要集で評価する．
+    - Grading will be decided based on the graduation thesis abstract collection.
