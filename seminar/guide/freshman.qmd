@@ -1,0 +1,8 @@
+---
+title: "新入生のToDoリスト"
+---
+
+- 身分証アクセス権の設定及び変更について（学生用）
+- [Scrapbox](https://scrapbox.io/isl-hosei/)のアカウント作成
+- [Overleaf](https://www.overleaf.com/)のアカウント作成
+- Slackの招待

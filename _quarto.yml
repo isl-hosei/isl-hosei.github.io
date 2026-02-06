@@ -47,6 +47,11 @@ website:
         - seminar/research-tools.qmd
         - seminar/guide.qmd
         - text: "---"
+        - section: "ガイダンス"
+          contents:
+            - seminar/guide/freshman.qmd
+            - seminar/guide/rules.qmd
+        - text: "---"
         - section: "基礎演習"
         - text: "---"
         - section: "PBL"
