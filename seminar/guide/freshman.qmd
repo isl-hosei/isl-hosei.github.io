@@ -2,7 +2,9 @@
 title: "新入生のToDoリスト"
 ---
 
-- 身分証アクセス権の設定及び変更について（学生用）
+- アンケート調査の回答
+- 実験室アクセス権限の申請
+  - 身分証アクセス権の設定及び変更について（学生用）
 - [Scrapbox](https://scrapbox.io/isl-hosei/)のアカウント作成
 - [Overleaf](https://www.overleaf.com/)のアカウント作成
 - Slackの招待
