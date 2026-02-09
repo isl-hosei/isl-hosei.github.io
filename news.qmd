@@ -1,7 +1,7 @@
 ---
 title: "News"
 listing:
-  contents: posts
+  contents: news
   sort: "date desc"
   type: default
   categories: true

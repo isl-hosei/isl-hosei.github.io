@@ -5,7 +5,6 @@ title-block-banner: true
 
 ## 教員 / Faculty
 
-
 - [劉 子昂](https://zi-ang-liu.github.io)
 
 ## 学生 / Students
