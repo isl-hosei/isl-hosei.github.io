@@ -53,6 +53,8 @@ website:
             - seminar/guide/rules.qmd
         - text: "---"
         - section: "基礎演習"
+          contents:
+            - seminar/basic/intro.qmd
         - text: "---"
         - section: "PBL"
         - text: "---"

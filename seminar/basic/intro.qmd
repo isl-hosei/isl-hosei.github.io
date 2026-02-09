@@ -1,0 +1,13 @@
+---
+title: "基礎演習"
+---
+
+
+## 参考資料
+
+### オンライン書籍
+
+- [Pythonプログラミング入門](https://utokyo-ipp.github.io/)，東京大学 数理・情報教育研究センター
+- [プログラミング演習 Python](https://repository.kulib.kyoto-u.ac.jp/items/3a8f357f-e957-4789-8bb1-45ee06c526aa)，喜多⼀，森村吉貴，岡本雅⼦，京都大学
+
+1. Colabの使い方，変数，演算
