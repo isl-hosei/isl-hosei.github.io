@@ -24,9 +24,18 @@ listing:
     type: grid
     categories: false
     max-items: 3
+
+  - id: research
+    contents: 
+      - /research
+    sort: "date desc"
+    type: grid
+    categories: false
+    max-items: 4
+    grid-columns: 4
 ---
 
-知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．
+<!-- 知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています． -->
 
 <!-- 主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています． -->
 
@@ -34,11 +43,20 @@ listing:
   <button type="button" class="btn btn-primary">Join Us</button>
 </a> -->
 
-## News 
+## News | ニュース
 
 :::{#news}
 :::
 
 <a href="news.qmd">
   <button type="button" class="btn btn-secondary">See All News</button>
+</a>
+
+## Research | 研究内容
+
+:::{#research}
+:::
+
+<a href="research.qmd">
+  <button type="button" class="btn btn-secondary">See All Research</button>
 </a>
