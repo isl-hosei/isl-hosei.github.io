@@ -1,13 +1,22 @@
 ---
 title: "People"
 title-block-banner: true
+listing:
+  - id: faculty-listing
+    contents: people/faculty
+    type: grid
+    sort: "title"
+    image-height: 200px
+    grid-columns: 4
+    fields: [image, title, subtitle]
 ---
 
-## 教員 / Faculty
+## 教員 | Faculty
 
-- [劉 子昂](https://zi-ang-liu.github.io)
+:::{#faculty-listing}
+:::
 
-## 学生 / Students
+## 学生 | Students
 
 ### B4
 

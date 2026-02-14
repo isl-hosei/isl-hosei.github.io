@@ -16,14 +16,14 @@ about:
   #     text: Github
   #     href: https://github.com
 
-# listing:
-#   - id: news
-#     contents: 
-#       - /news
-#     sort: "date desc"
-#     type: grid
-#     categories: false
-#     max-items: 3
+listing:
+  - id: news
+    contents: 
+      - /news
+    sort: "date desc"
+    type: grid
+    categories: false
+    max-items: 3
 ---
 
 知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．
@@ -34,7 +34,11 @@ about:
   <button type="button" class="btn btn-primary">Join Us</button>
 </a> -->
 
-<!-- ## [News](news.qmd)
+## News 
 
 :::{#news}
-::: -->
+:::
+
+<a href="news.qmd">
+  <button type="button" class="btn btn-secondary">See All News</button>
+</a>
