@@ -1,8 +1,0 @@
----
-title: "[劉 子昂](https://zi-ang-liu.github.io)"
-image: https://avatars.githubusercontent.com/u/50853393?v=4
-categories: [Faculty]
-subtitle: "准教授"
----
-
-Bio text goes here...

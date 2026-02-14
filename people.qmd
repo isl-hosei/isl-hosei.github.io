@@ -3,7 +3,12 @@ title: "People"
 title-block-banner: true
 listing:
   - id: faculty-listing
-    contents: people/faculty
+    contents: 
+      - title: "劉子昂"
+        image: https://avatars.githubusercontent.com/u/50853393?v=4
+        subtitle: "准教授"
+        path: https://zi-ang-liu.github.io
+        categories: [Faculty]
     type: grid
     sort: "title"
     image-height: 200px
