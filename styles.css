@@ -1,1 +1,19 @@
 /* css styles */
+
+.quarto-about-jolla>#title-block-header {
+    position: relative;
+    background-image:
+        linear-gradient(rgba(var(--bs-dark-rgb), 0.45), rgba(var(--bs-dark-rgb), 0.45)),
+        url("images/hero-isl.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    padding: 3.5rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.quarto-about-jolla>#title-block-header .title,
+.quarto-about-jolla>#title-block-header .subtitle {
+    color: var(--bs-white);
+}

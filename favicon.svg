@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Intelligent Systems Lab favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b3a5b" />
+      <stop offset="100%" stop-color="#2c6e9f" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)" />
+  <text x="32" y="43" text-anchor="middle" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700"
+    fill="#ffffff">ISL</text>
+</svg>
