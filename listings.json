@@ -1,9 +1,33 @@
 [
   {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/Metaheuristics/index.html",
+      "/research/AI-opt/index.html",
+      "/research/SCM/index.html",
+      "/research/RL/index.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
-      "/posts/apms-2025/index.html",
-      "/posts/welcome/index.html"
+      "/news/apms-2025/index.html",
+      "/news/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/apms-2025/index.html",
+      "/news/welcome/index.html",
+      "/research/Metaheuristics/index.html",
+      "/research/AI-opt/index.html",
+      "/research/SCM/index.html",
+      "/research/RL/index.html"
     ]
   }
 ]

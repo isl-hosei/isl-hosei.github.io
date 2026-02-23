@@ -56,625 +56,98 @@
     "text": "AIを使用して，文章，画像，コードなどを生成した場合は，その旨を謝辞で開示すべきである．\nなお，AIを用いて，読みやすさや文法の改善などは，開示の必要はない．\n\nIEEEほかの投稿・著作ガイドラインにおける生成AIの扱い"
   },
   {
-    "objectID": "seminar/resources/Kinoden.html",
-    "href": "seminar/resources/Kinoden.html",
-    "title": "KinoDen",
+    "objectID": "seminar/resources/e-book.html",
+    "href": "seminar/resources/e-book.html",
+    "title": "Online 書籍",
     "section": "",
-    "text": "法政大学図書館のKinodenで豊富な書籍を閲覧できます．\nKinodenは、下記のリンクからアクセスできます．\nKinoDen",
+    "text": "Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville)\nReinforcement Learning: An Introduction (Richard S. Sutton and Andrew G. Barto)\nAn Introduction to Statistical Learning (ISL)\nInterpretable Machine Learning",
     "crumbs": [
       "Seminar",
       "資源",
-      "KinoDen"
+      "Online 書籍"
     ]
   },
   {
-    "objectID": "seminar/resources/Kinoden.html#python入門",
-    "href": "seminar/resources/Kinoden.html#python入門",
-    "title": "KinoDen",
-    "section": "Python入門",
-    "text": "Python入門\n\nPython言語によるプログラミングイントロダクション　第2版 (2017)\nChatGPTと学ぶPython入門\nよくわかる Python入門\nスッキリわかるPython入門\nゼロからやさしくはじめるPython入門\nマンガでざっくり学ぶPython（パイソン）",
+    "objectID": "seminar/resources/e-book.html#英語",
+    "href": "seminar/resources/e-book.html#英語",
+    "title": "Online 書籍",
+    "section": "",
+    "text": "Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville)\nReinforcement Learning: An Introduction (Richard S. Sutton and Andrew G. Barto)\nAn Introduction to Statistical Learning (ISL)\nInterpretable Machine Learning",
     "crumbs": [
       "Seminar",
       "資源",
-      "KinoDen"
+      "Online 書籍"
     ]
   },
   {
-    "objectID": "seminar/resources/Kinoden.html#経営工学",
-    "href": "seminar/resources/Kinoden.html#経営工学",
-    "title": "KinoDen",
-    "section": "経営工学",
-    "text": "経営工学\n\nPythonで経営工学を学ぶ\n\nPython コンピュータシミュレーション入門 (2021)\n\nKeywords: 感染症モデル，線型計画法，在庫管理，待ち行列，グラフ理論，遺伝的アルゴリズム，ゲーム理論，強化学習\n経営工学に関するテーマが多く取り上げられている．\n\n\n\n\nExcelで経営工学を学ぶ\n\n入門　経営科学　改訂版\n例題で学ぶ　OR入門\nExcelで学ぶオペレーションズリサーチ",
+    "objectID": "seminar/resources/e-book.html#日本語",
+    "href": "seminar/resources/e-book.html#日本語",
+    "title": "Online 書籍",
+    "section": "日本語",
+    "text": "日本語\n\n私たちのR-宋財泫-矢内勇生\nデータサイエンス-酒井優行",
     "crumbs": [
       "Seminar",
       "資源",
-      "KinoDen"
+      "Online 書籍"
     ]
   },
   {
-    "objectID": "seminar/resources/Kinoden.html#最適化",
-    "href": "seminar/resources/Kinoden.html#最適化",
-    "title": "KinoDen",
-    "section": "最適化",
-    "text": "最適化\n\nPythonで数理最適化を学ぶ\n\nPythonではじめる数理最適化　第2版 (2024)\n\nKeywords: 数理最適化，モデリング，ケーススタディ（学校のクラス編成，配送計画，商品推薦）\n\nPythonによる実務で役立つ最適化問題100+ 1 (2022)\n\n栄養問題、最短路問題など\n内容が公開されている．Link\n\nPythonによる数理最適化入門 (2018)\nあたらしい数理最適化 (2012)\n\nKeywords: 施設配置問題、箱詰め問題と切断問題、スケジューリング問題など\n\n\n\n\nソースコードなし\n\n最適化の基礎",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#機械学習",
-    "href": "seminar/resources/Kinoden.html#機械学習",
-    "title": "KinoDen",
-    "section": "機械学習",
-    "text": "機械学習\n\nPythonで機械学習を学ぶ\n\nPython機械学習プログラミング (2022)\n\nKeywords: データ前処理，教師あり学習，教師なし学習，強化学習，Sklearn，PyTorch\n機械学習アルゴリズムの理論と実装を学べる．数学，プログラミングの両方に自信がある人向け．\n\nスッキリわかるPythonによる機械学習入門\n\nKeywords: 教師あり学習，教師なし学習\n機械学習ライブラリの使い方を学べる．数式が苦手な人向け．\n\nいちばんやさしいPython機械学習の教本",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#データサイエンス",
-    "href": "seminar/resources/Kinoden.html#データサイエンス",
-    "title": "KinoDen",
-    "section": "データサイエンス",
-    "text": "データサイエンス\n\nPythonでデータサイエンスを学ぶ\n\nデータサイエンス教本(2018)\n\nKeywords: 回帰分析，パターン認識，深層学習，時系列分析，画像処理\n\nPython時系列分析クックブック\nPythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023)\n\nKeywords: 練習問題\n\n\n\n\nソースコードなし\n\nデータサイエンス入門　第3版\nデータ分析とデータサイエンス",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#統計学",
-    "href": "seminar/resources/Kinoden.html#統計学",
-    "title": "KinoDen",
-    "section": "統計学",
-    "text": "統計学\n\nPythonで統計学を学ぶ\n\nPythonで学ぶあたらしい統計学の教科書　第2版\nPythonで学ぶ統計的機械学習\n\n\n\nRで統計学を学ぶ\n\n理工系のための統計入門 (2016)\nＲによる統計解析\n\n\n\nソースコードなし\n\n数理統計学の基礎 (2014)\n教養のための統計入門 (2016)\n新統計入門 (1996)\n確率統計 (1996)\n確率・統計 (2019)\n経営科学のための確率統計入門 (2022)",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#システム工学",
-    "href": "seminar/resources/Kinoden.html#システム工学",
-    "title": "KinoDen",
-    "section": "システム工学",
-    "text": "システム工学\n\nシステム工学 (1996)",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#xai",
-    "href": "seminar/resources/Kinoden.html#xai",
-    "title": "KinoDen",
-    "section": "XAI",
-    "text": "XAI\n\n実践XAI［説明可能なAI］ (2023)",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#強化学習",
-    "href": "seminar/resources/Kinoden.html#強化学習",
-    "title": "KinoDen",
-    "section": "強化学習",
-    "text": "強化学習\n\nTensorFlowによる深層強化学習入門 (2021)\n強化学習アルゴリズム入門 (2019)\n現場で使える！Python深層強化学習入門 (2019)",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#人工知能",
-    "href": "seminar/resources/Kinoden.html#人工知能",
-    "title": "KinoDen",
-    "section": "人工知能",
-    "text": "人工知能\n\n人工知能入門\n\nKeywords: 探索，推論，学習，進化的計算，ニューラルネットワーク，強化学習\n\n人工知能原理\n\nKeywords: 探索，機械学習，進化的計算，強化学習\n\n基礎から学ぶ人工知能の教科書\n\nKeywords: 学習，推論，深層学習，進化的計算，強化学習\n\n人工知能の創発\nタイトルメタヒューリスティクスとナチュラルコンピューティング\n\nKeywords: 遺伝的アルゴリズム，粒子群最適化法，タブーサーチ，山登り法\n\nAI時代の離散数学 (2020)\n\nKeywords: 論理関数，深層学習，グラフ理論，ネットワーク最適化",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#アルゴリズム",
-    "href": "seminar/resources/Kinoden.html#アルゴリズム",
-    "title": "KinoDen",
-    "section": "アルゴリズム",
-    "text": "アルゴリズム\n\nアルゴリズムイントロダクション\n\n世界的名著\nアルゴリズムイントロダクション　第4版　1 (2024)\nアルゴリズムイントロダクション　第4版　2 (2024)\n\nデータ構造とアルゴリズム (2017)",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/resources/Kinoden.html#モデリング",
-    "href": "seminar/resources/Kinoden.html#モデリング",
-    "title": "KinoDen",
-    "section": "モデリング",
-    "text": "モデリング\n\nグラフ理論入門(原書第4版) (2001)\nマルコフ決定過程 (2019)",
-    "crumbs": [
-      "Seminar",
-      "資源",
-      "KinoDen"
-    ]
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html",
-    "href": "seminar/b4/write-thesis.html",
-    "title": "卒論の書き方と留意事項",
+    "objectID": "seminar/intro.html",
+    "href": "seminar/intro.html",
+    "title": "Intro",
     "section": "",
-    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．1\nできるだけ箇条書きにはしない．\n「私」等の一人称は使用しない．"
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html#本文",
-    "href": "seminar/b4/write-thesis.html#本文",
-    "title": "卒論の書き方と留意事項",
-    "section": "",
-    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．1\nできるだけ箇条書きにはしない．\n「私」等の一人称は使用しない．"
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html#数式",
-    "href": "seminar/b4/write-thesis.html#数式",
-    "title": "卒論の書き方と留意事項",
-    "section": "数式",
-    "text": "数式\n\n文章中に数式を入れるとき，数式環境を使う．例えば，\\(y = ax + b\\) のように記述する．\n\\(\\max\\)，\\(\\min\\)，\\(\\sin\\)，\\(\\cos\\)，\\(\\log\\) などの関数は，イタリック体ではなくローマン体で記述する．例えば，\\(y = \\sin x\\) のように記述する．\n記号の表記は統一する．以下にガイドラインを示す．\n\n\n\n\n\n表記例\n\n\n\n\nスカラー\n\\(a, b, c\\)\n\n\nベクトル\n\\(\\mathbf{x}, \\mathbf{y}\\)\n\n\n確率変数\n\\(X, Y\\)\n\n\n集合\n\\(A, B\\) または \\(\\mathcal{A}, \\mathcal{B}\\)\n\n\n行列\n\\(\\mathbf{A}, \\mathbf{B}\\)"
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html#図表",
-    "href": "seminar/b4/write-thesis.html#図表",
-    "title": "卒論の書き方と留意事項",
-    "section": "図表",
-    "text": "図表\n\n図表を使うときは，必ず本文でその図表に言及しておく．\n図表中の文字は，本文と同じ程度の大きさにする．\n卒論概要は印刷時はモノクロになるため，図において色での判別は行わないこと．\n原則，図表の転載は禁止する．やむを得ず転載する場合は，当該論文の著作権者の掲載許可を得るとともに，出典を明記する．2"
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html#用語",
-    "href": "seminar/b4/write-thesis.html#用語",
-    "title": "卒論の書き方と留意事項",
-    "section": "用語",
-    "text": "用語\n\n用語を統一する．例えば，「深層学習」と「ディープラーニング」は同じ意味であるため，どちらか一方に統一する．\n標準的に用いられている用語を使用する．例えば，「ニューラルネットワーク」は「神経回路網」とせず，「ニューラルネットワーク」を使用する．"
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html#略語",
-    "href": "seminar/b4/write-thesis.html#略語",
-    "title": "卒論の書き方と留意事項",
-    "section": "略語",
-    "text": "略語\n\n略語を用いる場合は，初出時に正式名称を明記する．\n本文中に一度しか記載のない名称は，略語・略称表記は不要．"
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html#論文の構成",
-    "href": "seminar/b4/write-thesis.html#論文の構成",
-    "title": "卒論の書き方と留意事項",
-    "section": "論文の構成",
-    "text": "論文の構成"
-  },
-  {
-    "objectID": "seminar/b4/write-thesis.html#footnotes",
-    "href": "seminar/b4/write-thesis.html#footnotes",
-    "title": "卒論の書き方と留意事項",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\n「、。」を使った場合は，Replace All 機能を使えば，一括変換できる．「word Replace All」，「overleaf relace all」などで検索すると，方法が見つかる．↩︎\nCC BY 4.0などのライセンスで公開されている図表については，著作権者の許可を得る必要はないが，出典を明記すること．↩︎"
-  },
-  {
-    "objectID": "seminar/b4/graduation-research.html",
-    "href": "seminar/b4/graduation-research.html",
-    "title": "卒業研究",
-    "section": "",
-    "text": "卒論チェックシート"
-  },
-  {
-    "objectID": "seminar/b4/graduation-research.html#スケジュール2025年度",
-    "href": "seminar/b4/graduation-research.html#スケジュール2025年度",
-    "title": "卒業研究",
-    "section": "スケジュール（2025年度）",
-    "text": "スケジュール（2025年度）\n\n\n\n内容\n期限\n\n\n\n\n論文執筆開始\n11月1日\n\n\n卒業論文題目・氏名の提出\n11月7日\n\n\n第一案提出\n12月1日\n\n\n第二案提出\n12月末まで\n\n\n最終チェック\n1月上旬\n\n\n卒論概要の作成\n卒業論文最終版完成後すぐ\n\n\n卒業論文・卒論概要提出\n1月16日\n\n\n引継ぎ資料・発表資料作成\n1月中旬\n\n\n発表練習\n1月中旬\n\n\n卒業論文審査会\n1月30日"
-  },
-  {
-    "objectID": "seminar/b4/graduation-research.html#overleaf-の注意点",
-    "href": "seminar/b4/graduation-research.html#overleaf-の注意点",
-    "title": "卒業研究",
-    "section": "Overleaf の注意点",
-    "text": "Overleaf の注意点\n\n段落の改行は，\\\\ ではなく空行を入れることで行う．\nエラーが発生した場合は，エラーメッセージをよく読み，デバッグする．\nウェブサイトを引用する場合は，@misc を回避策として使用する．詳細はこちらを参照のこと．"
-  },
-  {
-    "objectID": "seminar/b4/graduation-research.html#類似性レポート",
-    "href": "seminar/b4/graduation-research.html#類似性レポート",
-    "title": "卒業研究",
-    "section": "類似性レポート",
-    "text": "類似性レポート\n学位論文に対してTurnitinによる類似性チェックを実施します．Turnitinの類似性レポートの読み方や，類似箇所の修正方法については，以下のサイトを参考にしてください．\nTurnitin類似性レポートの読み方と修正方法"
-  },
-  {
-    "objectID": "seminar/seminar.html",
-    "href": "seminar/seminar.html",
-    "title": "ゼミ",
-    "section": "",
-    "text": "Colab\n\nGPU利用可能"
-  },
-  {
-    "objectID": "seminar/seminar.html#計算資源",
-    "href": "seminar/seminar.html#計算資源",
-    "title": "ゼミ",
-    "section": "",
-    "text": "Colab\n\nGPU利用可能"
-  },
-  {
-    "objectID": "seminar/seminar.html#論文レポート作成",
-    "href": "seminar/seminar.html#論文レポート作成",
-    "title": "ゼミ",
-    "section": "論文・レポート作成",
-    "text": "論文・レポート作成\n\nOverleaf\n\n年間ライセンス"
-  },
-  {
-    "objectID": "seminar/seminar.html#コミュニケーション",
-    "href": "seminar/seminar.html#コミュニケーション",
-    "title": "ゼミ",
-    "section": "コミュニケーション",
-    "text": "コミュニケーション\n\nScrapbox\nSlack\nGoogle Meet"
-  },
-  {
-    "objectID": "seminar/lab-info.html#住所",
-    "href": "seminar/lab-info.html#住所",
-    "title": "研究室情報",
-    "section": "住所",
-    "text": "住所\n法政大学 理工学部 経営システム工学科\n〒184-8584 東京都小金井市梶野町3-7-2\nDepartment of Industrial and Systems Engineering, \nFaculty of Science and Engineering, Hosei University, \n3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan \nshort version 1:\nHosei University, Tokyo 184-8584, Japan",
+    "text": "Intro\nprint(\"Hello, World!\")",
     "crumbs": [
       "Seminar",
-      "研究室情報"
+      "Intro"
     ]
   },
   {
-    "objectID": "seminar/lab-info.html#所属",
-    "href": "seminar/lab-info.html#所属",
-    "title": "研究室情報",
-    "section": "所属",
-    "text": "所属\n\n学部\n\n法政大学 理工学部 経営システム工学科\nDepartment of Industrial and Systems Engineering, Faculty of Science and Engineering, Hosei University\n\n\n\n修士課程・博士後期課程\n\n法政大学理工学研究科システム理工学専攻（経営システム系）\nGraduate School of Science and Engineering, Hosei University",
+    "objectID": "seminar/b4/slide-check-sheet.html",
+    "href": "seminar/b4/slide-check-sheet.html",
+    "title": "発表資料チェックシート",
+    "section": "",
+    "text": "複数人での発表では，発表時間を概ね均等に分担すること\n\n1 人または 2 人で研究を行った場合：発表時間 12 分，質疑時間 3 分.\n\n3 人で研究を行った場合：発表時間 15 分，質疑時間 5 分．",
     "crumbs": [
       "Seminar",
-      "研究室情報"
+      "卒業研究",
+      "発表資料チェックシート"
     ]
   },
   {
-    "objectID": "seminar/lab-info.html#リンク",
-    "href": "seminar/lab-info.html#リンク",
-    "title": "研究室情報",
-    "section": "リンク",
-    "text": "リンク\n\n研究室GitHub\n研究室Webサイト",
+    "objectID": "seminar/b4/slide-check-sheet.html#発表時間について",
+    "href": "seminar/b4/slide-check-sheet.html#発表時間について",
+    "title": "発表資料チェックシート",
+    "section": "",
+    "text": "複数人での発表では，発表時間を概ね均等に分担すること\n\n1 人または 2 人で研究を行った場合：発表時間 12 分，質疑時間 3 分.\n\n3 人で研究を行った場合：発表時間 15 分，質疑時間 5 分．",
     "crumbs": [
       "Seminar",
-      "研究室情報"
+      "卒業研究",
+      "発表資料チェックシート"
     ]
   },
   {
-    "objectID": "seminar/research-tools.html",
-    "href": "seminar/research-tools.html",
-    "title": "研究に便利なツール",
-    "section": "",
-    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風",
+    "objectID": "seminar/b4/slide-check-sheet.html#チェックシート",
+    "href": "seminar/b4/slide-check-sheet.html#チェックシート",
+    "title": "発表資料チェックシート",
+    "section": "チェックシート",
+    "text": "チェックシート\n\n全体\n\nページ番号がある．\nスライドサイズは4:3である．\nメインとして使用するフォントサイズは最小16pt以上である．\n見やすいフォントを使用している（英語はArial，和文はメイリオを推奨）．\nデザインが統一されている（フォント，色，レイアウトなど）．\n\n\n\n内容\n\n利用権利のある写真、動画、イラストを使用している．\n1枚のスライドで伝えたい内容は1つに絞っている．\n\n\n\nタイトルスライド\n\n論文タイトル，所属，氏名が正しく記載されている．\n「20XX年度卒業論文審査会」と記載されている．\n\n\n\n補足スライド\n\n補足スライドを用意している．",
     "crumbs": [
       "Seminar",
-      "研究に便利なツール"
+      "卒業研究",
+      "発表資料チェックシート"
     ]
   },
   {
-    "objectID": "seminar/research-tools.html#作図",
-    "href": "seminar/research-tools.html#作図",
-    "title": "研究に便利なツール",
-    "section": "",
-    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風",
+    "objectID": "seminar/b4/slide-check-sheet.html#スライド作成の参考資料",
+    "href": "seminar/b4/slide-check-sheet.html#スライド作成の参考資料",
+    "title": "発表資料チェックシート",
+    "section": "スライド作成の参考資料",
+    "text": "スライド作成の参考資料\n\nYouTube動画\n\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター①\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター②\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター③\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター④\nPowerPointスライド作成実演ライブ ①必修編\nPowerPointスライド作成実演ライブ ②スキルアップ編\n人に伝わるスライドの作成方法\n発表の例1\n発表の例2\n\n\n\nウェブサイト\n\n良い発表をするために\n理系のためのプレゼンテーション\n\n\n\nテンプレート\n\n卒論発表スライドテンプレート",
     "crumbs": [
       "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "seminar/research-tools.html#pdf-reader",
-    "href": "seminar/research-tools.html#pdf-reader",
-    "title": "研究に便利なツール",
-    "section": "PDF Reader",
-    "text": "PDF Reader\n\nGoogle Scholar PDF Reader",
-    "crumbs": [
-      "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "seminar/research-tools.html#文献管理",
-    "href": "seminar/research-tools.html#文献管理",
-    "title": "研究に便利なツール",
-    "section": "文献管理",
-    "text": "文献管理\n文献を管理するだけでなく、WordやLaTexと連携し、参考文献の自動番号付き、自動生成などができます。\n\nZotero：文献管理ソフト\nMendeley：文献管理ソフト\nPaperpile：文献管理ソフト（有料）",
-    "crumbs": [
-      "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "seminar/research-tools.html#コーディング",
-    "href": "seminar/research-tools.html#コーディング",
-    "title": "研究に便利なツール",
-    "section": "コーディング",
-    "text": "コーディング\n\nGithub：プロジェクトの管理、他人のコードの参考\nGithub Copilot：コーディングアシスタント\nVSCode：IDE",
-    "crumbs": [
-      "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "seminar/research-tools.html#文章作成",
-    "href": "seminar/research-tools.html#文章作成",
-    "title": "研究に便利なツール",
-    "section": "文章作成",
-    "text": "文章作成\n\nOverleaf：LaTeXエディタ\nMarkdown：軽量マークアップ言語",
-    "crumbs": [
-      "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "seminar/research-tools.html#英語文章作成",
-    "href": "seminar/research-tools.html#英語文章作成",
-    "title": "研究に便利なツール",
-    "section": "英語文章作成",
-    "text": "英語文章作成\n\nGrammarly：文法チェック\nAcademic Phrasebank：アカデミックライティング",
-    "crumbs": [
-      "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "seminar/research-tools.html#スライド作成と発表",
-    "href": "seminar/research-tools.html#スライド作成と発表",
-    "title": "研究に便利なツール",
-    "section": "スライド作成と発表",
-    "text": "スライド作成と発表\n\nBeamer：LaTeXスライド作成\n\nPympress：PDFスライド発表\n\nMarp：Markdownスライド作成",
-    "crumbs": [
-      "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "seminar/research-tools.html#mac",
-    "href": "seminar/research-tools.html#mac",
-    "title": "研究に便利なツール",
-    "section": "Mac",
-    "text": "Mac\n\nWine: Mac上で.exeフィアルを実行する",
-    "crumbs": [
-      "Seminar",
-      "研究に便利なツール"
-    ]
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html",
-    "href": "blog/vector-graphics/index.html",
-    "title": "図の作り方",
-    "section": "",
-    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#draw.io",
-    "href": "blog/vector-graphics/index.html#draw.io",
-    "title": "図の作り方",
-    "section": "draw.io",
-    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#excalidraw",
-    "href": "blog/vector-graphics/index.html#excalidraw",
-    "title": "図の作り方",
-    "section": "Excalidraw",
-    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#python",
-    "href": "blog/vector-graphics/index.html#python",
-    "title": "図の作り方",
-    "section": "Python",
-    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "知能システム研究室",
-    "section": "",
-    "text": "知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．\n\n Join Us"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
-    "section": "",
-    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "note.html",
-    "href": "note.html",
-    "title": "Intelligent Systems Lab",
-    "section": "",
-    "text": "https://icons.getbootstrap.com"
-  },
-  {
-    "objectID": "posts/apms-2025/index.html",
-    "href": "posts/apms-2025/index.html",
-    "title": "APMS 2025",
-    "section": "",
-    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
-  },
-  {
-    "objectID": "contact.html#アクセス",
-    "href": "contact.html#アクセス",
-    "title": "Contact",
-    "section": "",
-    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
-  },
-  {
-    "objectID": "contact.html#住所",
-    "href": "contact.html#住所",
-    "title": "Contact",
-    "section": "住所",
-    "text": "住所\n\n日本語English\n\n\n〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
-  },
-  {
-    "objectID": "contact.html#google-map",
-    "href": "contact.html#google-map",
-    "title": "Contact",
-    "section": "Google Map",
-    "text": "Google Map"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "知能システム研究室が発足しました!",
-    "section": "",
-    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join us",
-    "section": "",
-    "text": "研究室配属\n大学院入試\nIIST English Program"
-  },
-  {
-    "objectID": "join.html#研究室配属",
-    "href": "join.html#研究室配属",
-    "title": "Join us",
-    "section": "研究室配属",
-    "text": "研究室配属\n法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．"
-  },
-  {
-    "objectID": "join.html#大学院入試",
-    "href": "join.html#大学院入試",
-    "title": "Join us",
-    "section": "大学院入試",
-    "text": "大学院入試\n入試は年2回行なっています．7月頃と2月頃に行なっています．筆記試験と口述試験があります．\n法政大学理工学研究科は，出願に当たり，事前に指導希望教員の許可を得る必要があります．\n大学院入試要項\nまた，法政大学では，IISTという英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．詳細は，以下をご覧ください．"
-  },
-  {
-    "objectID": "join.html#iist-english-program",
-    "href": "join.html#iist-english-program",
-    "title": "Join us",
-    "section": "IIST English Program",
-    "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) provides English graduate programs for Master’s and Doctoral degrees. Admissions guidelines can be found at the here."
-  },
-  {
-    "objectID": "lab.html",
-    "href": "lab.html",
-    "title": "学生実験室",
-    "section": "",
-    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
-  },
-  {
-    "objectID": "lab.html#共用",
-    "href": "lab.html#共用",
-    "title": "学生実験室",
-    "section": "",
-    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
-  },
-  {
-    "objectID": "lab.html#コンピューティング",
-    "href": "lab.html#コンピューティング",
-    "title": "学生実験室",
-    "section": "コンピューティング",
-    "text": "コンピューティング\n\nNVIDIA DGX Spark（2025年）\nGeForce RTX 3050"
-  },
-  {
-    "objectID": "lab.html#ソフトウェア",
-    "href": "lab.html#ソフトウェア",
-    "title": "学生実験室",
-    "section": "ソフトウェア",
-    "text": "ソフトウェア\n\nOverleaf: Online LaTeX editor"
-  },
-  {
-    "objectID": "lab.html#法政大学",
-    "href": "lab.html#法政大学",
-    "title": "学生実験室",
-    "section": "法政大学",
-    "text": "法政大学\n\nTurnitin: Plagiarism checking tool\n\niThenticate\nFeedback Studio\n\nKinoden 電子ブック\nProQuest Ebook Central"
-  },
-  {
-    "objectID": "blog/python-env/index.html",
-    "href": "blog/python-env/index.html",
-    "title": "Python 環境構築",
-    "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
-  },
-  {
-    "objectID": "blog/python-env/index.html#uv-python-vscode",
-    "href": "blog/python-env/index.html#uv-python-vscode",
-    "title": "Python 環境構築",
-    "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "劉 子昂"
-  },
-  {
-    "objectID": "people.html#教員-faculty",
-    "href": "people.html#教員-faculty",
-    "title": "People",
-    "section": "",
-    "text": "劉 子昂"
-  },
-  {
-    "objectID": "people.html#学生-students",
-    "href": "people.html#学生-students",
-    "title": "People",
-    "section": "学生 / Students",
-    "text": "学生 / Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
-  },
-  {
-    "objectID": "seminar/conference.html",
-    "href": "seminar/conference.html",
-    "title": "学会情報",
-    "section": "",
-    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nIEEE SMC 2026\n10/4 - 10/7\n3/22\nBellevue, WA, USA\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n2/12\n岡山\n\n\nSCI’26\n5/24 - 5/26\n4/6 (1/28)\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n5/11 (4/13)\n函館市民会館",
-    "crumbs": [
-      "Seminar",
-      "学会情報"
-    ]
-  },
-  {
-    "objectID": "seminar/conference.html#section",
-    "href": "seminar/conference.html#section",
-    "title": "学会情報",
-    "section": "",
-    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nIEEE SMC 2026\n10/4 - 10/7\n3/22\nBellevue, WA, USA\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n2/12\n岡山\n\n\nSCI’26\n5/24 - 5/26\n4/6 (1/28)\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n5/11 (4/13)\n函館市民会館",
-    "crumbs": [
-      "Seminar",
-      "学会情報"
-    ]
-  },
-  {
-    "objectID": "seminar/conference.html#section-1",
-    "href": "seminar/conference.html#section-1",
-    "title": "学会情報",
-    "section": "2025",
-    "text": "2025\n\n\n\n学会\n開催日\n場所\n\n\n\n\nSCI’25\n5/25 - 5/27\n神戸\n\n\nAPMS 2025\n8/31 - 9/3\n鎌倉\n\n\n第68回 自動制御連合講演会\n11/1 - 11/2\n名古屋大学\n\n\nIEEM 2025\n12/7 - 12/10\nAustralia",
-    "crumbs": [
-      "Seminar",
-      "学会情報"
+      "卒業研究",
+      "発表資料チェックシート"
     ]
   },
   {
@@ -834,98 +307,777 @@
     ]
   },
   {
-    "objectID": "seminar/b4/slide-check-sheet.html",
-    "href": "seminar/b4/slide-check-sheet.html",
-    "title": "卒論発表",
+    "objectID": "seminar/conference.html",
+    "href": "seminar/conference.html",
+    "title": "学会情報",
     "section": "",
-    "text": "複数人での発表では，発表時間を概ね均等に分担すること\n\n1 人または 2 人で研究を行った場合：発表時間 12 分，質疑時間 3 分.\n\n3 人で研究を行った場合：発表時間 15 分，質疑時間 5 分．",
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nIEEE IEEM 2026\n12/2 - 12/5\n-\nSingapore\n\n\nIEEE SMC 2026\n10/4 - 10/7\n3/22\nBellevue, WA, USA\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n2/12\n岡山\n\n\nSCI’26\n5/24 - 5/26\n4/6 (1/28)\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n5/11 (4/13)\n函館市民会館",
     "crumbs": [
       "Seminar",
-      "卒業研究",
-      "卒論発表"
+      "学会情報"
     ]
   },
   {
-    "objectID": "seminar/b4/slide-check-sheet.html#発表時間について",
-    "href": "seminar/b4/slide-check-sheet.html#発表時間について",
-    "title": "卒論発表",
+    "objectID": "seminar/conference.html#section",
+    "href": "seminar/conference.html#section",
+    "title": "学会情報",
     "section": "",
-    "text": "複数人での発表では，発表時間を概ね均等に分担すること\n\n1 人または 2 人で研究を行った場合：発表時間 12 分，質疑時間 3 分.\n\n3 人で研究を行った場合：発表時間 15 分，質疑時間 5 分．",
+    "text": "学会\n開催日\n原稿提出\n場所\n\n\n\n\nIEEE IEEM 2026\n12/2 - 12/5\n-\nSingapore\n\n\nIEEE SMC 2026\n10/4 - 10/7\n3/22\nBellevue, WA, USA\n\n\nWCCI 2026\n6/21 - 6/26\n1/31\nNetherlands\n\n\nISFA 2026\n7/19 - 7/22\n2/12\n岡山\n\n\nSCI’26\n5/24 - 5/26\n4/6 (1/28)\n愛知\n\n\n日本経営工学会2026年春季大会\n6/6 - 6/7\n5/11 (4/13)\n函館市民会館",
     "crumbs": [
       "Seminar",
-      "卒業研究",
-      "卒論発表"
+      "学会情報"
     ]
   },
   {
-    "objectID": "seminar/b4/slide-check-sheet.html#チェックシート",
-    "href": "seminar/b4/slide-check-sheet.html#チェックシート",
-    "title": "卒論発表",
-    "section": "チェックシート",
-    "text": "チェックシート\n\n全体\n\nページ番号がある．\nスライドサイズは4:3である．\nメインとして使用するフォントサイズは最小16pt以上である．\n見やすいフォントを使用している（英語はArial，和文はメイリオを推奨）．\nデザインが統一されている（フォント，色，レイアウトなど）．\n\n\n\n内容\n\n利用権利のある写真、動画、イラストを使用している．\n1枚のスライドで伝えたい内容は1つに絞っている．\n\n\n\nタイトルスライド\n\n論文タイトル，所属，氏名が正しく記載されている．\n「20XX年度卒業論文審査会」と記載されている．\n\n\n\n補足スライド\n\n補足スライドを用意している．",
+    "objectID": "seminar/conference.html#section-1",
+    "href": "seminar/conference.html#section-1",
+    "title": "学会情報",
+    "section": "2025",
+    "text": "2025\n\n\n\n学会\n開催日\n場所\n\n\n\n\nSCI’25\n5/25 - 5/27\n神戸\n\n\nAPMS 2025\n8/31 - 9/3\n鎌倉\n\n\n第68回 自動制御連合講演会\n11/1 - 11/2\n名古屋大学\n\n\nIEEM 2025\n12/7 - 12/10\nAustralia",
     "crumbs": [
       "Seminar",
-      "卒業研究",
-      "卒論発表"
+      "学会情報"
     ]
   },
   {
-    "objectID": "seminar/b4/slide-check-sheet.html#スライド作成の参考資料",
-    "href": "seminar/b4/slide-check-sheet.html#スライド作成の参考資料",
-    "title": "卒論発表",
-    "section": "スライド作成の参考資料",
-    "text": "スライド作成の参考資料\n\nYouTube動画\n\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター①\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター②\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター③\n早稲田大学 早水桃子先生とのコラボ添削！研究発表スライド 劇的ビフォーアフター④\nPowerPointスライド作成実演ライブ ①必修編\nPowerPointスライド作成実演ライブ ②スキルアップ編\n人に伝わるスライドの作成方法\n発表の例1\n発表の例2\n\n\n\nウェブサイト\n\n良い発表をするために\n理系のためのプレゼンテーション\n\n\n\nテンプレート\n\n卒論発表スライドテンプレート",
-    "crumbs": [
-      "Seminar",
-      "卒業研究",
-      "卒論発表"
-    ]
-  },
-  {
-    "objectID": "seminar/intro.html",
-    "href": "seminar/intro.html",
-    "title": "Intro",
+    "objectID": "seminar/guide/rules.html",
+    "href": "seminar/guide/rules.html",
+    "title": "研究室ルール",
     "section": "",
-    "text": "Intro\nprint(\"Hello, World!\")",
+    "text": "B3ゼミ（基礎演習・PBL）：毎週木曜日4限\nB4ゼミ（卒業研究）：毎週木曜日3限",
     "crumbs": [
       "Seminar",
-      "Intro"
+      "ガイダンス",
+      "研究室ルール"
     ]
   },
   {
-    "objectID": "seminar/resources/e-book.html",
-    "href": "seminar/resources/e-book.html",
-    "title": "Online 書籍",
+    "objectID": "seminar/guide/rules.html#のゼミについて",
+    "href": "seminar/guide/rules.html#のゼミについて",
+    "title": "研究室ルール",
     "section": "",
-    "text": "Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville)\nReinforcement Learning: An Introduction (Richard S. Sutton and Andrew G. Barto)\nAn Introduction to Statistical Learning (ISL)\nInterpretable Machine Learning",
+    "text": "B3ゼミ（基礎演習・PBL）：毎週木曜日4限\nB4ゼミ（卒業研究）：毎週木曜日3限",
+    "crumbs": [
+      "Seminar",
+      "ガイダンス",
+      "研究室ルール"
+    ]
+  },
+  {
+    "objectID": "seminar/guide/rules.html#実験室の利用",
+    "href": "seminar/guide/rules.html#実験室の利用",
+    "title": "研究室ルール",
+    "section": "実験室の利用",
+    "text": "実験室の利用\n\n最後に実験室を出る際は，以下のことに注意する．\n\n施錠する\n電気を消す\nエアコンを消す\n\n冷蔵庫・電子レンジ・ポット・電気ケトルは自由に使用してよい．\n冷蔵庫に入れたものには名前を書いておくこと．入れたことを忘れたり，長期間放置しないこと．",
+    "crumbs": [
+      "Seminar",
+      "ガイダンス",
+      "研究室ルール"
+    ]
+  },
+  {
+    "objectID": "seminar/guide/rules.html#スケジュール管理と連絡",
+    "href": "seminar/guide/rules.html#スケジュール管理と連絡",
+    "title": "研究室ルール",
+    "section": "スケジュール管理と連絡",
+    "text": "スケジュール管理と連絡\n\n連絡は主にSlackで行う．最低でも1日に一回確認すること．\n教員からの連絡には，必ず返信すること．\n欠席や遅刻する場合は，事前に理由ともにSlackで参加者全員に連絡すること．\n\n欠席した場合は，次回のゼミまでに，レポートを提出すること．\n\n学生用メールアドレスにも重要な連絡が届くことがあるので，毎日確認すること．",
+    "crumbs": [
+      "Seminar",
+      "ガイダンス",
+      "研究室ルール"
+    ]
+  },
+  {
+    "objectID": "seminar/guide/rules.html#清掃",
+    "href": "seminar/guide/rules.html#清掃",
+    "title": "研究室ルール",
+    "section": "清掃",
+    "text": "清掃\n\n夏休み・冬休み前に，全員で実験室の大掃除を行う．",
+    "crumbs": [
+      "Seminar",
+      "ガイダンス",
+      "研究室ルール"
+    ]
+  },
+  {
+    "objectID": "seminar/guide/rules.html#ゼミ",
+    "href": "seminar/guide/rules.html#ゼミ",
+    "title": "研究室ルール",
+    "section": "ゼミ",
+    "text": "ゼミ\n\nゼミ資料は，ゼミ開始前までにScrapboxにアップロードする．",
+    "crumbs": [
+      "Seminar",
+      "ガイダンス",
+      "研究室ルール"
+    ]
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "准教授\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
+    "section": "",
+    "text": "准教授\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 | Students",
+    "text": "学生 | Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
+  },
+  {
+    "objectID": "news/apms-2025/index.html",
+    "href": "news/apms-2025/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
+  },
+  {
+    "objectID": "blog/python-env/index.html",
+    "href": "blog/python-env/index.html",
+    "title": "Python 環境構築",
+    "section": "",
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+  },
+  {
+    "objectID": "blog/python-env/index.html#uv-python-vscode",
+    "href": "blog/python-env/index.html#uv-python-vscode",
+    "title": "Python 環境構築",
+    "section": "",
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+  },
+  {
+    "objectID": "lab.html",
+    "href": "lab.html",
+    "title": "学生実験室",
+    "section": "",
+    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
+  },
+  {
+    "objectID": "lab.html#共用",
+    "href": "lab.html#共用",
+    "title": "学生実験室",
+    "section": "",
+    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
+  },
+  {
+    "objectID": "lab.html#コンピューティング",
+    "href": "lab.html#コンピューティング",
+    "title": "学生実験室",
+    "section": "コンピューティング",
+    "text": "コンピューティング\n\nNVIDIA DGX Spark（2025年）\nGeForce RTX 3050"
+  },
+  {
+    "objectID": "lab.html#ソフトウェア",
+    "href": "lab.html#ソフトウェア",
+    "title": "学生実験室",
+    "section": "ソフトウェア",
+    "text": "ソフトウェア\n\nOverleaf: Online LaTeX editor"
+  },
+  {
+    "objectID": "lab.html#法政大学",
+    "href": "lab.html#法政大学",
+    "title": "学生実験室",
+    "section": "法政大学",
+    "text": "法政大学\n\nTurnitin: Plagiarism checking tool\n\niThenticate\nFeedback Studio\n\nKinoden 電子ブック\nProQuest Ebook Central"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "研究室配属\n大学院入試\nIIST English Program"
+  },
+  {
+    "objectID": "join.html#学部生の研究室配属",
+    "href": "join.html#学部生の研究室配属",
+    "title": "Join Us",
+    "section": "学部生の研究室配属",
+    "text": "学部生の研究室配属\n法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．\n知能システム研究室では，オペレーションズ・リサーチ，機械学習，最適化，データサイエンスに関心のある学生を歓迎します．\n配属を希望する方は，説明会などで研究内容を確認し，不明点があれば気軽にお問い合わせください．"
+  },
+  {
+    "objectID": "join.html#大学院入試",
+    "href": "join.html#大学院入試",
+    "title": "Join Us",
+    "section": "大学院入試",
+    "text": "大学院入試\n法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n詳細は以下をご確認ください．\n\n大学院入試要項\n\n出願にあたっては，事前に指導希望教員の許可を得る必要があります．\n\nまた，法政大学では，IISTという英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．"
+  },
+  {
+    "objectID": "join.html#iist-english-program",
+    "href": "join.html#iist-english-program",
+    "title": "Join Us",
+    "section": "IIST English Program",
+    "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor admission details, please refer to the official IIST website:\n\nIIST Admission Information"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#アクセス",
+    "href": "contact.html#アクセス",
+    "title": "Contact",
+    "section": "",
+    "text": "知能システム研究室は、法政大学小金井キャンパスの西館5階にあります。\n\n教員室：西館W5016\n実験室：西館W5017"
+  },
+  {
+    "objectID": "contact.html#住所",
+    "href": "contact.html#住所",
+    "title": "Contact",
+    "section": "住所",
+    "text": "住所\n\n日本語English\n\n\n〒184-8584 東京都小金井市梶野町3-7-2\n法政大学 理工学部 経営システム工学科\n\n\n Hosei University\nTokyo 184-8584, Japan"
+  },
+  {
+    "objectID": "contact.html#google-map",
+    "href": "contact.html#google-map",
+    "title": "Contact",
+    "section": "Google Map",
+    "text": "Google Map"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Metaheuristics\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nAI for Optimization\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Management\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "Intelligent Systems Lab",
+    "section": "",
+    "text": "https://icons.getbootstrap.com"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#about-us",
+    "href": "index.html#about-us",
+    "title": "Intelligent Systems Laboratory",
+    "section": "About Us",
+    "text": "About Us\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Intelligent Systems Laboratory",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n\n\n\n劉子昂\n\n\nSep 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\n\n\n\n劉子昂\n\n\nApr 1, 2025\n\n\n\n\n\n\nNo matching items\n\n See All News"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Intelligent Systems Laboratory",
+    "section": "Research",
+    "text": "Research\n\n\n\n\n\n\n\n\nMetaheuristics\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nAI for Optimization\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Management\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\nNo matching items\n\n See All Research"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html",
+    "href": "blog/vector-graphics/index.html",
+    "title": "図の作り方",
+    "section": "",
+    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#draw.io",
+    "href": "blog/vector-graphics/index.html#draw.io",
+    "title": "図の作り方",
+    "section": "draw.io",
+    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#excalidraw",
+    "href": "blog/vector-graphics/index.html#excalidraw",
+    "title": "図の作り方",
+    "section": "Excalidraw",
+    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
+  },
+  {
+    "objectID": "blog/vector-graphics/index.html#python",
+    "href": "blog/vector-graphics/index.html#python",
+    "title": "図の作り方",
+    "section": "Python",
+    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
+  },
+  {
+    "objectID": "news/welcome/index.html",
+    "href": "news/welcome/index.html",
+    "title": "知能システム研究室が発足しました!",
+    "section": "",
+    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
+  },
+  {
+    "objectID": "seminar/guide/freshman.html",
+    "href": "seminar/guide/freshman.html",
+    "title": "新入生のToDoリスト",
+    "section": "",
+    "text": "アンケート調査の回答\n実験室アクセス権限の申請\n\n身分証アクセス権の設定及び変更について（学生用）",
+    "crumbs": [
+      "Seminar",
+      "ガイダンス",
+      "新入生のToDoリスト"
+    ]
+  },
+  {
+    "objectID": "seminar/guide/freshman.html#アカウント作成",
+    "href": "seminar/guide/freshman.html#アカウント作成",
+    "title": "新入生のToDoリスト",
+    "section": "アカウント作成",
+    "text": "アカウント作成\n\nゼミ\n\nScrapboxのアカウント作成\nSlackのアカウント作成\n\n\n\n研究・プログラミング\n\nOverleafのアカウント作成\nGitHubのアカウント作成\n\nGitHub Copilot Pro の申請（学生は無料で利用可能）\n\nVS Codeのインストール\n\n拡張機能「GitHub Copilot」のインストール",
+    "crumbs": [
+      "Seminar",
+      "ガイダンス",
+      "新入生のToDoリスト"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html",
+    "href": "seminar/research-tools.html",
+    "title": "研究に便利なツール",
+    "section": "",
+    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#作図",
+    "href": "seminar/research-tools.html#作図",
+    "title": "研究に便利なツール",
+    "section": "",
+    "text": "論文の作図に非常におすすめ、一回でも試してみてください。\n\ndraw.io：フローチャートなど\nExcalidraw：手書き風",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#pdf-reader",
+    "href": "seminar/research-tools.html#pdf-reader",
+    "title": "研究に便利なツール",
+    "section": "PDF Reader",
+    "text": "PDF Reader\n\nGoogle Scholar PDF Reader",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#文献管理",
+    "href": "seminar/research-tools.html#文献管理",
+    "title": "研究に便利なツール",
+    "section": "文献管理",
+    "text": "文献管理\n文献を管理するだけでなく、WordやLaTexと連携し、参考文献の自動番号付き、自動生成などができます。\n\nZotero：文献管理ソフト\nMendeley：文献管理ソフト\nPaperpile：文献管理ソフト（有料）",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#コーディング",
+    "href": "seminar/research-tools.html#コーディング",
+    "title": "研究に便利なツール",
+    "section": "コーディング",
+    "text": "コーディング\n\nGithub：プロジェクトの管理、他人のコードの参考\nGithub Copilot：コーディングアシスタント\nVSCode：IDE",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#文章作成",
+    "href": "seminar/research-tools.html#文章作成",
+    "title": "研究に便利なツール",
+    "section": "文章作成",
+    "text": "文章作成\n\nOverleaf：LaTeXエディタ\nMarkdown：軽量マークアップ言語",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#英語文章作成",
+    "href": "seminar/research-tools.html#英語文章作成",
+    "title": "研究に便利なツール",
+    "section": "英語文章作成",
+    "text": "英語文章作成\n\nGrammarly：文法チェック\nAcademic Phrasebank：アカデミックライティング",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#スライド作成と発表",
+    "href": "seminar/research-tools.html#スライド作成と発表",
+    "title": "研究に便利なツール",
+    "section": "スライド作成と発表",
+    "text": "スライド作成と発表\n\nBeamer：LaTeXスライド作成\n\nPympress：PDFスライド発表\n\nMarp：Markdownスライド作成",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/research-tools.html#mac",
+    "href": "seminar/research-tools.html#mac",
+    "title": "研究に便利なツール",
+    "section": "Mac",
+    "text": "Mac\n\nWine: Mac上で.exeフィアルを実行する",
+    "crumbs": [
+      "Seminar",
+      "研究に便利なツール"
+    ]
+  },
+  {
+    "objectID": "seminar/lab-info.html",
+    "href": "seminar/lab-info.html",
+    "title": "研究室情報",
+    "section": "",
+    "text": "法政大学 理工学部 経営システム工学科\n〒184-8584 東京都小金井市梶野町3-7-2\n\n\n\nDepartment of Industrial and Systems Engineering, \nFaculty of Science and Engineering, Hosei University, \n3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan \n\n\n\nHosei University, Tokyo 184-8584, Japan",
+    "crumbs": [
+      "Seminar",
+      "研究室情報"
+    ]
+  },
+  {
+    "objectID": "seminar/lab-info.html#住所",
+    "href": "seminar/lab-info.html#住所",
+    "title": "研究室情報",
+    "section": "",
+    "text": "法政大学 理工学部 経営システム工学科\n〒184-8584 東京都小金井市梶野町3-7-2\n\n\n\nDepartment of Industrial and Systems Engineering, \nFaculty of Science and Engineering, Hosei University, \n3-7-2 Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan \n\n\n\nHosei University, Tokyo 184-8584, Japan",
+    "crumbs": [
+      "Seminar",
+      "研究室情報"
+    ]
+  },
+  {
+    "objectID": "seminar/lab-info.html#所属",
+    "href": "seminar/lab-info.html#所属",
+    "title": "研究室情報",
+    "section": "所属",
+    "text": "所属\n\n学部\n\n法政大学 理工学部 経営システム工学科\nDepartment of Industrial and Systems Engineering, Faculty of Science and Engineering, Hosei University\n\n\n\n修士課程・博士後期課程\n\n法政大学 理工学研究科 システム理工学専攻（経営システム系）\nGraduate School of Science and Engineering, Hosei University\n\n\n\nIIST Program\n\nSystems Engineering and Science (Management Science Track), Institute of Integrated Science and Technology, Hosei University",
+    "crumbs": [
+      "Seminar",
+      "研究室情報"
+    ]
+  },
+  {
+    "objectID": "seminar/lab-info.html#リンク",
+    "href": "seminar/lab-info.html#リンク",
+    "title": "研究室情報",
+    "section": "リンク",
+    "text": "リンク\n\n研究室GitHub\n研究室Webサイト",
+    "crumbs": [
+      "Seminar",
+      "研究室情報"
+    ]
+  },
+  {
+    "objectID": "seminar/seminar.html",
+    "href": "seminar/seminar.html",
+    "title": "ゼミ",
+    "section": "",
+    "text": "Colab\n\nGPU利用可能"
+  },
+  {
+    "objectID": "seminar/seminar.html#計算資源",
+    "href": "seminar/seminar.html#計算資源",
+    "title": "ゼミ",
+    "section": "",
+    "text": "Colab\n\nGPU利用可能"
+  },
+  {
+    "objectID": "seminar/seminar.html#論文レポート作成",
+    "href": "seminar/seminar.html#論文レポート作成",
+    "title": "ゼミ",
+    "section": "論文・レポート作成",
+    "text": "論文・レポート作成\n\nOverleaf\n\n年間ライセンス"
+  },
+  {
+    "objectID": "seminar/seminar.html#コミュニケーション",
+    "href": "seminar/seminar.html#コミュニケーション",
+    "title": "ゼミ",
+    "section": "コミュニケーション",
+    "text": "コミュニケーション\n\nScrapbox\nSlack\nGoogle Meet"
+  },
+  {
+    "objectID": "seminar/b4/graduation-research.html",
+    "href": "seminar/b4/graduation-research.html",
+    "title": "卒業研究",
+    "section": "",
+    "text": "進捗報告（毎週）\nポスター（春学期末）\n期末レポート（春学期末）\n卒業論文（1月中旬）\n卒論概要（1月中旬）\n発表資料（1月中旬）"
+  },
+  {
+    "objectID": "seminar/b4/graduation-research.html#提出物",
+    "href": "seminar/b4/graduation-research.html#提出物",
+    "title": "卒業研究",
+    "section": "",
+    "text": "進捗報告（毎週）\nポスター（春学期末）\n期末レポート（春学期末）\n卒業論文（1月中旬）\n卒論概要（1月中旬）\n発表資料（1月中旬）"
+  },
+  {
+    "objectID": "seminar/b4/graduation-research.html#スケジュール2025年度",
+    "href": "seminar/b4/graduation-research.html#スケジュール2025年度",
+    "title": "卒業研究",
+    "section": "スケジュール（2025年度）",
+    "text": "スケジュール（2025年度）\n\n\n\n内容\n期限\n\n\n\n\n論文執筆開始\n11月1日\n\n\n卒業論文題目・氏名の提出\n11月7日\n\n\n第一案提出\n12月1日\n\n\n第二案提出\n12月末まで\n\n\n最終チェック\n1月上旬\n\n\n卒論概要の作成\n卒業論文最終版完成後すぐ\n\n\n卒業論文・卒論概要提出\n1月16日\n\n\n引継ぎ資料・発表資料作成\n1月中旬\n\n\n発表練習\n1月中旬\n\n\n卒業論文審査会\n1月30日"
+  },
+  {
+    "objectID": "seminar/b4/graduation-research.html#類似性レポート",
+    "href": "seminar/b4/graduation-research.html#類似性レポート",
+    "title": "卒業研究",
+    "section": "類似性レポート",
+    "text": "類似性レポート\n学位論文に対してTurnitinによる類似性チェックを実施します．Turnitinの類似性レポートの読み方や，類似箇所の修正方法については，以下のサイトを参考にしてください．\nTurnitin類似性レポートの読み方と修正方法"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html",
+    "href": "seminar/b4/write-thesis.html",
+    "title": "卒論の書き方と留意事項",
+    "section": "",
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．1\nできるだけ箇条書きにはしない．\n「私」等の一人称は使用しない．"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html#本文",
+    "href": "seminar/b4/write-thesis.html#本文",
+    "title": "卒論の書き方と留意事項",
+    "section": "",
+    "text": "句読点は，原則として，全角カンマ「，」，全角ピリオド「．」を使用する．1\nできるだけ箇条書きにはしない．\n「私」等の一人称は使用しない．"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html#数式",
+    "href": "seminar/b4/write-thesis.html#数式",
+    "title": "卒論の書き方と留意事項",
+    "section": "数式",
+    "text": "数式\n\n文章中に数式を入れるとき，数式環境を使う．例えば，\\(y = ax + b\\) のように記述する．\n\\(\\max\\)，\\(\\min\\)，\\(\\sin\\)，\\(\\cos\\)，\\(\\log\\) などの関数は，イタリック体ではなくローマン体で記述する．例えば，\\(y = \\sin x\\) のように記述する．\n記号の表記は統一する．以下にガイドラインを示す．\n\n\n\n\n\n表記例\n\n\n\n\nスカラー\n\\(a, b, c\\)\n\n\nベクトル\n\\(\\mathbf{x}, \\mathbf{y}\\)\n\n\n確率変数\n\\(X, Y\\)\n\n\n集合\n\\(A, B\\) または \\(\\mathcal{A}, \\mathcal{B}\\)\n\n\n行列\n\\(\\mathbf{A}, \\mathbf{B}\\)"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html#図表",
+    "href": "seminar/b4/write-thesis.html#図表",
+    "title": "卒論の書き方と留意事項",
+    "section": "図表",
+    "text": "図表\n\n図表を使うときは，必ず本文でその図表に言及しておく．\n図表中の文字は，本文と同じ程度の大きさにする．\n卒論概要は印刷時はモノクロになるため，図において色での判別は行わないこと．\n原則，図表の転載は禁止する．やむを得ず転載する場合は，当該論文の著作権者の掲載許可を得るとともに，出典を明記する．2"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html#用語",
+    "href": "seminar/b4/write-thesis.html#用語",
+    "title": "卒論の書き方と留意事項",
+    "section": "用語",
+    "text": "用語\n\n用語を統一する．例えば，「深層学習」と「ディープラーニング」は同じ意味であるため，どちらか一方に統一する．\n標準的に用いられている用語を使用する．例えば，「ニューラルネットワーク」は「神経回路網」とせず，「ニューラルネットワーク」を使用する．"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html#略語",
+    "href": "seminar/b4/write-thesis.html#略語",
+    "title": "卒論の書き方と留意事項",
+    "section": "略語",
+    "text": "略語\n\n略語を用いる場合は，初出時に正式名称を明記する．\n本文中に一度しか記載のない名称は，略語・略称表記は不要．"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html#論文の構成",
+    "href": "seminar/b4/write-thesis.html#論文の構成",
+    "title": "卒論の書き方と留意事項",
+    "section": "論文の構成",
+    "text": "論文の構成"
+  },
+  {
+    "objectID": "seminar/b4/write-thesis.html#footnotes",
+    "href": "seminar/b4/write-thesis.html#footnotes",
+    "title": "卒論の書き方と留意事項",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n「、。」を使った場合は，Replace All 機能を使えば，一括変換できる．「word Replace All」，「overleaf relace all」などで検索すると，方法が見つかる．↩︎\nCC BY 4.0などのライセンスで公開されている図表については，著作権者の許可を得る必要はないが，出典を明記すること．↩︎"
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html",
+    "href": "seminar/resources/Kinoden.html",
+    "title": "KinoDen",
+    "section": "",
+    "text": "法政大学図書館のKinodenで豊富な書籍を閲覧できます．\nKinodenは、下記のリンクからアクセスできます．\nKinoDen",
     "crumbs": [
       "Seminar",
       "資源",
-      "Online 書籍"
+      "KinoDen"
     ]
   },
   {
-    "objectID": "seminar/resources/e-book.html#英語",
-    "href": "seminar/resources/e-book.html#英語",
-    "title": "Online 書籍",
+    "objectID": "seminar/resources/Kinoden.html#python入門",
+    "href": "seminar/resources/Kinoden.html#python入門",
+    "title": "KinoDen",
+    "section": "Python入門",
+    "text": "Python入門\n\nPython言語によるプログラミングイントロダクション　第2版 (2017)\nChatGPTと学ぶPython入門\nよくわかる Python入門\nスッキリわかるPython入門\nゼロからやさしくはじめるPython入門\nマンガでざっくり学ぶPython（パイソン）",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#経営工学",
+    "href": "seminar/resources/Kinoden.html#経営工学",
+    "title": "KinoDen",
+    "section": "経営工学",
+    "text": "経営工学\n\nPythonで経営工学を学ぶ\n\nPython コンピュータシミュレーション入門 (2021)\n\nKeywords: 感染症モデル，線型計画法，在庫管理，待ち行列，グラフ理論，遺伝的アルゴリズム，ゲーム理論，強化学習\n経営工学に関するテーマが多く取り上げられている．\n\n\n\n\nExcelで経営工学を学ぶ\n\n入門　経営科学　改訂版\n例題で学ぶ　OR入門\nExcelで学ぶオペレーションズリサーチ",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#最適化",
+    "href": "seminar/resources/Kinoden.html#最適化",
+    "title": "KinoDen",
+    "section": "最適化",
+    "text": "最適化\n\nPythonで数理最適化を学ぶ\n\nPythonではじめる数理最適化　第2版 (2024)\n\nKeywords: 数理最適化，モデリング，ケーススタディ（学校のクラス編成，配送計画，商品推薦）\n\nPythonによる実務で役立つ最適化問題100+ 1 (2022)\n\n栄養問題、最短路問題など\n内容が公開されている．Link\n\nPythonによる数理最適化入門 (2018)\nあたらしい数理最適化 (2012)\n\nKeywords: 施設配置問題、箱詰め問題と切断問題、スケジューリング問題など\n\n\n\n\nソースコードなし\n\n最適化の基礎",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#機械学習",
+    "href": "seminar/resources/Kinoden.html#機械学習",
+    "title": "KinoDen",
+    "section": "機械学習",
+    "text": "機械学習\n\nPythonで機械学習を学ぶ\n\nPython機械学習プログラミング (2022)\n\nKeywords: データ前処理，教師あり学習，教師なし学習，強化学習，Sklearn，PyTorch\n機械学習アルゴリズムの理論と実装を学べる．数学，プログラミングの両方に自信がある人向け．\n\nスッキリわかるPythonによる機械学習入門\n\nKeywords: 教師あり学習，教師なし学習\n機械学習ライブラリの使い方を学べる．数式が苦手な人向け．\n\nいちばんやさしいPython機械学習の教本",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#データサイエンス",
+    "href": "seminar/resources/Kinoden.html#データサイエンス",
+    "title": "KinoDen",
+    "section": "データサイエンス",
+    "text": "データサイエンス\n\nPythonでデータサイエンスを学ぶ\n\nデータサイエンス教本(2018)\n\nKeywords: 回帰分析，パターン認識，深層学習，時系列分析，画像処理\n\nPython時系列分析クックブック\nPythonによる実務で役立つデータサイエンス練習問題 200+ 1 (2023)\n\nKeywords: 練習問題\n\n\n\n\nソースコードなし\n\nデータサイエンス入門　第3版\nデータ分析とデータサイエンス",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#統計学",
+    "href": "seminar/resources/Kinoden.html#統計学",
+    "title": "KinoDen",
+    "section": "統計学",
+    "text": "統計学\n\nPythonで統計学を学ぶ\n\nPythonで学ぶあたらしい統計学の教科書　第2版\nPythonで学ぶ統計的機械学習\n\n\n\nRで統計学を学ぶ\n\n理工系のための統計入門 (2016)\nＲによる統計解析\n\n\n\nソースコードなし\n\n数理統計学の基礎 (2014)\n教養のための統計入門 (2016)\n新統計入門 (1996)\n確率統計 (1996)\n確率・統計 (2019)\n経営科学のための確率統計入門 (2022)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#システム工学",
+    "href": "seminar/resources/Kinoden.html#システム工学",
+    "title": "KinoDen",
+    "section": "システム工学",
+    "text": "システム工学\n\nシステム工学 (1996)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#xai",
+    "href": "seminar/resources/Kinoden.html#xai",
+    "title": "KinoDen",
+    "section": "XAI",
+    "text": "XAI\n\n実践XAI［説明可能なAI］ (2023)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#強化学習",
+    "href": "seminar/resources/Kinoden.html#強化学習",
+    "title": "KinoDen",
+    "section": "強化学習",
+    "text": "強化学習\n\nTensorFlowによる深層強化学習入門 (2021)\n強化学習アルゴリズム入門 (2019)\n現場で使える！Python深層強化学習入門 (2019)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#人工知能",
+    "href": "seminar/resources/Kinoden.html#人工知能",
+    "title": "KinoDen",
+    "section": "人工知能",
+    "text": "人工知能\n\n人工知能入門\n\nKeywords: 探索，推論，学習，進化的計算，ニューラルネットワーク，強化学習\n\n人工知能原理\n\nKeywords: 探索，機械学習，進化的計算，強化学習\n\n基礎から学ぶ人工知能の教科書\n\nKeywords: 学習，推論，深層学習，進化的計算，強化学習\n\n人工知能の創発\nタイトルメタヒューリスティクスとナチュラルコンピューティング\n\nKeywords: 遺伝的アルゴリズム，粒子群最適化法，タブーサーチ，山登り法\n\nAI時代の離散数学 (2020)\n\nKeywords: 論理関数，深層学習，グラフ理論，ネットワーク最適化",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#アルゴリズム",
+    "href": "seminar/resources/Kinoden.html#アルゴリズム",
+    "title": "KinoDen",
+    "section": "アルゴリズム",
+    "text": "アルゴリズム\n\nアルゴリズムイントロダクション\n\n世界的名著\nアルゴリズムイントロダクション　第4版　1 (2024)\nアルゴリズムイントロダクション　第4版　2 (2024)\n\nデータ構造とアルゴリズム (2017)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/resources/Kinoden.html#モデリング",
+    "href": "seminar/resources/Kinoden.html#モデリング",
+    "title": "KinoDen",
+    "section": "モデリング",
+    "text": "モデリング\n\nグラフ理論入門(原書第4版) (2001)\nマルコフ決定過程 (2019)",
+    "crumbs": [
+      "Seminar",
+      "資源",
+      "KinoDen"
+    ]
+  },
+  {
+    "objectID": "seminar/basic/intro.html",
+    "href": "seminar/basic/intro.html",
+    "title": "基礎演習",
     "section": "",
-    "text": "Deep Learning (Ian Goodfellow, Yoshua Bengio, Aaron Courville)\nReinforcement Learning: An Introduction (Richard S. Sutton and Andrew G. Barto)\nAn Introduction to Statistical Learning (ISL)\nInterpretable Machine Learning",
+    "text": "Pythonプログラミング入門，東京大学 数理・情報教育研究センター\nプログラミング演習 Python，喜多⼀，森村吉貴，岡本雅⼦，京都大学\n\n\nColabの使い方，変数，演算",
     "crumbs": [
       "Seminar",
-      "資源",
-      "Online 書籍"
+      "基礎演習",
+      "基礎演習"
     ]
   },
   {
-    "objectID": "seminar/resources/e-book.html#日本語",
-    "href": "seminar/resources/e-book.html#日本語",
-    "title": "Online 書籍",
-    "section": "日本語",
-    "text": "日本語\n\n私たちのR-宋財泫-矢内勇生\nデータサイエンス-酒井優行",
+    "objectID": "seminar/basic/intro.html#参考資料",
+    "href": "seminar/basic/intro.html#参考資料",
+    "title": "基礎演習",
+    "section": "",
+    "text": "Pythonプログラミング入門，東京大学 数理・情報教育研究センター\nプログラミング演習 Python，喜多⼀，森村吉貴，岡本雅⼦，京都大学\n\n\nColabの使い方，変数，演算",
     "crumbs": [
       "Seminar",
-      "資源",
-      "Online 書籍"
+      "基礎演習",
+      "基礎演習"
     ]
   },
   {
