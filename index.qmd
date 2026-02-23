@@ -3,7 +3,8 @@ title: 知能システム研究室
 subtitle: 法政大学 理工学部 経営システム工学科
 # image: profile.jpg
 about:
-  template: marquee
+  # marquee
+  template: jolla
   image-shape: rectangle
   # links:
   #   - icon: twitter
@@ -43,7 +44,11 @@ listing:
   <button type="button" class="btn btn-primary">Join Us</button>
 </a> -->
 
-## News | ニュース
+## About 
+
+
+
+## News
 
 :::{#news}
 :::
@@ -52,7 +57,7 @@ listing:
   <button type="button" class="btn btn-secondary">See All News</button>
 </a>
 
-## Research | 研究内容
+## Research
 
 :::{#research}
 :::
