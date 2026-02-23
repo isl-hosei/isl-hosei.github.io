@@ -1,9 +1,12 @@
 ---
-title: 知能システム研究室
-subtitle: 法政大学 理工学部 経営システム工学科
+# title: 知能システム研究室
+# subtitle: 法政大学 理工学部 経営システム工学科
+title: "Intelligent Systems Laboratory"
+subtitle: "知能システム研究室<br>法政大学 理工学部 経営システム工学科"
 # image: profile.jpg
 about:
   # marquee
+  id: hero-heading
   template: jolla
   image-shape: rectangle
   # links:
@@ -33,8 +36,15 @@ listing:
     type: grid
     categories: false
     max-items: 4
-    grid-columns: 4
+    grid-columns: 2
+
+# format: 
+#   html:
+#     page-layout: full
 ---
+
+::: {#hero-heading}
+:::
 
 <!-- 知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています． -->
 
@@ -44,8 +54,9 @@ listing:
   <button type="button" class="btn btn-primary">Join Us</button>
 </a> -->
 
-## About 
+## About Us
 
+The **Intelligent Systems Laboratory** (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems.
 
 
 ## News

@@ -12,22 +12,22 @@ website:
     logo: images/logo.ico
     left:
       - href: index.qmd
-        text: "<span style='font-size:16px;'>Home</span><br><span style='font-size:12px; opacity:0.8;'>ホーム</span>"
+        text: "Home"
       
       - href: people.qmd
-        text: "<span style='font-size:16px;'>People</span><br><span style='font-size:12px; opacity:0.8;'>メンバー</span>"
+        text: "People"
 
       - href: research.qmd
-        text: "<span style='font-size:16px;'>Research</span><br><span style='font-size:12px; opacity:0.8;'>研究内容</span>"
+        text: "Research"
 
       - href: news.qmd
-        text: "<span style='font-size:16px;'>News</span><br><span style='font-size:12px; opacity:0.8;'>ニュース</span>"
+        text: "News"
 
       - href: join.qmd
-        text: "<span style='font-size:16px;'>Join Us</span><br><span style='font-size:12px; opacity:0.8;'>募集</span>"
+        text: "Join Us"
         
       - href: contact.qmd
-        text: "<span style='font-size:16px;'>Contact</span><br><span style='font-size:12px; opacity:0.8;'>アクセス</span>"
+        text: "Contact"
     right:
       - text: "Seminar"
         href: seminar/intro.qmd

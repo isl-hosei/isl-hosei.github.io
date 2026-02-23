@@ -1,41 +1,51 @@
 ---
-title: "Join us"
-date-modified: today
+title: "Join Us"
+# date-modified: today
 title-block-banner: true
 ---
-
-
 
 - [研究室配属](#研究室配属)
 - [大学院入試](#大学院入試)
 - [IIST English Program](#iist-english-program)
 
-## 研究室配属
+## 学部生の研究室配属
 
 法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．
 
-<!-- ### 2025年度の研究室配属に関して
+知能システム研究室では，オペレーションズ・リサーチ，機械学習，最適化，データサイエンスに関心のある学生を歓迎します．
 
-希望する学生像 -->
-
-
-
+配属を希望する方は，説明会などで研究内容を確認し，不明点があれば気軽にお問い合わせください．
 
 ## 大学院入試
 
-入試は年2回行なっています．7月頃と2月頃に行なっています．筆記試験と口述試験があります．
+法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．
 
-法政大学理工学研究科は，出願に当たり，事前に指導希望教員の許可を得る必要があります．
+詳細は以下をご確認ください．
 
-[大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
+- [大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
 
-また，法政大学では，[IIST](https://iist.hosei.ac.jp)という英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．詳細は，以下をご覧ください．
+出願にあたっては，事前に指導希望教員の許可を得る必要があります．
+
+<!-- 研究室への事前連絡時には，可能であれば以下の情報を共有してください．
+
+- 履歴書
+- 成績証明書
+- 卒業論文（言語は問いません）
+- 研究計画書（書式自由）
+- 英語成績（TOEFL, IELTS, TOEICなど）
+- 日本語成績（日本語能力試験など，ある場合） -->
+
+また，法政大学では，[IIST](https://iist.hosei.ac.jp)という英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．
 
 ## IIST English Program
 
-[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) provides English
-graduate programs for Master's and Doctoral degrees. Admissions guidelines can be found at the [here](https://iist.hosei.ac.jp/admission/).
+[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) offers English-taught graduate programs for both Master's and Doctoral degrees.
 
+For admission details, please refer to the official IIST website:
+
+- [IIST Admission Information](https://iist.hosei.ac.jp/admission/)
+
+<!-- If you are interested in joining our laboratory through the IIST program, please contact us in advance by email with your CV and a brief research statement. -->
 
 <!-- ## 中文     
 
