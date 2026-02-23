@@ -4,12 +4,12 @@ project:
 website:
   
   title: "Intelligent Systems Lab"
-  favicon: favicon.ico
+  favicon: favicon.svg
   site-url: https://isl-hosei.github.io/
   description: "Intelligent Systems Lab at Hosei University"
   open-graph: true
   navbar:
-    logo: images/logo.ico
+    # logo: favicon.ico
     left:
       - href: index.qmd
         text: "Home"
