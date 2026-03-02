@@ -71,3 +71,7 @@ For admission details, please refer to the official IIST website:
 6. 毕业论文（如有）
 7. 其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）
 8. 在线面谈或研究室访问可能的时间  -->
+
+## 法政理工系の源流 －学生と教員がつなぐ学びの軌跡－
+
+{{< video https://www.youtube.com/watch?v=EG_9TyqF_B0 >}}
