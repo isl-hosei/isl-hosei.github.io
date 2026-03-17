@@ -28,47 +28,14 @@ website:
         
       - href: contact.qmd
         text: "Contact"
+    
     right:
-      - text: "Seminar"
-        href: seminar/intro.qmd
-
       - icon: github
         href: https://github.com/isl-hosei
     # - icon: github
       #   href: https://github.com/
       # - icon: twitter
       #   href: https://twitter.com
-  
-  sidebar:
-    - title: Seminar
-      contents:
-        - seminar/intro.qmd
-        - seminar/lab-info.qmd
-        - seminar/conference.qmd
-        - seminar/thesis.qmd
-        - seminar/research-tools.qmd
-        - seminar/guide.qmd
-        - text: "---"
-        - section: "ガイダンス"
-          contents:
-            - seminar/guide/freshman.qmd
-            - seminar/guide/rules.qmd
-        - text: "---"
-        - section: "基礎演習"
-          contents:
-            - seminar/basic/intro.qmd
-        - text: "---"
-        - section: "PBL"
-        - text: "---"
-        - section: "卒業研究"
-          contents:
-            - seminar/b4/thesis-check-sheet.qmd
-            - seminar/b4/slide-check-sheet.qmd
-        - text: "---"
-        - section: "資源"
-          contents:
-            - seminar/resources/e-book.qmd
-            - seminar/resources/Kinoden.qmd
 
   
   page-footer: 
