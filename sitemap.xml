@@ -1,147 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://isl-hosei.github.io/seminar/links.html</loc>
-    <lastmod>2026-01-03T02:04:22.293Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/pbl/PBL.html</loc>
-    <lastmod>2025-09-17T11:45:44.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/research-ethics.html</loc>
-    <lastmod>2026-01-20T12:33:20.811Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/resources/e-book.html</loc>
-    <lastmod>2026-01-19T12:18:33.409Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/intro.html</loc>
-    <lastmod>2026-01-19T08:52:02.915Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/b4/slide-check-sheet.html</loc>
-    <lastmod>2026-02-03T05:10:49.275Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/b4/thesis-check-sheet.html</loc>
-    <lastmod>2026-01-29T04:55:55.011Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/conference.html</loc>
-    <lastmod>2026-02-03T02:36:10.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/thesis.html</loc>
-    <lastmod>2026-01-05T02:34:04.348Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/guide/rules.html</loc>
-    <lastmod>2026-02-05T02:23:00.177Z</lastmod>
-  </url>
-  <url>
     <loc>https://isl-hosei.github.io/people.html</loc>
-    <lastmod>2026-02-14T02:38:18.929Z</lastmod>
+    <lastmod>2026-03-09T03:07:26.372Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/news/apms-2025/index.html</loc>
-    <lastmod>2025-10-10T10:23:33.000Z</lastmod>
+    <lastmod>2026-03-19T03:05:17.648Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/blog/python-env/index.html</loc>
-    <lastmod>2025-10-10T11:35:21.726Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.259Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/lab.html</loc>
-    <lastmod>2025-12-26T05:11:56.356Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.261Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/join.html</loc>
-    <lastmod>2026-02-23T02:50:49.086Z</lastmod>
+    <lastmod>2026-03-13T01:42:20.087Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/contact.html</loc>
-    <lastmod>2025-09-30T08:20:56.273Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.260Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/research/RL/index.html</loc>
-    <lastmod>2026-02-14T04:21:50.825Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.264Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/research/AI-opt/index.html</loc>
-    <lastmod>2026-02-14T04:31:07.012Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.264Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/research/Metaheuristics/index.html</loc>
-    <lastmod>2026-02-14T04:31:09.194Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.264Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/research/SCM/index.html</loc>
-    <lastmod>2026-02-14T04:15:32.484Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.264Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/research.html</loc>
-    <lastmod>2026-02-14T04:31:14.596Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.263Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/note.html</loc>
-    <lastmod>2025-09-05T09:54:25.604Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.263Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/news.html</loc>
-    <lastmod>2026-02-09T01:36:40.817Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.261Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/index.html</loc>
-    <lastmod>2026-02-23T12:29:13.906Z</lastmod>
+    <lastmod>2026-03-17T01:44:12.661Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/blog/vector-graphics/index.html</loc>
-    <lastmod>2025-10-10T10:54:57.386Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.260Z</lastmod>
   </url>
   <url>
     <loc>https://isl-hosei.github.io/news/welcome/index.html</loc>
-    <lastmod>2025-09-05T01:34:39.208Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/guide/freshman.html</loc>
-    <lastmod>2026-02-21T02:00:50.393Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/research-tools.html</loc>
-    <lastmod>2026-01-19T11:58:02.224Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/lab-info.html</loc>
-    <lastmod>2026-02-03T04:44:11.556Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/seminar.html</loc>
-    <lastmod>2026-02-03T09:37:22.734Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/b4/graduation-research.html</loc>
-    <lastmod>2026-02-03T09:41:13.740Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/b4/write-thesis.html</loc>
-    <lastmod>2026-01-29T04:56:15.399Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/resources/Kinoden.html</loc>
-    <lastmod>2026-01-19T12:18:29.707Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/basic/intro.html</loc>
-    <lastmod>2026-02-06T06:24:50.356Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/pbl/literature-review.html</loc>
-    <lastmod>2026-01-08T02:47:17.560Z</lastmod>
-  </url>
-  <url>
-    <loc>https://isl-hosei.github.io/seminar/b4.html</loc>
-    <lastmod>2025-12-20T02:56:51.610Z</lastmod>
+    <lastmod>2026-03-02T05:45:06.263Z</lastmod>
   </url>
 </urlset>
