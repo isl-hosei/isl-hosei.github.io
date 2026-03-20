@@ -1,11 +1,8 @@
 ---
 title: "IIST English Program"
-author: "劉子昂"
 ---
 
-## IIST English Program
-
-[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) offers English-taught graduate programs for both Master's and Doctoral degrees.
+The [Institute of Integrated Science and Technology](https://iist.hosei.ac.jp) (IIST) at Hosei University offers English-taught graduate programs for both Master's and Doctoral degrees.
 
 For admission details, please refer to the official IIST website:
 
