@@ -2,77 +2,17 @@
 title: "Join Us"
 # date-modified: today
 title-block-banner: true
+listing:
+  contents: join
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+  fields: [title]
+  id: join
 ---
 
-- [研究室配属](#研究室配属)
-- [大学院入試](#大学院入試)
-- [IIST English Program](#iist-english-program)
-
-## 学部生の研究室配属
-
-法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．
-
-知能システム研究室では，オペレーションズ・リサーチ，機械学習，最適化，データサイエンスに関心のある学生を歓迎します．
-
-配属を希望する方は，説明会などで研究内容を確認し，不明点があれば気軽にお問い合わせください．
-
-## 大学院入試
-
-法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．
-
-詳細は以下をご確認ください．
-
-- [大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
-
-出願にあたっては，事前に指導希望教員の許可を得る必要があります．
-
-<!-- 研究室への事前連絡時には，可能であれば以下の情報を共有してください．
-
-- 履歴書
-- 成績証明書
-- 卒業論文（ある場合，言語は問いません）
-- 研究計画書（書式自由）
-- 英語成績（TOEFL, IELTS, TOEICなど）
-- 日本語成績（日本語能力試験など，ある場合）
--->
-
-また，法政大学では，[IIST](https://iist.hosei.ac.jp)という英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．
-
-## IIST English Program
-
-[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp) offers English-taught graduate programs for both Master's and Doctoral degrees.
-
-For admission details, please refer to the official IIST website:
-
-- [IIST Admission Information](https://iist.hosei.ac.jp/admission/)
-
-<!-- If you are interested in joining our laboratory through the IIST program, please contact us in advance by email with your CV and a brief research statement. -->
-
-<!-- ## 中文     
-
-法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：
-
-- 管理科学与工程
-- 计算机科学技术
-- 系统科学
-- 控制科学与工程
-
-项目详情请参考以下链接：
-
-- 日语项目：[大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
-- 英语项目：[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp)
-
-在提交正式申请之前，请通过电子邮件联系 [liu@hosei.ac.jp](mailto:liu@hosei.ac.jp)，并附上以下材料：
-
-1. 个人简历
-2. 成绩单
-3. 英语能力证明（TOEFL, IELTS, TOEIC等）
-4. 日语能力证明（如有）
-5. 研究计划书
-6. 毕业论文（如有）
-7. 其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）
-8. 在线面谈或研究室访问可能的时间  -->
-
-## 法政理工系の源流 －学生と教員がつなぐ学びの軌跡－
-
-{{< video https://www.youtube.com/watch?v=EG_9TyqF_B0 >}}
+:::{#join}
+:::
