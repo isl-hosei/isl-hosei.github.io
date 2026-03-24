@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,15 +73,72 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-join .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-join'] = new List('listing-join', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Join Us – Intelligent Systems Lab">
-<meta property="og:description" content="Intelligent Systems Lab at Hosei University">
 <meta property="og:site_name" content="Intelligent Systems Lab">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -154,7 +213,9 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -162,75 +223,44 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<ul>
-<li><a href="#研究室配属">研究室配属</a></li>
-<li><a href="#大学院入試">大学院入試</a></li>
-<li><a href="#iist-english-program">IIST English Program</a></li>
-</ul>
-<section id="学部生の研究室配属" class="level2">
-<h2 class="anchored" data-anchor-id="学部生の研究室配属">学部生の研究室配属</h2>
-<p>法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．</p>
-<p>知能システム研究室では，オペレーションズ・リサーチ，機械学習，最適化，データサイエンスに関心のある学生を歓迎します．</p>
-<p>配属を希望する方は，説明会などで研究内容を確認し，不明点があれば気軽にお問い合わせください．</p>
-</section>
-<section id="大学院入試" class="level2">
-<h2 class="anchored" data-anchor-id="大学院入試">大学院入試</h2>
-<p>法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．</p>
-<p>詳細は以下をご確認ください．</p>
-<ul>
-<li><a href="https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/">大学院入試要項</a></li>
-</ul>
-<p>出願にあたっては，事前に指導希望教員の許可を得る必要があります．</p>
-<!-- 研究室への事前連絡時には，可能であれば以下の情報を共有してください．
-
-- 履歴書
-- 成績証明書
-- 卒業論文（ある場合，言語は問いません）
-- 研究計画書（書式自由）
-- 英語成績（TOEFL, IELTS, TOEICなど）
-- 日本語成績（日本語能力試験など，ある場合）
--->
-<p>また，法政大学では，<a href="https://iist.hosei.ac.jp">IIST</a>という英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．</p>
-</section>
-<section id="iist-english-program" class="level2">
-<h2 class="anchored" data-anchor-id="iist-english-program">IIST English Program</h2>
-<p><a href="https://iist.hosei.ac.jp">Institute of Integrated Science and Technology (IIST)</a> offers English-taught graduate programs for both Master’s and Doctoral degrees.</p>
-<p>For admission details, please refer to the official IIST website:</p>
-<ul>
-<li><a href="https://iist.hosei.ac.jp/admission/">IIST Admission Information</a></li>
-</ul>
-<!-- If you are interested in joining our laboratory through the IIST program, please contact us in advance by email with your CV and a brief research statement. -->
-<!-- ## 中文     
-
-法政大学理工学研究科提供硕士学位和博士学位项目。欢迎有以下专业背景或研究兴趣的学生申请加入本研究室：
-
-- 管理科学与工程
-- 计算机科学技术
-- 系统科学
-- 控制科学与工程
-
-项目详情请参考以下链接：
-
-- 日语项目：[大学院入試要項](https://www.hosei.ac.jp/gs/jukensei/applicationguidelines/)
-- 英语项目：[Institute of Integrated Science and Technology (IIST)](https://iist.hosei.ac.jp)
-
-在提交正式申请之前，请通过电子邮件联系 [liu@hosei.ac.jp](mailto:liu@hosei.ac.jp)，并附上以下材料：
-
-1. 个人简历
-2. 成绩单
-3. 英语能力证明（TOEFL, IELTS, TOEIC等）
-4. 日语能力证明（如有）
-5. 研究计划书
-6. 毕业论文（如有）
-7. 其他你认为有助于申请的材料（如科研论文，竞赛获奖，编程作品等）
-8. 在线面谈或研究室访问可能的时间  -->
-</section>
-<section id="法政理工系の源流-学生と教員がつなぐ学びの軌跡" class="level2">
-<h2 class="anchored" data-anchor-id="法政理工系の源流-学生と教員がつなぐ学びの軌跡">法政理工系の源流 －学生と教員がつなぐ学びの軌跡－</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EG_9TyqF_B0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div id="listing-join" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1773975047730" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<a href="./join/m1/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+大学院入試
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1773990246899" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<a href="./join/b3/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+学部生の研究室配属
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1773973326970" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<a href="./join/iist/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+IIST English Program
+</h5>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

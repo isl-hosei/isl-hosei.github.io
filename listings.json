@@ -4,8 +4,11 @@
     "items": []
   },
   {
-    "listing": "/research.html",
+    "listing": "/index.html",
     "items": [
+      "/news/2026-3-graduation/index.html",
+      "/news/2025-9-apms/index.html",
+      "/news/welcome/index.html",
       "/research/Metaheuristics/index.html",
       "/research/AI-opt/index.html",
       "/research/SCM/index.html",
@@ -15,19 +18,26 @@
   {
     "listing": "/news.html",
     "items": [
-      "/news/apms-2025/index.html",
+      "/news/2026-3-graduation/index.html",
+      "/news/2025-9-apms/index.html",
       "/news/welcome/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/research.html",
     "items": [
-      "/news/apms-2025/index.html",
-      "/news/welcome/index.html",
       "/research/Metaheuristics/index.html",
       "/research/AI-opt/index.html",
       "/research/SCM/index.html",
       "/research/RL/index.html"
+    ]
+  },
+  {
+    "listing": "/join.html",
+    "items": [
+      "/join/m1/index.html",
+      "/join/b3/index.html",
+      "/join/iist/index.html"
     ]
   }
 ]

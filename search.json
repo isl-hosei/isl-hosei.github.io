@@ -21,95 +21,116 @@
     "text": "学生 | Students\n\nB4\n\n竹上瑛貴\n久賀菜千帆\n小槌陽介\n佐藤克海（ゼミ長）\n\n\n\nB3\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉"
   },
   {
-    "objectID": "news/apms-2025/index.html",
-    "href": "news/apms-2025/index.html",
-    "title": "APMS 2025",
+    "objectID": "news/welcome/index.html",
+    "href": "news/welcome/index.html",
+    "title": "知能システム研究室が発足しました!",
     "section": "",
-    "text": "M1の遠田さんがAPMS 2025にて発表を行いました。\n\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
+    "text": "2025年4月1日，法政大学理工学部 知能システム研究室が発足しました．\n私たちの研究室は，人工知能，最適化，経営科学の分野で最先端の研究を行い，これらの技術を活用して社会に貢献することを目指しています．"
   },
   {
-    "objectID": "blog/python-env/index.html",
-    "href": "blog/python-env/index.html",
-    "title": "Python 環境構築",
+    "objectID": "blog/vector-graphics/index.html",
+    "href": "blog/vector-graphics/index.html",
+    "title": "図の作り方",
     "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
   },
   {
-    "objectID": "blog/python-env/index.html#uv-python-vscode",
-    "href": "blog/python-env/index.html#uv-python-vscode",
-    "title": "Python 環境構築",
-    "section": "",
-    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+    "objectID": "blog/vector-graphics/index.html#draw.io",
+    "href": "blog/vector-graphics/index.html#draw.io",
+    "title": "図の作り方",
+    "section": "draw.io",
+    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
   },
   {
-    "objectID": "lab.html",
-    "href": "lab.html",
-    "title": "学生実験室",
-    "section": "",
-    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
+    "objectID": "blog/vector-graphics/index.html#excalidraw",
+    "href": "blog/vector-graphics/index.html#excalidraw",
+    "title": "図の作り方",
+    "section": "Excalidraw",
+    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
   },
   {
-    "objectID": "lab.html#共用",
-    "href": "lab.html#共用",
-    "title": "学生実験室",
-    "section": "",
-    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
+    "objectID": "blog/vector-graphics/index.html#python",
+    "href": "blog/vector-graphics/index.html#python",
+    "title": "図の作り方",
+    "section": "Python",
+    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
   },
   {
-    "objectID": "lab.html#コンピューティング",
-    "href": "lab.html#コンピューティング",
-    "title": "学生実験室",
-    "section": "コンピューティング",
-    "text": "コンピューティング\n\nNVIDIA DGX Spark（2025年）\nGeForce RTX 3050"
+    "objectID": "index.html#about-us",
+    "href": "index.html#about-us",
+    "title": "Intelligent Systems Laboratory",
+    "section": "About Us",
+    "text": "About Us\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
   },
   {
-    "objectID": "lab.html#ソフトウェア",
-    "href": "lab.html#ソフトウェア",
-    "title": "学生実験室",
-    "section": "ソフトウェア",
-    "text": "ソフトウェア\n\nOverleaf: Online LaTeX editor"
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Intelligent Systems Laboratory",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n\n\n\nMar 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n\n\n\nSep 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\n\n\n\nApr 1, 2025\n\n\n\n\n\n\nNo matching items\n\n See All News"
   },
   {
-    "objectID": "lab.html#法政大学",
-    "href": "lab.html#法政大学",
-    "title": "学生実験室",
-    "section": "法政大学",
-    "text": "法政大学\n\nTurnitin: Plagiarism checking tool\n\niThenticate\nFeedback Studio\n\nKinoden 電子ブック\nProQuest Ebook Central"
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Intelligent Systems Laboratory",
+    "section": "Research",
+    "text": "Research\n\n\n\n\n\n\n\n\nMetaheuristics\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI for Optimization\n\n\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Management\n\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning\n\n\n\n\n\n\n\n\nNo matching items\n\n See All Research"
   },
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join Us",
-    "section": "",
-    "text": "研究室配属\n大学院入試\nIIST English Program"
-  },
-  {
-    "objectID": "join.html#学部生の研究室配属",
-    "href": "join.html#学部生の研究室配属",
-    "title": "Join Us",
-    "section": "学部生の研究室配属",
-    "text": "学部生の研究室配属\n法政大学理工学部経営システム工学科の学生は，3年次春学期に研究室配属が行われます．\n知能システム研究室では，オペレーションズ・リサーチ，機械学習，最適化，データサイエンスに関心のある学生を歓迎します．\n配属を希望する方は，説明会などで研究内容を確認し，不明点があれば気軽にお問い合わせください．"
-  },
-  {
-    "objectID": "join.html#大学院入試",
-    "href": "join.html#大学院入試",
-    "title": "Join Us",
-    "section": "大学院入試",
-    "text": "大学院入試\n法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n詳細は以下をご確認ください．\n\n大学院入試要項\n\n出願にあたっては，事前に指導希望教員の許可を得る必要があります．\n\nまた，法政大学では，IISTという英語による授業のみで学位取得が可能な英語学位プログラム（9月入学）もあります．"
-  },
-  {
-    "objectID": "join.html#iist-english-program",
-    "href": "join.html#iist-english-program",
-    "title": "Join Us",
-    "section": "IIST English Program",
-    "text": "IIST English Program\nInstitute of Integrated Science and Technology (IIST) offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor admission details, please refer to the official IIST website:\n\nIIST Admission Information"
-  },
-  {
-    "objectID": "join.html#法政理工系の源流-学生と教員がつなぐ学びの軌跡",
-    "href": "join.html#法政理工系の源流-学生と教員がつなぐ学びの軌跡",
-    "title": "Join Us",
+    "objectID": "index.html#法政理工系の源流-学生と教員がつなぐ学びの軌跡",
+    "href": "index.html#法政理工系の源流-学生と教員がつなぐ学びの軌跡",
+    "title": "Intelligent Systems Laboratory",
     "section": "法政理工系の源流 －学生と教員がつなぐ学びの軌跡－",
     "text": "法政理工系の源流 －学生と教員がつなぐ学びの軌跡－"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "2025年度卒業式\n\n\n\nnews\n\n卒業式\n\n\n\n\n\n\n\n\n\nMar 24, 2026\n\n\n劉 子昂\n\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉 子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉 子昂\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "Intelligent Systems Lab",
+    "section": "",
+    "text": "https://icons.getbootstrap.com"
+  },
+  {
+    "objectID": "join/b3/index.html",
+    "href": "join/b3/index.html",
+    "title": "学部生の研究室配属",
+    "section": "",
+    "text": "法政大学 理工学部 経営システム工学科の学生は，3年次春学期に研究室配属が行われます．"
+  },
+  {
+    "objectID": "join/b3/index.html#研究室説明会2026年度",
+    "href": "join/b3/index.html#研究室説明会2026年度",
+    "title": "学部生の研究室配属",
+    "section": "研究室説明会（2026年度）",
+    "text": "研究室説明会（2026年度）\n研究室説明会は，以下の日程で実施します．\n\n\n\n開催日時\n\n\n\n\n2026年4月3日（金）13:00~13:20\n\n\n2026年4月6日（月）11:00~11:20\n\n\n2026年4月7日（火）15:10~15:30\n\n\n\n\n場所：西館 W5016（知能システム研究室）\n内容：教員による説明，質疑応答，研究室見学"
+  },
+  {
+    "objectID": "join/b3/index.html#ゼミの内容",
+    "href": "join/b3/index.html#ゼミの内容",
+    "title": "学部生の研究室配属",
+    "section": "ゼミの内容",
+    "text": "ゼミの内容\n\n経営工学基礎演習（3年生・春）\n\nPythonプログラミングの基礎\n経営工学の基礎と実装\n人工知能の基礎と実装\n\n\n\nProject-Based Learning（3年生・秋）\n\n個人または少人数のグループで，プロジェクト演習を行う\n最適化，機械学習，モデリング，シミュレーションなどの手法を用いて，自ら設定した課題の解決に取り組む"
+  },
+  {
+    "objectID": "join/b3/index.html#求める学生像",
+    "href": "join/b3/index.html#求める学生像",
+    "title": "学部生の研究室配属",
+    "section": "求める学生像",
+    "text": "求める学生像\n\nAI・経営工学に関する知識と実装力を身に付けたい人\nプログラミングが好きな人\n自律的に学ぶ意欲のある人\n自ら課題を設定し，解決に向けて取り組む意欲のある人"
+  },
+  {
+    "objectID": "join/b3/index.html#関連科目",
+    "href": "join/b3/index.html#関連科目",
+    "title": "学部生の研究室配属",
+    "section": "関連科目",
+    "text": "関連科目\n当研究室の内容と密接に関連する科目は以下のとおりです．\n\n1年次\n\n数理システム\n社会システム\nゲーム理論\n\n\n\n2年次\n\nオペレーションズ・リサーチＡ\nオペレーションズ・リサーチＢ\nシミュレーション\n\n\n\n3年次\n\n最適化数学\n数理計画\n組合せ最適化\nベイズ統計\n多変量解析\n機械学習\nリレーショナル・データベース"
   },
   {
     "objectID": "contact.html",
@@ -147,73 +168,101 @@
     "text": "Metaheuristics\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nAI for Optimization\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Management\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning\n\n\n\n\n\n\n劉子昂\n\n\nFeb 14, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "note.html",
-    "href": "note.html",
-    "title": "Intelligent Systems Lab",
+    "objectID": "join/m1/index.html",
+    "href": "join/m1/index.html",
+    "title": "大学院入試",
     "section": "",
-    "text": "https://icons.getbootstrap.com"
+    "text": "法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n入試の詳細については，以下をご確認ください．"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "join/m1/index.html#事前連絡",
+    "href": "join/m1/index.html#事前連絡",
+    "title": "大学院入試",
+    "section": "事前連絡",
+    "text": "事前連絡\n出願にあたっては，事前に指導希望教員の許可を得る必要があります．\n事前相談は，劉までメールにてご連絡ください．\n連絡先：liu@hosei.ac.jp\n事前連絡の際には，可能であれば以下の資料をご共有してください．\n\n履歴書\n成績証明書\n卒業論文（ある場合／言語不問）\n研究計画書（書式自由）\n英語成績（TOEFL, IELTS, TOEIC など）\n日本語成績（日本語能力試験など／該当者のみ）\n\n教員の許可を得た後，入試問い合わせフォーム（Google Form）を送信してください．\n※法政大学の在学生は，劉へ直接ご連絡ください．"
+  },
+  {
+    "objectID": "join/m1/index.html#英語学位プログラム",
+    "href": "join/m1/index.html#英語学位プログラム",
+    "title": "大学院入試",
+    "section": "英語学位プログラム",
+    "text": "英語学位プログラム\nまた，法政大学の IIST では，英語のみで修了可能な大学院プログラム（9月入学）が提供されています．海外からの出願や英語での研究・学位取得を希望される方は，こちらのプログラムもご検討ください．"
+  },
+  {
+    "objectID": "join/iist/index.html",
+    "href": "join/iist/index.html",
+    "title": "IIST English Program",
     "section": "",
-    "text": "APMS 2025\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n劉子昂\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n劉子昂\n\n\n\n\n\nNo matching items"
+    "text": "The Institute of Integrated Science and Technology (IIST) at Hosei University offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor admission details, please refer to the official IIST website:\n\nIIST Admission Information"
   },
   {
-    "objectID": "index.html#about-us",
-    "href": "index.html#about-us",
-    "title": "Intelligent Systems Laboratory",
-    "section": "About Us",
-    "text": "About Us\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Intelligent Systems Laboratory",
-    "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n\n\n\nSep 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\n\n\n\nApr 1, 2025\n\n\n\n\n\n\nNo matching items\n\n See All News"
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Intelligent Systems Laboratory",
-    "section": "Research",
-    "text": "Research\n\n\n\n\n\n\n\n\nMetaheuristics\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI for Optimization\n\n\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Management\n\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning\n\n\n\n\n\n\n\n\nNo matching items\n\n See All Research"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html",
-    "href": "blog/vector-graphics/index.html",
-    "title": "図の作り方",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
     "section": "",
-    "text": "論文やプレゼンテーション資料に使う図の作り方を紹介します．\nベクター形式の図は，拡大・縮小しても画質が劣化しないため，論文やプレゼンテーション資料に適しています．ここでは，ベクター形式の図を作成するためのツールや方法を紹介します．"
+    "text": "大学院入試\n\n\n\n\n\n\n\n\n\n学部生の研究室配属\n\n\n\n\n\n\n\n\n\nIIST English Program\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/vector-graphics/index.html#draw.io",
-    "href": "blog/vector-graphics/index.html#draw.io",
-    "title": "図の作り方",
-    "section": "draw.io",
-    "text": "draw.io\ndraw.io は無料の作図ツールです．特に，フローチャート，ER図などの作成に適しています．Webアプリとして利用できるほか，デスクトップアプリとしても利用できます．\nLaTeX文書に貼り付ける場合は，PDF形式でエクスポートするのがおすすめです．\n\n作成した図を選択\nメニューから「ファイル」→「形式を指定してエクスポート」→「PDF」を選択\n「切り落とす」をチェックしてエクスポート\n\ndraw.ioは，数式の挿入もサポートしています．詳細はこちらを参照してください．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#excalidraw",
-    "href": "blog/vector-graphics/index.html#excalidraw",
-    "title": "図の作り方",
-    "section": "Excalidraw",
-    "text": "Excalidraw\nExcalidraw は手書き風の図を作成できる無料のWebアプリです．最近では，学術論文の図にもよく使われています．"
-  },
-  {
-    "objectID": "blog/vector-graphics/index.html#python",
-    "href": "blog/vector-graphics/index.html#python",
-    "title": "図の作り方",
-    "section": "Python",
-    "text": "Python\nMatplotlib を利用して，.svg や .pdf 形式で図を保存できます．\nplt.savefig(\"figure.svg\")  # SVG形式で保存\nplt.savefig(\"figure.pdf\")  # PDF形式で保存"
-  },
-  {
-    "objectID": "news/welcome/index.html",
-    "href": "news/welcome/index.html",
-    "title": "知能システム研究室が発足しました!",
+    "objectID": "lab.html",
+    "href": "lab.html",
+    "title": "学生実験室",
     "section": "",
-    "text": "2025年4月1日、法政大学理工学部 知能システム研究室が発足しました。\n私たちの研究室は、人工知能、最適化、経営科学の分野で最先端の研究を行い、これらの技術を活用して社会に貢献することを目指しています。"
+    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
+  },
+  {
+    "objectID": "lab.html#共用",
+    "href": "lab.html#共用",
+    "title": "学生実験室",
+    "section": "",
+    "text": "冷蔵庫（2025年）\n用テレビ（2025年）\n電子黒板（2025年）\n電子レンジ"
+  },
+  {
+    "objectID": "lab.html#コンピューティング",
+    "href": "lab.html#コンピューティング",
+    "title": "学生実験室",
+    "section": "コンピューティング",
+    "text": "コンピューティング\n\nNVIDIA DGX Spark（2025年）\nGeForce RTX 3050"
+  },
+  {
+    "objectID": "lab.html#ソフトウェア",
+    "href": "lab.html#ソフトウェア",
+    "title": "学生実験室",
+    "section": "ソフトウェア",
+    "text": "ソフトウェア\n\nOverleaf: Online LaTeX editor"
+  },
+  {
+    "objectID": "lab.html#法政大学",
+    "href": "lab.html#法政大学",
+    "title": "学生実験室",
+    "section": "法政大学",
+    "text": "法政大学\n\nTurnitin: Plagiarism checking tool\n\niThenticate\nFeedback Studio\n\nKinoden 電子ブック\nProQuest Ebook Central"
+  },
+  {
+    "objectID": "blog/python-env/index.html",
+    "href": "blog/python-env/index.html",
+    "title": "Python 環境構築",
+    "section": "",
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+  },
+  {
+    "objectID": "blog/python-env/index.html#uv-python-vscode",
+    "href": "blog/python-env/index.html#uv-python-vscode",
+    "title": "Python 環境構築",
+    "section": "",
+    "text": "Mac\nbrew install uv\nWindows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\nインストール後、uv コマンドを実行して、以下のような表示がされれば成功です。\nAn extremely fast Python package manager.\n\nUsage: uv [OPTIONS] COMMAND [ARGS]...\n\n\n\n最新の Python をインストールするには、以下のコマンドを実行します。\nuv install python\n特定のバージョンをインストールするには、以下のようにバージョン番号を指定します。\nuv install python 3.12\n\n\n\n\n\n\nTip\n\n\n\n最新の Python をインストールする場合、一部のライブラリが対応していない可能性があります。安定したバージョンを使用することをお勧めします。\n\n\n\n\n\nVSCode の公式サイトにアクセスし、VSCode をダウンロードしてインストールします。\n\n\nVSCode を起動し、「view」 &gt; 「Extensions」を選択します。検索バーに「Python」と入力し、Microsoft が提供する Python 拡張機能をインストールします。\n\n\n\nVSCode を起動し、以下の手順で python のファイルを作成します。\n\n「File」 &gt; 「New File」を選択します。\nファイル名を test.py として保存します。\nprint(\"Hello, World!\") と入力します。\nファイルを保存します。\n\n\n\n\n\n「Terminal」 &gt; 「New Terminal」を選択します。\nターミナルで以下のコマンドを実行します。\npython test.py と入力して実行します。\nHello, World! と表示されれば成功です。\n\n\n\n\n\nターミナルで以下のコマンドを実行すると、test.py を uv 経由で実行できます。\nuv run test.py\n以下のコードでは，Numpy というライブラリを使って配列を作成し，表示しています。それを実行するには，まず Numpy をインストールする必要があります。\nimport numpy as np\n\na = np.array([1, 2, 3])\nprint(a)\nuv でこのスクリプトを実行するには，以下のコマンドを実行します。\nuv run --with numpy test.py\n\n\n\nプロジェクトを作成するには，こちらを参照してください。"
+  },
+  {
+    "objectID": "news/2025-9-apms/index.html",
+    "href": "news/2025-9-apms/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました．\n\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302.\nM. S. Akter, T. Nishi, and Z. Liu, “A multi-period multi-objective model for sustainable supply chain optimization using MILP framework,” in IFIP Advances in Information and Communication Technology, Cham: Springer Nature Switzerland, 2026, pp. 303–319."
+  },
+  {
+    "objectID": "news/2026-3-graduation/index.html",
+    "href": "news/2026-3-graduation/index.html",
+    "title": "2025年度卒業式",
+    "section": "",
+    "text": "2025年度の卒業式が行われました．\n卒業生の皆さん，ご卒業おめでとうございます！これからのご活躍を心よりお祈り申し上げます．\n\n\nまた，佐藤さんが優秀論文賞を受賞されました．おめでとうございます！"
   }
 ]
