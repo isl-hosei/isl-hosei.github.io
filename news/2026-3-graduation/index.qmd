@@ -2,7 +2,7 @@
 title: "2025年度卒業式"
 author: "劉 子昂"
 date: "2026-03-24"
-categories: [news, 卒業式]
+categories: [news, 卒業式, 受賞]
 ---
 
 2025年度の卒業式が行われました．
