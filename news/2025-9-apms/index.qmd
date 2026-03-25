@@ -2,7 +2,7 @@
 title: "APMS 2025"
 author: "劉 子昂"
 date: "2025-09-04"
-categories: [news]
+categories: [国際学会]
 ---
 
 M1の遠田さんがAPMS 2025にて発表を行いました．

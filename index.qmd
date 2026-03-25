@@ -28,7 +28,7 @@ listing:
     type: grid
     categories: false
     max-items: 3
-    fields: [image, date, title, description]
+    fields: [image, date, title, description, categories]
 
   - id: research
     contents: 
