@@ -4,11 +4,11 @@ title: "IIST English Program"
 
 The [Institute of Integrated Science and Technology](https://iist.hosei.ac.jp) (IIST) at Hosei University offers English-taught graduate programs for both Master's and Doctoral degrees.
 
-For admission details, please refer to the official IIST website:
+For detailed information on the application procedures and requirements, please visit the [admissions page](https://iist.hosei.ac.jp/admission/).
 
-- [IIST Admission Information](https://iist.hosei.ac.jp/admission/)
+<!-- Prospective students who wish to join our laboratory through the IIST program are encouraged to contact us in advance. Please send an email including your curriculum vitae (CV) and a brief statement of your research interests.
 
-<!-- If you are interested in joining our laboratory through the IIST program, please contact us in advance by email with your CV and a brief research statement. -->
+**Email:** [liu@hosei.ac.jp](mailto:liu@hosei.ac.jp) -->
 
 <!-- ## 中文     
 
