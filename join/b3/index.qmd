@@ -32,11 +32,6 @@ title: "学部生のゼミ配属"
 
 ## 📚 ゼミの内容
 
-::: {layout-ncol=2}
-![AIエージェントが環境を探索して最適な経路を見つける様子](cliff_walking.gif)
-
-![群知能が協力して最適解を探索する様子](ParticleSwarmArrowsAnimation.gif)
-:::
 
 ### 経営工学基礎演習（3年生・春）
 
@@ -45,6 +40,19 @@ title: "学部生のゼミ配属"
 - Python入門
 - 最適化アルゴリズムの実装
 - 機械学習モデルの実装
+
+
+::: {layout-nrow=2}
+
+![群知能が協力して最適解を探索](image/ParticleSwarmArrowsAnimation.gif){height=250}
+
+![AIエージェントが最適な経路を探索](image/cliff_walking.gif){height=250}
+
+![Facebook友達関係のネットワーク](image/facebook.png){height=250}
+
+![カリフォルニア住宅価格のデータ分析](image/linear_regression.png){height=250}
+
+:::
 
 ### Project-Based Learning（3年生・秋）
 
