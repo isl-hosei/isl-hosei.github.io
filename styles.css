@@ -1,19 +1,35 @@
 /* css styles */
 
+/* ── Index page section headings ── */
+.quarto-about-jolla~* h2 {
+    border-bottom: 2px solid var(--bs-primary);
+    padding-bottom: 0.3rem;
+    margin-bottom: 1.25rem;
+}
+
+/* ── End index improvements ── */
+
 .quarto-about-jolla>#title-block-header {
     position: relative;
     background-image:
-        linear-gradient(rgba(var(--bs-dark-rgb), 0.45), rgba(var(--bs-dark-rgb), 0.45)),
+        linear-gradient(160deg, rgba(var(--bs-dark-rgb), 0.25) 0%, rgba(var(--bs-dark-rgb), 0.65) 100%),
         url("images/hero-isl.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 0.5rem;
-    padding: 3.5rem 2rem;
-    margin-bottom: 1.5rem;
+    padding: 5rem 3rem;
+    margin-bottom: 2rem;
 }
 
-.quarto-about-jolla>#title-block-header .title,
-.quarto-about-jolla>#title-block-header .subtitle {
+.quarto-about-jolla>#title-block-header .title {
     color: var(--bs-white);
+    letter-spacing: 0.04em;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.quarto-about-jolla>#title-block-header .subtitle {
+    color: rgba(255, 255, 255, 0.88);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    font-size: 1.1rem;
 }

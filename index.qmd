@@ -69,17 +69,17 @@ The **Intelligent Systems Laboratory** (ISL) researches operations research, mac
 :::
 
 <a href="news.qmd">
-  <button type="button" class="btn btn-secondary">See All News</button>
+  <button type="button" class="btn btn-outline-primary">See All News →</button>
 </a>
 
-## Research
+<!-- ## Research
 
 :::{#research}
 :::
 
 <a href="research.qmd">
-  <button type="button" class="btn btn-secondary">See All Research</button>
-</a>
+  <button type="button" class="btn btn-outline-primary">See All Research →</button>
+</a> -->
 
 ## 法政理工系の源流 －学生と教員がつなぐ学びの軌跡－
 
