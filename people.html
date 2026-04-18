@@ -101,6 +101,62 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-student-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-student-listing'] = new List('listing-student-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-former-members-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-former-members-listing'] = new List('listing-former-members-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -250,54 +306,374 @@ LIU Ziang
 </section>
 <section id="学生-students" class="level2">
 <h2 class="anchored" data-anchor-id="学生-students">学生 | Students</h2>
-<section id="m1" class="level3">
-<h3 class="anchored" data-anchor-id="m1">M1</h3>
-<ul>
-<li>馬 秋寧</li>
-<li>王 逸天</li>
-<li>余 俊諺</li>
-</ul>
-</section>
-<section id="b4" class="level3">
-<h3 class="anchored" data-anchor-id="b4">B4</h3>
-<ul>
-<li>小川 知波</li>
-<li>川上 利一朗</li>
-<li>鈴木 雅人</li>
-<li>高石 和輝</li>
-<li>竹内 栄貴</li>
-<li>藤井 千晴（ゼミ長）</li>
-<li>藤牧 瑞輝</li>
-<li>本田 渉</li>
-</ul>
-</section>
-<section id="b3" class="level3">
-<h3 class="anchored" data-anchor-id="b3">B3</h3>
-<ul>
-<li>岩本 慶太</li>
-<li>胡 潤佳</li>
-<li>小林 俊也</li>
-<li>施 俊丞</li>
-<li>張 又山</li>
-<li>三神 幸翔</li>
-<li>八谷 鷹</li>
-</ul>
-</section>
+<div id="listing-student-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+馬 秋寧
+</h5>
+<div class="card-subtitle listing-subtitle">
+Ma Qiuning
+</div>
+<div class="card-text listing-description delink">
+<p>M1</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+王 逸天
+</h5>
+<div class="card-subtitle listing-subtitle">
+Wang Yitian
+</div>
+<div class="card-text listing-description delink">
+<p>M1</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+余 俊諺
+</h5>
+<div class="card-subtitle listing-subtitle">
+Yu Junyan
+</div>
+<div class="card-text listing-description delink">
+<p>M1</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+小川 知波
+</h5>
+<div class="card-subtitle listing-subtitle">
+Chinami Ogawa
+</div>
+<div class="card-text listing-description delink">
+<p>B4</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+川上 利一朗
+</h5>
+<div class="card-subtitle listing-subtitle">
+Riichiro Kawakami
+</div>
+<div class="card-text listing-description delink">
+<p>B4</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+鈴木 雅人
+</h5>
+<div class="card-subtitle listing-subtitle">
+Masato Suzuki
+</div>
+<div class="card-text listing-description delink">
+<p>B4</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+高石 和輝
+</h5>
+<div class="card-subtitle listing-subtitle">
+Kazuki Takaishi
+</div>
+<div class="card-text listing-description delink">
+<p>B4</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+竹内 栄貴
+</h5>
+<div class="card-subtitle listing-subtitle">
+Eiki Takeuchi
+</div>
+<div class="card-text listing-description delink">
+<p>B4</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+藤井 千晴
+</h5>
+<div class="card-subtitle listing-subtitle">
+Chiharu Fujii
+</div>
+<div class="card-text listing-description delink">
+<p>B4 (ゼミ長)</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+藤牧 瑞輝
+</h5>
+<div class="card-subtitle listing-subtitle">
+Mizuki Fujimaki
+</div>
+<div class="card-text listing-description delink">
+<p>B4</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+本田 渉
+</h5>
+<div class="card-subtitle listing-subtitle">
+Wataru Honda
+</div>
+<div class="card-text listing-description delink">
+<p>B4</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+岩本 慶太
+</h5>
+<div class="card-subtitle listing-subtitle">
+Keita Iwamoto
+</div>
+<div class="card-text listing-description delink">
+<p>B3</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+胡 潤佳
+</h5>
+<div class="card-subtitle listing-subtitle">
+Hu Runjia
+</div>
+<div class="card-text listing-description delink">
+<p>B3</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+小林 俊也
+</h5>
+<div class="card-subtitle listing-subtitle">
+Shunya Kobayashi
+</div>
+<div class="card-text listing-description delink">
+<p>B3</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+施 俊丞
+</h5>
+<div class="card-subtitle listing-subtitle">
+Shi Juncheng
+</div>
+<div class="card-text listing-description delink">
+<p>B3</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="15">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+張 又山
+</h5>
+<div class="card-subtitle listing-subtitle">
+Zhang Youshan
+</div>
+<div class="card-text listing-description delink">
+<p>B3</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="16">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+三神 幸翔
+</h5>
+<div class="card-subtitle listing-subtitle">
+Yukito Mikami
+</div>
+<div class="card-text listing-description delink">
+<p>B3</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="17">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+八谷 鷹
+</h5>
+<div class="card-subtitle listing-subtitle">
+Yo Yatagai
+</div>
+<div class="card-text listing-description delink">
+<p>B3</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="過去に在籍したメンバー" class="level2">
 <h2 class="anchored" data-anchor-id="過去に在籍したメンバー">過去に在籍したメンバー</h2>
-<section id="年度" class="level3">
-<h3 class="anchored" data-anchor-id="年度">2025年度</h3>
-<ul>
-<li>竹上 瑛貴</li>
-<li>久賀 菜千帆</li>
-<li>小槌 隆介</li>
-<li>佐藤 克海（ゼミ長）</li>
-</ul>
+<div id="listing-former-members-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+竹上 瑛貴
+</h5>
+<div class="card-subtitle listing-subtitle">
+2025年度
+</div>
+<div class="card-text listing-description delink">
+<p>学部</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+久賀 菜千帆
+</h5>
+<div class="card-subtitle listing-subtitle">
+2025年度
+</div>
+<div class="card-text listing-description delink">
+<p>学部</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+小槌 隆介
+</h5>
+<div class="card-subtitle listing-subtitle">
+2025年度
+</div>
+<div class="card-text listing-description delink">
+<p>学部</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+佐藤 克海
+</h5>
+<div class="card-subtitle listing-subtitle">
+2025年度
+</div>
+<div class="card-text listing-description delink">
+<p>学部 (ゼミ長)</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
