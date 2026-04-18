@@ -4,28 +4,28 @@
     "href": "people.html",
     "title": "People",
     "section": "",
-    "text": "准教授\n\n\n\n\n\nNo matching items"
+    "text": "LIU Ziang\n\n\nAssociate Professor\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#教員-faculty",
     "href": "people.html#教員-faculty",
     "title": "People",
     "section": "",
-    "text": "准教授\n\n\n\n\n\nNo matching items"
+    "text": "LIU Ziang\n\n\nAssociate Professor\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#学生-students",
     "href": "people.html#学生-students",
     "title": "People",
     "section": "学生 | Students",
-    "text": "学生 | Students\n\nM1\n\n\n\n\n\nB4\n\n小川知波\n川上利一朗\n鈴木雅人\n高石和輝\n竹内栄貴\n藤井千晴\n藤牧瑞輝\n本田渉\n\n\n\nB3"
+    "text": "学生 | Students\n\nM1\n\n馬 秋寧\n王 逸天\n余 俊諺\n\n\n\nB4\n\n小川 知波\n川上 利一朗\n鈴木 雅人\n高石 和輝\n竹内 栄貴\n藤井 千晴（ゼミ長）\n藤牧 瑞輝\n本田 渉\n\n\n\nB3\n\n岩本 慶太\n胡 潤佳\n小林 俊也\n施 俊丞\n張 又山\n三神 幸翔\n八谷 鷹"
   },
   {
     "objectID": "people.html#過去に在籍したメンバー",
     "href": "people.html#過去に在籍したメンバー",
     "title": "People",
     "section": "過去に在籍したメンバー",
-    "text": "過去に在籍したメンバー"
+    "text": "過去に在籍したメンバー\n\n2025年度\n\n竹上 瑛貴\n久賀 菜千帆\n小槌 隆介\n佐藤 克海（ゼミ長）"
   },
   {
     "objectID": "news/welcome/index.html",
@@ -74,21 +74,7 @@
     "href": "index.html#news",
     "title": "Intelligent Systems Laboratory",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式，受賞\n\n\n\n\n\n\n\nMar 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n国際学会\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n\n\n\n\nNo matching items\n\n See All News"
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Intelligent Systems Laboratory",
-    "section": "Research",
-    "text": "Research\n\n\n\n\n\n\n\n\nMetaheuristics\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI for Optimization\n\n\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Management\n\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning\n\n\n\n\n\n\n\n\nNo matching items\n\n See All Research"
-  },
-  {
-    "objectID": "index.html#法政理工系の源流-学生と教員がつなぐ学びの軌跡",
-    "href": "index.html#法政理工系の源流-学生と教員がつなぐ学びの軌跡",
-    "title": "Intelligent Systems Laboratory",
-    "section": "法政理工系の源流 －学生と教員がつなぐ学びの軌跡－",
-    "text": "法政理工系の源流 －学生と教員がつなぐ学びの軌跡－"
+    "text": "News\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式，受賞\n\n\n\n\n\n\n\nMar 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n国際学会\n\n\n\n\n\n\n\nSep 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nnews\n\n\n\n\n\n\n\nApr 1, 2025\n\n\n\n\n\n\nNo matching items\n\n See All News →"
   },
   {
     "objectID": "news.html",
@@ -100,9 +86,9 @@
   {
     "objectID": "note.html",
     "href": "note.html",
-    "title": "Intelligent Systems Lab",
+    "title": "研究室紹介",
     "section": "",
-    "text": "https://icons.getbootstrap.com"
+    "text": "https://icons.getbootstrap.com\n\n研究室紹介\n\n知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．"
   },
   {
     "objectID": "join/b3/index.html",

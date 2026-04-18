@@ -100,34 +100,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research'] = new List('listing-research', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -259,7 +231,7 @@ window.Quarto = {
 <h2 data-anchor-id="news">News</h2>
 <div id="listing-news" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="JUU1JThEJTkyJUU2JUE1JUFEJUU1JUJDJThGJUVGJUJDJThDJUU1JThGJTk3JUU4JUIzJTlF" data-listing-date-sort="1774278000000" data-listing-file-modified-sort="1775040682068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="0" data-categories="JUU1JThEJTkyJUU2JUE1JUFEJUU1JUJDJThGJUVGJUJDJThDJUU1JThGJTk3JUU4JUIzJTlF" data-listing-date-sort="1774278000000" data-listing-file-modified-sort="1776076317768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="./news/2026-3-graduation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="news/2026-3-graduation/IMG_1424.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -283,7 +255,7 @@ Mar 24, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="JUU1JTlCJUJEJUU5JTlBJTlCJUU1JUFEJUE2JUU0JUJDJTlB" data-listing-date-sort="1756911600000" data-listing-file-modified-sort="1775040180415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
+<div class="g-col-1" data-index="1" data-categories="JUU1JTlCJUJEJUU5JTlBJTlCJUU1JUFEJUE2JUU0JUJDJTlB" data-listing-date-sort="1756911600000" data-listing-file-modified-sort="1776076317716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
 <a href="./news/2025-9-apms/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img loading='lazy' src="news/2025-9-apms/apms-toda.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -307,7 +279,7 @@ Sep 4, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1743433200000" data-listing-file-modified-sort="1774342473832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1743433200000" data-listing-file-modified-sort="1776076317768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./news/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -336,76 +308,18 @@ Apr 1, 2025
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p><a href="./news.html"> <button type="button" class="btn btn-secondary">See All News</button> </a></p>
-</section>
-<section id="research" class="level2">
-<h2 data-anchor-id="research">Research</h2>
-<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1770994800000" data-listing-file-modified-sort="1772430306264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./research/Metaheuristics/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Metaheuristics
-</h5>
-<div class="card-text listing-description delink">
+<p><a href="./news.html"> <button type="button" class="btn btn-outline-primary">See All News →</button> </a></p>
+<!-- ## Research
 
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1770994800000" data-listing-file-modified-sort="1772430306264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./research/AI-opt/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI for Optimization
-</h5>
-<div class="card-text listing-description delink">
+:::{#research}
+:::
 
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1770994800000" data-listing-file-modified-sort="1772430306264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./research/SCM/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Supply Chain Management
-</h5>
-<div class="card-text listing-description delink">
+<a href="research.qmd">
+  <button type="button" class="btn btn-outline-primary">See All Research →</button>
+</a> -->
+<!-- ## 法政理工系の源流 －学生と教員がつなぐ学びの軌跡－
 
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1770994800000" data-listing-file-modified-sort="1772430306264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./research/RL/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reinforcement Learning
-</h5>
-<div class="card-text listing-description delink">
-
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="./research.html"> <button type="button" class="btn btn-secondary">See All Research</button> </a></p>
-</section>
-<section id="法政理工系の源流-学生と教員がつなぐ学びの軌跡" class="level2">
-<h2 data-anchor-id="法政理工系の源流-学生と教員がつなぐ学びの軌跡">法政理工系の源流 －学生と教員がつなぐ学びの軌跡－</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EG_9TyqF_B0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+ -->
 
 
 
