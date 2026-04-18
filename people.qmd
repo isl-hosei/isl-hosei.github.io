@@ -3,8 +3,24 @@ title: "People"
 title-block-banner: true
 listing:
   - id: faculty-listing
-    contents: 
-      - people.yml
+    contents:
+      - title: "劉 子昂"
+        subtitle: "LIU Ziang"
+        image: https://avatars.githubusercontent.com/u/50853393?v=4
+        path: https://zi-ang-liu.github.io
+        description: "Associate Professor"
+    type: grid
+    image-height: 150px
+    grid-columns: 4
+  - id: student-listing
+    contents:
+      - students.yml
+    type: grid
+    image-height: 150px
+    grid-columns: 4
+  - id: former-members-listing
+    contents:
+      - former-members.yml
     type: grid
     image-height: 150px
     grid-columns: 4
@@ -17,39 +33,10 @@ listing:
 
 ## 学生 | Students
 
-### M1
-
-- 馬 秋寧
-- 王 逸天
-- 余 俊諺
-
-### B4
-
-- 小川 知波
-- 川上 利一朗
-- 鈴木 雅人
-- 高石 和輝
-- 竹内 栄貴
-- 藤井 千晴（ゼミ長）
-- 藤牧 瑞輝
-- 本田 渉
-
-### B3
-
-- 岩本 慶太
-- 胡 潤佳
-- 小林 俊也
-- 施 俊丞
-- 張 又山
-- 三神 幸翔
-- 八谷 鷹
+:::{#student-listing}
+:::
 
 ## 過去に在籍したメンバー
 
-
-### 2025年度
-
-- 竹上 瑛貴
-- 久賀 菜千帆
-- 小槌 隆介
-- 佐藤 克海（ゼミ長）
+:::{#former-members-listing}
+:::

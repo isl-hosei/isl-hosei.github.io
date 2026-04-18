@@ -30,15 +30,15 @@ listing:
     max-items: 3
     fields: [image, date, title, description, categories]
 
-  - id: research
-    contents: 
-      - /research
-    sort: "date desc"
-    type: grid
-    categories: false
-    max-items: 4
-    grid-columns: 2
-    fields: [image, title, description]
+  # - id: research
+  #   contents: 
+  #     - /research
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   max-items: 4
+  #   grid-columns: 2
+  #   fields: [image, title, description]
 
 # format: 
 #   html:
@@ -81,6 +81,6 @@ The **Intelligent Systems Laboratory** (ISL) researches operations research, mac
   <button type="button" class="btn btn-outline-primary">See All Research →</button>
 </a> -->
 
-## 法政理工系の源流 －学生と教員がつなぐ学びの軌跡－
+<!-- ## 法政理工系の源流 －学生と教員がつなぐ学びの軌跡－
 
-{{< video https://www.youtube.com/watch?v=EG_9TyqF_B0 >}}
+{{< video https://www.youtube.com/watch?v=EG_9TyqF_B0 >}} -->
