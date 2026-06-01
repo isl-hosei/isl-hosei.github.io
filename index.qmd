@@ -2,7 +2,7 @@
 # title: 知能システム研究室
 # subtitle: 法政大学 理工学部 経営システム工学科
 title: "Intelligent Systems Laboratory"
-subtitle: "知能システム研究室<br>法政大学 理工学部 経営システム工学科"
+subtitle: "知能システム研究室<br><span class='hero-affiliation'>法政大学 理工学部 経営システム工学科</span>"
 # image: profile.jpg
 about:
   # marquee
@@ -28,7 +28,8 @@ listing:
     type: grid
     categories: false
     max-items: 3
-    fields: [image, date, title, description, categories]
+    # fields: [image, date, title, description, categories]
+    fields: [image, date, title, categories]
 
   # - id: research
   #   contents: 
@@ -46,6 +47,11 @@ listing:
 ---
 
 ::: {#hero-heading}
+
+<div class="hero-actions">
+  <a href="join.qmd" class="btn btn-outline-light">Join Us</a>
+</div>
+
 :::
 
 <!-- 知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています． -->

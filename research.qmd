@@ -10,7 +10,7 @@ listing:
     filter-ui: false
     grid-columns: 2
 # page-layout: full
-title-block-banner: true
+# title-block-banner: true
 ---
 
 :::{#research}

@@ -1,6 +1,6 @@
 ---
 title: "People"
-title-block-banner: true
+# title-block-banner: true
 listing:
   - id: faculty-listing
     contents:
@@ -10,14 +10,14 @@ listing:
         path: https://zi-ang-liu.github.io
         description: "Associate Professor"
     type: grid
-    image-height: 150px
-    grid-columns: 4
+    image-height: 200px
+    grid-columns: 3
   - id: student-listing
     contents:
       - students.yml
     type: grid
-    image-height: 150px
-    grid-columns: 4
+    image-height: 200px
+    grid-columns: 3
   - id: former-members-listing
     contents:
       - former-members.yml
