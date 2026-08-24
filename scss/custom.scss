@@ -1,0 +1,118 @@
+/*-- scss:defaults --*/
+// Light theme, layered on the Litera base.
+// Paired with dark_custom.scss — same structure, mirrored values.
+// Shared rules live in _shared.scss and are imported below.
+
+// --- Brand -----------------------------------------------------------
+// One hue carries all the colour; everything else is neutral. `$primary` is
+// the near-black chrome (navbar, hover borders) so it recedes and lets the
+// photography and text lead; `$accent` is the only saturated colour, used on
+// small elements — buttons, heading bars, tags, the banner rule.
+//
+// Contrast against the text placed on them (WCAG AA needs 4.5:1):
+//   #fff on $accent  5.4:1     $accent on its own 12% tint  4.5:1
+//   #fff on $primary 14.6:1    $link-color on white         5.4:1
+$brand-ink:  #1e293b !default; // slate 800
+$brand-cyan: #0e7490 !default; // cyan 700
+
+$primary:    $brand-ink !default;
+$accent:     $brand-cyan !default;
+$on-accent:  #ffffff !default; // text placed on top of $accent
+$link-color: #0e7490 !default;
+$link-hover: #155e75 !default; // cyan 800 — literal, since Bootstrap's
+                               // shade-color() is not yet usable here
+
+// --- Surfaces --------------------------------------------------------
+$body-bg:     #ffffff !default;
+$body-color:  #23282f !default;
+$surface:     #f6f7f9 !default; // raised panels: cards, footer, banners
+
+// Muted text. This file used to lean on Bootstrap's $gray-600 (#6c757d), which
+// reaches only 4.37:1 on $surface — below the 4.5:1 WCAG AA floor, and $surface
+// is exactly where most of the muted text here sits: card descriptions, listing
+// dates, the roster subtitles, the whole footer. #5a6169 gives 5.9:1 on
+// $surface and 6.3:1 on white. Borrowed from the personal site, which measured
+// this first.
+$muted-color: #5a6169 !default;
+
+// --- Borders ---------------------------------------------------------
+// $border-soft is the hairline every rule is written against.
+//
+// NOTE: no `!default` on the two Bootstrap variables. Quarto assigns
+// $border-color in an earlier SASS layer, so a `!default` override there is
+// silently dropped — this file used to carry one, and paid for it with a
+// hand-maintained list of ten selectors at the bottom of _shared.scss
+// re-applying the hairline to whatever Bootstrap had left at #dee2e6.
+// Assigning without `!default` fixes it at the source, and that list is gone.
+$border-soft:        rgba(0, 0, 0, 0.09) !default;
+$border-color:       $border-soft;
+$table-border-color: $border-soft;
+
+$shadow-btn:   0 2px 8px rgba(14, 116, 144, 0.22) !default; // tinted with $accent
+$shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.09) !default;
+
+// --- Typography ------------------------------------------------------
+// The Bootstrap default stack contains no Japanese face, so kana and kanji
+// fall through to whatever the OS picks — inconsistent between macOS and
+// Windows, and mismatched against the Latin text beside it. Name the
+// Japanese faces explicitly, per platform.
+$font-family-sans-serif:
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  "Hiragino Sans",              // macOS / iOS
+  "Hiragino Kaku Gothic ProN",  // older macOS
+  "Yu Gothic UI",               // Windows 10+
+  "Yu Gothic",
+  Meiryo,                       // Windows fallback
+  "Noto Sans JP",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji" !default;
+
+$font-size-base:       1.05rem !default;
+$line-height-base:     1.7 !default; // generous leading suits Japanese text
+$headings-font-weight: 700 !default;
+$headings-line-height: 1.25 !default;
+
+// --- Code ------------------------------------------------------------
+$code-color: #c2185b !default;
+$code-bg:    rgba(0, 0, 0, 0.03) !default;
+
+/*-- scss:rules --*/
+
+@import "shared";
+
+// Muted lead text
+.lead {
+  color: $gray-600;
+}
+
+// Code
+pre,
+pre.sourceCode,
+div.sourceCode {
+  border: 1px solid $border-soft;
+  border-radius: 0.5rem;
+}
+
+code:not(.sourceCode) {
+  color: $code-color;
+  background-color: $code-bg;
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+}
+
+// Search / form fields
+.form-control,
+input {
+  border-color: $border-soft;
+
+  &:focus {
+    border-color: $primary;
+    box-shadow: 0 0 0 0.2rem rgba($primary, 0.15);
+  }
+}

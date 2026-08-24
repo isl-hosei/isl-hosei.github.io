@@ -1,0 +1,48 @@
+---
+title: "People"
+title-block-banner: true
+listing:
+  - id: student-listing
+    contents:
+      - data/students.yml
+    type: grid
+    grid-columns: 4
+  - id: former-members-listing
+    contents:
+      - data/former-members.yml
+    type: grid
+    grid-columns: 4
+---
+
+## 教員 | Faculty
+
+<!-- Keep this block unindented: 4+ leading spaces make Pandoc treat the lines
+as an indented code block and print the markup verbatim. -->
+<div class="faculty-card">
+<img src="https://avatars.githubusercontent.com/u/50853393?v=4" alt="劉 子昂">
+<div class="faculty-body">
+<span class="faculty-name">劉 子昂</span>
+<span class="faculty-name-en">LIU Ziang</span>
+<span class="faculty-role">准教授 | Associate Professor</span>
+<div class="faculty-links">
+<a class="faculty-link" href="https://zi-ang-liu.github.io" target="_blank" rel="noopener noreferrer"><i class="bi bi-house"></i> Personal Page</a>
+<a class="faculty-link" href="https://scholar.google.com/citations?user=dRuC1OoAAAAJ&hl" target="_blank" rel="noopener noreferrer"><i class="bi bi-mortarboard"></i> Google Scholar</a>
+<a class="faculty-link" href="https://researchmap.jp/liu.ziang" target="_blank" rel="noopener noreferrer"><i class="bi bi-journal-text"></i> researchmap</a>
+<a class="faculty-link" href="mailto:liu@hosei.ac.jp"><i class="bi bi-envelope"></i> Email</a>
+</div>
+</div>
+</div>
+
+## 学生 | Students
+
+:::{#student-listing}
+:::
+
+## 過去に在籍したメンバー | Former Members
+
+:::{#former-members-listing}
+:::
+
+卒業生が取り組んだテーマは [学位論文](thesis.qmd) のページにまとめています．
+
+The theses written by our graduates are listed on the [Thesis](thesis.qmd) page.

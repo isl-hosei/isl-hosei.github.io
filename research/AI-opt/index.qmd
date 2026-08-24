@@ -1,0 +1,17 @@
+---
+title: "AI for Optimization"
+description: "機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します．"
+image: ai-opt.svg
+author: "劉子昂"
+date: "2026-02-14"
+---
+
+同種の最適化問題を繰り返し解く場面では，過去の求解経験から得られる知識を次の求解に活かすことができます．機械学習を最適化アルゴリズムに組み込むことで，探索の初期化や分枝・近傍の選択を学習し，求解の高速化と解の質の向上を図ります．
+
+当研究室では，学習と最適化を組み合わせた枠組みの設計と，その解釈可能性の確保に取り組んでいます．
+
+When problems of the same type are solved repeatedly, knowledge from past runs can inform the next one. Embedding machine learning in optimization algorithms lets the solver learn how to initialize the search and how to select branches or neighborhoods, improving both speed and solution quality.
+
+We design frameworks that combine learning with optimization, and work to keep the resulting decisions interpretable.
+
+<!-- TODO: 具体的な研究テーマ・対象問題・成果（論文，図など）を追記してください -->

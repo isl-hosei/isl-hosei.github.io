@@ -1,0 +1,17 @@
+---
+title: "Reinforcement Learning"
+description: "不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます．"
+image: rl.svg
+author: "劉子昂"
+date: "2026-02-14"
+---
+
+需要や環境が時間とともに変化する状況では，一度きりの最適化ではなく，状態に応じて意思決定を繰り返す必要があります．強化学習は，環境との相互作用を通じてこのような逐次的意思決定の方策を獲得する枠組みです．
+
+当研究室では，在庫管理や交通信号制御などを対象に，深層強化学習を用いた方策の設計と，その挙動の解釈に取り組んでいます．
+
+When demand and the environment change over time, a single one-shot optimization is not enough: decisions have to be made repeatedly in response to the current state. Reinforcement learning acquires policies for such sequential decision-making through interaction with the environment.
+
+We apply deep reinforcement learning to problems such as inventory management and traffic signal control, and study how to interpret the behavior of the learned policies.
+
+<!-- TODO: 具体的な研究テーマ・対象問題・成果（論文，図など）を追記してください -->

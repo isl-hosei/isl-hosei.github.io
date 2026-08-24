@@ -1,0 +1,186 @@
+/*-- scss:defaults --*/
+// Dark theme, layered on the Litera base.
+// Paired with custom.scss — same structure, mirrored values.
+// Shared rules live in _shared.scss and are imported below.
+
+// --- Brand -----------------------------------------------------------
+// Same hue as the light theme, lightened to carry contrast on dark surfaces.
+// The navbar is $body-bg here (see the rule below), so $primary only drives
+// links, hover borders and focus rings.
+//
+// Note $on-accent: the dark accent is bright, so white text on it would be
+// 1.8:1 — unreadable. Dark ink on it is 9.9:1.
+$brand-sky:  #38bdf8 !default; // sky 400
+$brand-cyan: #22d3ee !default; // cyan 400
+
+$primary:    $brand-sky !default;
+$accent:     $brand-cyan !default;
+$on-accent:  #0f172a !default; // text placed on top of $accent
+$link-color: #7dd3fc !default;
+$link-hover: #bae6fd !default; // sky 200 — literal, since Bootstrap's
+                               // tint-color() is not yet usable here
+
+// --- Surfaces --------------------------------------------------------
+$body-bg:     #16191d !default;
+$body-color:  #d9dde2 !default;
+$surface:     #1f2429 !default; // raised panels: cards, footer, banners
+
+// --- Borders ---------------------------------------------------------
+// See the note in custom.scss on why the two Bootstrap variables carry no
+// `!default`.
+$border-soft:        rgba(255, 255, 255, 0.12) !default;
+$border-color:       $border-soft;
+$table-border-color: $border-soft;
+
+$shadow-btn:   0 2px 8px rgba(0, 0, 0, 0.5) !default;
+$shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.45) !default;
+
+// Grays — re-mapped for dark surfaces
+$gray-100: #1f2429 !default;
+$gray-200: #262c33 !default;
+$gray-300: #343b44 !default;
+$gray-400: #505862 !default;
+$gray-500: #7d8792 !default;
+$gray-600: #9ba5b0 !default;
+$gray-700: #c3c9d0 !default;
+$gray-800: #d9dde2 !default;
+$gray-900: #edf0f2 !default;
+
+$light: #1f2429 !default;
+$dark:  #edf0f2 !default;
+
+// Muted text — mirrors $muted-color in custom.scss. On the dark $surface this
+// value already measures 6.3:1, so unlike the light theme it needs no darkened
+// variant and simply matches $gray-600 above.
+$muted-color: #9ba5b0 !default;
+
+// Contrast floor (Litera relaxes this; keep it relaxed for dark too)
+$min-contrast-ratio: 1.85 !default;
+
+// --- Typography ------------------------------------------------------
+// Must mirror custom.scss exactly — see the note there on why the Japanese
+// faces are named explicitly.
+$font-family-sans-serif:
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  "Hiragino Sans",              // macOS / iOS
+  "Hiragino Kaku Gothic ProN",  // older macOS
+  "Yu Gothic UI",               // Windows 10+
+  "Yu Gothic",
+  Meiryo,                       // Windows fallback
+  "Noto Sans JP",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji" !default;
+
+$font-size-base:       1.05rem !default;
+$line-height-base:     1.7 !default; // generous leading suits Japanese text
+$headings-font-weight: 700 !default;
+$headings-line-height: 1.25 !default;
+
+// --- Code ------------------------------------------------------------
+$code-color: #f08cbc !default;
+$code-bg:    #1f2429 !default;
+
+/*-- scss:rules --*/
+
+@import "shared";
+
+// Muted lead text
+.lead {
+  color: $gray-600;
+}
+
+// Navbar — match the page background (mirrors the light theme's navbar)
+.navbar {
+  background-color: $body-bg !important;
+
+  // Quarto computes a near-black navbar colour; force light for tool icons
+  --bs-navbar-color: #{$gray-700};
+  --bs-navbar-hover-color: #{$gray-900};
+  --bs-navbar-active-color: #{$gray-900};
+
+  .navbar-brand,
+  .nav-link {
+    color: $gray-700 !important;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    color: $gray-900 !important;
+  }
+}
+
+// Search icon (an SVG driven by `color`) defaults to near-black — lighten it.
+.aa-DetachedSearchButton .aa-DetachedSearchButtonIcon,
+.aa-SubmitIcon,
+.quarto-navigation-tool {
+  color: $gray-700 !important;
+
+  &:hover {
+    color: $gray-900 !important;
+  }
+}
+
+// Dark-mode toggle is a background-image SVG with a dark fill baked in;
+// swap both states for light-fill versions.
+.quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23c3c9d0" viewBox="0 0 16 16"><path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/></svg>') !important;
+}
+
+.quarto-color-scheme-toggle.alternate .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23c3c9d0" viewBox="0 0 16 16"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>') !important;
+}
+
+// Hamburger toggler (mobile) — light stroke variant
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(195,201,208,0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+// Code
+pre,
+pre.sourceCode,
+div.sourceCode {
+  background-color: $code-bg;
+  border: 1px solid $border-soft;
+  border-radius: 0.5rem;
+  color: $body-color;
+}
+
+code:not(.sourceCode) {
+  color: $code-color;
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+}
+
+// Listing images sit on dark cards — soften the seam
+.quarto-grid-item .thumbnail-image {
+  border-bottom: 1px solid $border-soft;
+}
+
+// Search / form fields
+.form-control,
+input {
+  background-color: $surface;
+  border-color: $border-soft;
+  color: $body-color;
+
+  &:focus {
+    background-color: $surface;
+    border-color: $primary;
+    color: $body-color;
+    box-shadow: 0 0 0 0.2rem rgba($primary, 0.2);
+  }
+}
+
+// The footer bar and page background are close in value; keep the seam visible
+.site-footer,
+.page-footer,
+.nav-footer {
+  border-top-color: $border-soft;
+}

@@ -1,0 +1,50 @@
+# Renders the site and pushes it to the gh-pages branch on every push to main,
+# so the published site can never drift from the sources here — previously this
+# was `quarto publish gh-pages` run by hand from a laptop.
+#
+# GitHub Pages for this repo must stay set to "Deploy from a branch → gh-pages",
+# which is what it already was: this workflow replaces who runs the publish, not
+# where the site is served from.
+name: Quarto Publish
+
+on:
+  push:
+    branches: [main]
+  # Lets the site be re-published from the Actions tab without an empty commit.
+  workflow_dispatch:
+
+# `quarto publish gh-pages` pushes a commit to the gh-pages branch, which the
+# default read-only GITHUB_TOKEN cannot do.
+permissions:
+  contents: write
+
+# Two publishes racing would push conflicting trees to gh-pages. Queue instead:
+# no cancel-in-progress, since a half-finished publish leaves gh-pages partial.
+concurrency:
+  group: quarto-publish
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # Pinned to the version the site is authored against, so an upstream
+          # Quarto release cannot silently change the rendered output. Bump it
+          # deliberately, together with the local install.
+          version: 1.10.18
+
+      # No Python/R setup step: every page here is plain markdown — the only
+      # fenced block on the site is a ```{=html} raw block in contact.qmd, which
+      # pandoc passes through without an engine.
+      - name: Render and publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
