@@ -1,0 +1,29 @@
+<!-- Level sets converging on an optimum — the same figure as the home-page hero
+     and images/og-image.png, cut down to what survives 16px.
+
+     Two contours, not the hero's seven: at tab size a third ring closes to
+     under 1px of gap and the whole mark fogs into a halo. The outer ring is
+     kept at low opacity because it reads as depth at 32px and above and simply
+     disappears at 16px, which is the right failure.
+
+     No <text>: the previous mark set "ISL" in Arial, which renders at whatever
+     the platform substitutes and was an unreadable smudge at 16px anyway.
+     Everything here is geometry, so every renderer agrees.
+
+     Colours are $accent and the research-figure cyan from scss/custom.scss.
+     After editing, regenerate favicon.ico and apple-touch-icon.png with
+     _tools/make-favicon.sh — they are built from this file, not drawn. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Intelligent Systems Lab">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e7490" />
+      <stop offset="100%" stop-color="#1596b4" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)" />
+  <g transform="translate(32 32) rotate(-24)" fill="none" stroke="#ffffff">
+    <ellipse rx="27.5" ry="19" stroke-width="2.2" opacity=".2" />
+    <ellipse rx="19" ry="12.8" stroke-width="4" opacity=".7" />
+  </g>
+  <circle cx="32" cy="32" r="6" fill="#ffffff" />
+</svg>

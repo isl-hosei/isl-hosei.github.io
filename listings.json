@@ -1,0 +1,39 @@
+[
+  {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/2026-3-graduation/index.html",
+      "/news/2025-9-apms/index.html",
+      "/news/2025-4-start/index.html"
+    ]
+  },
+  {
+    "listing": "/join.html",
+    "items": [
+      "/join/b3/index.html",
+      "/join/m1/index.html",
+      "/join/iist/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-3-graduation/index.html",
+      "/news/2025-9-apms/index.html",
+      "/news/2025-4-start/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/AI-opt/index.html",
+      "/research/Metaheuristics/index.html",
+      "/research/RL/index.html",
+      "/research/SCM/index.html"
+    ]
+  }
+]
