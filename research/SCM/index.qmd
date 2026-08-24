@@ -1,0 +1,17 @@
+---
+title: "Supply Chain Management"
+description: "在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します．"
+image: scm.svg
+author: "劉子昂"
+date: "2026-02-14"
+---
+
+サプライチェーンでは，調達・生産・在庫・輸送の意思決定が互いに影響し合うため，個別に最適化しても全体として良い結果が得られるとは限りません．需要の不確実性や供給の途絶に対する頑健性も同時に考慮する必要があります．
+
+当研究室では，多期間・多目的の数理計画モデルやシミュレーションを用いて，サプライチェーン全体を対象とした意思決定支援手法を研究しています．
+
+In a supply chain, decisions about procurement, production, inventory and transportation interact with one another, so optimizing each in isolation does not necessarily produce a good outcome overall. Robustness against demand uncertainty and supply disruption has to be considered at the same time.
+
+We study decision-support methods for the supply chain as a whole, using multi-period, multi-objective mathematical programming models and simulation.
+
+<!-- TODO: 具体的な研究テーマ・対象問題・成果（論文，図など）を追記してください -->

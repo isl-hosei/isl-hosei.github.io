@@ -1,0 +1,1157 @@
+// =====================================================================
+// Shared rules for both themes.
+//
+// Imported by custom.scss (light) and dark_custom.scss (dark) inside
+// their /*-- scss:rules --*/ sections. Everything here is written against
+// variables that each theme defines in its own defaults block:
+//
+//   $primary        near-black chrome       $accent        the one brand colour
+//   $on-accent      text on a brand fill    $border-soft   hairline border
+//   $surface        raised panel background $shadow-hover  lifted card shadow
+//   $shadow-btn     button hover shadow     $link-hover    link hover colour
+//   $muted-color    muted text
+//
+// The same vocabulary is used by the personal site
+// (zi-ang-liu.github.io/scss/_shared.scss). Same names, different values.
+//
+// Anything that genuinely differs between light and dark (navbar colours,
+// code blocks, form fields, SVG icon fills) stays in the theme file.
+// =====================================================================
+
+// --- Shared devices --------------------------------------------------
+// Two shapes carry the whole site; see STYLE.md §4.
+//
+//   accent bar  marks structure   — section headings, banner titles, kickers
+//   chip        marks an attribute — job title, school year, category, award
+//
+// Quarto generates some chips itself (listing categories, the description
+// field of a roster card), so its class names call this mixin rather than
+// getting a lookalike pill of their own.
+
+@mixin chip($fg: $accent) {
+  display: inline-block;
+  margin: 0;
+  padding: 0.16em 0.72em;
+  border: 0;
+  border-radius: 1em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: none; // Quarto uppercases some of these; wrong for Japanese
+  color: $fg;
+  background-color: rgba($fg, 0.12);
+}
+
+.chip {
+  @include chip;
+}
+
+// --- Typography ------------------------------------------------------
+
+// Litera sets paragraphs in serif; align to sans everywhere so Japanese
+// and Latin text share one family.
+p {
+  font-family: $font-family-sans-serif;
+}
+
+// Comfortable reading measure (~70 Latin chars / ~35 Japanese chars per line)
+main.content,
+#quarto-document-content {
+  p,
+  ul,
+  ol,
+  blockquote {
+    max-width: 70ch;
+  }
+}
+
+// No negative tracking on headings: it is a Latin-typography device, and most
+// headings here are Japanese, where tightening crowds the kanji. The one place
+// it is applied is the hero h1, which is always the English lab name.
+
+h2 {
+  margin-top: 2.25rem;
+}
+
+// Section headings — short accent bar tying them to the card sections
+main.content {
+  h2,
+  // Listing item titles are also h3, but they are not section headings —
+  // the accent bar marks structure, not every bold line on the page.
+  h3:not(.listing-title) {
+    position: relative;
+    padding-left: 0.85rem;
+    padding-bottom: 0; // drop Quarto's default underline spacing
+    border-bottom: none; // replace the full-width underline with the accent bar
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.12em;
+      bottom: 0.12em;
+      width: 4px;
+      border-radius: 2px;
+      background-color: $accent;
+    }
+  }
+}
+
+// --- Links -----------------------------------------------------------
+
+a {
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.06em;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+// --- Home hero -------------------------------------------------------
+// Typographic hero laid out on the page background — deliberately not a dark
+// banner. The old one was the only heavily decorated block on an otherwise
+// restrained site, and on the dark theme its backdrop sat so close to $body-bg
+// that the rounded edge and shadow vanished. Sitting on the page background
+// instead, it needs no per-theme exception at all.
+//
+// The figure is inline SVG in index.qmd drawn with `currentColor`, so it
+// follows $accent in both themes from the single `color` declaration below.
+
+// With no `title:` in the front matter Quarto still emits the wrapper element;
+// left alone it adds a band of dead space above the hero.
+#title-block-header:empty {
+  display: none;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  // Bottom margin stays small — the first h2 adds 2.25rem of its own
+  margin: 0 0 1.25rem;
+  padding: clamp(0.5rem, 2.5vw, 1.5rem) 0 clamp(0.5rem, 2vw, 1rem);
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 3rem;
+  }
+}
+
+// Department line, set above the name: it is context, not a second title.
+.hero-kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 0.9rem;
+  max-width: none; // opt out of the 70ch reading measure
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  color: $muted-color;
+
+  // Short accent rule — the same device as the h2/h3 bars, turned horizontal
+  &::before {
+    content: "";
+    flex: none;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $accent;
+  }
+}
+
+.hero-name {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.9rem, 5.5vw, 3.1rem);
+  font-weight: 700;
+  line-height: 1.12;
+  // Safe here, unlike the other headings: this line is always Latin
+  letter-spacing: -0.022em;
+  color: $body-color;
+}
+
+.hero-name-ja {
+  margin: 0 0 1rem;
+  max-width: none;
+  font-size: clamp(1.05rem, 2.6vw, 1.35rem);
+  font-weight: 600;
+  color: $body-color;
+}
+
+.hero-lead {
+  // Display copy, so a tighter measure than the 70ch body text
+  max-width: 34ch;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.85;
+  color: $muted-color;
+}
+
+.hero-figure {
+  // Below the two-column breakpoint the type carries the hero alone; a
+  // stacked figure would just push the first section below the fold.
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    color: $accent; // tints the inline SVG's currentColor
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+
+  // Pandoc collects the buttons into a <p>; dissolve it so they stay flex items
+  > p {
+    display: contents;
+  }
+
+  .btn {
+    padding: 0.55rem 1.6rem;
+    font-weight: 600;
+    border-radius: 2em;
+  }
+}
+
+// --- Section page banners --------------------------------------------
+// Litera renders `title-block-banner: true` as white-on-white, which reads
+// as unexplained empty space. Give it a tinted surface instead.
+
+.quarto-title-banner {
+  // 1rem, not 2rem: three more spacings stack under the banner before the
+  // first block — the title block's own 1rem, the 14px `#quarto-content > *`
+  // padding, and main's 1.05rem top margin. At 2rem that came to 83px of blank
+  // page between the banner rule and the first heading, on every banner page.
+  margin-bottom: 1rem;
+  padding: 2.5rem 0 2.25rem;
+  background: $surface;
+  border-bottom: 1px solid $border-soft;
+  color: $body-color;
+
+  // No accent bar here, deliberately. The banner already sets the page title
+  // apart with its own surface and border, and repeating the bar on both the
+  // page title and every h2 below used one mark for two levels of hierarchy —
+  // which flattens it instead of showing it. The bar belongs to section
+  // headings only.
+  .quarto-title .title {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: $body-color;
+  }
+
+  .subtitle,
+  .quarto-categories {
+    color: $muted-color;
+  }
+}
+
+// --- Research cards (home page) --------------------------------------
+
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem;
+
+  @media (min-width: 576px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // Pandoc collects the consecutive <a> cards into a single <p>, which would
+  // otherwise become one grid item holding all four. Dissolve the wrapper so
+  // the cards are laid out by the grid directly.
+  > p {
+    display: contents;
+  }
+}
+
+.research-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.35rem 1.4rem;
+  border: 1px solid $border-soft;
+  border-radius: 0.75rem;
+  background-color: $surface;
+  color: $body-color;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  i {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: $accent;
+  }
+
+  .research-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.35;
+    transition: color 0.15s ease;
+  }
+
+  .research-desc {
+    display: block;
+    margin: 0;
+    max-width: none; // opt out of the 70ch reading measure
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: $muted-color;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: $primary;
+    box-shadow: $shadow-hover;
+
+    .research-title {
+      color: $primary;
+    }
+  }
+}
+
+// --- Faculty card (people page) --------------------------------------
+// A single professor in a 3-column grid leaves two empty cells; lay the
+// entry out horizontally instead.
+
+.faculty-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 1.5rem 0 1rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid $border-soft;
+  border-radius: 0.75rem;
+  background-color: $surface;
+
+  img {
+    width: 132px;
+    height: 132px;
+    flex-shrink: 0;
+    border-radius: 0.75rem;
+    object-fit: cover;
+    border: 1px solid $border-soft;
+  }
+}
+
+.faculty-body {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+
+.faculty-name {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $body-color;
+}
+
+.faculty-name-en {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.95rem;
+  color: $muted-color;
+}
+
+.faculty-role {
+  @include chip;
+  margin-top: 0.6rem;
+  font-size: 0.78rem; // one step up: this is the only chip that sits alone
+}
+
+.faculty-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+
+  // Pandoc may collect the links into a <p>; dissolve it so they stay flex items
+  > p {
+    display: contents;
+  }
+}
+
+.faculty-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.3em 0.85em;
+  border: 1px solid $border-soft;
+  border-radius: 1em;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: $body-color;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+  i {
+    color: $primary;
+  }
+
+  &:hover {
+    color: $primary;
+    border-color: $primary;
+    background-color: rgba($primary, 0.07);
+  }
+}
+
+// --- Buttons ---------------------------------------------------------
+
+.btn {
+  transition: transform 0.08s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    box-shadow: $shadow-btn;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+// The primary call to action, wherever it appears — the hero's Join Us and the
+// contact address. Bootstrap would fill it with $primary (the near-black
+// chrome); on this site the saturated colour is what marks an action.
+.btn-primary {
+  color: $on-accent;
+  background-color: $accent;
+  border-color: $accent;
+
+  &:hover,
+  &:focus {
+    color: $on-accent;
+    background-color: shade-color($accent, 12%);
+    border-color: shade-color($accent, 12%);
+  }
+
+  i {
+    margin-right: 0.15em;
+  }
+}
+
+// --- Definition lists (contact page) ---------------------------------
+// Label on the left, value on the right; the label carries both languages so
+// the value only has to be stated once.
+
+main.content dl {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.15rem 1.5rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid $border-soft;
+  border-radius: 0.75rem;
+  background-color: $surface;
+
+  @media (min-width: 576px) {
+    grid-template-columns: minmax(8rem, max-content) 1fr;
+    gap: 0.85rem 2rem;
+  }
+
+  dt {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: $muted-color;
+
+    @media (min-width: 576px) {
+      padding-top: 0.1rem;
+    }
+  }
+
+  dd {
+    margin: 0 0 0.9rem;
+    line-height: 1.7;
+    color: $body-color;
+
+    @media (min-width: 576px) {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 0;
+      max-width: none; // opt out of the 70ch reading measure
+    }
+  }
+}
+
+// --- Embedded map (contact page) -------------------------------------
+
+.map-embed {
+  position: relative;
+  margin: 1.5rem 0 0;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border: 1px solid $border-soft;
+  border-radius: 0.75rem;
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+// --- Cards & listings ------------------------------------------------
+
+.card,
+.list-group-item {
+  background-color: $surface;
+  border: 1px solid $border-soft;
+  border-radius: 0.5rem;
+}
+
+// --- Join Us routes ---------------------------------------------------
+// Title-only cards told a prospective student nothing about which of the three
+// routes was theirs. Each card now leads with the audience chip, so the page
+// can be scanned by "who am I" rather than read end to end.
+
+#listing-join {
+  .list.grid {
+    gap: 1rem;
+  }
+
+  .quarto-grid-item {
+    height: 100%;
+    padding: 1.35rem 1.4rem;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+  }
+
+  // Audience first: it is what tells the reader whether to keep reading
+  .listing-categories {
+    order: -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding-bottom: 0;
+  }
+
+  .listing-category {
+    @include chip;
+    cursor: default; // no filter UI on this page — the chip is a label
+  }
+
+  .listing-title {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 650;
+    line-height: 1.4;
+    color: $body-color;
+  }
+
+  .listing-description {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.7;
+    color: $muted-color;
+
+    p {
+      margin: 0;
+      max-width: none; // opt out of the 70ch reading measure
+    }
+  }
+}
+
+// The research thumbnails are diagrams, not photographs. Quarto's default
+// `object-fit: cover` fills the box by cropping the sides, which lops the end
+// off the convergence plot and the edge off the grid world. `contain` fits the
+// whole figure; the letterboxing is invisible because the SVGs are transparent.
+#listing-research .thumbnail-image {
+  object-fit: contain;
+  padding: 0.75rem 1rem 0;
+}
+
+// Grid listing cards (research, blog) wrap a real link, so the lift reads as a
+// click affordance. The people roster opts out of it further down — those cards
+// have nowhere to go.
+.quarto-grid-item {
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+  .listing-title {
+    transition: color 0.15s ease;
+  }
+
+  &:hover {
+    box-shadow: $shadow-hover;
+    transform: translateY(-2px);
+
+    .listing-title {
+      color: $primary;
+    }
+  }
+}
+
+// --- News listing (home + news page) ---------------------------------
+// Quarto's `type: default` listing, restyled from boxed cards into a dated
+// list. The card grid left ragged empty cells whenever the post count was not
+// a multiple of the column count, stretched every row to the tallest card, and
+// buried the date in small grey type at the bottom. A list is the honest shape
+// for a chronological feed: it scales to any count and puts the date first.
+
+.quarto-listing-default {
+  border-top: 1px solid $border-soft;
+}
+
+// Quarto ends the default listing with `margin-right: 2em`, which at this font
+// size is 35.7px. The news feed was that much narrower than everything else in
+// the column: on the home page its row rules stopped short of the research card
+// grid directly above it. The page grid already provides the gutter to the
+// category sidebar on news.qmd, so nothing needs this margin.
+.quarto-listing-container-default {
+  margin-right: 0;
+}
+
+// Quarto's own listing rules are written as `div.quarto-post ...`, so every
+// override below has to carry at least that much specificity — a bare
+// `.quarto-post` loses to it regardless of source order.
+div.quarto-post {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0; // Quarto adds 1.5em; the row padding spaces these instead
+  padding: 1.35rem 0;
+  border-bottom: 1px solid $border-soft;
+
+  // Quarto emits thumbnail → body → metadata and reverses it with flex;
+  // the date leads here instead
+  .metadata {
+    order: 1;
+    padding-bottom: 0;
+  }
+  .body {
+    order: 2;
+  }
+  .thumbnail {
+    order: 3;
+  }
+
+  @media (min-width: 640px) {
+    grid-template-columns: 5.5rem 1fr 9rem;
+    align-items: start;
+    gap: 0 1.6rem;
+  }
+
+  .metadata .listing-date {
+    font-size: 0.82rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.01em;
+    line-height: 1.6;
+    color: $muted-color;
+    white-space: nowrap;
+
+    @media (min-width: 640px) {
+      padding-top: 0.25rem;
+    }
+  }
+
+  .body .listing-title {
+    margin: 0 0 0.45rem;
+    padding-left: 0;
+    font-size: 1.1rem;
+    font-weight: 650;
+    line-height: 1.5;
+
+    a {
+      color: $body-color;
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+  }
+
+  .body .listing-description {
+    max-width: none; // opt out of the 70ch reading measure
+    margin-bottom: 0;
+    font-size: 0.89rem;
+    line-height: 1.7;
+    color: $muted-color;
+    // Two lines keeps every row the same shape however long the post is
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .thumbnail p {
+    margin: 0;
+    max-width: none;
+  }
+
+  .thumbnail img {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border: 1px solid $border-soft;
+    border-radius: 0.5rem;
+  }
+
+  &:hover .body .listing-title a {
+    color: $primary;
+  }
+
+  .listing-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.55rem;
+    padding-bottom: 0;
+  }
+
+  .listing-categories .listing-category {
+    @include chip;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: rgba($accent, 0.22);
+    }
+  }
+}
+
+// On narrow screens the thumbnail would otherwise run the full column width
+@media (max-width: 639.98px) {
+  div.quarto-post .thumbnail img {
+    max-width: 11rem;
+  }
+}
+
+// Category filter in the margin sidebar (news page)
+.quarto-listing-category-title {
+  position: relative;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $body-color;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 26px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $accent;
+  }
+}
+
+.quarto-listing-category .category {
+  padding: 0.2rem 0;
+  font-size: 0.86rem;
+  color: $muted-color;
+  cursor: pointer;
+  transition: color 0.15s ease;
+
+  &:hover,
+  &.active {
+    color: $primary;
+  }
+
+  .quarto-category-count {
+    font-variant-numeric: tabular-nums;
+    color: $gray-500;
+  }
+}
+
+// --- People: student roster ------------------------------------------
+// These entries come from students.yml / former-members.yml and have no page
+// of their own, so Quarto wraps each card in `<a href="">` — a link that
+// silently reloads the page when clicked. Nothing here is clickable, so the
+// links are disabled and the card hover-lift removed rather than inviting it.
+
+// Note the `listing-` prefix: Quarto renames the div id given in people.qmd
+// from `student-listing` to `listing-student-listing` when it renders.
+#listing-student-listing,
+#listing-former-members-listing {
+  .list.grid {
+    // Fill the row at whatever count fits, instead of a fixed 4 columns that
+    // strand one or two cards on a near-empty last row. 10.5rem lands 4 plates
+    // across the article column — note Quarto's root font-size is 17px, so
+    // that is ~179px, wide enough for the longest romaji name on one line.
+    // min() keeps a plate from overflowing a viewport narrower than the track.
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 10.5rem), 1fr));
+    gap: 0.75rem;
+  }
+
+  .g-col-1 {
+    grid-column: auto; // drop Bootstrap's fixed 12-column span
+  }
+
+  .quarto-grid-link {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .quarto-grid-item {
+    height: 100%;
+    background-color: $surface;
+    border: 1px solid $border-soft;
+    border-radius: 0.6rem;
+
+    // Nothing here is clickable, so nothing should behave as if it were
+    &:hover {
+      transform: none;
+      box-shadow: none;
+
+      .listing-title {
+        color: inherit;
+      }
+    }
+  }
+
+  .card-body {
+    padding: 0.85rem 1rem 0.95rem;
+  }
+
+  .listing-title {
+    margin: 0;
+    font-size: 0.98rem;
+    font-weight: 650;
+    line-height: 1.45;
+    color: $body-color;
+  }
+
+  .listing-subtitle {
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: $muted-color;
+  }
+
+  // The year/grade, rendered as a chip rather than a third line of grey text
+  .listing-description {
+    margin-top: 0.55rem;
+
+    p {
+      @include chip;
+      max-width: none; // opt out of the 70ch reading measure
+    }
+  }
+}
+
+// Former members are archival — same plate, quieter
+#listing-former-members-listing {
+  .quarto-grid-item {
+    background-color: transparent;
+  }
+
+  .listing-title {
+    font-weight: 600;
+    color: $gray-700;
+  }
+
+  .listing-description p {
+    @include chip($muted-color);
+  }
+}
+
+// --- Blockquotes -----------------------------------------------------
+
+blockquote {
+  border-left: 3px solid $accent;
+  padding-left: 1rem;
+  color: $gray-700;
+}
+
+// --- Tables ----------------------------------------------------------
+
+.table {
+  --bs-table-color: #{$body-color};
+  --bs-table-border-color: #{$border-soft};
+}
+
+// --- Horizontal rules ------------------------------------------------
+
+hr {
+  border-top-color: $border-soft;
+  opacity: 1;
+}
+
+// --- Site footer (footer.html) ---------------------------------------
+
+.page-footer,
+.nav-footer {
+  border-top: 1px solid $border-soft;
+  color: $muted-color;
+}
+
+.site-footer {
+  // Break out of Quarto's page-columns grid to span the full viewport,
+  // like the navbar (which lives outside the content grid).
+  grid-column: screen-start / screen-end;
+  margin-top: 4rem;
+  // The floor is 1.25rem rather than 1em: below ~425px, 5vw drops under the
+  // inset Quarto gives the article column, and the footer text would sit
+  // closer to the screen edge than every line above it.
+  padding: 3rem clamp(1.25rem, 5vw, 4rem) 1.75rem;
+  background-color: $surface;
+  border-top: 1px solid $border-soft;
+  color: $muted-color;
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.65;
+
+  // Quarto's own layout sheet carries `#quarto-content > * { padding-top: 14px }`
+  // (and `0` below 992px). That is an id selector, so it outranks the class
+  // rule above no matter the order, and the shorthand's top value was being
+  // dropped: the footer had 14px of head room on desktop and none at all on
+  // phones, where the top hairline landed directly on the kicker. Restate it
+  // at a specificity Quarto's rule cannot beat.
+  #quarto-content > & {
+    padding-top: 3rem;
+  }
+
+  // Content sits in a comfortable measure and is centred within the
+  // full-bleed bar (the bar itself still matches the navbar's width).
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+
+    @media (min-width: 576px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 992px) {
+      grid-template-columns: 1.7fr 1fr 1fr 1.2fr;
+      gap: 2.5rem 3rem;
+    }
+  }
+
+  .footer-section {
+    min-width: 0;
+  }
+
+  // Brand block — same three-step hierarchy as the home hero
+  .footer-brand {
+    max-width: 22rem;
+  }
+
+  // Plain, unlike the hero kicker: four section titles already carry accent
+  // rules in this bar, and a fifth mark right above the lab name crowded them.
+  .footer-kicker {
+    margin: 0 0 0.6rem;
+    font-size: 0.76rem;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    color: $muted-color;
+  }
+
+  .footer-labname {
+    margin: 0 0 0.25rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: $body-color;
+  }
+
+  .footer-tagline {
+    margin: 0;
+    font-size: 0.85rem;
+    color: $muted-color;
+  }
+
+  // Section headings — small, tracked-out caps with a short accent rule
+  .section-title {
+    position: relative;
+    margin: 0 0 1.2rem;
+    padding-bottom: 0.55rem;
+    font-size: 0.76rem;
+    font-weight: 600;
+    // Same as .footer-kicker, so the first line of all four columns sits on
+    // one baseline instead of drifting a pixel apart
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $body-color;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 26px;
+      height: 2px;
+      border-radius: 1px;
+      background-color: $accent;
+    }
+  }
+
+  // Link lists
+  .pages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .nav-link {
+      padding: 0;
+      margin-bottom: 0.8rem;
+
+      // The last item's margin used to stack on top of the grid row gap and
+      // the bottom bar's own margin, opening a hole above the divider
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    a {
+      display: inline-block;
+      // Tighter than the footer's 1.65: "Industrial & Systems Engineering"
+      // wraps to two lines, and at 1.65 the gap inside an entry was close
+      // enough to the gap between entries to read as four items, not three.
+      // These labels are all Latin, so the shorter leading costs nothing.
+      line-height: 1.45;
+      color: $muted-color;
+      text-decoration: none;
+      transition: color 0.15s ease, transform 0.15s ease;
+
+      &:hover {
+        color: $primary;
+        transform: translateX(3px);
+      }
+    }
+  }
+
+  .text {
+    margin: 0 0 0.9rem;
+  }
+
+  // Social icons
+  .icon-wrapper {
+    display: flex;
+    gap: 0.6rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.1rem;
+      height: 2.1rem;
+      border: 1px solid $border-soft;
+      border-radius: 50%;
+      color: $muted-color;
+      font-size: 1.02rem;
+      text-decoration: none;
+      transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+
+      &:hover {
+        // $on-accent, not #fff: the dark theme's brand colours are light, so
+        // white-on-brand would drop to ~2:1
+        color: $on-accent;
+        background-color: $primary;
+        border-color: $primary;
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  // Bottom bar — copyright + back-to-top, divided from the columns above
+  .footer-bottom {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    // No margin-top: the wrapper's row gap already sets the distance to the
+    // columns. Padding matches the footer's own bottom padding, so the
+    // copyright line sits centred in the band the rule opens.
+    padding-top: 1.75rem;
+    border-top: 1px solid $border-soft;
+  }
+
+  .footer-copyright {
+    margin: 0;
+    font-size: 0.82rem;
+    color: $muted-color;
+  }
+
+  .footer-top-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15em;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: $muted-color;
+    text-decoration: none;
+    transition: color 0.15s ease;
+
+    i {
+      font-size: 1.15em;
+    }
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    text-align: center;
+
+    .footer-brand {
+      max-width: none;
+    }
+
+    .section-title::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .pages a:hover {
+      transform: none;
+    }
+
+    .icon-wrapper {
+      justify-content: center;
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+// --- Navbar ----------------------------------------------------------
+
+.navbar {
+  border-bottom: 1px solid $border-soft;
+
+  .nav-link {
+    transition: color 0.15s ease;
+  }
+}

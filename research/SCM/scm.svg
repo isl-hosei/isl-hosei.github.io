@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="264" viewBox="0 0 480 264" role="img"
+    aria-label="A multi-echelon supply network from suppliers through a hub to customers">
+    <!-- Transparent ground: see the note in metaheuristics.svg -->
+    <g stroke="#1596b4" fill="none" stroke-linecap="round">
+        <!-- Flows between echelons -->
+        <g stroke-opacity="0.35" stroke-width="2">
+            <path d="M 118 84 L 206 128 M 118 180 L 206 128" />
+            <path d="M 274 128 L 358 74 M 274 128 L 358 128 M 274 128 L 358 182" />
+        </g>
+
+        <!-- Demand information flowing back upstream -->
+        <path d="M 386 224 C 300 250, 190 242, 130 210" stroke-opacity="0.4" stroke-width="2"
+            stroke-dasharray="7 7" />
+        <path d="M 138 204 L 130 210 L 132 220" stroke-opacity="0.4" stroke-width="2" stroke-linejoin="round" />
+    </g>
+
+    <!-- Suppliers -->
+    <g fill="none" stroke="#1596b4" stroke-opacity="0.55" stroke-width="2">
+        <rect x="76" y="64" width="40" height="40" rx="7" />
+        <rect x="76" y="160" width="40" height="40" rx="7" />
+    </g>
+
+    <!-- Distribution hub — the decision point, and the one filled mark -->
+    <rect x="208" y="96" width="64" height="64" rx="11" fill="#1596b4" fill-opacity="0.12" stroke="#1596b4"
+        stroke-width="2.2" />
+    <g stroke="#1596b4" stroke-width="2.6" stroke-linecap="round">
+        <path d="M 226 142 V 124 M 240 142 V 112 M 254 142 V 130" />
+    </g>
+
+    <!-- Customers -->
+    <g fill="none" stroke="#1596b4" stroke-opacity="0.55" stroke-width="2">
+        <circle cx="380" cy="74" r="19" />
+        <circle cx="380" cy="128" r="19" />
+        <circle cx="380" cy="182" r="19" />
+    </g>
+</svg>

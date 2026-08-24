@@ -1,0 +1,97 @@
+---
+# No `title:` — the hero below is hand-written, so Quarto must not also emit a
+# title block. `pagetitle` still sets <title> and og:title.
+pagetitle: "Intelligent Systems Laboratory | 知能システム研究室"
+description-meta: "法政大学 理工学部 経営システム工学科 知能システム研究室．最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の意思決定を支えます．"
+
+listing:
+  - id: news
+    contents:
+      - /news
+    sort: "date desc"
+    # A dated list, not a card grid: a grid leaves ragged empty cells whenever
+    # the post count is not a multiple of the column count, and gives every
+    # post equal weight regardless of recency.
+    type: default
+    categories: false
+    max-items: 3
+    fields: [image, date, title, categories, description]
+---
+
+<!-- Hero. Raw HTML, not a ```{=html} block: Quarto only rewrites .qmd hrefs to
+     .html when it can see them as links, which a fully raw block hides. That
+     means Pandoc reparses this as Markdown, so the STYLE.md rules apply —
+     no leading indentation on any line, no blank lines inside the block. -->
+<div class="hero">
+<div class="hero-body">
+<p class="hero-kicker">法政大学 理工学部 経営システム工学科</p>
+<h1 class="hero-name">Intelligent Systems Laboratory</h1>
+<p class="hero-name-ja">知能システム研究室</p>
+<p class="hero-lead">最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の複雑な意思決定を支えます．</p>
+<div class="hero-actions">
+<a href="join.qmd" class="btn btn-primary">Join Us</a>
+<a href="research.qmd" class="btn btn-outline-primary">Research</a>
+</div>
+</div>
+<div class="hero-figure" aria-hidden="true">
+<!-- Level sets of an objective function, with a search converging on the
+     optimum — what Metaheuristics and AI for Optimization actually do.
+     Drawn in currentColor so .hero-figure's `color: $accent` tints it in
+     both themes; no second asset to keep in sync. -->
+<svg viewBox="0 0 320 300" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="currentColor">
+<g transform="translate(206 122) rotate(-24)">
+<ellipse rx="150" ry="108" opacity=".16" />
+<ellipse rx="122" ry="87" opacity=".20" />
+<ellipse rx="96" ry="68" opacity=".25" />
+<ellipse rx="72" ry="50" opacity=".26" />
+<ellipse rx="50" ry="34" opacity=".33" />
+<ellipse rx="30" ry="20" opacity=".42" />
+<ellipse rx="13" ry="8.5" opacity=".55" />
+</g>
+<polyline points="26,268 92,232 66,178 148,190 122,142 186,152 190,128 206,122" opacity=".8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+</g>
+<g fill="currentColor" opacity=".65">
+<circle cx="26" cy="268" r="3.4" />
+<circle cx="92" cy="232" r="3.1" />
+<circle cx="66" cy="178" r="3.1" />
+<circle cx="148" cy="190" r="3.1" />
+<circle cx="122" cy="142" r="2.8" />
+<circle cx="186" cy="152" r="2.8" />
+<circle cx="190" cy="128" r="2.5" />
+</g>
+<circle cx="206" cy="122" r="11" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".5" />
+<circle cx="206" cy="122" r="4.6" fill="currentColor" />
+</svg>
+</div>
+</div>
+
+## About Us
+
+知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．
+
+The **Intelligent Systems Laboratory** (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems.
+
+## Research
+
+<!-- Each card must stay on ONE line: split across lines, Pandoc reparses the
+     block as Markdown and emits a stray empty <a> at the end. -->
+<div class="research-grid">
+<a class="research-card" href="research/AI-opt/index.qmd"><i class="bi bi-cpu"></i><span class="research-title">AI for Optimization</span><span class="research-desc">機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します．</span></a>
+<a class="research-card" href="research/RL/index.qmd"><i class="bi bi-robot"></i><span class="research-title">Reinforcement Learning</span><span class="research-desc">不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます．</span></a>
+<a class="research-card" href="research/SCM/index.qmd"><i class="bi bi-truck"></i><span class="research-title">Supply Chain Management</span><span class="research-desc">在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します．</span></a>
+<a class="research-card" href="research/Metaheuristics/index.qmd"><i class="bi bi-diagram-3"></i><span class="research-title">Metaheuristics</span><span class="research-desc">組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．</span></a>
+</div>
+
+<a href="research.qmd" class="btn btn-outline-primary" role="button">See All Research <span aria-hidden="true">&rarr;</span></a>
+
+## News
+
+:::{#news}
+:::
+
+<a href="news.qmd" class="btn btn-outline-primary" role="button">See All News <span aria-hidden="true">&rarr;</span></a>
+
+<!-- ## 法政理工系の源流 －学生と教員がつなぐ学びの軌跡－
+
+{{< video https://www.youtube.com/watch?v=EG_9TyqF_B0 >}} -->

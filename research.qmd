@@ -1,0 +1,18 @@
+---
+title: "Research"
+title-block-banner: true
+listing:
+  - id: research
+    contents: research
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    grid-columns: 2
+    image-height: "215px"
+    fields: [image, title, description]
+---
+
+:::{#research}
+:::

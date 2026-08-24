@@ -1,0 +1,122 @@
+<!-- Source for images/og-image.png (1200x630 social card).
+     Colours and font stack mirror scss/custom.scss — keep them in sync.
+     Lives under _tools/ so Quarto ignores it: a leading underscore keeps the
+     whole directory out of the project walk, so nothing here can ship.
+     Regenerate (run from the repo root):
+       "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless \
+         --window-size=1200,630 --force-device-scale-factor=2 \
+         --screenshot=/tmp/og.png _tools/og-image.src.html
+       sips -z 630 1200 /tmp/og.png --out images/og-image.png -->
+<style>
+  /* Mirrors the site's own tokens: scss/custom.scss (light theme) */
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #ffffff;
+    color: #23282f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans",
+      "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", Meiryo,
+      "Noto Sans JP", Roboto, "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+  }
+
+  /* The site's accent bar device, scaled up to give the card an edge on
+     light social-media backgrounds. */
+  .bar { width: 12px; background: #0e7490; flex: none; }
+
+  .inner {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 84px;
+  }
+
+  .body { width: 650px; }
+
+  .kicker {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    color: #6c757d;
+    margin: 0 0 26px;
+  }
+  .kicker::before {
+    content: "";
+    flex: none;
+    width: 34px;
+    height: 3px;
+    border-radius: 1.5px;
+    background: #0e7490;
+  }
+
+  h1 {
+    margin: 0 0 16px;
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 1.09;
+    letter-spacing: -0.022em;
+  }
+
+  .ja { margin: 0 0 24px; font-size: 34px; font-weight: 600; line-height: 1.3; }
+
+  .lead {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.75;
+    color: #6c757d;
+    max-width: 620px;
+  }
+
+  /* Bled off the right edge: the contours read as a field the card is a
+     window onto, rather than a small object floating in white. */
+  .fig {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 470px;
+    color: #0e7490;
+  }
+  .fig svg { display: block; width: 100%; height: auto; }
+</style>
+
+<div class="bar"></div>
+<div class="inner">
+  <div class="body">
+    <p class="kicker">法政大学 理工学部 経営システム工学科</p>
+    <h1>Intelligent Systems Laboratory</h1>
+    <p class="ja">知能システム研究室</p>
+    <p class="lead">最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の複雑な意思決定を支えます．</p>
+  </div>
+  <div class="fig">
+    <svg viewBox="0 0 320 300" xmlns="http://www.w3.org/2000/svg">
+      <g fill="none" stroke="currentColor">
+        <g transform="translate(206 122) rotate(-24)">
+          <ellipse rx="150" ry="108" opacity=".16" />
+          <ellipse rx="122" ry="87" opacity=".20" />
+          <ellipse rx="96" ry="68" opacity=".25" />
+          <ellipse rx="72" ry="50" opacity=".26" />
+          <ellipse rx="50" ry="34" opacity=".33" />
+          <ellipse rx="30" ry="20" opacity=".42" />
+          <ellipse rx="13" ry="8.5" opacity=".55" />
+        </g>
+        <polyline points="26,268 92,232 66,178 148,190 122,142 186,152 190,128 206,122"
+                  opacity=".8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" />
+      </g>
+      <g fill="currentColor" opacity=".65">
+        <circle cx="26" cy="268" r="3.4" /><circle cx="92" cy="232" r="3.1" />
+        <circle cx="66" cy="178" r="3.1" /><circle cx="148" cy="190" r="3.1" />
+        <circle cx="122" cy="142" r="2.8" /><circle cx="186" cy="152" r="2.8" />
+        <circle cx="190" cy="128" r="2.5" />
+      </g>
+      <circle cx="206" cy="122" r="11" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".5" />
+      <circle cx="206" cy="122" r="4.6" fill="currentColor" />
+    </svg>
+  </div>
+</div>

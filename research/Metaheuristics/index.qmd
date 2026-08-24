@@ -1,0 +1,17 @@
+---
+title: "Metaheuristics"
+description: "組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．"
+image: metaheuristics.svg
+author: "劉子昂"
+date: "2026-02-14"
+---
+
+組合せ最適化問題の多くはNP困難であり，厳密解法では現実的な時間で解くことができません．メタヒューリスティクスは，最適性の保証と引き換えに，大規模な問題に対して良質な解を短時間で求めるための近似解法の総称です．
+
+当研究室では，群知能（粒子群最適化，蟻コロニー最適化など）や進化計算を対象に，探索の多様化と集中化のバランス，問題構造を利用した近傍設計，パラメータの自動調整などに取り組んでいます．
+
+Many combinatorial optimization problems are NP-hard, so exact methods cannot solve realistic instances in reasonable time. Metaheuristics trade the guarantee of optimality for the ability to find good solutions to large problems quickly.
+
+We work on swarm intelligence (particle swarm optimization, ant colony optimization) and evolutionary computation, focusing on the balance between diversification and intensification, neighborhood designs that exploit problem structure, and automatic parameter tuning.
+
+<!-- TODO: 具体的な研究テーマ・対象問題・成果（論文，図など）を追記してください -->

@@ -1,0 +1,25 @@
+---
+title: "Join Us"
+title-block-banner: true
+listing:
+  contents: join
+  # Ordered by the route a person actually takes, not by date — each join page
+  # carries an explicit `order:` in its front matter.
+  sort: "order"
+  type: grid
+  # No category index: with three routes a filter sidebar showed only
+  # "すべて (3)". The categories still render on the cards as audience labels.
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 3
+  fields: [title, description, categories]
+  id: join
+---
+
+進路に応じて，下のいずれかをご覧ください．研究室見学や個別のご相談は [Contact](contact.qmd) からお願いします．
+
+Choose the route that applies to you. For lab visits and individual enquiries, see [Contact](contact.qmd).
+
+:::{#join}
+:::

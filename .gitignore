@@ -1,0 +1,95 @@
+# ---------------------------------------------------------------
+# Quarto (build output & caches)
+# NOTE: /_freeze/ is intentionally NOT ignored — commit it so the
+#       site can be rebuilt without re-running code cells.
+#       _publish.yml is also tracked (records the publish target).
+# ---------------------------------------------------------------
+/_site/
+/.quarto/
+/_book/
+/_manuscript/
+**/.quarto/
+**/*.quarto_ipynb
+*_cache/
+/site_libs/
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---------------------------------------------------------------
+# R / knitr (in case posts use R)
+# ---------------------------------------------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+/renv/library/
+/renv/staging/
+
+# ---------------------------------------------------------------
+# Node (only if a post or tooling pulls in npm packages)
+# ---------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---------------------------------------------------------------
+# Secrets & local config
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.local
+.claude/settings.local.json
+
+# ---------------------------------------------------------------
+# Editors / IDEs
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------
+# OS junk
+# ---------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------
+# Misc temp / archive files
+# ---------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+~$*
+.~lock.*#
+
+# ---------------------------------------------------------------
+# Local staging area for files on their way out
+# ---------------------------------------------------------------
+# NOTE: git ignoring this is not enough on its own — Quarto does not read
+#       .gitignore, so any .qmd left here would still be rendered into
+#       _site/delete/ and listed in sitemap.xml. _quarto.yml carries a
+#       matching "!/delete/**" render exclusion; keep the two in sync.
+/delete/

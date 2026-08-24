@@ -1,0 +1,94 @@
+project:
+  type: website
+  # Explicit render list — keeps non-page files (README.md, STYLE.md,
+  # og-image.src.html) off the published site. Anything meant to be a page
+  # must be a .qmd.
+  render:
+    - "**/*.qmd"
+    # delete/ is the local staging area for files on their way out. It is
+    # gitignored, but Quarto does not read .gitignore — without this line the
+    # .qmd files parked there still render into _site/delete/ and show up in
+    # sitemap.xml and search.json. Keep in sync with the .gitignore entry.
+    - "!/delete/**"
+  # Copy the whole images/ tree across explicitly, so assets that Quarto's link
+  # scanner cannot see (anything referenced from SCSS, or added later) still ship.
+  resources:
+    - images/
+
+# Site language. Most content is Japanese, so <html lang="ja"> is the honest
+# default: it drives screen-reader pronunciation, picks Japanese glyph forms for
+# Han characters shared with Chinese, and localises Quarto's own UI strings and
+# date formats. English-only pages override this with `lang: en` in their own
+# front matter. Navbar labels stay English — they are short, universally read,
+# and signal that international visitors are welcome.
+lang: ja
+
+website:
+
+  title: "Intelligent Systems Lab"
+  # The vector copy, which stays sharp on every display. The .ico fallback for
+  # older Safari and for Windows pinned-tab surfaces is declared alongside it in
+  # include-in-header — `favicon:` only ever emits one <link>.
+  favicon: favicon.svg
+  site-url: https://isl-hosei.github.io/
+  description: "Intelligent Systems Lab at Hosei University"
+  open-graph: true
+  twitter-card: true
+  image: images/og-image.png
+  navbar:
+    # logo: favicon.ico
+    left:
+      - href: index.qmd
+        text: "Home"
+
+      - href: people.qmd
+        text: "People"
+
+      - href: research.qmd
+        text: "Research"
+
+      # Next to Research: both answer "what does this lab actually work on".
+      # It had no top-level entry before — only a footer link, which made it
+      # unreachable in practice from any page a visitor was actually reading.
+      - href: thesis.qmd
+        text: "Thesis"
+
+      - href: news.qmd
+        text: "News"
+
+      - href: join.qmd
+        text: "Join Us"
+
+      - href: contact.qmd
+        text: "Contact"
+
+    right:
+      - icon: github
+        href: https://github.com/isl-hosei
+    # - icon: github
+      #   href: https://github.com/
+      # - icon: twitter
+      #   href: https://twitter.com
+
+
+format:
+  html:
+    theme:
+      light:
+        - litera
+        - scss/custom.scss
+      dark:
+        - litera
+        - scss/dark_custom.scss
+    include-after-body: footer.html
+    # The icons `favicon:` cannot declare — it only ever emits one <link>.
+    #
+    # Write the paths root-absolute. Quarto's link scanner does read raw <link>
+    # tags in an include, so it rewrites each one to the right depth per page
+    # (`./favicon.ico` at the root, `../../favicon.ico` under research/RL/) and
+    # copies the files into _site on its own — no `resources:` entry needed.
+    # A hand-written relative path would be correct only at the root.
+    include-in-header:
+      - text: |
+          <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png">
