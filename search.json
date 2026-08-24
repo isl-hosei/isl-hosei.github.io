@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "thesis.html",
+    "href": "thesis.html",
+    "title": "学位論文",
+    "section": "",
+    "text": "クラスタリングによるLIMEの精度向上と安定化，佐藤克海 優秀論文賞受賞\n深層強化学習を用いた交通信号制御に関する研究，久賀菜千帆\n機械学習を用いたサッカーJ1リーグの試合結果予測，小槌陽介，竹上瑛貴"
+  },
+  {
+    "objectID": "thesis.html#年度卒論",
+    "href": "thesis.html#年度卒論",
+    "title": "学位論文",
+    "section": "",
+    "text": "クラスタリングによるLIMEの精度向上と安定化，佐藤克海 優秀論文賞受賞\n深層強化学習を用いた交通信号制御に関する研究，久賀菜千帆\n機械学習を用いたサッカーJ1リーグの試合結果予測，小槌陽介，竹上瑛貴"
+  },
+  {
+    "objectID": "research/RL/index.html",
+    "href": "research/RL/index.html",
+    "title": "Reinforcement Learning",
+    "section": "",
+    "text": "需要や環境が時間とともに変化する状況では，一度きりの最適化ではなく，状態に応じて意思決定を繰り返す必要があります．強化学習は，環境との相互作用を通じてこのような逐次的意思決定の方策を獲得する枠組みです．\n当研究室では，在庫管理や交通信号制御などを対象に，深層強化学習を用いた方策の設計と，その挙動の解釈に取り組んでいます．\nWhen demand and the environment change over time, a single one-shot optimization is not enough: decisions have to be made repeatedly in response to the current state. Reinforcement learning acquires policies for such sequential decision-making through interaction with the environment.\nWe apply deep reinforcement learning to problems such as inventory management and traffic signal control, and study how to interpret the behavior of the learned policies."
+  },
+  {
+    "objectID": "research/AI-opt/index.html",
+    "href": "research/AI-opt/index.html",
+    "title": "AI for Optimization",
+    "section": "",
+    "text": "同種の最適化問題を繰り返し解く場面では，過去の求解経験から得られる知識を次の求解に活かすことができます．機械学習を最適化アルゴリズムに組み込むことで，探索の初期化や分枝・近傍の選択を学習し，求解の高速化と解の質の向上を図ります．\n当研究室では，学習と最適化を組み合わせた枠組みの設計と，その解釈可能性の確保に取り組んでいます．\nWhen problems of the same type are solved repeatedly, knowledge from past runs can inform the next one. Embedding machine learning in optimization algorithms lets the solver learn how to initialize the search and how to select branches or neighborhoods, improving both speed and solution quality.\nWe design frameworks that combine learning with optimization, and work to keep the resulting decisions interpretable."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂 LIU Ziang 准教授 | Associate Professor\n\n Personal Page  Google Scholar  researchmap  Email"
+  },
+  {
+    "objectID": "people.html#教員-faculty",
+    "href": "people.html#教員-faculty",
+    "title": "People",
+    "section": "",
+    "text": "劉 子昂 LIU Ziang 准教授 | Associate Professor\n\n Personal Page  Google Scholar  researchmap  Email"
+  },
+  {
+    "objectID": "people.html#学生-students",
+    "href": "people.html#学生-students",
+    "title": "People",
+    "section": "学生 | Students",
+    "text": "学生 | Students\n\n\n\n\n\n\n\n馬 秋寧\n\n\nMa Qiuning\n\n\nM1\n\n\n\n\n\n\n\n\n\n王 逸天\n\n\nWang Yitian\n\n\nM1\n\n\n\n\n\n\n\n\n\n余 俊諺\n\n\nYu Junyan\n\n\nM1\n\n\n\n\n\n\n\n\n\n小川 知波\n\n\nChinami Ogawa\n\n\nB4\n\n\n\n\n\n\n\n\n\n川上 利一朗\n\n\nRiichiro Kawakami\n\n\nB4\n\n\n\n\n\n\n\n\n\n鈴木 雅人\n\n\nMasato Suzuki\n\n\nB4\n\n\n\n\n\n\n\n\n\n高石 和輝\n\n\nKazuki Takaishi\n\n\nB4\n\n\n\n\n\n\n\n\n\n竹内 栄貴\n\n\nEiki Takeuchi\n\n\nB4\n\n\n\n\n\n\n\n\n\n藤井 千晴\n\n\nChiharu Fujii\n\n\nB4 (ゼミ長)\n\n\n\n\n\n\n\n\n\n藤牧 瑞輝\n\n\nMizuki Fujimaki\n\n\nB4\n\n\n\n\n\n\n\n\n\n本田 渉\n\n\nWataru Honda\n\n\nB4\n\n\n\n\n\n\n\n\n\n岩本 慶太\n\n\nKeita Iwamoto\n\n\nB3\n\n\n\n\n\n\n\n\n\n胡 潤佳\n\n\nHu Runjia\n\n\nB3\n\n\n\n\n\n\n\n\n\n小林 俊也\n\n\nShunya Kobayashi\n\n\nB3\n\n\n\n\n\n\n\n\n\n施 俊丞\n\n\nShi Juncheng\n\n\nB3\n\n\n\n\n\n\n\n\n\n張 又山\n\n\nZhang Youshan\n\n\nB3\n\n\n\n\n\n\n\n\n\n三神 幸翔\n\n\nYukito Mikami\n\n\nB3\n\n\n\n\n\n\n\n\n\n八谷 鷹\n\n\nYo Yatagai\n\n\nB3\n\n\n\n\n\n一致なし"
+  },
+  {
+    "objectID": "people.html#過去に在籍したメンバー-former-members",
+    "href": "people.html#過去に在籍したメンバー-former-members",
+    "title": "People",
+    "section": "過去に在籍したメンバー | Former Members",
+    "text": "過去に在籍したメンバー | Former Members\n\n\n\n\n\n\n\n竹上 瑛貴\n\n\n2025年度\n\n\n学部\n\n\n\n\n\n\n\n\n\n久賀 菜千帆\n\n\n2025年度\n\n\n学部\n\n\n\n\n\n\n\n\n\n小槌 隆介\n\n\n2025年度\n\n\n学部\n\n\n\n\n\n\n\n\n\n佐藤 克海\n\n\n2025年度\n\n\n学部 (ゼミ長)\n\n\n\n\n\n一致なし\n\n卒業生が取り組んだテーマは 学位論文 のページにまとめています．\nThe theses written by our graduates are listed on the Thesis page."
+  },
+  {
+    "objectID": "news/2026-3-graduation/index.html",
+    "href": "news/2026-3-graduation/index.html",
+    "title": "2025年度卒業式",
+    "section": "",
+    "text": "2026年3月24日に卒業式が行われました．\n卒業生の皆さん，ご卒業おめでとうございます！これからのご活躍を心よりお祈り申し上げます．\n\nまた，佐藤さんが優秀論文賞を受賞されました．おめでとうございます！\n\n（写真は本人の許可を得て掲載しています）"
+  },
+  {
+    "objectID": "news/2025-4-start/index.html",
+    "href": "news/2025-4-start/index.html",
+    "title": "知能システム研究室が発足しました!",
+    "section": "",
+    "text": "2025年4月1日，法政大学理工学部 知能システム研究室が発足しました．\n私たちの研究室は，人工知能，最適化，経営科学の分野で最先端の研究を行い，これらの技術を活用して社会に貢献することを目指しています．"
+  },
+  {
+    "objectID": "join/m1/index.html",
+    "href": "join/m1/index.html",
+    "title": "大学院入試",
+    "section": "",
+    "text": "法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n入試の詳細については，以下をご確認ください．"
+  },
+  {
+    "objectID": "join/m1/index.html#事前連絡",
+    "href": "join/m1/index.html#事前連絡",
+    "title": "大学院入試",
+    "section": "事前連絡",
+    "text": "事前連絡\n\n「理工学研究科 システム理工学専攻（経営システム系）」のお問い合わせフォームを送信してください．\n\n入試問い合わせフォーム\n\n\n※法政大学の在学生は，劉へ直接ご連絡ください．"
+  },
+  {
+    "objectID": "join/m1/index.html#英語学位プログラム",
+    "href": "join/m1/index.html#英語学位プログラム",
+    "title": "大学院入試",
+    "section": "英語学位プログラム",
+    "text": "英語学位プログラム\nまた，法政大学の IIST では，英語のみで修了可能な大学院プログラム（9月入学）が提供されています．海外からの出願や英語での研究・学位取得を希望される方は，こちらのプログラムもご検討ください．"
+  },
+  {
+    "objectID": "join/b3/index.html",
+    "href": "join/b3/index.html",
+    "title": "学部生のゼミ配属",
+    "section": "",
+    "text": "2026年度のゼミ配属は終了しました．"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "",
+    "text": "法政大学 理工学部 経営システム工学科\n\n\n\n知能システム研究室\n\n\n最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の複雑な意思決定を支えます．\n\n\nJoin Us Research"
+  },
+  {
+    "objectID": "index.html#about-us",
+    "href": "index.html#about-us",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "About Us",
+    "text": "About Us\n知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "Research",
+    "text": "Research\n\n\nAI for Optimization機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します． Reinforcement Learning不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます． Supply Chain Management在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します． Metaheuristics組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．\n\nSee All Research →"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n国際学会\n\n\n\n\n\n\n\n\n\n2025/09/04\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし\n\nSee All News →"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "研究室の見学，共同研究，取材などのご連絡は，下記のメールアドレスまでお願いします．大学院入試に関するご相談は Join Us のページもあわせてご覧ください．\nFor lab visits, research collaboration, and media enquiries, please write to the address below. Prospective graduate students should also see the Join Us page.\n liu@hosei.ac.jp"
+  },
+  {
+    "objectID": "contact.html#お問い合わせ-enquiries",
+    "href": "contact.html#お問い合わせ-enquiries",
+    "title": "Contact",
+    "section": "",
+    "text": "研究室の見学，共同研究，取材などのご連絡は，下記のメールアドレスまでお願いします．大学院入試に関するご相談は Join Us のページもあわせてご覧ください．\nFor lab visits, research collaboration, and media enquiries, please write to the address below. Prospective graduate students should also see the Join Us page.\n liu@hosei.ac.jp"
+  },
+  {
+    "objectID": "contact.html#アクセス-access",
+    "href": "contact.html#アクセス-access",
+    "title": "Contact",
+    "section": "アクセス | Access",
+    "text": "アクセス | Access\n知能システム研究室は，法政大学小金井キャンパスの西館5階にあります．\nThe Intelligent Systems Laboratory is on the 5th floor of the West Building (西館) on the Koganei Campus of Hosei University.\n\n\n教員室 | Faculty office\n\n西館 W5016\n\n実験室 | Laboratory\n\n西館 W5017\n\n住所 | Address\n\n〒184-8584 東京都小金井市梶野町3-7-2\n3-7-2 Kajino, Koganei, Tokyo 184-8584, Japan\n\n所属 | Department\n\n法政大学 理工学部 経営システム工学科\nDepartment of Industrial and Systems Engineering,\nFaculty of Science and Engineering, Hosei University"
+  },
+  {
+    "objectID": "contact.html#地図-map",
+    "href": "contact.html#地図-map",
+    "title": "Contact",
+    "section": "地図 | Map",
+    "text": "地図 | Map"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "進路に応じて，下のいずれかをご覧ください．研究室見学や個別のご相談は Contact からお願いします．\nChoose the route that applies to you. For lab visits and individual enquiries, see Contact.\n\n\n\n\n\n\n\n学部生のゼミ配属\n\n\n\n学部\n\n\n\n本学 経営システム工学科の学部生向け．ゼミの内容，教員紹介，配属の流れをまとめています．\n\n\n\n\n\n\n\n\n\n大学院入試\n\n\n\n大学院\n\n\n\n理工学研究科への進学を検討している方へ．入試日程（年2回）と，出願前の事前連絡の手順．\n\n\n\n\n\n\n\n\n\nIIST English Program\n\n\n\nInternational\n\n\n\nEnglish-taught Master’s and Doctoral programs at Hosei IIST, for international applicants.\n\n\n\n\n\n一致なし"
+  },
+  {
+    "objectID": "join/iist/index.html",
+    "href": "join/iist/index.html",
+    "title": "IIST English Program",
+    "section": "",
+    "text": "The Institute of Integrated Science and Technology (IIST) at Hosei University offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor detailed information on the application procedures and requirements, please visit the admissions page."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n国際学会\n\n\n\n\n\n\n\n\n\n2025/09/04\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし"
+  },
+  {
+    "objectID": "news/2025-9-apms/index.html",
+    "href": "news/2025-9-apms/index.html",
+    "title": "APMS 2025",
+    "section": "",
+    "text": "M1の遠田さんがAPMS 2025にて発表を行いました．\n関連論文は以下の通りです．\n\nK. Toda, T. Nishi, and Z. Liu, “Local explanation method for ordering policy in perishable inventory management problem using LLM and LIME,” in IFIP Advances in Information and Communication Technology, Eds. Cham: Springer Nature Switzerland, 2026, pp. 289–302."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "AI for Optimization\n\n\n機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します．\n\n\n\n\n\n\n\n\n\n\n\n\nMetaheuristics\n\n\n組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning\n\n\n不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます．\n\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Management\n\n\n在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します．\n\n\n\n\n\n一致なし"
+  },
+  {
+    "objectID": "research/Metaheuristics/index.html",
+    "href": "research/Metaheuristics/index.html",
+    "title": "Metaheuristics",
+    "section": "",
+    "text": "組合せ最適化問題の多くはNP困難であり，厳密解法では現実的な時間で解くことができません．メタヒューリスティクスは，最適性の保証と引き換えに，大規模な問題に対して良質な解を短時間で求めるための近似解法の総称です．\n当研究室では，群知能（粒子群最適化，蟻コロニー最適化など）や進化計算を対象に，探索の多様化と集中化のバランス，問題構造を利用した近傍設計，パラメータの自動調整などに取り組んでいます．\nMany combinatorial optimization problems are NP-hard, so exact methods cannot solve realistic instances in reasonable time. Metaheuristics trade the guarantee of optimality for the ability to find good solutions to large problems quickly.\nWe work on swarm intelligence (particle swarm optimization, ant colony optimization) and evolutionary computation, focusing on the balance between diversification and intensification, neighborhood designs that exploit problem structure, and automatic parameter tuning."
+  },
+  {
+    "objectID": "research/SCM/index.html",
+    "href": "research/SCM/index.html",
+    "title": "Supply Chain Management",
+    "section": "",
+    "text": "サプライチェーンでは，調達・生産・在庫・輸送の意思決定が互いに影響し合うため，個別に最適化しても全体として良い結果が得られるとは限りません．需要の不確実性や供給の途絶に対する頑健性も同時に考慮する必要があります．\n当研究室では，多期間・多目的の数理計画モデルやシミュレーションを用いて，サプライチェーン全体を対象とした意思決定支援手法を研究しています．\nIn a supply chain, decisions about procurement, production, inventory and transportation interact with one another, so optimizing each in isolation does not necessarily produce a good outcome overall. Robustness against demand uncertainty and supply disruption has to be considered at the same time.\nWe study decision-support methods for the supply chain as a whole, using multi-period, multi-objective mathematical programming models and simulation."
+  }
+]

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="264" viewBox="0 0 480 264" role="img"
+    aria-label="A learned model driving an optimisation run to converge faster">
+    <!-- Transparent ground: see the note in metaheuristics.svg -->
+    <g stroke="#1596b4" fill="none">
+        <!-- Network edges -->
+        <g stroke-opacity="0.3" stroke-width="1.5">
+            <path d="M 72 78 L 148 68 M 72 78 L 148 116 M 72 78 L 148 164" />
+            <path d="M 72 132 L 148 68 M 72 132 L 148 116 M 72 132 L 148 164" />
+            <path d="M 72 186 L 148 68 M 72 186 L 148 116 M 72 186 L 148 164" />
+            <path d="M 148 68 L 216 116 M 148 116 L 216 116 M 148 164 L 216 116" />
+        </g>
+
+        <!-- Model output feeding the solver -->
+        <path d="M 232 116 L 276 116" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round" />
+        <path d="M 268 110 L 276 116 L 268 122" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+
+        <!-- Axes of the convergence plot -->
+        <path d="M 300 44 V 218 H 452" stroke-opacity="0.28" stroke-width="1.5" stroke-linecap="round" />
+
+        <!-- Baseline run: slow decay -->
+        <path d="M 300 62 C 348 128, 386 186, 452 202" stroke-opacity="0.22" stroke-width="2"
+            stroke-dasharray="6 7" stroke-linecap="round" />
+
+        <!-- Learning-guided run: reaches the same quality sooner -->
+        <path d="M 300 62 C 326 148, 348 178, 452 186" stroke-opacity="0.85" stroke-width="2.4"
+            stroke-linecap="round" />
+    </g>
+
+    <!-- Input and hidden units -->
+    <g fill="#1596b4" fill-opacity="0.5">
+        <circle cx="72" cy="78" r="5.5" />
+        <circle cx="72" cy="132" r="5.5" />
+        <circle cx="72" cy="186" r="5.5" />
+        <circle cx="148" cy="68" r="5.5" />
+        <circle cx="148" cy="116" r="5.5" />
+        <circle cx="148" cy="164" r="5.5" />
+    </g>
+
+    <!-- Prediction handed to the solver -->
+    <circle cx="216" cy="116" r="7.5" fill="#1596b4" />
+
+    <!-- Converged objective value -->
+    <circle cx="452" cy="186" r="5.5" fill="#1596b4" />
+</svg>

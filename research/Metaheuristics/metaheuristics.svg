@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="264" viewBox="0 0 480 264" role="img"
+    aria-label="A population of candidate solutions converging on the best-known point">
+    <!-- Transparent ground on purpose: the listing card's own surface shows
+         through, so one asset reads correctly on both the light and dark theme.
+         #1596b4 sits between the two themes' $accent values and clears 3:1
+         against both card surfaces. -->
+    <g stroke="#1596b4" fill="none" stroke-linecap="round">
+        <!-- Convergence radius around the incumbent best -->
+        <circle cx="322" cy="118" r="46" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="6 7" />
+        <circle cx="322" cy="118" r="88" stroke-opacity="0.13" stroke-width="1.5" stroke-dasharray="6 7" />
+
+        <!-- Velocity vectors: every candidate pulled toward the incumbent -->
+        <g stroke-opacity="0.5" stroke-width="2">
+            <path d="M 74 196 L 108 178" />
+            <path d="M 96 92 L 132 106" />
+            <path d="M 152 216 L 182 196" />
+            <path d="M 168 54 L 196 76" />
+            <path d="M 236 224 L 258 200" />
+            <path d="M 250 44 L 266 70" />
+            <path d="M 402 210 L 380 188" />
+            <path d="M 432 96 L 404 104" />
+            <path d="M 418 44 L 396 70" />
+            <path d="M 196 140 L 226 134" />
+            <path d="M 380 158 L 358 146" />
+            <path d="M 132 148 L 162 144" />
+        </g>
+    </g>
+
+    <!-- Candidate solutions -->
+    <g fill="#1596b4" fill-opacity="0.55">
+        <circle cx="74" cy="196" r="4" />
+        <circle cx="96" cy="92" r="4" />
+        <circle cx="152" cy="216" r="4" />
+        <circle cx="168" cy="54" r="4" />
+        <circle cx="236" cy="224" r="4" />
+        <circle cx="250" cy="44" r="4" />
+        <circle cx="402" cy="210" r="4" />
+        <circle cx="432" cy="96" r="4" />
+        <circle cx="418" cy="44" r="4" />
+        <circle cx="196" cy="140" r="4" />
+        <circle cx="380" cy="158" r="4" />
+        <circle cx="132" cy="148" r="4" />
+    </g>
+
+    <!-- Incumbent best -->
+    <circle cx="322" cy="118" r="14" fill="none" stroke="#1596b4" stroke-opacity="0.6" stroke-width="2" />
+    <circle cx="322" cy="118" r="6.5" fill="#1596b4" />
+</svg>

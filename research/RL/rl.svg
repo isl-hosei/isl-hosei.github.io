@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="264" viewBox="0 0 480 264" role="img"
+    aria-label="An agent following a learned path across a grid world toward a goal">
+    <!-- Transparent ground: see the note in metaheuristics.svg -->
+    <g stroke="#1596b4" fill="none" stroke-linecap="round">
+        <!-- Grid world -->
+        <g stroke-opacity="0.2" stroke-width="1.5">
+            <path d="M 74 56 H 406 M 74 110 H 406 M 74 164 H 406 M 74 218 H 406" />
+            <path d="M 74 56 V 218 M 157 56 V 218 M 240 56 V 218 M 323 56 V 218 M 406 56 V 218" />
+        </g>
+
+        <!-- Learned trajectory -->
+        <path d="M 115 191 L 115 137 L 198 137 L 198 83 L 365 83" stroke-opacity="0.85" stroke-width="2.6"
+            stroke-linejoin="round" />
+
+        <!-- Reward signal returning to the agent -->
+        <path d="M 356 232 C 280 254, 176 246, 122 214" stroke-opacity="0.4" stroke-width="2"
+            stroke-dasharray="7 7" />
+        <path d="M 130 208 L 122 214 L 124 224" stroke-opacity="0.4" stroke-width="2" stroke-linejoin="round" />
+    </g>
+
+    <!-- Agent at the start state -->
+    <circle cx="115" cy="191" r="7.5" fill="#1596b4" />
+
+    <!-- Goal state -->
+    <rect x="349" y="67" width="32" height="32" rx="6" fill="none" stroke="#1596b4" stroke-opacity="0.75"
+        stroke-width="2" />
+    <path d="M 357 83 L 363 90 L 373 76" fill="none" stroke="#1596b4" stroke-width="2.4" stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
