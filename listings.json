@@ -4,19 +4,20 @@
     "items": []
   },
   {
+    "listing": "/join.html",
+    "items": [
+      "/join/b3/index.html",
+      "/join/m1/index.html",
+      "/join/iist/index.html",
+      "/join/mext/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/news/2026-3-graduation/index.html",
       "/news/2025-9-apms/index.html",
       "/news/2025-4-start/index.html"
-    ]
-  },
-  {
-    "listing": "/join.html",
-    "items": [
-      "/join/b3/index.html",
-      "/join/m1/index.html",
-      "/join/iist/index.html"
     ]
   },
   {

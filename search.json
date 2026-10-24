@@ -46,7 +46,7 @@
     "href": "people.html#学生-students",
     "title": "People",
     "section": "学生 | Students",
-    "text": "学生 | Students\n\n\n\n\n\n\n\n馬 秋寧\n\n\nMa Qiuning\n\n\nM1\n\n\n\n\n\n\n\n\n\n王 逸天\n\n\nWang Yitian\n\n\nM1\n\n\n\n\n\n\n\n\n\n余 俊諺\n\n\nYu Junyan\n\n\nM1\n\n\n\n\n\n\n\n\n\n小川 知波\n\n\nChinami Ogawa\n\n\nB4\n\n\n\n\n\n\n\n\n\n川上 利一朗\n\n\nRiichiro Kawakami\n\n\nB4\n\n\n\n\n\n\n\n\n\n鈴木 雅人\n\n\nMasato Suzuki\n\n\nB4\n\n\n\n\n\n\n\n\n\n高石 和輝\n\n\nKazuki Takaishi\n\n\nB4\n\n\n\n\n\n\n\n\n\n竹内 栄貴\n\n\nEiki Takeuchi\n\n\nB4\n\n\n\n\n\n\n\n\n\n藤井 千晴\n\n\nChiharu Fujii\n\n\nB4 (ゼミ長)\n\n\n\n\n\n\n\n\n\n藤牧 瑞輝\n\n\nMizuki Fujimaki\n\n\nB4\n\n\n\n\n\n\n\n\n\n本田 渉\n\n\nWataru Honda\n\n\nB4\n\n\n\n\n\n\n\n\n\n岩本 慶太\n\n\nKeita Iwamoto\n\n\nB3\n\n\n\n\n\n\n\n\n\n胡 潤佳\n\n\nHu Runjia\n\n\nB3\n\n\n\n\n\n\n\n\n\n小林 俊也\n\n\nShunya Kobayashi\n\n\nB3\n\n\n\n\n\n\n\n\n\n施 俊丞\n\n\nShi Juncheng\n\n\nB3\n\n\n\n\n\n\n\n\n\n張 又山\n\n\nZhang Youshan\n\n\nB3\n\n\n\n\n\n\n\n\n\n三神 幸翔\n\n\nYukito Mikami\n\n\nB3\n\n\n\n\n\n\n\n\n\n八谷 鷹\n\n\nYo Yatagai\n\n\nB3\n\n\n\n\n\n一致なし"
+    "text": "学生 | Students\n\n\n\n\n\n\n\n馬 秋寧\n\n\nMa Qiuning\n\n\nM1\n\n\n\n\n\n\n\n\n\n王 逸天\n\n\nWang Yitian\n\n\nM1\n\n\n\n\n\n\n\n\n\n余 俊諺\n\n\nYu Junyan\n\n\nM1\n\n\n\n\n\n\n\n\n\n董 金果\n\n\nDong Jinguo\n\n\nM1 (IIST)\n\n\n\n\n\n\n\n\n\n劉 潤野\n\n\nLiu Runye\n\n\nM1 (IIST)\n\n\n\n\n\n\n\n\n\n余 佳妮\n\n\nYu Jiani\n\n\nM1 (IIST)\n\n\n\n\n\n\n\n\n\n小川 知波\n\n\nChinami Ogawa\n\n\nB4\n\n\n\n\n\n\n\n\n\n川上 利一朗\n\n\nRiichiro Kawakami\n\n\nB4\n\n\n\n\n\n\n\n\n\n鈴木 雅人\n\n\nMasato Suzuki\n\n\nB4\n\n\n\n\n\n\n\n\n\n高石 和輝\n\n\nKazuki Takaishi\n\n\nB4\n\n\n\n\n\n\n\n\n\n竹内 栄貴\n\n\nEiki Takeuchi\n\n\nB4\n\n\n\n\n\n\n\n\n\n藤井 千晴\n\n\nChiharu Fujii\n\n\nB4 (ゼミ長)\n\n\n\n\n\n\n\n\n\n藤牧 瑞輝\n\n\nMizuki Fujimaki\n\n\nB4\n\n\n\n\n\n\n\n\n\n本田 渉\n\n\nWataru Honda\n\n\nB4\n\n\n\n\n\n\n\n\n\n岩本 慶太\n\n\nKeita Iwamoto\n\n\nB3\n\n\n\n\n\n\n\n\n\n胡 潤佳\n\n\nHu Runjia\n\n\nB3\n\n\n\n\n\n\n\n\n\n小林 俊也\n\n\nShunya Kobayashi\n\n\nB3\n\n\n\n\n\n\n\n\n\n施 俊丞\n\n\nShi Juncheng\n\n\nB3\n\n\n\n\n\n\n\n\n\n張 又山\n\n\nZhang Youshan\n\n\nB3\n\n\n\n\n\n\n\n\n\n三神 幸翔\n\n\nYukito Mikami\n\n\nB3\n\n\n\n\n\n\n\n\n\n八谷 鷹\n\n\nYo Yatagai\n\n\nB3\n\n\n\n\n\n一致なし"
   },
   {
     "objectID": "people.html#過去に在籍したメンバー-former-members",
@@ -70,60 +70,53 @@
     "text": "2025年4月1日，法政大学理工学部 知能システム研究室が発足しました．\n私たちの研究室は，人工知能，最適化，経営科学の分野で最先端の研究を行い，これらの技術を活用して社会に貢献することを目指しています．"
   },
   {
-    "objectID": "join/m1/index.html",
-    "href": "join/m1/index.html",
-    "title": "大学院入試",
+    "objectID": "join/mext/index.html",
+    "href": "join/mext/index.html",
+    "title": "MEXT Scholarship",
     "section": "",
-    "text": "法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n入試の詳細については，以下をご確認ください．"
+    "text": "The Japanese Government (MEXT) Scholarship supports international students who come to Japan for graduate study. Hosei University accepts MEXT scholars through two routes:\nThis lab belongs to the Graduate School of Science and Engineering, in the major Systems Engineering & Science (Management Sciences Track). You can join it in the Japanese-taught program or the English-taught IIST program."
   },
   {
-    "objectID": "join/m1/index.html#事前連絡",
-    "href": "join/m1/index.html#事前連絡",
-    "title": "大学院入試",
-    "section": "事前連絡",
-    "text": "事前連絡\n\n「理工学研究科 システム理工学専攻（経営システム系）」のお問い合わせフォームを送信してください．\n\n入試問い合わせフォーム\n\n\n※法政大学の在学生は，劉へ直接ご連絡ください．"
+    "objectID": "join/mext/index.html#which-route-applies-to-you",
+    "href": "join/mext/index.html#which-route-applies-to-you",
+    "title": "MEXT Scholarship",
+    "section": "Which route applies to you",
+    "text": "Which route applies to you\n\n\n\n\n\n\n\n\n\nEmbassy Recommendation\nUniversity Recommendation\n\n\n\n\nWho can apply\nApplicants screened by the Japanese embassy or consulate in their country\nStudents at one of Hosei’s overseas partner universities\n\n\nApplications open\nAround April\nAround November\n\n\nArrival in Japan\nApril or September of the following year\nSeptember of the following year\n\n\n\nIf your university is not a Hosei partner, the Embassy Recommendation is your only route."
   },
   {
-    "objectID": "join/m1/index.html#英語学位プログラム",
-    "href": "join/m1/index.html#英語学位プログラム",
-    "title": "大学院入試",
-    "section": "英語学位プログラム",
-    "text": "英語学位プログラム\nまた，法政大学の IIST では，英語のみで修了可能な大学院プログラム（9月入学）が提供されています．海外からの出願や英語での研究・学位取得を希望される方は，こちらのプログラムもご検討ください．"
+    "objectID": "join/mext/index.html#embassy-recommendation",
+    "href": "join/mext/index.html#embassy-recommendation",
+    "title": "MEXT Scholarship",
+    "section": "Embassy Recommendation",
+    "text": "Embassy Recommendation\n\nApply at the Japanese embassy or consulate in your country around April, and pass its primary screening (around June).\nRequest a Letter of Acceptance by email to mext@hosei.ac.jp by around 1 September (Japan time). Attach the application form as a Word file, your certificate of passing the primary screening, and copies of everything you submitted to the embassy. The review takes about a month and the university closes in mid-August, so apply early. You do not need to contact the professor first.\nTake the secondary screening by MEXT (around November). Results arrive between January and March."
   },
   {
-    "objectID": "join/b3/index.html",
-    "href": "join/b3/index.html",
-    "title": "学部生のゼミ配属",
+    "objectID": "join/mext/index.html#university-recommendation",
+    "href": "join/mext/index.html#university-recommendation",
+    "title": "MEXT Scholarship",
+    "section": "University Recommendation",
+    "text": "University Recommendation\nYour university announces the call around November, Hosei nominates candidates to MEXT in February, and results arrive around June. The partner list is on Hosei’s University Recommendation page. For questions about this route, ask the international office at your own university."
+  },
+  {
+    "objectID": "join/mext/index.html#official-information",
+    "href": "join/mext/index.html#official-information",
+    "title": "MEXT Scholarship",
+    "section": "Official information",
+    "text": "Official information\nDates change every year. Always check Hosei’s MEXT Scholarship pages and FAQ, or contact the Global Education Center at mext@hosei.ac.jp."
+  },
+  {
+    "objectID": "join/iist/index.html",
+    "href": "join/iist/index.html",
+    "title": "IIST English Program",
     "section": "",
-    "text": "2026年度のゼミ配属は終了しました．"
+    "text": "The Institute of Integrated Science and Technology (IIST) at Hosei University offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor detailed information on the application procedures and requirements, please visit the admissions page."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\nIntelligent Systems Laboratory\n",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
     "section": "",
-    "text": "法政大学 理工学部 経営システム工学科\n\n\n\n知能システム研究室\n\n\n最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の複雑な意思決定を支えます．\n\n\nJoin Us Research"
-  },
-  {
-    "objectID": "index.html#about-us",
-    "href": "index.html#about-us",
-    "title": "\nIntelligent Systems Laboratory\n",
-    "section": "About Us",
-    "text": "About Us\n知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "\nIntelligent Systems Laboratory\n",
-    "section": "Research",
-    "text": "Research\n\n\nAI for Optimization機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します． Reinforcement Learning不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます． Supply Chain Management在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します． Metaheuristics組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．\n\nSee All Research →"
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "\nIntelligent Systems Laboratory\n",
-    "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n国際学会\n\n\n\n\n\n\n\n\n\n2025/09/04\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし\n\nSee All News →"
+    "text": "進路に応じて，下のいずれかをご覧ください．研究室見学や個別のご相談は Contact からお願いします．\nChoose the route that applies to you. For lab visits and individual enquiries, see Contact.\n\n\n\n\n\n\n\n学部生のゼミ配属\n\n\n\n学部\n\n\n\n本学 経営システム工学科の学部生向け．ゼミの内容，教員紹介，配属の流れをまとめています．\n\n\n\n\n\n\n\n\n\n大学院入試\n\n\n\n大学院\n\n\n\n理工学研究科への進学を検討している方へ．入試日程（年2回）と，出願前の事前連絡の手順．\n\n\n\n\n\n\n\n\n\nIIST English Program\n\n\n\nInternational\n\n\n\nEnglish-taught Master’s and Doctoral programs at Hosei IIST, for international applicants.\n\n\n\n\n\n\n\n\n\nMEXT Scholarship\n\n\n\nInternational\n\n\n\nFor applicants to the Japanese Government (MEXT) Scholarship who wish to research in this lab: the two routes and how to apply.\n\n\n\n\n\n一致なし"
   },
   {
     "objectID": "contact.html",
@@ -154,18 +147,60 @@
     "text": "地図 | Map"
   },
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join Us",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nIntelligent Systems Laboratory\n",
     "section": "",
-    "text": "進路に応じて，下のいずれかをご覧ください．研究室見学や個別のご相談は Contact からお願いします．\nChoose the route that applies to you. For lab visits and individual enquiries, see Contact.\n\n\n\n\n\n\n\n学部生のゼミ配属\n\n\n\n学部\n\n\n\n本学 経営システム工学科の学部生向け．ゼミの内容，教員紹介，配属の流れをまとめています．\n\n\n\n\n\n\n\n\n\n大学院入試\n\n\n\n大学院\n\n\n\n理工学研究科への進学を検討している方へ．入試日程（年2回）と，出願前の事前連絡の手順．\n\n\n\n\n\n\n\n\n\nIIST English Program\n\n\n\nInternational\n\n\n\nEnglish-taught Master’s and Doctoral programs at Hosei IIST, for international applicants.\n\n\n\n\n\n一致なし"
+    "text": "法政大学 理工学部 経営システム工学科\n\n\n\n知能システム研究室\n\n\n最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の複雑な意思決定を支えます．\n\n\nJoin Us Research"
   },
   {
-    "objectID": "join/iist/index.html",
-    "href": "join/iist/index.html",
-    "title": "IIST English Program",
+    "objectID": "index.html#about-us",
+    "href": "index.html#about-us",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "About Us",
+    "text": "About Us\n知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "Research",
+    "text": "Research\n\n\nAI for Optimization機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します． Reinforcement Learning不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます． Supply Chain Management在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します． Metaheuristics組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．\n\nSee All Research →"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\nAPMS 2025\n\n\n\n国際学会\n\n\n\n\n\n\n\n\n\n2025/09/04\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし\n\nSee All News →"
+  },
+  {
+    "objectID": "join/b3/index.html",
+    "href": "join/b3/index.html",
+    "title": "学部生のゼミ配属",
     "section": "",
-    "text": "The Institute of Integrated Science and Technology (IIST) at Hosei University offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor detailed information on the application procedures and requirements, please visit the admissions page."
+    "text": "2026年度のゼミ配属は終了しました．"
+  },
+  {
+    "objectID": "join/m1/index.html",
+    "href": "join/m1/index.html",
+    "title": "大学院入試",
+    "section": "",
+    "text": "法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n入試の詳細については，以下をご確認ください．"
+  },
+  {
+    "objectID": "join/m1/index.html#事前連絡",
+    "href": "join/m1/index.html#事前連絡",
+    "title": "大学院入試",
+    "section": "事前連絡",
+    "text": "事前連絡\n\n「理工学研究科 システム理工学専攻（経営システム系）」のお問い合わせフォームを送信してください．\n\n\n※法政大学の在学生は，劉へ直接ご連絡ください．"
+  },
+  {
+    "objectID": "join/m1/index.html#英語学位プログラム",
+    "href": "join/m1/index.html#英語学位プログラム",
+    "title": "大学院入試",
+    "section": "英語学位プログラム",
+    "text": "英語学位プログラム\nまた，法政大学の IIST では，英語のみで修了可能な大学院プログラム（9月入学）が提供されています．海外からの出願や英語での研究・学位取得を希望される方は，こちらのプログラムもご検討ください．"
   },
   {
     "objectID": "news.html",
