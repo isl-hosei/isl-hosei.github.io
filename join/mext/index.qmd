@@ -1,0 +1,39 @@
+---
+title: "MEXT Scholarship"
+description: "For applicants to the Japanese Government (MEXT) Scholarship who wish to research in this lab: the two routes and how to apply."
+categories: [International]
+order: 4
+# English-only page: override the site-wide `lang: ja`
+lang: en
+---
+
+The Japanese Government (MEXT) Scholarship supports international students who come to Japan for graduate study. Hosei University accepts MEXT scholars through two routes:
+
+- Embassy Recommendation
+- University Recommendation
+
+This lab belongs to the **Graduate School of Science and Engineering**, in the major **Systems Engineering & Science (Management Sciences Track)**. You can join it in the Japanese-taught program or the English-taught [IIST](../iist/index.qmd) program.
+
+## Which route applies to you
+
+| | Embassy Recommendation | University Recommendation |
+|---|---|---|
+| Who can apply | Applicants screened by the Japanese embassy or consulate in their country | Students at one of Hosei's overseas partner universities |
+| Applications open | Around April | Around November |
+| Arrival in Japan | April or September of the following year | September of the following year |
+
+If your university is not a Hosei partner, the Embassy Recommendation is your only route. 
+
+## Embassy Recommendation
+
+1. **Apply at the Japanese embassy or consulate** in your country around April, and pass its primary screening (around June).
+2. **Request a Letter of Acceptance** by email to [mext@hosei.ac.jp](mailto:mext@hosei.ac.jp) by around 1 September (Japan time). Attach the [application form](https://www.global.hosei.ac.jp/en/students/prospective/mext/embassy/02/) as a Word file, your certificate of passing the primary screening, and copies of everything you submitted to the embassy. The review takes about a month and the university closes in mid-August, so apply early. You do not need to contact the professor first.
+3. **Take the secondary screening by MEXT** (around November). Results arrive between January and March.
+
+## University Recommendation
+
+Your university announces the call around November, Hosei nominates candidates to MEXT in February, and results arrive around June. The partner list is on Hosei's [University Recommendation page](https://www.global.hosei.ac.jp/en/students/prospective/mext/university/). For questions about this route, ask the international office at your own university.
+
+## Official information
+
+Dates change every year. Always check Hosei's [MEXT Scholarship pages](https://www.global.hosei.ac.jp/en/students/prospective/mext/) and [FAQ](https://www.global.hosei.ac.jp/en/students/prospective/mext/faq/), or contact the Global Education Center at [mext@hosei.ac.jp](mailto:mext@hosei.ac.jp).

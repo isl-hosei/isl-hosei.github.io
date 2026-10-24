@@ -10,6 +10,21 @@
   subtitle: "Yu Junyan"
   description: "M1"
 
+- title: "董 金果"
+  subtitle: "Dong Jinguo"
+  description: "M1 (IIST)"
+
+- title: "劉 潤野"
+  subtitle: "Liu Runye"
+  description: "M1 (IIST)"
+
+- title: "余 佳妮"
+  subtitle: "Yu Jiani"
+  description: "M1 (IIST)"
+
+# TODO: 2027年3月に下の B4 が卒業し，former-members.yml へ移すときに
+# join/b3/index.qmd へ「主な就職先（2026年度卒業）」を追加する．
+# 名前は書かず社名だけを社名順に並べ，載せる前に本人たちに確認すること．
 - title: "小川 知波"
   subtitle: "Chinami Ogawa"
   description: "B4"

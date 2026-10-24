@@ -39,7 +39,7 @@
 |---|---|---|
 | ① 全体向け | `index`，`research/*`，`people`，`contact` | **日英併記** |
 | ② 日本語話者向け | `join/b3`，`join/m1`，`thesis`，`lab`，`blog/*`，`news/*` | 日本語のみ |
-| ③ 海外向け | `join/iist` | 英語のみ |
+| ③ 海外向け | `join/iist`，`join/mext` | 英語のみ |
 
 新しいページを作るときは，まず「これは誰が読むか」を決めてから層を選びます．
 
