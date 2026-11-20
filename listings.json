@@ -4,26 +4,28 @@
     "items": []
   },
   {
-    "listing": "/news.html",
-    "items": [
-      "/news/2026-3-graduation/index.html",
-      "/news/2025-4-start/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/news/2026-3-graduation/index.html",
-      "/news/2025-4-start/index.html"
-    ]
-  },
-  {
     "listing": "/join.html",
     "items": [
       "/join/b3/index.html",
       "/join/m1/index.html",
       "/join/iist/index.html",
       "/join/mext/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/2026-11-rengo/index.html",
+      "/news/2026-3-graduation/index.html",
+      "/news/2025-4-start/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-11-rengo/index.html",
+      "/news/2026-3-graduation/index.html",
+      "/news/2025-4-start/index.html"
     ]
   },
   {

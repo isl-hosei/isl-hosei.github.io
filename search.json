@@ -63,109 +63,11 @@
     "text": "2026年3月24日に卒業式が行われました．\n卒業生の皆さん，ご卒業おめでとうございます！これからのご活躍を心よりお祈り申し上げます．\n\nまた，佐藤さんが優秀論文賞を受賞されました．おめでとうございます！\n\n（写真は本人の許可を得て掲載しています）"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "news/2025-4-start/index.html",
+    "href": "news/2025-4-start/index.html",
+    "title": "知能システム研究室が発足しました!",
     "section": "",
-    "text": "2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし"
-  },
-  {
-    "objectID": "join/m1/index.html",
-    "href": "join/m1/index.html",
-    "title": "大学院入試",
-    "section": "",
-    "text": "法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n入試の詳細については，以下をご確認ください．"
-  },
-  {
-    "objectID": "join/m1/index.html#事前連絡",
-    "href": "join/m1/index.html#事前連絡",
-    "title": "大学院入試",
-    "section": "事前連絡",
-    "text": "事前連絡\n\n「理工学研究科 システム理工学専攻（経営システム系）」のお問い合わせフォームを送信してください．\n\n\n※法政大学の在学生は，劉へ直接ご連絡ください．"
-  },
-  {
-    "objectID": "join/m1/index.html#英語学位プログラム",
-    "href": "join/m1/index.html#英語学位プログラム",
-    "title": "大学院入試",
-    "section": "英語学位プログラム",
-    "text": "英語学位プログラム\nまた，法政大学の IIST では，英語のみで修了可能な大学院プログラム（9月入学）が提供されています．海外からの出願や英語での研究・学位取得を希望される方は，こちらのプログラムもご検討ください．"
-  },
-  {
-    "objectID": "join/b3/index.html",
-    "href": "join/b3/index.html",
-    "title": "学部生のゼミ配属",
-    "section": "",
-    "text": "2026年度のゼミ配属は終了しました．"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\nIntelligent Systems Laboratory\n",
-    "section": "",
-    "text": "法政大学 理工学部 経営システム工学科\n\n\n\n知能システム研究室\n\n\n最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の複雑な意思決定を支えます．\n\n\nJoin Us Research"
-  },
-  {
-    "objectID": "index.html#about-us",
-    "href": "index.html#about-us",
-    "title": "\nIntelligent Systems Laboratory\n",
-    "section": "About Us",
-    "text": "About Us\n知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "\nIntelligent Systems Laboratory\n",
-    "section": "Research",
-    "text": "Research\n\n\nAI for Optimization機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します． Reinforcement Learning不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます． Supply Chain Management在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します． Metaheuristics組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．\n\nSee All Research →"
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "\nIntelligent Systems Laboratory\n",
-    "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし\n\nSee All News →"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "研究室の見学，共同研究，取材などのご連絡は，下記のメールアドレスまでお願いします．大学院入試に関するご相談は Join Us のページもあわせてご覧ください．\nFor lab visits, research collaboration, and media enquiries, please write to the address below. Prospective graduate students should also see the Join Us page.\n liu@hosei.ac.jp"
-  },
-  {
-    "objectID": "contact.html#お問い合わせ-enquiries",
-    "href": "contact.html#お問い合わせ-enquiries",
-    "title": "Contact",
-    "section": "",
-    "text": "研究室の見学，共同研究，取材などのご連絡は，下記のメールアドレスまでお願いします．大学院入試に関するご相談は Join Us のページもあわせてご覧ください．\nFor lab visits, research collaboration, and media enquiries, please write to the address below. Prospective graduate students should also see the Join Us page.\n liu@hosei.ac.jp"
-  },
-  {
-    "objectID": "contact.html#アクセス-access",
-    "href": "contact.html#アクセス-access",
-    "title": "Contact",
-    "section": "アクセス | Access",
-    "text": "アクセス | Access\n知能システム研究室は，法政大学小金井キャンパスの西館5階にあります．\nThe Intelligent Systems Laboratory is on the 5th floor of the West Building (西館) on the Koganei Campus of Hosei University.\n\n\n教員室 | Faculty office\n\n西館 W5016\n\n実験室 | Laboratory\n\n西館 W5017\n\n住所 | Address\n\n〒184-8584 東京都小金井市梶野町3-7-2\n3-7-2 Kajino, Koganei, Tokyo 184-8584, Japan\n\n所属 | Department\n\n法政大学 理工学部 経営システム工学科\nDepartment of Industrial and Systems Engineering,\nFaculty of Science and Engineering, Hosei University"
-  },
-  {
-    "objectID": "contact.html#地図-map",
-    "href": "contact.html#地図-map",
-    "title": "Contact",
-    "section": "地図 | Map",
-    "text": "地図 | Map"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join Us",
-    "section": "",
-    "text": "進路に応じて，下のいずれかをご覧ください．研究室見学や個別のご相談は Contact からお願いします．\nChoose the route that applies to you. For lab visits and individual enquiries, see Contact.\n\n\n\n\n\n\n\n学部生のゼミ配属\n\n\n\n学部\n\n\n\n本学 経営システム工学科の学部生向け．ゼミの内容，教員紹介，配属の流れをまとめています．\n\n\n\n\n\n\n\n\n\n大学院入試\n\n\n\n大学院\n\n\n\n理工学研究科への進学を検討している方へ．入試日程（年2回）と，出願前の事前連絡の手順．\n\n\n\n\n\n\n\n\n\nIIST English Program\n\n\n\nInternational\n\n\n\nEnglish-taught Master’s and Doctoral programs at Hosei IIST, for international applicants.\n\n\n\n\n\n\n\n\n\nMEXT Scholarship\n\n\n\nInternational\n\n\n\nFor applicants to the Japanese Government (MEXT) Scholarship who wish to research in this lab: the two routes and how to apply.\n\n\n\n\n\n一致なし"
-  },
-  {
-    "objectID": "join/iist/index.html",
-    "href": "join/iist/index.html",
-    "title": "IIST English Program",
-    "section": "",
-    "text": "The Institute of Integrated Science and Technology (IIST) at Hosei University offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor detailed information on the application procedures and requirements, please visit the admissions page."
+    "text": "2025年4月1日，法政大学理工学部 知能システム研究室が発足しました．\n私たちの研究室は，人工知能，最適化，経営科学の分野で最先端の研究を行い，これらの技術を活用して社会に貢献することを目指しています．"
   },
   {
     "objectID": "join/mext/index.html",
@@ -203,11 +105,116 @@
     "text": "Official information\nDates change every year. Always check Hosei’s MEXT Scholarship pages and FAQ, or contact the Global Education Center at mext@hosei.ac.jp."
   },
   {
-    "objectID": "news/2025-4-start/index.html",
-    "href": "news/2025-4-start/index.html",
-    "title": "知能システム研究室が発足しました!",
+    "objectID": "join/iist/index.html",
+    "href": "join/iist/index.html",
+    "title": "IIST English Program",
     "section": "",
-    "text": "2025年4月1日，法政大学理工学部 知能システム研究室が発足しました．\n私たちの研究室は，人工知能，最適化，経営科学の分野で最先端の研究を行い，これらの技術を活用して社会に貢献することを目指しています．"
+    "text": "The Institute of Integrated Science and Technology (IIST) at Hosei University offers English-taught graduate programs for both Master’s and Doctoral degrees.\nFor detailed information on the application procedures and requirements, please visit the admissions page."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "進路に応じて，下のいずれかをご覧ください．研究室見学や個別のご相談は Contact からお願いします．\nChoose the route that applies to you. For lab visits and individual enquiries, see Contact.\n\n\n\n\n\n\n\n学部生のゼミ配属\n\n\n\n学部\n\n\n\n本学 経営システム工学科の学部生向け．ゼミの内容，教員紹介，配属の流れをまとめています．\n\n\n\n\n\n\n\n\n\n大学院入試\n\n\n\n大学院\n\n\n\n理工学研究科への進学を検討している方へ．入試日程（年2回）と，出願前の事前連絡の手順．\n\n\n\n\n\n\n\n\n\nIIST English Program\n\n\n\nInternational\n\n\n\nEnglish-taught Master’s and Doctoral programs at Hosei IIST, for international applicants.\n\n\n\n\n\n\n\n\n\nMEXT Scholarship\n\n\n\nInternational\n\n\n\nFor applicants to the Japanese Government (MEXT) Scholarship who wish to research in this lab: the two routes and how to apply.\n\n\n\n\n\n一致なし"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "研究室の見学，共同研究，取材などのご連絡は，下記のメールアドレスまでお願いします．大学院入試に関するご相談は Join Us のページもあわせてご覧ください．\nFor lab visits, research collaboration, and media enquiries, please write to the address below. Prospective graduate students should also see the Join Us page.\n liu@hosei.ac.jp"
+  },
+  {
+    "objectID": "contact.html#お問い合わせ-enquiries",
+    "href": "contact.html#お問い合わせ-enquiries",
+    "title": "Contact",
+    "section": "",
+    "text": "研究室の見学，共同研究，取材などのご連絡は，下記のメールアドレスまでお願いします．大学院入試に関するご相談は Join Us のページもあわせてご覧ください．\nFor lab visits, research collaboration, and media enquiries, please write to the address below. Prospective graduate students should also see the Join Us page.\n liu@hosei.ac.jp"
+  },
+  {
+    "objectID": "contact.html#アクセス-access",
+    "href": "contact.html#アクセス-access",
+    "title": "Contact",
+    "section": "アクセス | Access",
+    "text": "アクセス | Access\n知能システム研究室は，法政大学小金井キャンパスの西館5階にあります．\nThe Intelligent Systems Laboratory is on the 5th floor of the West Building (西館) on the Koganei Campus of Hosei University.\n\n\n教員室 | Faculty office\n\n西館 W5016\n\n実験室 | Laboratory\n\n西館 W5017\n\n住所 | Address\n\n〒184-8584 東京都小金井市梶野町3-7-2\n3-7-2 Kajino, Koganei, Tokyo 184-8584, Japan\n\n所属 | Department\n\n法政大学 理工学部 経営システム工学科\nDepartment of Industrial and Systems Engineering,\nFaculty of Science and Engineering, Hosei University"
+  },
+  {
+    "objectID": "contact.html#地図-map",
+    "href": "contact.html#地図-map",
+    "title": "Contact",
+    "section": "地図 | Map",
+    "text": "地図 | Map"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "",
+    "text": "法政大学 理工学部 経営システム工学科\n\n\n\n知能システム研究室\n\n\n最適化・機械学習・オペレーションズリサーチで，在庫・生産・物流の複雑な意思決定を支えます．\n\n\nJoin Us Research"
+  },
+  {
+    "objectID": "index.html#about-us",
+    "href": "index.html#about-us",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "About Us",
+    "text": "About Us\n知能システム研究室は，オペレーションズ・リサーチ，機械学習，最適化に関する研究をしています．主に，在庫，生産，物流などの複雑な経営システムにおける意思決定支援技術を研究しています．また，複雑な環境において意思決定が行われる他の分野にも取り組んでいます．当研究室では，社会の様々な分野における複雑な意思決定問題に対して，効率的で人間中心の知能システムの開発を目指しています．\nThe Intelligent Systems Laboratory (ISL) researches operations research, machine learning, and optimization methods to improve decision-making for complex systems. Of particular interest are systems for inventory, manufacturing, transportation, and supply chain management, as well as other applications where decisions are made in uncertain, dynamic environments. Research at ISL focuses on efficient, human-centered computational methods for deriving optimal or satisfactory decisions for various complex problems."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "Research",
+    "text": "Research\n\n\nAI for Optimization機械学習を最適化アルゴリズムに組み込み，求解の高速化と解の質の向上を目指します． Reinforcement Learning不確実で動的な環境における逐次的な意思決定．強化学習を用いた制御・運用方策の設計に取り組みます． Supply Chain Management在庫・生産・物流を横断した意思決定支援．サプライチェーン全体の効率性と頑健性を高める手法を研究します． Metaheuristics組合せ最適化問題に対する近似解法．群知能や進化計算を用いて，大規模な問題の良質な解を現実的な時間で求めます．\n\nSee All Research →"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "\nIntelligent Systems Laboratory\n",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n\n\n第69回自動制御連合講演会\n\n\n\n国内学会\n\n\n\n\n\n\n\n\n\n2026/11/07\n\n\n\n\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし\n\nSee All News →"
+  },
+  {
+    "objectID": "join/b3/index.html",
+    "href": "join/b3/index.html",
+    "title": "学部生のゼミ配属",
+    "section": "",
+    "text": "2026年度のゼミ配属は終了しました．"
+  },
+  {
+    "objectID": "join/m1/index.html",
+    "href": "join/m1/index.html",
+    "title": "大学院入試",
+    "section": "",
+    "text": "法政大学理工学研究科の大学院入試は年2回（7月頃・2月頃）実施され，筆記試験と口述試験があります．\n入試の詳細については，以下をご確認ください．"
+  },
+  {
+    "objectID": "join/m1/index.html#事前連絡",
+    "href": "join/m1/index.html#事前連絡",
+    "title": "大学院入試",
+    "section": "事前連絡",
+    "text": "事前連絡\n\n「理工学研究科 システム理工学専攻（経営システム系）」のお問い合わせフォームを送信してください．\n\n\n※法政大学の在学生は，劉へ直接ご連絡ください．"
+  },
+  {
+    "objectID": "join/m1/index.html#英語学位プログラム",
+    "href": "join/m1/index.html#英語学位プログラム",
+    "title": "大学院入試",
+    "section": "英語学位プログラム",
+    "text": "英語学位プログラム\nまた，法政大学の IIST では，英語のみで修了可能な大学院プログラム（9月入学）が提供されています．海外からの出願や英語での研究・学位取得を希望される方は，こちらのプログラムもご検討ください．"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "第69回自動制御連合講演会\n\n\n\n国内学会\n\n\n\n\n\n\n\n\n\n2026/11/07\n\n\n\n\n\n\n\n\n\n\n\n\n2025年度卒業式\n\n\n\n卒業式\n\n受賞\n\n\n\n\n\n\n\n\n\n2026/03/24\n\n\n\n\n\n\n\n\n\n\n\n\n知能システム研究室が発足しました!\n\n\n\nお知らせ\n\n\n\n\n\n\n\n\n\n2025/04/01\n\n\n\n\n\n一致なし"
+  },
+  {
+    "objectID": "news/2026-11-rengo/index.html",
+    "href": "news/2026-11-rengo/index.html",
+    "title": "第69回自動制御連合講演会",
+    "section": "",
+    "text": "11月7日・8日に開催された第69回自動制御連合講演会で，M1の余 俊諺さんが「異面積設備レイアウト問題に対する寄与度に基づく遺伝的アルゴリズム」と題して発表しました．\n講演会プログラム"
   },
   {
     "objectID": "research.html",
