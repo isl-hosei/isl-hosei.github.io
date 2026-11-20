@@ -93,3 +93,11 @@ desktop.ini
 #       _site/delete/ and listed in sitemap.xml. _quarto.yml carries a
 #       matching "!/delete/**" render exclusion; keep the two in sync.
 /delete/
+
+# ---------------------------------------------------------------
+# Local holding area for content awaiting the student's consent
+# ---------------------------------------------------------------
+# Photos / posts that must not be public until the student agrees. Kept out of
+# delete/ so they are not cleared with it. Same caveat as delete/: _quarto.yml
+# carries a matching "!/pending/**" render exclusion; keep the two in sync.
+/pending/

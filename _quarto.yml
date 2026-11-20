@@ -10,6 +10,9 @@ project:
     # .qmd files parked there still render into _site/delete/ and show up in
     # sitemap.xml and search.json. Keep in sync with the .gitignore entry.
     - "!/delete/**"
+    # pending/ holds content awaiting a student's consent; gitignored for the
+    # same reason. Keep in sync with the .gitignore entry.
+    - "!/pending/**"
   # Copy the whole images/ tree across explicitly, so assets that Quarto's link
   # scanner cannot see (anything referenced from SCSS, or added later) still ship.
   resources:
