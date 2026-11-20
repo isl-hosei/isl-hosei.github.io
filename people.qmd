@@ -1,17 +1,21 @@
 ---
 title: "People"
 title-block-banner: true
+# Grid listings paginate at 18 items by default. A roster should never split
+# across pages, so page-size is set well above any realistic headcount.
 listing:
   - id: student-listing
     contents:
       - data/students.yml
     type: grid
     grid-columns: 4
+    page-size: 200
   - id: former-members-listing
     contents:
       - data/former-members.yml
     type: grid
     grid-columns: 4
+    page-size: 200
 ---
 
 ## 教員 | Faculty
